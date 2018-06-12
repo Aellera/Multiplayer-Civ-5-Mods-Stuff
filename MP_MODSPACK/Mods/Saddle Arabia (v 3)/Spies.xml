@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/27/2012 7:41:25 AM -->
+<GameData>
+	<!-- SPY NAMES -->
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ARABIANS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_0">
+			<Text>Al Horsan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_1">
+			<Text>lilamz</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_2">
+			<Text>D'El Alimane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_3">
+			<Text>Muhoofed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_4">
+			<Text>Al-Zar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_5">
+			<Text>Corral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_6">
+			<Text>Utzian</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_7">
+			<Text>Chaston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_8">
+			<Text>Ilex D'Arabia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ARABIANS_9">
+			<Text>Azjam</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:26 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHANGELINGS_12</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_BIBRACTE">
+			<Text>Bibracte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_1">
+			<Text>Pterygopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_2">
+			<Text>Aglossata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_3">
+			<Text>Immidae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_4">
+			<Text>Ditrysia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_5">
+			<Text>Lophocoronina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_6">
+			<Text>Orthopteria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_7">
+			<Text>Blastobasidae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_8">
+			<Text>Glyphipterigidae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_9">
+			<Text>Mantophasmatodea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_10">
+			<Text>Mnesarchaeoidea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_11">
+			<Text>Schreckensteinioidea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHANGELINGS_12">
+			<Text>Xyloryctidae</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

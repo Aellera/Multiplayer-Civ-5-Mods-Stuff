@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:25:33 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_GODDESS</Type>
+			<Description>TXT_KEY_LEADER_GODDESS</Description>
+			<Civilopedia>TXT_KEY_LEADER_GODDESS_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS</CivilopediaTag>
+			<ArtDefineTag>Goddess_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>2</MinorCivCompetitiveness>
+			<Boldness>6</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>1</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>4</DoFWillingness>
+			<Loyalty>4</Loyalty>
+			<Neediness>7</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>6</Chattiness>
+			<Meanness>5</Meanness>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_GODDESS</LeaderType>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_GODDESS_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_GODDESS_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_GODDESS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_GODDESS_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_GODDESS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_GODDESS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GODDESS">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_GODDESS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_GODDESS">
+			<Text>The Goddess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_FIRSTGREETING_1">
+			<Text>BEYHOLD TRAVELER! YOU ARE IN THE PRESENCE OF THE GREAT AND ALL POWERFUL GODDESS!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_FIRSTGREETING_2">
+			<Text>WELCOME STRANGER! I AM THE GODDESS! FEEL FREE TO BASK IN MY DIVINE LIGHT!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_FIRSTGREETING_3">
+			<Text>GREETINGS MY LITTLE PONY! HAVE YOU COME TO JOIN UNITY? TO JOIN THE GODDESS?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_WARBLUFF_1">
+			<Text>I SUPPOSE THE GODDESS WILL SHOW YOU MERCY THIS TIME...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_WARBLUFF_2">
+			<Text>I SUPPOSE THE GODDESS WILL SHOW YOU MERCY THIS TIME...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_WARBLUFF_3">
+			<Text>I SUPPOSE THE GODDESS WILL SHOW YOU MERCY THIS TIME...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_WINWAR_1">
+			<Text>YOU SHOULD HAVE BEEN MORE RESPECTFUL TOWARDS THE GODDESS, FOR AGAINST HER, YOU CANNOT WIN!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_LOSEWAR_1">
+			<Text>THE GODDESS WAS ONLY GOING EASY ON YOU! OUR NEXT ENGAGEMENT WILL BE FAR LESS FAVORABLE TO YOU!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DEFEATED_1">
+			<Text>IMPOSSIBLE! THE GODDESS CANNOT BE DEFEATED BY...BY YOU!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DEFEATED_2">
+			<Text>FLEE MY CHILDREN! FLY AWAY FOR IT SEEMS I HAVE BEEN DEFEATED!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DEFEATED_3">
+			<Text>YOU LOWLY PLEBIAN! THE GODDESS COULD HAVE SAVED THE WASTELAND! YOU COULD HAVE BEEN PART OF UNITY! WHO WOULDN'T WANT THAT?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_YES_NEUTRAL">
+			<Text>THAT IS ACCEPTABLE.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_NO_NEUTRAL">
+			<Text>NO.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_YES_ANGRY">
+			<Text>THE GODDESS...UM....CAN SEE HOW THIS WILL BENEFIT HER IN THE FUTURE! YES! THE REASON IS BEYOND YOUR COMPREHENSION, AND IT IS NOT BECAUSE I HAVE NO OTHER CHOICE!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_NO_ANGRY">
+			<Text>NOPONY CAN COMMAND THE GODDESS! HOW DARE YOU!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_YES_HAPPY">
+			<Text>THE GODDESS REVELS IN THE OPPURTUNITY TO REWARD SUCH A LOYAL SUPPORTER.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRIBUTE_NO_HAPPY">
+			<Text>THE GODDESS CANNOT HELP YOU RIGHT NOW. I AM FAR TOO BUSY!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GODDESS_RESPONSE_REQUEST_1">
+			<Text>THE GODDESS REQUIRES YOUR SUPPORT!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DEMANDTRIBUTE_HAPPY">
+			<Text>THE GODDESS MUST ASK FOR A SMALL FAVOR. I WILL PAY YOU BACK WHEN I AM AVAILABLE.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DEMANDTRIBUTE_ANGRY">
+			<Text>I, THE GODDESS, DEMAND THAT YOU DONATE YOUR BELONGINGS TO THE UNITY AT ONCE!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRADEREQUEST_ANGRY">
+			<Text>THESE ARE MY TERMS! ACCEPT THEM OR THE GODDESS WILL BE MOST UNPLEASED!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DECLAREWAR_1">
+			<Text>YOUR PEOPLE STAND IN THE WAY OF GODDESS, AND FOR THIS, THERE MUST BE DIVINE PUNISHMENT!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DECLAREWAR_2">
+			<Text>THE PROGRESSION OF UNITY DEMANDS THAT YOU BE EXTERMINATED. MY WILL MUST BE CARRIED OUT!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_DECLAREWAR_3">
+			<Text>YOU HAVE NEVER BEEN ACCEPTING OF THE GODDESS! NOW I SHALL SHOW YOU THE ERROR OF YOUR WAYS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_ATTACKED_BETRAYED">
+			<Text>HAH! I FORSAW YOUR BETRAYAL SEVERAL MOONS AGO! YOU CANNOT TRICK THE GODDESS, AND YOU CANNOT BEAT ME EITHER!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_ATTACKED_EXCITED">
+			<Text>OH GLORIOUS DAY! FUTURE GENERATIONS OF UNITY WILL CELEBRATE THE DAY I DESTROYED YOUR HERETICAL CIVILIZATION!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_ATTACKED_HOSTILE">
+			<Text>YOU DARE UNDERMINE THE GODDESS!? YOU DARE SEEK TO DESTROY HER!? I HOPE YOU ARE PREPARED FOR THE WRATH OF THE GREAT AND POWERFUL GODDESS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_TRADE_NEEDMORE_ANGRY_1">
+			<Text>THE GODDESS DEMANDS THAT YOU SACRIFICE MORE FOR THE UNITY!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GODDESS_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I, THE GODDESS, AM WILLING TO ALLOW PASSAGE THROUGH MY LANDS IF YOU WILL DO THE SAME FOR MY CHILDREN!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GODDESS_EXPANSION_SERIOUS_WARNING_1">
+			<Text>THE GREAT AND POWERFUL GODDESS WILL SOON WIN OVER YOU PEOPLE IF YOU CONTINUE TO BE SUCH A TERRIBLE FALSE PROPHET! ALL WILL JOIN UNITY!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GODDESS_LUXURY_TRADE_1">
+			<Text>THE GODDESS REQUIRES YOUR EXOTIC GOODS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GODDESS_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>YOU ARE LUCKY THE GODDESS IS IN A GOOD MOOD TODAY, AND WILL RESIST THE URGE TO WHIPE YOUR APPROACHING TROOPS OFF THE FACE OF THE EARTH! RECALL THEM AT ONCE!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>GREETINGS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>AH IT IS ALWAYS NICE TO SEE MY GOOD FRIEND. HOW CAN THE GODDESS HELP YOU?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GODDESS_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>THE GREAT AND POWERFUL GODDESS REQUESTS THAT YOU GET ON WITH IT!</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_FACT_1">
+			<Text>The fact that the Goddess refers to herself as "The Great and Powerful" is a reflection of her previous life as a traveling magician, who refered to herself as "The Great and Powerful Trixie."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_FACT_2">
+			<Text>In Kkat's Fallout: Equestria, the Goddess and Red Eye had a somewhat solid alliance, where Red Eye would send unicorn slaves to Maripony in exchange for the protection of Alicorns under Slaver command. However, this relationship literally disintegrated when Red Eye sent LittlePip to Maripony with an armed Balefire bomb.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_HEADING_1">
+			<Text>Trixie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_HEADING_2">
+			<Text>Origins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_HEADING_3">
+			<Text>The Goddess as a Whole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_HEADING_4">
+			<Text>The Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_LIVED">
+			<Text>After the Last Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_NAME">
+			<Text>The Goddess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_SUBTITLE">
+			<Text>The Great and Powerful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_TEXT_1">
+			<Text>As a young mare, Trixie was a travelling magician. She lived out of her carriage, which also contained a stage upon which she would perform for audiences. Trixie often boasted about her own abilities, claiming to be an exceptionally powerful magician. Trixie didn't take part in the Great War until near its end. She lived in a cottage on the outskirts of Fetlock. She studied a zebra talisman in her spare time and managed to reverse-engineer its secrets, creating an invisibility spell from it. She demonstrated the spell to Twilight Sparkle when she went to assist the war effort as a test subject for Twilight's artificial alicorns. Twilight was especially impressed by Trixie's accomplishment, considering the number of researchers attempting that very same project for years, which allowed her recruitment into the Ministry of Arcane Sciences. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_TEXT_2">
+			<Text>Trixie was set to be the first experimental alicorn. However, on the Last Day, she fell into the vat of I.M.P. fluid at the Ministry of Arcane Sciences facility at Maripony, after the facility had been struck by a balefire bomb. In the days that followed, Trixie transformed into the Goddess. She was responsible for Twilight Sparkle's death, dragging her into the vat at Maripony and absorbing not only Twilight Sparkle, but also Gestalt, and Mosaic soon after her transformation. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_TEXT_3">
+			<Text>The Unity is controlled, by and large, by its most powerful personalities. Trixie dominates the collective consciousness as the Goddess, but Twilight Sparkle contributes significantly. Gestalt and Mosaic are also noted as dominant personalities, able to influence the creation of new alicorns, but they seem content to let the other two carry on as they wish. Their telepathic link with one another, however, forms the foundation for the hive-mind that defines the Unity. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_TEXT_4">
+			<Text>Sometime afterwards, she learned how to convert unicorns into alicorn drones under her telepathic control, forming the foundation of Unity. The Goddess's goal is simple; she wants all ponies to join the Unity. She sees this as a mercy, as alicorns are perfectly adapted to the Wasteland. Immune to practically all the Wasteland's hazards and more powerful than almost any other creature, she sees alicornhood as the perfection of ponykind, and herself as its savior. Throughout the Wasteland Conflict, she remained at the Maripony facility where she was transformed. While she was able to extend her influence beyond the boundaries of Maripony by use of her drones, it was never certain whether she can leave the Maripony Ministry of Magic facility or not. She was directly responsible for the blue alicorns, who can become invisible at will, a testament to her invisibility spell. (Text from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GODDESS_TITLES_1">
+			<Text>The Great and Powerful</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

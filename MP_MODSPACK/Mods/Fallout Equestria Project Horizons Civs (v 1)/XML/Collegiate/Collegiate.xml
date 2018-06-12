@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_COLLEGIATE</Type>
+			<Description>TXT_KEY_CIV_COLLEGIATE_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_COLLEGIATE_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_COLLEGIATE_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_COLLEGIATE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_COLLEGIATE</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_COLLEGIATE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOEPH</AlphaIconAtlas>
+			<MapImage>zodiacsmap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_COLLEGIATE_DOM</DawnOfManQuote>
+			<DawnOfManImage>zodiacsDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Brazil</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<ReligionType>RELIGION_TAOISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_COLLEGIATE_ICON</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_COLLEGIATE_BACKGROUND</Type>
+			<Red>0.369</Red>
+			<Green>0.369</Green>
+			<Blue>0.369</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_COLLEGIATE_TEXT</Type>
+			<Red>0.000</Red>
+			<Green>0.400</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_COLLEGIATE</Type>
+			<PrimaryColor>COLOR_PLAYER_COLLEGIATE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_COLLEGIATE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_COLLEGIATE_ICON</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<LeaderheadType>LEADER_ZODIAC</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<RegionType>REGION_MARSH</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_COLLEGIATE_ADJECTIVE">
+			<Text>Collegiate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_COLLEGIATE_DESC">
+			<Text>The Collegiate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_COLLEGIATE_SHORT_DESC">
+			<Text>The Collegiate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLLEGIATE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLLEGIATE_TEXT_1">
+			<Text>The Collegiate is a group of medical experts and doctors working out of the Hoofington University. They were founded by Dr.Zodiac after she left Dawn, Big Daddy and the reast of her friends; the Collegiate has access to more medical technology and techniques than many regular wasteland doctors, allowing them to treat numerous severe conditions. (FOE Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_COLLEGIATE_DOM">
+				<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient taint that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables.  But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE] But not everyone perished in the nuclear apocalypse. A zony (pony and zebra hybrid) named Silver Stripe survived using avaliable to her cybernetic technology. Then she took residence in Hoofington University and under the name of Dr. Zodiac established a faction called The Collegiate, a group of medical experts helping Wastelanders to survive in hash conditions. Dr. Zodiac, your people managed to save countless lives with advanced medicine and cybernetics. Can you do more than that, end create a stable and health society? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_COLLEGIATE_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HOOFINGTON_UNIVERSITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ZODIACS_HQ</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLUTTERHY_MED</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROSELUCK_FARMS</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_HOOFINGTON_UNIVERSITY">
+			<Text>Hoofington University</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ZODIACS_HQ">
+			<Text>Zodiacs HQ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLUTTERHY_MED">
+			<Text>Fluttershy Medical Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ROSELUCK_FARMS">
+			<Text>Roseluck Agrifarms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_0">
+			<Text>Triage</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_1">
+			<Text>Gemini</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_2">
+			<Text>Capricorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_3">
+			<Text>Pieces</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_4">
+			<Text>Taurus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_5">
+			<Text>Sagittarius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_6">
+			<Text>Leo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_7">
+			<Text>Libra</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_8">
+			<Text>Virgo</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_COLLEGIATE_9">
+			<Text>Scorpio</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+

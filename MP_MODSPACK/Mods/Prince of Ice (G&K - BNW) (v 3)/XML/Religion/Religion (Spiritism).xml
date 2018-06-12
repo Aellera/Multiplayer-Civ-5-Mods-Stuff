@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/16/2016 2:21:45 PM -->
+<GameData>
+	<Religions>
+		<Row>
+			<Type>RELIGION_SPIRITISM</Type>
+			<Description>TXT_KEY_RELIGION_SPIRITISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SPIRITISM_PEDIA</Civilopedia>
+			<IconAtlas>SPIRITISM_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconString>[ICON_RELIGION_SPIRITISM]</IconString>
+		</Row>
+	</Religions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RELIGION_SPIRITISM">
+			<Text>Spiritism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SPIRITISM_PEDIA">
+			<Text>Spiritism is only a religon if you want it to be. Its the belief Sentians (Citizens of The Frozen Kingdom) have founded after the stories of witnesses who saw a magical being showing up the darkest of times to serve and protect the kingdom and its citizens.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<ReligionType>RELIGION_SPIRITISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+  
+</GameData>

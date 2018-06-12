@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/26/2012 9:21:33 AM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UNICORNIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_CANTERLOT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_TROTTERDAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_MANEHATTAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MOONSIDE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SUNNYDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_CLOPTON</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_UNICORNIA">
+			<Text>Unicornia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_CANTERLOT">
+			<Text>Old Canterlot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_TROTTERDAM">
+			<Text>Old Trotterdam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_MANEHATTAN">
+			<Text>Old Manehattan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOONSIDE">
+			<Text>Moonside</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SUNNYDALE">
+			<Text>Sunnydale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_CLOPTON">
+			<Text>Old Clopton</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

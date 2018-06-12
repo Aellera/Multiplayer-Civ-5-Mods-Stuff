@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:25 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>NightmareAtlas256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>NightmareAtlas128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>NightmareAtlas80.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>NightmareAtlas64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>NightmareAtlas45.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>NightmareAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_ALPHA_ATLAS_NIGHTMARE_MOON</Atlas>
+			<Iconsize>32</Iconsize>
+			<Filename>NightmareAlphaAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+
+</GameData>

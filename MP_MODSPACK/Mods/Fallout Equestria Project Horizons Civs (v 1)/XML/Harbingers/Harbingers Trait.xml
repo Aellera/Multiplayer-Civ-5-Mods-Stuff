@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/2015 11:29:01 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_HOOFINGTON_RISES</Type>
+			<Description>TXT_KEY_TRAIT_HOOFINGTON_RISES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_HOOFINGTON_RISES_SHORT</ShortDescription>
+			<FreeBuilding>BUILDING_HYDRO_PLANT</FreeBuilding>
+			<PopulationUnhappinessModifier>-50</PopulationUnhappinessModifier>
+		</Row>
+	</Traits>
+	<Trait_NoTrain>
+		<Row>
+			<TraitType>TRAIT_HOOFINGTON_RISES</TraitType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+		</Row>
+	</Trait_NoTrain>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_HOOFINGTON_RISES">
+			<Text>Harbingers propaganda attracts refugees into The Core from across the Equestrian Wasteland and inspires them to build the Equestrian future. 50% less [ICON_HAPPINESS_4] from population. Civilization gets a free Hydro Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HOOFINGTON_RISES_SHORT">
+			<Text>Hoofington Rises</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

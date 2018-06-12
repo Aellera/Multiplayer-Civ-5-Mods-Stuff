@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2012 1:26:10 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_PCEQUESTRIA</Type>
+			<Description>TXT_KEY_CIV_EQUESTRIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EQUESTRIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EQUESTRIA_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EQUESTRIA_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_EQUESTRIA</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_EQUESTRIA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_EQUESTRIA</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapEquestria512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_EQUESTRIA_DOM</DawnOfManQuote>
+			<DawnOfManImage>EquestriaDOM.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_EQUESTRIA</Type>
+			<PrimaryColor>COLOR_PLAYER_MIDDLE_PURPLE</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_PINK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_DARK_PURPLE</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<LeaderheadType>LEADER_EQACELESTIA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_EQUESTRIA_ADJECTIVE">
+			<Text>Equestrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUESTRIA_DESC">
+			<Text>Principality of Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUESTRIA_SHORT_DESC">
+			<Text>Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUESTRIA_HEADING_1">
+			<Text>Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUESTRIA_TEXT_1">
+			<Text>Equestria's land has always been blessed, with controlled climate, there were absolutely no risk on failure on supply, and without proper enemy and opposition - Principality were able to focus its entire power at something else. Science and Culture, Growth and Happiness. Majorly, it's ever happy citizen with combination of powerful Cultural revolution drove Equestria forward, whatever that culture might be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUESTRIA_DOM">
+			<Text>Praise to you, blessed Princess Celestia, Goddess of the Sun, Ruler of Equestria. With help of your sister, Princess Luna. You have calmed three races of Equestria from conflict, defeated chaotic overlord Discord, and saved Equestria from Nightmare Moon, while you have lost your sister. Above all, you have managed Principality of Equestria for thousand years without any troubles and conflict of ponies, while all being benevolent. You rises the Sun and Moon for the ponies of your Principality, and you solved thousand problems for each citizens of Equestria. [NEWLINE][NEWLINE]Goddess Ruler of Equestria, the world has passed on yet you still stands and gazes at horizon for the ponies, and now peoples of your Principality. In this age of conflict, only thing ponies and people can rely on is your wisdom and experience of thousand years. Will you able to achieve harmony on the land of conflict once more? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUESTRIA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_0">
+			<Text>Lyra Heartstring</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_1">
+			<Text>Pinkie Pie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_2">
+			<Text>Spike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_3">
+			<Text>Cheerilee</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_4">
+			<Text>Time Turner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_5">
+			<Text>Derpy Hooves</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_6">
+			<Text>Chrysalis</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_7">
+			<Text>Wild Fire</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_8">
+			<Text>Moondancer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUESTRIA_9">
+			<Text>Cadence</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
+
+
+

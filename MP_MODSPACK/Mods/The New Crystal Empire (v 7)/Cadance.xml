@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:01:41 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_GANDHI"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_CADANCE</Description>
+				<Civilopedia>TXT_KEY_LEADER_CADANCE_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE</CivilopediaTag>
+				<ArtDefineTag>Cadance_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>5</VictoryCompetitiveness>
+				<WonderCompetitiveness>7</WonderCompetitiveness>
+				<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
+				<Boldness>5</Boldness>
+				<DiploBalance>7</DiploBalance>
+				<WarmongerHate>7</WarmongerHate>
+				<DenounceWillingness>6</DenounceWillingness>
+				<DoFWillingness>8</DoFWillingness>
+				<Loyalty>8</Loyalty>
+				<Neediness>5</Neediness>
+				<Forgiveness>7</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>4</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_CADANCE</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI"/>
+			<Set TraitType="TRAIT_CRYSTAL_HEART"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_CRYSTAL_HEART</Type>
+			<Description>TXT_KEY_TRAIT_CRYSTAL_HEART</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CRYSTAL_HEART_SHORT</ShortDescription>
+			<CityUnhappinessModifier>75</CityUnhappinessModifier>
+			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
+			<GoldenAgeDurationModifier>25</GoldenAgeDurationModifier>
+			<GoldenAgeCombatModifier>25</GoldenAgeCombatModifier>
+		</Row>
+	</Traits>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CRYSTAL_HEART">
+			<Text>The Crystal Heart protects the citizens of the Crystal Empire. The more love and hope they feel, the more powerful the Crystal Heart becomes. The Crystal Heart increases [ICON_HAPPINESS_4] from the number of cities by 75%, reduces population [ICON_HAPPINESS_4] by 25%, [ICON_GOLDEN_AGE]'s also last 25% longer, and provides a +25% combat bonus to your units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CRYSTAL_HEART_SHORT">
+			<Text>Crystal Heart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CADANCE">
+			<Text>Cadance</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_CADANCE_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_CADANCE_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_CADANCE_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_CADANCE_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_CADANCE_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_CADANCE_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_CADANCE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_CADANCE_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_CADANCE_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_GANDHI" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_CADANCE_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CADANCE_DEFEATED_1">
+			<Text>Shining...Please....He..lp.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_DEFEATED_2">
+			<Text>I'm sorry Celestia, I was not strong enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>As much as I believe we can all lived together peacefully, your settling near the Crystal Empire will no doubt cause trouble between us. Can I trust you to stop?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_FIRSTGREETING_1">
+			<Text>Hail and welcome, I am the Crystal Princess Cadance, and this is my husband, Shining Armor. I hope that we can love and tolerate each other, though if you wish to harm my subjects I and my husband will be quick to defend them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_GREETING_HOSTILE_HELLO_1">
+			<Text>I knew there was a reason the Honor Guard were here. What do you want?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_GREETING_NEUTRAL_HELLO_1">
+			<Text>Hello, I am sorry that I can't entertain your arrival for too long, I am busy with renevating the palace, whoever designed this place put in one too many staircases.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_GREETING_POLITE_HELLO_1">
+			<Text>Hello, friend. The Crystal Festival is in full swing and Shining is about to joust. Do you have time to watch?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I have dispatched the Honor Guard to meet your troops amassing along our boarders. I trust that you'll call them back, as well I if you do.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Our two kingdoms would benefit greatly from open travel between us. My people have many wears and an over abundance of flugelhorns to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_RESPONSE_REQUEST_1">
+			<Text>I have an urgent request. Your assistance would not go unnoticed. You see, Shining kinda...Misplaced something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CADANCE_LUXURY_TRADE_1">
+			<Text>My subjects do love seeing exotic goods from far away lands. You see they've been locked away for a thousand years. We have many things we can trade for. Would this work?</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_FACT_1">
+			<Text>Though regal born, Princess Cadance isn't above mixing it up with her subjects and friends. Her antics though sometimes lead to embarresing pictures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_LIVED">
+			<Text>Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_NAME">
+			<Text>CADANCE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_SUBTITLE">
+			<Text>Crystal Princess of the Crystal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_TEXT_1">
+			<Text>Cadance's origins remain somewhat of mystery. Where she is from is unknown but it is known she grew up in Canterlot eventually foalsitting for Twilight Sparkle. She would go on to marry Twilight's brother, Shining Armor. During their marriage, the changlings led by Queen Chrysalis, invaded Canterlot. THe Queen used her shapeshifting powers to impersonate Cadance in a plot to feed teh changelings all the love in Equestria. Candance was freed by Twilight and her friends and later defeated the Queen. After Cadance's and Shining Armor's marriage, Princess Celestia task them both to protect teh Crystal Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CADANCE_TITLES_1">
+			<Text>Crystal Princess</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

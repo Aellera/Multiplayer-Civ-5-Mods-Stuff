@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:12 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>HurricaneAtlas256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>HurricaneAtlas214.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>HurricaneAtlas128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>HurricaneAtlas80.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>HurricaneAtlas64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>HurricaneAtlas45.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_HURRICANE</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>HurricaneAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_ALPHA_ATLAS_HURRICANE</Atlas>
+			<Iconsize>32</Iconsize>
+			<Filename>HurricaneAlphaAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

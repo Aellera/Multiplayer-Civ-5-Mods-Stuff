@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/26/2013 10:34:27 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_RIFLEMAN</Class>
+			<Type>UNIT_TRIXIETROOPS</Type>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Combat>34</Combat>
+			<Cost>225</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TRIXIETROOPS</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_TRIXIETROOPS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TRIXIETROOPS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_TRIXIETROOPS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GREAT_WAR_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>47</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_TRIXIE</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ClassUpgrades>
+	<Row>
+		<UnitType>UNIT_TRIXIETROOPS</UnitType>
+		<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
+	</Row>
+	</Unit_ClassUpgrades>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TRIXIETROOPS">
+			<Text>Trixie Troops</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_TRIXIETROOPS_HELP">
+			<Text>Trixie Troops are Trixie's shock troopers. They replace Rifleman and recieve the blitz promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_TRIXIETROOPS_TEXT">
+			<Text>While The Great and Powerful Trixie is truely powerful, the sheer size of her multiworld empire requires her to have a standing army. The Trixie Troops are her shock troopers, trained to quickly move, attack and withdraw before their enemies attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIXIETROOPS_STRATEGY">
+			<Text>The Trixie Troops are Trixie's shock troopers, utterly loyal to her. They replace Rifleman and recieve the blitz promotion.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitType>UNIT_TRIXIETROOPS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+</GameData>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/17/2016 12:31:19 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_FROZEN_SPIRIT</Type>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<Cost>-1</Cost>
+			<Moves>5</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Combat>0</Combat>
+			<MilitarySupport>0</MilitarySupport>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FROZEN_SPIRIT</Description>
+			<Civilopedia>TXT_KEY_CIV5_FROZEN_SPIRIT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FROZEN_SPIRIT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FROZEN_SPIRIT</Help>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<WorkRate>1</WorkRate>
+			<DontShowYields>true</DontShowYields>
+			<Pillage>1</Pillage>
+			<XPValueAttack>0</XPValueAttack>
+			<XPValueDefense>0</XPValueDefense>
+			<Conscription>0</Conscription>
+			<MoveRate>GREAT_PERSON</MoveRate>
+			<UnitArtInfo>ART_DEF_UNIT_U_GREEK_COMPANIONCAVALRY</UnitArtInfo>
+			<UnitFlagAtlas>CIV_ALPHA_ATLAS_SENTIUM</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_SENTIUM</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<UnitAIType>UNITAI_PROPHET</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+		</Row>
+	</Unit_Builds>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+			<SelectionSound>AS2D_SELECT_FROZEN_SPIRIT</SelectionSound>
+			<FirstSelectionSound>AS2D_SELECT_FROZEN_SPIRIT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<UnitType>UNIT_FROZEN_SPIRIT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_FROZEN_SPIRIT">
+			<Text>Frozen Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FROZEN_SPIRIT_TEXT">
+			<Text>The Frozen Spirit is a legend that has bin around sins the founding of the kingdom. A magical being who protects the kingdom and its citizens. They say that the Sptrit only shows up when the kingdom needs it the most. Only a few ponies claimed to have seen this being, a white blue Alicorn with a mixed voice of a stallion and mare. Nopony knows if it is a he or a she, or where this thing comes from. But all of the kingdom honners it anyway, for it gives hope, strength and faith for a better future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FROZEN_SPIRIT">
+			<Text>The Frozen Spirit is one of the The Frozen Kingdom's unique units, replaces Great General. Can build a Citadel or Holy Site. Has 5 [ICON_MOVES] Moves instead of 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FROZEN_SPIRIT_STRATEGY">
+			<Text>The Frozen Spirit is one of the The Frozen Kingdom's unique units, replaces Great General. Can build a Citadel or Holy Site. Has 5 [ICON_MOVES] Moves instead of 2. It has to following Promotions. Great Genetal: Helps nearby units in battle. Medic: heals friendly units with 5 health points.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

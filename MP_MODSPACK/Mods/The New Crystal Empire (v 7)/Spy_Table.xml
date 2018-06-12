@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:02:02 PM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEWCRYSTAL_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_0">
+			<Text>Fancypants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_1">
+			<Text>Time Turner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_2">
+			<Text>Photo Finish</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_3">
+			<Text>Fleur de Lis</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_4">
+			<Text>Moon Dancer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_5">
+			<Text>Affero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_6">
+			<Text>Hoity Toity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_7">
+			<Text>Bill Neigh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_8">
+			<Text>Bruce Mane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEWCRYSTAL_9">
+			<Text>Caesar</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

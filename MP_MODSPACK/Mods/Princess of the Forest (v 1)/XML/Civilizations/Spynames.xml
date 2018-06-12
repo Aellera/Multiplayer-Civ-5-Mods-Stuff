@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2013 12:10:44 AM -->
+<GameData>
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOODLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WOODLAND_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_0">
+			<Text>Airheart</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_1">
+			<Text>Pipsqueak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_2">
+			<Text>Cloud Kicker</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_3">
+			<Text>Lyra Heartstrings</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_4">
+			<Text>Blossomforth</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_5">
+			<Text>Caramel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_6">
+			<Text>Feather</Text>
+			<Gender>Feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_7">
+			<Text>Snowball</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_8">
+			<Text>Living Tombstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_WOODLAND_9">
+			<Text>Wooden Toaster</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

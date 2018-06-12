@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/26/2013 10:34:24 PM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TRX_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_0">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_1">
+			<Text>The Great and Powerful Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_2">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_3">
+			<Text>The Powerful Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_4">
+			<Text>Trixie the Great</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_5">
+			<Text>Trixie Lulamoon</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_6">
+			<Text>Overlord Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_7">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_8">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TRX_9">
+			<Text>The Great and Conquering Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+</GameData>

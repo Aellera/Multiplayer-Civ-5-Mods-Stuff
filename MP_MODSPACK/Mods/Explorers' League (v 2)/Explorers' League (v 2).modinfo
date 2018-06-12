@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="521311ba-e5f8-464d-90c3-b56cd598bb88" version="2">
+  <Properties>
+    <Name>Explorers' League</Name>
+    <Teaser>Adds the Explorers' League civ, led by Daring Do.</Teaser>
+    <Description>Adds the Explorers' League civ, led by Daring Do. The civ specializes in culture and tourism, with special emphasis on utilizing archaeology.
+
+Unique Ability: It Belongs In A Museum! -- Doubles all tourism output during golden ages as well as increases theming bonuses in the capitol by 50%.
+Unique Unit: Adventurer -- A unique Archaeologist which can participate in combat, and starts with the Survivalism I and Survivalism II promotions.
+Unique Building: University Museum -- A unique University which also adds +2 tourism, and 2 slots for Great Works of Art or Artifacts.
+
+For extra fun, subscribe to the Pony Units mod, located here:
+http://steamcommunity.com/sharedfiles/filedetails/?id=373462512
+
+My Little Pony: Friendship is Magic is copyright and trademarked by Hasbro. I do not claim ownership over any images or characters from said IP.</Description>
+    <Authors>Umbra</Authors>
+    <SpecialThanks>Daring Do JustForFun TVTropes pages</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="408ED9FA7886B4F3712DC890418F4860" import="1">Art/DaringDo.dds</File>
+    <File md5="78B6B205A70E88BDC710D3FD01264237" import="1">Art/DOM_DaringDo.dds</File>
+    <File md5="C2062A1AFA4B14A3DC2D723C059FFB64" import="1">Art/IconAtlasDaringDo128.dds</File>
+    <File md5="4F7FE941E2DC44C972B3965CD175EFCC" import="1">Art/IconAtlasDaringDo24.dds</File>
+    <File md5="258004ACBBB4B676A787C7BDBB705ED8" import="1">Art/IconAtlasDaringDo256.dds</File>
+    <File md5="CD44417A3E3C73DE4CE4E11A9361CF1B" import="1">Art/IconAtlasDaringDo32.dds</File>
+    <File md5="CEE15DB2B6FCB66EE1902ADBBC30E980" import="1">Art/IconAtlasDaringDo45.dds</File>
+    <File md5="79F153F7DC828349DB90A7EA4701B528" import="1">Art/IconAtlasDaringDo48.dds</File>
+    <File md5="939D57D3AF7B08598468485F952EBB95" import="1">Art/IconAtlasDaringDo64.dds</File>
+    <File md5="B8539EA198F67EF5E550A4463AB9702A" import="1">Art/IconAtlasDaringDo80.dds</File>
+    <File md5="C159BB99C87794418B72D5781BD6E32E" import="1">Art/MapExplorers512.dds</File>
+    <File md5="A7BD7E43F82EDA4FA08863EEEFAC7114" import="1">Lua/CultureOverview.lua</File>
+    <File md5="26476EEFF01BD4536D425FACBC8E3671" import="0">XML/Adventurer.xml</File>
+    <File md5="7536B4677395A0322EF3B08F1F15A15A" import="0">XML/DaringDo.xml</File>
+    <File md5="31833D4BCB483E4669C7F27AEDA391DF" import="1">XML/DaringDo_Scene.xml</File>
+    <File md5="0A266915AF6F1761F3638724CD595B08" import="0">XML/Explorers.xml</File>
+    <File md5="09E30807FFC33A663B22A859497ED48D" import="0">XML/Atlas.xml</File>
+    <File md5="153C07859E75D2FD35ED8A52B22663EE" import="0">XML/DiplomacyResponses.xml</File>
+    <File md5="16FC8871AB9566C2423B3F30F3F25AB6" import="0">XML/Trait.xml</File>
+    <File md5="E7317BAD32A1B500AF0F832EC6F86C42" import="0">XML/UniversityMuseum.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/DaringDo.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Adventurer.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UniversityMuseum.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Explorers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Atlas.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

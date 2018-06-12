@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/1/2013 11:51:33 PM -->
+<GameData>
+	<Language_en_US>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_FIRSTGREETING_1">
+		<Text>Oh...Hi. I'm...I'm Fluttershy. And you are?</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHYF_FIRSTGREETING_2">
+		<Text>Hello... I am Fluttershy. I lead the peaceful and kind ponies of these forests</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_FIRSTGREETING_3">
+		<Text>My name is Flutershy. Welcome to my peaceful woodlands.</Text>
+	</Row>
+	<!--Reacts to her bluff being called -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_WARBLUFF_1">
+		<Text>Oh dear, I'm sorry you had to find out this way.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_WARBLUFF_2">
+		<Text>I didn't expect you to realize our plans.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_WARBLUFF_3">
+		<Text>It's not what it looks like! Okay... maybe it is.</Text>
+	</Row>
+	<!--Gloats after winning a war -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_WINWAR_1">
+		<Text>YOU. ARE. GOING. TO. LOVE. ME.</Text>
+	</Row>
+	<!--Submissive after losing a war -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_LOSEWAR_1">
+		<Text>I am so sorry, I hope you can forgive me.</Text>
+	</Row>
+	<!--Defeated and removed from game -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEFEATED_1">
+		<Text>No! My animals, my friends! I have to help them.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEFEATED_2">
+		<Text>Look what you've done to my innocent and peaceful people.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEFEATED_3">
+		<Text>I...Please...Just leave if you don't mind...</Text>
+	</Row>
+
+	<!--Neutral -->
+	<!--Greetings (subsequent meetings) -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GREETING_1">
+		<Text>Yes?</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GREETING_2">
+		<Text>Hello again.</Text>
+	</Row>
+	<!--Goodbye -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GOODBYE_1">
+		<Text>Goodbye.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GOODBYE_2">
+		<Text>Another time.</Text>
+	</Row>
+	<!--Trade offer from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_YES_NEUTRAL">
+		<Text>That will do.</Text>
+	</Row>
+	<!--Trade offer from player - sweeten the deal -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_NEUTRAL_1">
+		<Text>Close...but I need more.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_NEUTRAL_2">
+		<Text>Almost.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_NEUTRAL_3">
+		<Text>Sorry, just a little more.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_NEUTRAL_4">
+		<Text>I just can't make this deal</Text>
+	</Row>
+	<!--Trade offer from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NO_NEUTRAL">
+		<Text>I cannot do that.</Text>
+	</Row>
+	<!--Demand for tribute from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_NEUTRAL">
+		<Text>Fine! Just take what you need and go...</Text>
+	</Row>
+	<!--Demand for tribute from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_NEUTRAL">
+		<Text>My ponies need this... we cannot give it to you.</Text>
+	</Row>
+	<!--Requests a trade -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADEREQUEST_NEUTRAL">
+		<Text>Maybe we can trade?</Text>
+	</Row>
+	<!--Demands tribute -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEMANDTRIBUTE_NEUTRAL">
+		<Text>Umm... If you don't mind... I need a little help.</Text>
+	</Row>
+	<!--Agrees -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_AGREE_SHORT_1">
+		<Text>Indeed.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_AGREE_SHORT_2">
+		<Text>I see.</Text>
+	</Row>
+	<!--Disagrees -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DISAGREE_SHORT_1">
+		<Text>No.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DISAGREE_SHORT_2">
+		<Text>Not at all.</Text>
+	</Row>
+	<!--Let's hear it -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_LETSHEARIT_1">
+		<Text>Go ahead.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_LETSHEARIT_2">
+		<Text>Yes?</Text>
+	</Row>
+
+	<!--Happy -->
+	<!--Greetings (subsequent meetings) -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GREETING_3">
+		<Text>Hello, I hope the animals don't disturb you.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GREETING_4">
+		<Text>Hi, it's good to see you again.</Text>
+	</Row>
+	<!--Goodbye -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GOODBYE_3">
+		<Text>Okay, be safe.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_GOODBYE_4">
+		<Text>We'll talk later.</Text>
+	</Row>
+	<!--Trade offer from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_YES_HAPPY">
+		<Text>Oh yes, thank you.</Text>
+	</Row>
+	<!--Trade offer from player - sweeten the deal -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_HAPPY_1">
+		<Text>I want to make the deal, but I need a little more.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_HAPPY_2">
+		<Text>Thank you, but I can't unless I get some more</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_HAPPY_3">
+		<Text>Sorry, If you don't mind I need some more.</Text>
+	</Row>
+	<!--Trade offer from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NO_HAPPY">
+		<Text>I'm so sorry, but I just can't.</Text>
+	</Row>
+	<!--Demand for tribute from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_HAPPY">
+		<Text>I don't really need it, I hope you put it to good use.</Text>
+	</Row>
+	<!--Demand for tribute from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_HAPPY">
+		<Text>I'm sorry, but that's just too much</Text>
+	</Row>
+	<!--Demands tribute -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEMANDTRIBUTE_HAPPY">
+		<Text>I think I need a little help. I'm asking for you aid as a friend.</Text>
+	</Row>
+	<!--Requests a trade -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADEREQUEST_HAPPY">
+		<Text>I think a trade would help us both.</Text>
+	</Row>
+	<!--Agrees -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_AGREE_SHORT_3">
+		<Text>Of course.</Text>
+	</Row>
+	<!--Disagrees -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DISAGREE_SHORT_3">
+		<Text>No.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DISAGREE_SHORT_4">
+		<Text>Unfortunately not.</Text>
+	</Row>
+	<!--Let's hear it -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_LETSHEARIT_3">
+		<Text>Continue.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_LETSHEARIT_4">
+		<Text>I'm listening.</Text>
+	</Row>
+
+	<!--Trade offer from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_YES_ANGRY">
+		<Text>Oh...this is alot...but fine.</Text>
+	</Row>
+	<!--Trade offer from player - sweeten the deal -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_ANGRY_1">
+		<Text>I can't do this.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_ANGRY_2">
+		<Text>No, this is not enough.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NEEDMORE_ANGRY_3">
+		<Text>I have a kingdom to run, why am I deeling with your foolish requests?</Text>
+	</Row>
+
+	<!--Trade offer from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADE_NO_ANGRY">
+		<Text>No, I hope you don't need anything else...</Text>
+	</Row>
+	<!--Demand for tribute from player - yes -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_ANGRY">
+		<Text>Oh...Okay. If you leave my ponies alone then take it.</Text>
+	</Row>
+	<!--Demand for tribute from player - no -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_ANGRY">
+		<Text>Now you're just being a meanie! I can't give you this.</Text>
+	</Row>
+	<!--Demands tribute -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DEMANDTRIBUTE_ANGRY">
+		<Text>umm...If you don't mind I need resources. I hope you don't try and say no.</Text>
+	</Row>
+	<!--Requests a trade -->
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_TRADEREQUEST_ANGRY">
+		<Text>I know you don't like me... but maybe we can trade?</Text>
+	</Row>
+
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DECLAREWAR_1">
+		<Text>I'm sorry, but my ponies come before you.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DECLAREWAR_2">
+		<Text>I just need to protect my ponies. Don't be too angry.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_DECLAREWAR_3">
+		<Text>You are hurting my friends! Nobody hurts my friends!</Text>
+	</Row>
+
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_ATTACKED_1">
+		<Text>Oh my... you've made a mistake. I am shy, not helpless!</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_ATTACKED_2">
+		<Text>I'm not a doormat anymore, you'll regret this.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_LEADER_FLUTTERSHY_ATTACKED_3">
+		<Text>If somepony tries to block, show them you rock!</Text>
+	</Row>
+	</Language_en_US>
+  
+</GameData>

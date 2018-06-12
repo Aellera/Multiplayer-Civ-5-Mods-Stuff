@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:13 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EARTH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DIRTVILLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CLUMPSDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROCKINGHAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TILLERSON_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LOS_TERRICA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SILTERSVILLE</CityName>
+		</Row>
+	</Civilization_CityNames>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_EARTH">
+			<Text>Earth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DIRTVILLE">
+			<Text>Dirtville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CLUMPSDALE">
+			<Text>Clumpsdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ROCKINGHAM">
+			<Text>Rockingham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TILLERSON_CITY">
+			<Text>Tillerson City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LOS_TERRICA">
+			<Text>Los Terrica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SILTERSVILLE">
+			<Text>Siltersville</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

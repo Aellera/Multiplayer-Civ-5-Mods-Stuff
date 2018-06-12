@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:19 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_STACK</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>80</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDINGS_STACK_HELP</Help>
+			<Description>TXT_KEY_BUILDING_STACK</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STACK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STACK_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_PUDDING</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_STACK</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+
+
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+		
+	
+
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STACK</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_STACK">
+			<Text>Stackable Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_STACK_HELP">
+			<Text>The Stackable Farm provides excellant growth to cities with many luxary resources. +1 [ICON_FOOD] for each [ICON_RES_COW], [ICON_RES_CITRUS], [ICON_RES_TRUFFLES], [ICON_RES_BANANA], [ICON_RES_DEER], and [ICON_RES_WHEAT] worked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STACK_TEXT">
+			<Text>The Stackable Farm is the brainchild of Chancellor Puddinghead, allowing farmers to grow far more crops without the need for large tracts of land to grow on. Sadly this and many other of Chanceoller Puddinghead's techniques have been lost to the ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STACK_STRATEGY">
+			<Text>The Stackable Farm provides +1 [ICON_FOOD] and +1 [ICON_FOOD] for each [ICON_RES_COW], [ICON_RES_CITRUS], [ICON_RES_TRUFFLES], [ICON_RES_BANANA], [ICON_RES_DEER], and [ICON_RES_WHEAT] worked.</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

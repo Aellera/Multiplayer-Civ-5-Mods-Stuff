@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+	  <Row>
+		  <Type>TRAIT_SIRENS_CALL</Type>
+		  <Description>TXT_KEY_TRAIT_SIRENS_CALL</Description>
+		  <ShortDescription>TXT_KEY_TRAIT_SIRENS_CALL_SHORT</ShortDescription>
+		  <NoAnnexing>true</NoAnnexing>
+		  <NumTradeRoutesModifier>100</NumTradeRoutesModifier>
+		  <FreeUnit>UNITCLASS_MERCHANT</FreeUnit>
+		  <FreeUnitPrereqTech>TECH_DRAMA</FreeUnitPrereqTech>
+	  </Row>
+  </Traits>
+
+  <!-- Trait_ExtraYieldThresholds -->
+  <!-- Trait_YieldChanges -->
+  <!-- Trait_YieldChangesStrategicResources -->
+  <!-- Trait_YieldChangesNaturalWonder -->
+  <!-- Trait_YieldChangesPerTradePartner -->
+  <!-- Trait_YieldChangesIncomingTradeRoute -->
+  <!-- Trait_YieldModifiers -->
+  <!-- Trait_FreePromotions -->
+  <!-- Trait_FreePromotionUnitCombats -->
+  <!-- Trait_MovesChangeUnitCombats -->
+  <!-- Trait_MaintenanceModifierUnitCombats -->
+  <!-- Trait_Terrains -->
+  <!-- Trait_ResourceQuantityModifiers -->
+  <!-- Trait_FreeResourceFirstXCities -->
+  <!-- Trait_ImprovementYieldChanges -->
+  <!-- Trait_SpecialistYieldChanges -->
+  <!-- Trait_UnimprovedFeatureYieldChanges -->
+  <Trait_NoTrain>
+    <Row>
+      <TraitType>TRAIT_SIRENS_CALL</TraitType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+    </Row>
+  </Trait_NoTrain>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_SIRENS_CALL">
+      <Text>Cannot gain settlers nor annex cities. Double the normal number of trade routes available. A Dazzling appears after researching Drama and Poetry. May purchase in puppeted cities.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_SIRENS_CALL_SHORT">
+      <Text>Siren's Call</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

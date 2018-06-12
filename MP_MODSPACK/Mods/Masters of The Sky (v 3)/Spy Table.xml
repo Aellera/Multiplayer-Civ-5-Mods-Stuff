@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:22 AM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PEGASI_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_0">
+			<Text>Dive Bomb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_1">
+			<Text>Cloud Hopper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_2">
+			<Text>Lightning Bolt</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_3">
+			<Text>Agent Mist</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_4">
+			<Text>Fog Lifter</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_5">
+			<Text>Steel Wing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_6">
+			<Text>Fluff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_7">
+			<Text>Sky Chaser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_8">
+			<Text>Ace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PEGASI_9">
+			<Text>Red Baron</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

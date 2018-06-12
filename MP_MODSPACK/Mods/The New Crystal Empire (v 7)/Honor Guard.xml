@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:02:09 PM -->
+<GameData>
+		<Units>
+			<Row>
+				<Class>UNITCLASS_LANCER</Class>
+				<Type>UNIT_HONOR_GUARD</Type>
+				<PrereqTech>TECH_METALLURGY</PrereqTech>
+				<Combat>32</Combat>
+				<Cost>210</Cost>
+				<Moves>5</Moves>
+				<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+				<Domain>DOMAIN_LAND</Domain>
+				<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+				<Description>TXT_KEY_UNIT_HONOR_GUARD</Description>
+				<Civilopedia>TXT_KEY_CIV_UNITS_HONOR_GUARD_TEXT</Civilopedia>
+				<Strategy>TXT_KEY_UNIT_HONOR_GUARD_STRATEGY</Strategy>
+				<Help>TXT_KEY_UNITS_HONOR_GUARD_HELP</Help>
+				<MilitarySupport>true</MilitarySupport>
+				<MilitaryProduction>true</MilitaryProduction>
+				<Pillage>true</Pillage>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
+				<AdvancedStartCost>30</AdvancedStartCost>
+				<XPValueAttack>3</XPValueAttack>
+				<XPValueDefense>3</XPValueDefense>
+				<UnitArtInfo>ART_DEF_UNIT_LANCER</UnitArtInfo>
+				<UnitFlagIconOffset>44</UnitFlagIconOffset>
+				<IconAtlas>CIV_COLOR_ATLAS_CADANCE</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+				<MoveRate>QUADRUPED</MoveRate>
+			</Row>
+		</Units>
+		<Unit_ResourceQuantityRequirements>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<ResourceType>RESOURCE_IRON</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+		</Unit_ResourceQuantityRequirements>
+
+		<Unit_AITypes>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<UnitAIType>UNITAI_ATTACK</UnitAIType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+			</Row>
+		</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HONOR_GUARD</UnitType>
+			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HONOR_GUARD</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HONOR_GUARD</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HONOR_GUARD</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+		<Unit_ClassUpgrades>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+			</Row>
+		</Unit_ClassUpgrades>
+		<Unit_Flavors>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<FlavorType>FLAVOR_RECON</FlavorType>
+				<Flavor>1</Flavor>
+			</Row>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>3</Flavor>
+			</Row>
+			<Row>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>2</Flavor>
+			</Row>
+		</Unit_Flavors>
+		<Language_en_US>
+			<Row Tag="TXT_KEY_UNIT_HONOR_GUARD">
+				<Text>Honor Guard</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNITS_HONOR_GUARD_HELP">
+				<Text>The Honor Guard perform much like normal Lancers, but are more powerful and can move farther than normal.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_UNITS_HONOR_GUARD_TEXT">
+				<Text>Shining Armor was the Captain of the Royal Guard of Canterlot. He trained many of the guards that trot the grounds of the palace. When he and Cadance were sent to the Crystal Empire, he took with him a select chosen to serve as bodyguards for himself and the princess. These guards would later reform into a new unit, becoming the first Honor Guard of the Crystal Princess. They are very well armed, and trained for mobile combat.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_HONOR_GUARD_STRATEGY">
+				<Text>When Celestia tasked Cadance and Shining Armor with protecting the Crystal Empire, Shining Armor brought some of his guards from Canterlot with them. These guards were renamed the Honor Guard, serving as the Crystal Empires elite troops. They replace the Lancer, have more attack and move quicker.</Text>
+			</Row>
+		</Language_en_US>
+
+		<Civilization_UnitClassOverrides>
+			<Row>
+				<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+				<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+				<UnitType>UNIT_HONOR_GUARD</UnitType>
+			</Row>
+		</Civilization_UnitClassOverrides>
+</GameData>

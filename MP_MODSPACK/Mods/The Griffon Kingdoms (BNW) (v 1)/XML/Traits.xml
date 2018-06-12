@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Trait_ExtraYieldThresholds -->
+	<!-- Trait_YieldChanges -->
+	<!-- Trait_YieldChangesStrategicResources -->
+	<!-- Trait_YieldChangesNaturalWonder -->
+	<!-- Trait_YieldChangesPerTradePartner -->
+	<!-- Trait_YieldChangesIncomingTradeRoute -->
+	<!-- Trait_YieldModifiers -->
+	<!-- Trait_FreePromotions -->
+	<!-- Trait_FreePromotionUnitCombats -->
+	<!-- Trait_MovesChangeUnitCombats -->
+	<!-- Trait_MaintenanceModifierUnitCombats -->
+	<!-- Trait_Terrains -->
+	<!-- Trait_ResourceQuantityModifiers -->
+	<!-- Trait_FreeResourceFirstXCities -->
+	<!-- Trait_ImprovementYieldChanges -->
+	<!-- Trait_SpecialistYieldChanges -->
+	<!-- Trait_UnimprovedFeatureYieldChanges -->
+	<!-- Trait_NoTrain -->
+
+	<!-- Trait Grover -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_IDOL_OF_BOREAS</Type>
+			<Description>TXT_KEY_TRAIT_IDOL_OF_BOREAS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_IDOL_OF_BOREAS_Short</ShortDescription>
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
+		</Row>
+	</Traits>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_IDOL_OF_BOREAS</TraitType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_MovesChangeUnitCombats>
+		<Row>
+			<TraitType>TRAIT_IDOL_OF_BOREAS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<MovesChange>1</MovesChange>
+		</Row>
+	</Trait_MovesChangeUnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_IDOL_OF_BOREAS">
+			<Text>Dubble bonus from [ICON_RES_GOLD] Gold. Pay 20% less [ICON_GOLD] Maintenance for land units. All melee units recieve +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_IDOL_OF_BOREAS_Short">
+			<Text>Idol of Boreas</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Trait Guto -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_GRIFFON_GREED</Type>
+			<Description>TXT_KEY_TRAIT_GRIFFON_GREED</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GRIFFON_GREED_Short</ShortDescription>
+			<GoldenAgeDurationModifier>50</GoldenAgeDurationModifier>
+		</Row>
+	</Traits>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_GRIFFON_GREED</TraitType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_YieldChangesPerTradePartner>
+		<Row>
+			<TraitType>TRAIT_GRIFFON_GREED</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldChangesPerTradePartner>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_GRIFFON_GREED">
+			<Text>Dubble bonus from [ICON_RES_GOLD] Gold. [ICON_GOLDEN_AGE] Golden Ages last 50% longer. +2 [ICON_GOLD] Gold for every [ICON_TRADE] Troute Route with a differect civ or [ICON_CITY_STATE] City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_GRIFFON_GREED_Short">
+			<Text>Griffon Greed</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

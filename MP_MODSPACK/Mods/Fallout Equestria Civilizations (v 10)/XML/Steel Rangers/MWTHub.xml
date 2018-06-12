@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/1/2015 9:34:18 AM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_RANGER_STRONGHOLD</Type>
+			<Description>TXT_KEY_IMPROVEMENT_RANGER_STRONGHOLD</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_RANGER_STRONGHOLD_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITADEL</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>100</DefenseModifier>
+			<InAdjacentFriendly>true</InAdjacentFriendly>
+			<CultureBombRadius>1</CultureBombRadius>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<NearbyEnemyDamage>30</NearbyEnemyDamage>
+			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Builds>
+		<Row>
+			<Type>BUILD_RANGER_STRONGHOLD</Type>
+			<ImprovementType>IMPROVEMENT_RANGER_STRONGHOLD</ImprovementType>
+			<Description>TXT_KEY_BUILD_RANGER_STRONGHOLD</Description>
+			<Help>TXT_KEY_BUILD_RANGER_STRONGHOLD_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_FORT_REC</Recommendation>
+			<Kill>1</Kill>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>51</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_RANGER_STRONGHOLD</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_RANGER_STRONGHOLD</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_RANGER_STRONGHOLD</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<BuildType>BUILD_RANGER_STRONGHOLD</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_RANGER_STRONGHOLD">
+			<Text>M.W.T. Stronghold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_RANGER_STRONGHOLD_TEXT">
+			<Text>M.W.T. Strongholds produce +4 [ICON_RESEARCH] on top of the usual defence bonuses [ICON_STRENGTH] of a Citadel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_RANGER_STRONGHOLD">
+			<Text>Build a M.W.T. Stronghold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_RANGER_STRONGHOLD_HELP">
+			<Text>Claim the area for the Ministry of Wartime Technology! M.W.T. Strongholds are places where Steel Rangers gather to hoard and protect any technology scavenged from the wastes. The research done within produces +4 [ICON_RESEARCH] Science, while the presence of Steel Rangers and pre-war weaponry gives the Stronghold the defensive bonus of a Citadel.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

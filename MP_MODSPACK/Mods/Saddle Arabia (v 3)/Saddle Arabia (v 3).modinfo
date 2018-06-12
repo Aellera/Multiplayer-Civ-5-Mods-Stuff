@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="30d1b63d-7641-4688-9b39-9a375ac73826" version="3">
+  <Properties>
+    <Name>Saddle Arabia</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Saddle Arabia</Teaser>
+    <Description>Adds the Nation of Saddle Arabia to Civ 5 for Vanilla and GK</Description>
+    <Authors>Blueslug121</Authors>
+    <SpecialThanks>Harald B, "kael", Starman_DX</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="39A865F33D0E649845F8C758D8269407" import="1">Art/DOM_SAUDIAN.dds</File>
+    <File md5="BB44F1AD820162574630AFC562A5D283" import="1">Art/MapSaddleArabians512.dds</File>
+    <File md5="BCB3769CFBFB7C07932ED17774D14947" import="1">Art/SaddleArabiansAlphaAtlas32.dds</File>
+    <File md5="F8FD98F515D32C41F6939B8BF2349ED2" import="1">Art/SaddleArabiansAtlas128.dds</File>
+    <File md5="10871B49254FB26EDF98CA4BF836443F" import="1">Art/SaddleArabiansAtlas256.dds</File>
+    <File md5="C055A41B79E8D79DF6014AF0E6A404AA" import="1">Art/SaddleArabiansAtlas32.dds</File>
+    <File md5="42353AEC34F36D1FFEECD1F5D5FC800D" import="1">Art/SaddleArabiansAtlas45.dds</File>
+    <File md5="C9CEA4BF7D91943C0C3C90F3466C3FB4" import="1">Art/SaddleArabiansAtlas64.dds</File>
+    <File md5="6BF126CCD0E534AD26F81BFAC67D9F01" import="1">Art/SaddleArabiansAtlas80.dds</File>
+    <File md5="84FE5D60268B7DAA0E63C08C28200C39" import="1">Art/Saudian_diplo.dds</File>
+    <File md5="196F1879B25B766A3EEB1A0AF60E69F5" import="1">Art/SAUDIAN_Scene.xml</File>
+    <File md5="A2588562F274E313E4BE8D58E94147FE" import="1">Atlas.xml</File>
+    <File md5="CA3358455F8F31DBCEC2775548D9B9C7" import="1">City Names.xml</File>
+    <File md5="28CB93822D02F419DE034CBE91ED4325" import="1">Early Market.xml</File>
+    <File md5="37E8F462C8DA9C19AB9492DDA28E6C81" import="1">Empire.xml</File>
+    <File md5="103A1419B12CDB0632374A05EB2C4535" import="1">Horse Soldier.xml</File>
+    <File md5="EEEA3226577995F71B681DA06FAFBBE6" import="1">Music/Alexander_Peace.mp3</File>
+    <File md5="8E5ABDAFE6A850457C3C960F76C39C42" import="1">Music/Alexander_War.mp3</File>
+    <File md5="96EF7C4D69E6EC59F90200453B6EE58B" import="1">Saudian.xml</File>
+    <File md5="AFDDD7C52F5BFCC43F7FCE8547212FCE" import="1">Spies.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/SAUDIAN_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Early Market.xml</UpdateDatabase>
+      <UpdateDatabase>Empire.xml</UpdateDatabase>
+      <UpdateDatabase>Horse Soldier.xml</UpdateDatabase>
+      <UpdateDatabase>Saudian.xml</UpdateDatabase>
+      <UpdateDatabase>Spies.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

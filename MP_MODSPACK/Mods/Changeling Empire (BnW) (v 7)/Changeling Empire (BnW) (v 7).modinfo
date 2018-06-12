@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55c3f90f-d767-494b-8ea5-c583efb6228b" version="7">
+  <Properties>
+    <Name>Changeling Empire (BnW)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds the Changeling Empire, led by Queen Chrysalis.</Teaser>
+    <Description>Adds the Changeling Empire, led by Queen Chrysalis.
+
+A Brave New World brings a new world domination strategy. With the food problem largely taken care of, Chrysalis turns her attention to the World Congress. Nobody needs to know a lesser country is dead when you use Changelings to replace all the leaders. By the time those fools realize most of the voting delegates are fake, she'll have been voted president of the world, muahahahaha!
+
+Trait: Diplomatic Substitution: Controlling the original capital of a vanquished civ (including city-states) gives you their World Congress delegates. Two extra spies.
+UU: Infiltrator; Replaces Great General. Other units get +50% to attack adjacent enemy city. No regular bonus.
+UB: House of Love; Replaces Courthouse. Extra +2 global happiness.
+
+My Little Pony: Friendship is Magic and related names tm and (c) Hasbro, obviously. Empire icon by Metrukuta/Emkay-MLP. ([url=http://emkay-mlp.deviantart.com/art/Changeling-Swarm-Emblem-297718175]Source[/url]) Peace Music remixed by MysteriousBrony, based on original by Daniel Ingram ([url=http://www.youtube.com/watch?v=fjdmYPvEQac]source[/url]). War Music by Carbon Maestro ([url=https://www.youtube.com/watch?v=XuKTAtHRy7w]source[/url]). Loading screen text kindly provided by Lottanubs.
+
+notes:
+*bonus votes are determined at the start of the turn; if the Congress advances by an era, it may take another turn for bonus votes to be adjusted properly
+*for technical reasons, extra World Congress votes are listed as granted by a World Wonder
+*similarly, the Infiltrator bonus is listed as coming from an Assyrian Siege Tower. I'm trying to track down where these text entries are
+*for some reason the Infiltrator bonus doesn't apply to units in the same tile as it. You may want to bring two melee units and move it around.</Description>
+    <Authors>Harald B</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>6</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks>
+    <Mod id="c7720639-67ce-4d1a-ada9-3df107e6c1ef" minversion="0" maxversion="999" title="Changeling Empire (G&amp;K)" />
+    <Mod id="b7b6658f-a685-4221-9dae-aba4b6b694b7" minversion="0" maxversion="999" title="Changeling Empire (Vanilla)" />
+  </Blocks>
+  <Files>
+    <File md5="3DFBE54858565E9459AA85233ED32ED7" import="1">Art/ChangelingAlphaAtlas24.dds</File>
+    <File md5="F186BA96643DED7D6D28A1CCD598FAF6" import="1">Art/ChangelingAlphaAtlas32.dds</File>
+    <File md5="69B502DAAE25FFC9983C29D065F4F0AE" import="1">Art/ChangelingAlphaAtlas48.dds</File>
+    <File md5="461D4D6129BB87E44B80543DD06347C3" import="1">Art/ChangelingAlphaAtlas64.dds</File>
+    <File md5="9FF141387658F0B26E807C771089258B" import="1">Art/ChangelingAtlas128.dds</File>
+    <File md5="DFDE5F2704ACCEECD867EF70380869ED" import="1">Art/ChangelingAtlas256.dds</File>
+    <File md5="24F845865A9B413591AE58256E9E46F8" import="1">Art/ChangelingAtlas32.dds</File>
+    <File md5="671E55D70A3814AFF13EB9C3791F226C" import="1">Art/ChangelingAtlas45.dds</File>
+    <File md5="4A925FCDA88B91389C0F3F27B7F34819" import="1">Art/ChangelingAtlas64.dds</File>
+    <File md5="56F78ACC009DF06B35915D4C14633600" import="1">Art/ChangelingAtlas80.dds</File>
+    <File md5="CF0AE001BC1B688488B74416B1074FE1" import="1">Art/Chrysalis_diplo.dds</File>
+    <File md5="36260B2B8C30EE957B5A5A1314770C28" import="1">Art/Chrysalis_Scene.xml</File>
+    <File md5="F537812796740D57423791E0AE280DC9" import="1">Art/DOM_Chrysalis.dds</File>
+    <File md5="2929EF7DD178DF72D99DAB014160B231" import="1">Art/MapChangelings512.dds</File>
+    <File md5="E36F1C1800120A68F44F85DEE703D8E2" import="0">Atlas.xml</File>
+    <File md5="1997359777D10E1B3BDB3353B87E7D8E" import="0">Chrysalis.xml</File>
+    <File md5="056BE95CB623BF453E04A9802D7F56FE" import="0">City Names.xml</File>
+    <File md5="14124A51D24C585491DDAD1185130BA1" import="0">DiplomaticOffice.xml</File>
+    <File md5="569478DCF3A8CFE89587DEBDA1230DB5" import="0">Empire.xml</File>
+    <File md5="A1F1F43804DF448A284DF20D30B7B2C9" import="0">House of Love.xml</File>
+    <File md5="FC6236C085E12B3C83FF66A60800C394" import="0">Infiltrator.xml</File>
+    <File md5="0920DBC8EC335E7289F53B377C1E9C65" import="1">Lua/voteArranger.lua</File>
+    <File md5="DF724FF610EB61E455C355AEB4D155A2" import="1">Music/Chrysalis_Peace.mp3</File>
+    <File md5="EAC99A33C3F97626F636C83FBE79FDED" import="1">Music/Chrysalis_War.mp3</File>
+    <File md5="7462764FA432B2BC6F626BDFAAC31AEA" import="0">Sound.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Chrysalis.xml</UpdateDatabase>
+      <UpdateDatabase>Empire.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Infiltrator.xml</UpdateDatabase>
+      <UpdateDatabase>House of Love.xml</UpdateDatabase>
+      <UpdateDatabase>DiplomaticOffice.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/voteArranger.lua">
+      <Name>voteArranger</Name>
+      <Description>Creates the right amount of vote-adding buildings</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

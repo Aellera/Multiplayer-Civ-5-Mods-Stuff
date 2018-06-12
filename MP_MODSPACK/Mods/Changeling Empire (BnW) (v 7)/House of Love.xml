@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:38 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOUSE_OF_LOVE</Type>
+			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Help>Changeling unique building replacing the Courthouse. Provides an additional +2 [ICON_HAPPINESS_1] global Happiness.</Help>
+			<Description>House of Love</Description>
+			<Civilopedia>The Changelings' ability to manipulate the minds of others and draw power from them makes controlling foreign populations much easier.</Civilopedia>
+			<Strategy>The House of Love is the unique replacement for the Courthouse. It is available quickly, a bit easier to maintain and provides some extra happiness, making early conquest easier.</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>50</HurryCostModifier>
+			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
+			<IconAtlas>CIV_COLOR_ATLAS_CHANGELINGS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_OF_LOVE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>200</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHANGELINGS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_HOUSE_OF_LOVE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

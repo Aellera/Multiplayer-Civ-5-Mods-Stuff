@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:26 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_JERHOOFSALEM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BAGHOOF</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STABLEBAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TROTTINGBUL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AL-EQUINE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FILLY-AL_BATIN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TROTTIPOLI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEWFLANKQY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HORSESTAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CORRALISYM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NILEMARE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OVERUSEDPUNS</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_JERHOOFSALEM">
+			<Text>Jerhoofsalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BAGHOOF">
+			<Text>Baghoof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STABLEBAI">
+			<Text>Stablebai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTTINGBUL">
+			<Text>Trottingbul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AL-EQUINE">
+			<Text>Al-Equine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FILLY-AL_BATIN">
+			<Text>Filly-Al-Batin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTTIPOLI">
+			<Text>Trottipoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEWFLANKQY">
+			<Text>Newflankqy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HORSESTAN">
+			<Text>Horsestan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CORRALISYM">
+			<Text>Corralisym</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NILEMARE">
+			<Text>Nilemare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OVERUSEDPUNS">
+			<Text>Overusedpuns</Text>
+		</Row>-->
+	</Language_en_US>
+</GameData>

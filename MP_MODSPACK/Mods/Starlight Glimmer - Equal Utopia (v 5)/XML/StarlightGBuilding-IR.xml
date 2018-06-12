@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INDOCTRINATION_ROOM</Type>
+			<BuildingClass>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Help>TXT_KEY_BUILDING_INDOCTRINATION_ROOM_HELP</Help>
+			<Description>TXT_KEY_BUILDING_INDOCTRINATION_ROOM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INDOCTRINATION_ROOM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_INDOCTRINATION_ROOM_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_INTELLIGENCE_AGENCY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>100</NumCityCostMod>
+			<GlobalEspionageModifier>0</GlobalEspionageModifier>
+			<FreePolicies>1</FreePolicies>
+			<ExtraSpies>2</ExtraSpies>
+			<Espionage>0</Espionage>
+			<SpyRankChange>0</SpyRankChange>
+			<InstantSpyRankChange>0</InstantSpyRankChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<FreeBuilding>BUILDINGCLASS_POLICE_STATION</FreeBuilding>
+			<IconAtlas>STARLIGHT_GLIMMER_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BOMB_SHELTER</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM">
+			<Text>Indoctrination Room</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_HELP">
+			<Text>Starlight's Unique National Wonder replace Intelligence Agency. Unlike Intelligence Agency, Indoctrination Room needs heavier production cost, and does not levels up spies. But it provides 2 additional spies and 1 free Social Policy. Starlight doesn't need to have Police Stations in all cities to build it. Indoctrination Room just needs a Cutie Mark Vault in the city where it will build in. Once Indoctrination Room is constructed, all cities get a free Police Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_STRATEGY">
+			<Text>Starlight : "JUST BUILD IT ALREADY!!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_TEXT">
+			<Text>(Blank-flank)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/31/2015 8:27:27 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_BAZOOKA</Class>
+			<Type>UNIT_HEAVY_RANGER</Type>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<Combat>85</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>400</Cost>
+			<Moves>2</Moves>
+			<Range>1</Range>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENCE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HEAVY_RANGER</Description>
+			<Civilopedia>TXT_KEY_CIV5_HEAVY_RANGER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HEAVY_RANGER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HEAVY_RANGER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_HEAVYRANGER</UnitArtInfo>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_FOE</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_RANGERS</CivilizationType>
+			<UnitClassType>UNITCLASS_BAZOOKA</UnitClassType>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_GRENADE_BARRAGE</Type>
+			<Description>TXT_KEY_PROMOTION_GRENADE_BARRAGE</Description>
+			<Help>TXT_KEY_PROMOTION_GRENADE_BARRAGE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<AttackFortifiedMod>15</AttackFortifiedMod>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_RANGED</PediaType>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PediaEntry>TXT_KEY_PROMOTION_GRENADE_BARRAGE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<PromotionType>PROMOTION_GRENADE_BARRAGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_RANGER">
+			<Text>Grenadier Steel Rangers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HEAVY_RANGER">
+			<Text>Grenadier Steel Rangers can choose to either bombard or directly attack enemies, but are slightly weaker than the Bazooka they replace. They also recive a bonus when attacking cities and fortified units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HEAVY_RANGER_TEXT">
+			<Text>Steel Rangers are often shown with a variety of different weapons mounted to their battle saddles, but none are as powerful or destructive as the Grenade Machine Gun. The Grenade Machine Gun allows the user to  bombard enemies with grenades in rapid succession. The explosions are usually enough to shred ponies and other unarmored beings in a few seconds, and the blast radius allows multiple hostiles to be hit at once. The Grenade Machine Gun also has the capacity to fire grenades at both far and relatively-nearby targets, though it would not be recommended for combat in close quarters, or in situations where stealth is an important factor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HEAVY_RANGER_STRATEGY">
+			<Text>The Grenadier Steel Ranger is the Steel Rangers unique unit, replacing the Bazooka. Though it is slightly weaker than the bazooka, it has the ability to choose to either attack directly or bombard units, and recieves a small bonus when fighting cities and fortified units. This makes the Grenadier a very versatile unit on the battlefield useful for routing entrenched enemies or covering defensive positions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GRENADE_BARRAGE">
+			<Text>Grenade Barrage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GRENADE_BARRAGE_HELP">
+			<Text>Blow out enemies in cities or fortifications with a hailstorm of grenades.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

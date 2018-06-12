@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2012 10:19:38 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>256</Iconsize>
+			<Filename>SaddleArabiansAtlas256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>128</Iconsize>
+			<Filename>SaddleArabiansAtlas128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>80</Iconsize>
+			<Filename>SaddleArabiansAtlas80.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>64</Iconsize>
+			<Filename>SaddleArabiansAtlas64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>45</Iconsize>
+			<Filename>SaddleArabiansAtlas45.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>32</Iconsize>
+			<Filename>SaddleArabiansAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_ALPHA_ATLAS_SADDLEARABIANS</Atlas>
+			<Iconsize>32</Iconsize>
+			<Filename>SaddleArabiansAlphaAtlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

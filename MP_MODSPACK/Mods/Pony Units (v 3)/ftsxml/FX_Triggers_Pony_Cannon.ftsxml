@@ -1,0 +1,304 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1120">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1160">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="sound 2" />
+      <track id="5" name="Action" />
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1560">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1800">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2200">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="sound 2" />
+      <track id="5" name="Action" />
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="sound 2" />
+      <track id="5" name="Action" />
+    </event_track>
+    <event_track ec="1140">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1180">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="sound 2" />
+      <track id="5" name="Action" />
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1540">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2100">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2220">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1450">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2440">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+	<trigger type="FTimedTriggerSound" id="39" time="0.014815" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWING_TORCH" bone="" />
+	<trigger type="FTimedTriggerSound" id="34" time="0.0666" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FUSE" bone="" />
+	<trigger type="FTimedTriggerSound" id="70" time="0.3" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_CREAK" bone="" />
+	<trigger type="FTimedTriggerSound" id="42" time="0.2" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+	<trigger type="FTimedTriggerEffect" id="17" time="0.0666" duration="0.4" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_IGNITE" bone="EFFECT_Cannon_Fire" />
+	<trigger type="FTimedTriggerEffect" id="9" time="0.68" duration="0" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_SMOKE" bone="EFFECT_Cannon_Fire" />  
+	<trigger type="FTimedTriggerAction" id="6" time="0.5" duration="0" repeat="0" ec="1100" track="5" tier="0" action="1" />
+
+	<trigger type="FTimedTriggerSound" id="72" time="0.3" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_CREAK" bone="" />
+	<trigger type="FTimedTriggerSound" id="40" time="0.014815" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWING_TORCH" bone="" />
+	<trigger type="FTimedTriggerSound" id="41" time="0.0666" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FUSE" bone="" />
+	<trigger type="FTimedTriggerSound" id="42" time="0.2" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+	<trigger type="FTimedTriggerEffect" id="14" time="0.0666" duration="0.4" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_IGNITE" bone="EFFECT_Cannon_Fire" />
+	<trigger type="FTimedTriggerAction" id="31" time="0.5" duration="0" repeat="0" ec="1160" track="4" tier="0" action="1" />
+
+	<trigger type="FTimedTriggerSound" id="81" time="0.0666" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FUSE" bone="" />
+	<trigger type="FTimedTriggerSound" id="82" time="0.014815" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWING_TORCH" bone="" />
+	<trigger type="FTimedTriggerSound" id="26" time="0.2" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+	<trigger type="FTimedTriggerSound" id="80" time="0.3" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_CREAK" bone="" />
+	<trigger type="FTimedTriggerEffect" id="83" time="0.4462966" duration="0.4" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_IGNITE" bone="EFFECT_Cannon_Fire" />
+	<trigger type="FTimedTriggerAction" id="30" time="0.5" duration="0" repeat="0" ec="1180" track="5" tier="0" action="1" />
+
+	<trigger type="FTimedTriggerEffect" id="8" time="0" duration="0" repeat="0" ec="1200" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_FIERY_DEATH" bone="Effect_Hit_Death" />
+    <trigger type="FTimedTriggerSound" id="58" time="0.129629984" duration="0" repeat="0" ec="1200" track="4" tier="-1" event="AS3D_UNIT_CANNON_DEATH_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="44" time="0" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CANNON_FORTIFY" bone="" />
+    <trigger type="FTimedTriggerSound" id="53" time="0.059259" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerSound" id="48" time="0.08333348" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="75" time="1.13333" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_STAFF_TAP" bone="" />
+    <trigger type="FTimedTriggerSound" id="84" time="0.0333333276" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="61" time="0.152942508" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_SPLINTER" bone="" />
+     <trigger type="FTimedTriggerSound" id="56" time="0.1314479" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_IMPACT_$(WEAPON)" bone="" />
+     <trigger type="FTimedTriggerSound" id="65" time="0.2814816" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_DEBRIS_METAL" bone="" />
+    <trigger type="FTimedTriggerSound" id="51" time="0.0611108541" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY_RUN" bone="" />
+    <trigger type="FTimedTriggerSound" id="37" time="0.733333" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FUSE" bone="" />
+    <trigger type="FTimedTriggerSound" id="73" time="0.414814" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_BODY_FALL_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerEffect" id="18" time="0" duration="0.25" repeat="0" ec="2200" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_DEATH" bone="Effect_Hit_Death" />
+    <trigger type="FTimedTriggerSound" id="59" time="0.1849553" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_PLANK_DEBRIS" bone="" />
+    <trigger type="FTimedTriggerSound" id="68" time="0.7000008" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_POLE_DROP" bone="" />
+    <trigger type="FTimedTriggerSound" id="45" time="0.752444" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CANNON_FORTIFY_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="54" time="0.511111" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerSound" id="49" time="0.348148" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerEffect" id="76" time="0.844074" duration="0" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_SMOKE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerSound" id="85" time="0" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_STOP_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="62" time="0.131481424" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_DEATH_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="71" time="1.03704" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_CREAK" bone="" />
+    <trigger type="FTimedTriggerEffect" id="16" time="1.13703287" duration="0" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_SMOKE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerSound" id="57" time="0.207407" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_WOOD_DEBRIS" bone="" />
+    <trigger type="FTimedTriggerEffect" id="2" time="0" duration="0.666667" repeat="0" ec="1120" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_DUST_TRAIL_SM" bone="Effect_Hit_Death" />
+    <trigger type="FTimedTriggerSound" id="66" time="0.131481051" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_IMPACT_$(WEAPON)" bone="" />
+    <trigger type="FTimedTriggerSound" id="43" time="0.014815" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerSound" id="52" time="0.096296" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_VICTORY_VOX_I" bone="" />
+    <trigger type="FTimedTriggerAction" id="29" time="1.18889" duration="0" repeat="0" ec="1140" track="4" tier="0" action="1" />
+    <trigger type="FTimedTriggerSound" id="38" time="0.992592" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+    <trigger type="FTimedTriggerSound" id="33" time="0.659259" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+    <trigger type="FTimedTriggerEffect" id="10" time="0.73111093" duration="0.4" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_IGNITE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerSound" id="74" time="0.422222" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWISH" bone="" />
+    <trigger type="FTimedTriggerSound" id="60" time="0.173654959" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_DEBRIS_METAL" bone="" />
+    <trigger type="FTimedTriggerSound" id="46" time="0.564148" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerSound" id="55" time="1.51111" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerSound" id="64" time="0.355555564" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_PLANK_DEBRIS" bone="" />
+    <trigger type="FTimedTriggerSound" id="50" time="0.362963" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY_RUN" bone="" />
+    <trigger type="FTimedTriggerSound" id="36" time="0.02963" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWING_TORCH" bone="" />
+    <trigger type="FTimedTriggerEffect" id="13" time="1.14444" duration="0" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_SMOKE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerSound" id="63" time="0.209259048" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_SPLINTER" bone="" />
+    <trigger type="FTimedTriggerSound" id="78" time="0.07592593" duration="0" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="87" time="0.3467447" duration="0" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="58" time="0" duration="0.67" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_CANNON_T2_RUN_$(TERRAIN)" bone="" />
+	  
+    <trigger type="FTimedTriggerEffect" id="90" time="0.736666441" duration="0.4" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_IGNITE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerEffect" id="91" time="1.12592173" duration="0" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_CANNON_SMOKE" bone="EFFECT_Cannon_Fire" />
+    <trigger type="FTimedTriggerSound" id="98" time="1.03704" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_CREAK" bone="" />
+    <trigger type="FTimedTriggerSound" id="99" time="0.992592" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FIRE" bone="" />
+    <trigger type="FTimedTriggerSound" id="100" time="0.733333" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_FUSE" bone="" />
+    <trigger type="FTimedTriggerSound" id="101" time="0.02963" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_SWING_TORCH" bone="" />
+    <trigger type="FTimedTriggerSound" id="102" time="0.014815" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_CANNON_SOLDIER_FOLEY" bone="" />
+    <trigger type="FTimedTriggerAction" id="103" time="1.18889" duration="0" repeat="0" ec="2100" track="4" tier="0" action="1" />
+	  
+    <trigger type="FTimedTriggerSound" id="92" time="0" duration="0.67" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_LOOP" bone="" />
+    <trigger type="FTimedTriggerSound" id="77" time="0.412" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="86" time="0.936000049" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="88" time="0" duration="0" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_CANNON_RUN_VOX_T1" bone="" />
+    <trigger type="FTimedTriggerSound" id="93" time="0.394897968" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CANNON_WOOD_SPLINTER" bone="" />
+    <trigger type="FTimedTriggerSound" id="94" time="0.153061226" duration="0" repeat="0" ec="1200" track="4" tier="-1" event="AS3D_UNIT_CANNON_DEATH_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="95" time="0.6239529" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="96" time="0.7409458" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="97" time="0.2988424" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="104" time="0.6607572" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CANNON_FORTIFY_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="47" time="0.435185164" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="67" time="0.637037039" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CANNON_FOOT_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="105" time="0.5888889" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CANNON_FORTIFY_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="106" time="0.679629862" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_BODY_FALL_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="107" time="0.166666672" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CANNON_DEATH_VOX_N" bone="" />
+    <trigger type="FTimedTriggerSound" id="69" time="0" duration="0.67" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_CANNON_LOOP" bone="" />
+    <trigger type="FTimedTriggerSound" id="108" time="0" duration="0.67" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_T2_RUN_$(TERRAIN)" bone="" />
+    <trigger type="FTimedTriggerSound" id="109" time="0.00185184972" duration="0" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_CANNON_RUN_VOX_T1" bone="" />
+    <trigger type="FTimedTriggerSound" id="110" time="0.0111111095" duration="0" repeat="0" ec="1200" track="1" tier="0" event="AS3D_UNIT_CARAVEL_SHIP_HIT" bone="" />
+  </triggers>
+</trigger_system>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="39e078bd-dd2d-40ab-bed4-ed2c663a68b3" version="10">
+  <Properties>
+    <Name>Fallout Equestria Civilizations</Name>
+    <Teaser>Adds the main factions from Fallout:Equestria into Civilization V</Teaser>
+    <Description>Adds the main factions from Kkat's Fallout: Equestria into Civilization 5. 
+Finished: 
+The New Canterlot Republic under LittlePip 
+The Steel Rangers under Elder Blueberry Sabre 
+New Equestria under Red Eye 
+The Grand Pegasus Enclave under Autumn Leaf 
+The Unity under the Goddess 
+
+Other Changes:
+-Helicopter units can cross seas
+
+
+Requires BNW and GandK 
+
+Image Credits: TheOmegaRidley, JustMoth, NightFlyer22, Rhodarein, Team_Machine, DAfavicon, Catsby, Thorwadsen92, Wmsonee, mufflesthesheep, Shadowh3, tomcullen, quick study, arkrark, sirhcx, Kalemon, Bloodrizer, RubleGun, DarkDragon,The-Dark-TC, Geek Ladd, Lightning 5trike, Alfa995, Zpony, Proenix, rildraw, HaveBKyourway, nowego, ZuTheSkunk, and several unnamed artists. 
+
+Music Credits: Ballad of the Crystal Ponies/A True, True Friend Orchestral covers by Artem Yegorov, 
+Fallout Equestria Main Theme by Wasteland Wailers/Overmare Studios 
+War, Victory, Peace, Equestria by Coconeru 
+A Symphonic Welcome by TGiuseppe 
+Art of the Industry/Pinkie Pie Propaganda by DrDissonance1
+Across the Seas/Battle for Cloudsdale by Citric Acid
+Apples to Apples, Dust to Dust by S.A.S. Falcon
+Ordo Ad Chao by Carbon Maestro
+
+Thank you all for your amazing works! 
+
+
+All rights to My Little Pony: Friendship is Magic belons to Hasbro 
+All rights to the Fallout Videogame Series belongs to Interplay Entertainment,14 Degrees East, and Bethesda Softworks. 
+I do not in any way own either of the two above mentioned franchises.</Description>
+    <Authors>Malexlee</Authors>
+    <SpecialThanks>Kkat for writing Fallout:Equestria and to the awesome Brony community!</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Harald B's Pony Models" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="005AFDC16270863C58E23A373764BA63" import="1">ART/Leaf_Diplomacy.dds</File>
+    <File md5="6183D0EA2D0AED52EA922116662B7D39" import="1">ART/Goddess_Diplomacy.dds</File>
+    <File md5="841616DA41739B71FC245BCD0B255FF4" import="1">ART/Goddess_Leader_Scene.xml</File>
+    <File md5="4FE587CD8E0A2F4597137159D36D34DD" import="1">ART/GPEnclavemap.dds</File>
+    <File md5="EEBAB900609569E3C5ED89CD4CBE1DED" import="1">ART/GPEnclave_DOM.dds</File>
+    <File md5="7D9CAB6D7B3FE26898BBB1EC3AB4E1F4" import="1">ART/FoEIcons128.dds</File>
+    <File md5="FAC01EE7295719AE46513C223DF5BA82" import="1">ART/FoEIcons256.dds</File>
+    <File md5="070CF12CAE3BDA441ED779B422C037CE" import="1">ART/FoEIcons32.dds</File>
+    <File md5="1E7F6F95DC4DAF2C433728D0D1CCE30E" import="1">ART/FoEIcons45.dds</File>
+    <File md5="7EE027C458CA103A77F7899F84738F20" import="1">ART/FoEIcons64.dds</File>
+    <File md5="8BEE8367FA6C34593A21B14DEB351526" import="1">ART/FoEIcons80.dds</File>
+    <File md5="D6782E784C0EA09AAA065674F09DD1A7" import="0">ART/IconAtlas.xml</File>
+    <File md5="DD6CC02A9C8AAFF3E0292863BBC02443" import="1">ART/Leaf_Leader_Scene.xml</File>
+    <File md5="B42D40BA8ECA16014A09370064A238D1" import="1">ART/LittlePip_Diplomacy.dds</File>
+    <File md5="5262F86B90D9FA75695EB75F7D3214A0" import="1">ART/LittlePip_Leader_Scene.xml</File>
+    <File md5="AB0DBAD9DDB9FCDBEB9E6E44A07F3446" import="1">ART/NCRepublicDOM.dds</File>
+    <File md5="7FD1BD664729F9E1CCAAD66E2B75E93F" import="1">ART/NCRepublicmap.dds</File>
+    <File md5="0A0EF1C7356AE4EDE744EAB4F3523972" import="1">ART/RangersDOM.dds</File>
+    <File md5="C1A4316257B3F925D1883BEFB1844F20" import="1">ART/Rangersmap.dds</File>
+    <File md5="D9E6FC9E19FB2BBA1162EEEB8B51262E" import="1">ART/RedEye_Diplomacy.dds</File>
+    <File md5="E83F7631860CBA22B3A0EE1CA3FA06F3" import="1">ART/RedEye_Leader_Scene.xml</File>
+    <File md5="3E7927C5FDBCB2EB8DE7828AB82CA3E9" import="1">ART/Sabre_Diplomacy.dds</File>
+    <File md5="BC2327F303BE50B19058BEF11225DB67" import="1">ART/Sabre_Leader_Scene.xml</File>
+    <File md5="6D79890C27EFC33302A9E20BBC3BFA2D" import="1">ART/SlaversDOM.dds</File>
+    <File md5="144BD4B48B504DFCFD6827DC91991E97" import="1">ART/Slaversmap.dds</File>
+    <File md5="52124FD18D7964F0C7E706E2E7B8763E" import="0">ART/UnitArtDefines.xml</File>
+    <File md5="24343AD34D90E01969C0711EC3F7B160" import="1">ART/Unitymap.dds</File>
+    <File md5="68D3310BA08CFFE8B4B93EEF6F67783E" import="1">ART/Unity_DOM.dds</File>
+    <File md5="665D3D2695261C67E221DB4D43300CF7" import="1">SOUND/GPEnclave_War.mp3</File>
+    <File md5="62F61C42DF88F9D29F454AC6C1F95D18" import="1">SOUND/GPEnclave_Peace.mp3</File>
+    <File md5="ECA8D47E5E9EABB0516519465DBAC780" import="1">SOUND/Unity_Peace.mp3</File>
+    <File md5="76D03F6251E3D7B842FBF99104D66A78" import="1">SOUND/Unity_War.mp3</File>
+    <File md5="24E8390F4A931D64DC621C5646DCE48F" import="1">SOUND/Slavers_War.mp3</File>
+    <File md5="F13A69050ADE0EE3F8407DEDAD2A2109" import="1">SOUND/Canterlot_Peace.mp3</File>
+    <File md5="8B5EB3BE3F79185BCAEDDE553AD0110D" import="1">SOUND/Canterlot_War.mp3</File>
+    <File md5="E1380878609871DC343D742E7DB96901" import="1">SOUND/Slavers_Peace.mp3</File>
+    <File md5="0407E2BB18251556A1D13A59ECAB6E3E" import="1">SOUND/Rangers_Peace.mp3</File>
+    <File md5="F6D7BBD9F151DBFEDDB3801A3574712B" import="1">SOUND/Rangers_War.mp3</File>
+    <File md5="7B844B24BA14E65EAB20689CB7A11F01" import="0">SOUND/Sounds.xml</File>
+    <File md5="31E9EA8F52EC98D3B6005190CFC365EF" import="0">XML/Extra Changes.xml</File>
+    <File md5="E0107D2B34B594693CBA06439B126BE8" import="0">XML/New Canterlot Republic/Canterlot.xml</File>
+    <File md5="910A9E53927E5A80D53C78725ED61609" import="0">XML/New Canterlot Republic/Followers of the Apocalypse  Center.xml</File>
+    <File md5="AB0E882FC1C457199986B07A0D0E6646" import="0">XML/New Canterlot Republic/Lightbringer.xml</File>
+    <File md5="D4B3DF4477C150667E0642BA109B7DFE" import="0">XML/New Canterlot Republic/Littlepip.xml</File>
+    <File md5="667EA3A8F9C9CFF19BD96CD5B3AA2443" import="0">XML/New Canterlot Republic/NCR Triat.xml</File>
+    <File md5="4E86AD93DDF8EFABE720A49895EB2281" import="0">XML/Pegasi/Enclave.xml</File>
+    <File md5="DE85F82416531D3A02FA8E0646E78379" import="0">XML/Pegasi/Autumn Leaf.xml</File>
+    <File md5="3ACB159B83F4C5CDBC90970A88A77CDB" import="0">XML/Pegasi/Enclave Triat.xml</File>
+    <File md5="F108A81CBC69231E32F9AD966EA98E5D" import="0">XML/Pegasi/Raptor.xml</File>
+    <File md5="9F9C474167F641B1238EF5837BBB1531" import="0">XML/Pegasi/Thunderhead.xml</File>
+    <File md5="A4E7B9106D1F537704DB95B63DA49C66" import="0">XML/Red Eye/Red Eye.xml</File>
+    <File md5="FFC8D0C95621BBE51F2F85D29FA6EB47" import="0">XML/Red Eye/Extraction Camp.xml</File>
+    <File md5="645C9B943E28EBD03C4B389EF77B9363" import="0">XML/Red Eye/Slaver Trait.xml</File>
+    <File md5="0337A526CA0682DB01E10B0217D84A5C" import="0">XML/Red Eye/Gang Slavers.xml</File>
+    <File md5="9028C46DAC8755E68F67E4635C53ECFD" import="0">XML/Red Eye/Slavers civ.xml</File>
+    <File md5="A35701495A0883E72DE965D58E664D29" import="0">XML/Steel Rangers/Blueberry Sabre.xml</File>
+    <File md5="7C72E48D2A0EBCB6BA3F7CD51B8D3B67" import="0">XML/Steel Rangers/Heavy Steel Rangers.xml</File>
+    <File md5="E59ABFCAFCEA259FE71BAAF23E132DF8" import="0">XML/Steel Rangers/MWTHub.xml</File>
+    <File md5="6AFFE5A46927A4E7E94BE8A0F3F069D9" import="0">XML/Steel Rangers/Rangers Civ.xml</File>
+    <File md5="E0DE0AC3273BEA0079954CF7497F85E8" import="0">XML/Steel Rangers/Rangers Trait.xml</File>
+    <File md5="AF0BA4F8F7B70018A3293AE69EB2AE4C" import="0">XML/Steel Rangers/Star Paladin.xml</File>
+    <File md5="6A0A5C2FE239BAAEFA2A5EE8D5985034" import="0">XML/Unity/AlicornDrone.xml</File>
+    <File md5="22F6931209D0672E8752F034DDE38781" import="0">XML/Unity/IMPVats.xml</File>
+    <File md5="6CEEE14B2C3FE88EA30AE81D1045523E" import="0">XML/Unity/TrixieGoddess.xml</File>
+    <File md5="75F2BFAC27FF37BA4B8444308F5417B7" import="0">XML/Unity/Unity Triat.xml</File>
+    <File md5="B8C3512619B22CE6FA4C5195A249D1F4" import="0">XML/Unity/Unity.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ART/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>ART/LittlePip_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Sabre_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/RedEye_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Leaf_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Goddess_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/UnitArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SOUND/Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Canterlot Republic/Canterlot.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Canterlot Republic/Followers of the Apocalypse  Center.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Canterlot Republic/Lightbringer.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Canterlot Republic/Littlepip.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Canterlot Republic/NCR Triat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/Blueberry Sabre.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/Rangers Civ.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/Rangers Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/Heavy Steel Rangers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/MWTHub.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Steel Rangers/Star Paladin.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pegasi/Autumn Leaf.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pegasi/Enclave Triat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pegasi/Enclave.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pegasi/Thunderhead.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pegasi/Raptor.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Red Eye/Red Eye.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Red Eye/Slaver Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Red Eye/Slavers civ.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Red Eye/Gang Slavers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Red Eye/Extraction Camp.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unity/TrixieGoddess.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unity/Unity.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unity/Unity Triat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unity/AlicornDrone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unity/IMPVats.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Extra Changes.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

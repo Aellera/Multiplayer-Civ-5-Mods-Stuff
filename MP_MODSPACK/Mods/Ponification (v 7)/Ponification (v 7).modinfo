@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3379d36f-25bd-4bc2-b82b-a9301836ad13" version="7">
+  <Properties>
+    <Name>Ponification</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Ponifies parts of the game. These effects show up regardless of which civ you play as, which is the main reason this mod is sep</Teaser>
+    <Description>Ponifies parts of the game. These effects show up regardless of which civ you play as, which is the main reason this mod is separate from the Equestria mod. It does not require the Equestria mod.
+
+Truth be told, even I feel this is too much pony. But hey, some people really want this.
+
+Replaces many pictures, including the following:
+* All advisors
+* All social policies (also renames them)
+* Most era transitions
+* Several victory screens
+* Splash screens for Great Music, Great Literature, World Congress and some wonders
+* A handful of Great Art pieces
+* Many unit, tech and building icons (144 so far)
+Also replaces basic advisor sounds and renames some things.
+
+Includes art by:
+[table][tr]
+[td]
+* [url=http://sigmavirus1.deviantart.com/art/MLP-FiM-Courtroom-296432712]sigmavirus1[/url], [url=http://sigmavirus1.deviantart.com/art/MLP-FiM-Hotel-Room-297318145]2[/url]
+* [url=http://hellswolfeh.deviantart.com/art/Twilight-s-Observatory-322877553]Hellswolfeh[/url]
+* [url=http://vectorshy.deviantart.com/art/School-of-Canterlot-High-Res-V2-0-299540340]Vectorshy[/url]
+* [url=http://zutheskunk.deviantart.com/art/Daring-Do-s-cutie-mark-317784413]ZuTheSkunk[/url], [url=https://zutheskunk.deviantart.com/art/Background-007-Twilight-s-lab-301940550]2[/url]
+* [url=http://lightningtumble.deviantart.com/art/Better-duck-sugercube-335665263]lightningtumble[/url], [url=http://lightningtumble.deviantart.com/art/Stop-right-there-criminal-scum-305782504]2[/url], [url=http://lightningtumble.deviantart.com/art/Ready-for-a-fight-330045622]3[/url], [url=http://lightningtumble.deviantart.com/art/No-wheels-for-you-341593735]4[/url]
+* [url=http://mrlolcats17.deviantart.com/art/Applejack-Finds-an-M10-Wolverine-287926371]MrLolcats17[/url], [url=http://mrlolcats17.deviantart.com/art/Twilight-and-Rarity-Find-an-S-51-288867465]2[/url]
+* [url=http://canon-lb.deviantart.com/art/Armored-Dash-is-ready-for-anything-337883817]CaNoN-lb[/url]
+* [url=http://regolithx.deviantart.com/art/Shining-Armor-Vector-299912118]RegolithX[/url]
+* [url=http://ratchethun.deviantart.com/art/Applejack-time-for-some-hunti-n-301728179]RatchetHun[/url], [url=http://ratchethun.deviantart.com/gallery/#/d5k26sj]2[/url], [url=http://ratchethun.deviantart.com/art/Twilight-Sparkle-The-Warrior-342551599]3[/url]
+* [url=http://piranhaplant1.deviantart.com/art/Daring-Do-Vector-287101508]piranhaplant1[/url]
+* [url=http://masterrottweiler.deviantart.com/art/My-Little-Diablo-Demon-Hunter-Wildfire-edition-335282923]MasterRottweiler[/url], [url=http://masterrottweiler.deviantart.com/art/My-Little-Diablo-Talic-283738959]2[/url], [url=http://masterrottweiler.deviantart.com/art/My-Little-Diablo-Barbarian-287039643]3[/url]
+* [url=http://tajarnia.deviantart.com/art/Never-Stop-Shining-339189457]Tajarnia[/url]
+* [url=http://dolphinfox.deviantart.com/art/First-Sergeant-Allen-Sparkle-in-profile-338560661]DolphinFox[/url], [url=http://dolphinfox.deviantart.com/art/The-Royal-Special-Forces-336983262]2[/url], [url=http://dolphinfox.deviantart.com/art/Pinkie-and-Rose-driving-2S3-Akatsiya-329303820]3[/url], [url=http://dolphinfox.deviantart.com/art/Ponies-driving-Ural-4320-352800329]4[/url], [url=http://dolphinfox.deviantart.com/art/Applejack-driving-VAZ-21214-NIVA-367046240]5[/url], [url=http://dolphinfox.deviantart.com/art/Chrysalis-Panzerwaffe-Pzkpfw-IV-C-Chrysalis-313843208]6[/url]
+* [url=http://ohitison.deviantart.com/art/Intercontinental-Ballistic-Pinkie-285826410]OhItIsOn[/url]
+* [url=http://d4svader.deviantart.com/art/Spitfire-in-uniform-343154226]D4SVader[/url]
+[/td]
+[td]
+* [url=http://nikkikitty44.deviantart.com/art/RED-Engineer-Applejack-284327236]NikkiKitty44[/url]
+* [url=http://hankofficer.deviantart.com/art/Rainbow-Dash-as-Soldier-of-Hui-337865929]HankOfficer[/url]
+* [url=http://kraysee.deviantart.com/art/Steampunk-Twilight-306604747]Kraysee[/url]
+* [url=http://austiniousi.deviantart.com/art/Daww-Team-331154614]Austiniousi[/url]
+* [url=http://kysss90.deviantart.com/art/Vector-RainbowDash-Leader-by-Kyss-S-342683287]Kyss.S[/url]
+* [url=http://yanoda.deviantart.com/art/C-3POny-311847559]Yanoda[/url]
+* [url=http://boneswolbach.deviantart.com/art/Sweetie-Belle-s-House-339796318]BonesWolbach[/url]
+* [url=http://ambassad0r.deviantart.com/art/Sky-Rainbowfalls-342342120]Ambassad0r[/url]
+* [url=http://likonan.deviantart.com/art/Daring-Do-Runs-Through-China-309926350]Likonan[/url]
+* [url=http://ninga-bob.deviantart.com/art/Bass-Cannon-Mk-II-322462266]Ninga-Bob[/url]
+[/td]
+[td]
+* [url=http://abydos91.deviantart.com/art/Applejack-Fearless-352856104]abydos91[/url]
+* [url=http://namelesshero2222.deviantart.com/art/Vinyl-Scratch-Great-and-Powerful-315755582]namelesshero2222[/url]
+* [url=http://ambits.deviantart.com/art/Rambo-Dash-353930159]Ambits[/url]
+* [url=http://tim015.deviantart.com/art/Special-Delivery-Joey-Darkmeat-Vector-327535192]Tim015[/url]
+* [url=http://daringdashie.deviantart.com/art/Daring-Dashie-150-Watchers-Text-Free-304955405]DaringDashie[/url]
+[/td]
+[td]
+* [url=http://zvn.deviantart.com/art/Cloudsdale-Landscape-291849207]Zvn[/url]
+* [url=http://x-celestia-x.deviantart.com/art/Twilight-Spying-SCENE-331480715]X-Celestia-X[/url]
+* [url=http://mlj-lucarias.deviantart.com/art/Coordinates-Received-387607537]MLJ-Lucarias[/url]
+* [url=http://cheshiretwilight.deviantart.com/art/Pinkie-Party-Artillery-388836354]CheshireTwilight[/url]
+* [url=http://whatsapokemon.deviantart.com/art/Okay-real-cavalry-this-time-311656931]Whatsapokemon[/url]
+* [url=http://rainbowcrab.deviantart.com/art/Ithilian-Rainbow-286990754]RainbowCrab[/url]
+* [url=http://filincool.deviantart.com/art/Bf109-and-Princess-Molestia-357815940]Filincool[/url]
+* [url=http://foxi-5.deviantart.com/art/Rainbow-Dash-s-Mech-308714815]Foxi-5[/url]
+* [url=http://colorcopycenter.deviantart.com/art/The-Kaiserin-s-Faithful-Student-331491496]ColorCopyCenter[/url]
+* [url=http://yudhaikeledai.deviantart.com/art/Vector-Roman-Cavalry-296215815]Yudhaikeledai[/url]
+* [url=http://fraztov.deviantart.com/art/Magic-inquisition-296075474]Fraztov[/url]
+* [url=http://tukari-g3.deviantart.com/art/RAINBOW-RAPTOR-DASH-203917931]Tukari-G3[/url]
+* [url=http://xenoneal.deviantart.com/art/Shining-Soldier-387941789]xenoneal[/url], [url=http://xenoneal.deviantart.com/art/The-Judgement-of-Spike-371971611]2[/url]
+* [url=http://lykas13.deviantart.com/art/You-okay-Rainbow-Dash-356776547]lykas13[/url]
+* [url=http://datponypl.deviantart.com/art/Hussar-Pony-408071910]DatPonyPL[/url]
+[/td]
+[td]
+* [url=http://nekokevin.deviantart.com/art/NEW-adventure-in-Downtown-394870763]nekokevin[/url]
+* [url=http://emberfiremane.deviantart.com/art/Ruins-of-the-Elements-of-Harmony-313129255]EmberFireMane[/url]
+* [url=http://mandydax.deviantart.com/art/Manehattan-Project-1-Panel-1-283033822]mandydax[/url], [url=http://mandydax.deviantart.com/art/Manehattan-Project-3-5-298142932]2[/url]
+* [url=http://psyxofthoros.deviantart.com/art/Rainbow-Dash-Who-s-Next-398692333]Psyxofthoros[/url]
+* [url=http://brab777.deviantart.com/art/Conquistadora-408024841]brab777[/url]
+* [url=http://mister-markers.deviantart.com/art/Request-The-Polymathic-Pony-257491487]Mister-Markers[/url]
+* [url=http://smokeybacon.deviantart.com/art/General-Pinkie-Pie-343221615]smokeybacon[/url]
+* [url=http://equestria-prevails.deviantart.com/art/Iron-and-Steel-329563293]Equestria-Prevails[/url]
+* [url=http://artiestroke.deviantart.com/art/Riding-the-Pony-to-Tartarus-356108260]ArtieStroke[/url] (for [url=http://dragonbeta.deviantart.com/]DragonBeta[/url])
+* [url=http://tattertailart.deviantart.com/art/Nightmare-Moon-in-a-B-2-232665499]TatterTailArt[/url]
+* [url=http://mrfloppemz.deviantart.com/art/X-COM-Sniper-Rainbow-Dash-337745409]MrFloppemz[/url]
+* [url=http://hawk9mm.deviantart.com/art/Background-Crystal-Empire-408703965]Hawk9mm[/url]
+* [url=http://tim-kangaroo.deviantart.com/art/Luna-s-Planetarium-315743084]Tim-Kangaroo[/url]
+* [url=http://rk-d.deviantart.com/art/Luna-s-Starry-Night-290319732]RK-d[/url], [url=http://rk-d.deviantart.com/art/Pets-Playing-Poker-293377069]2[/url]
+[/td]
+[/tr][/table]
+
+The full version of most of this art can be browsed through [url=http://dablahr.deviantart.com/favourites/57975284]this deviantArt collection[/url].
+
+Special thanks to kyrospawn for his useful soundboard ([url=http://kyrospawn.deviantart.com/art/MLP-FIM-Soundboard-V8-4-244757196]link[/url]).</Description>
+    <Authors>Silver Boulder</Authors>
+    <SpecialThanks>MLP Vector club, kyrospawn</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7A2AAC7E4B3856CD4803ECFCC9B93173" import="1">Art/advisorEconomic002.dds</File>
+    <File md5="90157DD53F16CCF16CB61C189D24803B" import="1">Art/advisorEconomic001.dds</File>
+    <File md5="8512B1D05B2E5BC35549C984EFA9EC21" import="1">Art/advisorEconomic003.dds</File>
+    <File md5="C5919FE5A678CAB574B34300F1F3616D" import="1">Art/advisorForeign001.dds</File>
+    <File md5="AB9927BE2C8F351DE40325D89A483839" import="1">Art/advisorForeign002.dds</File>
+    <File md5="037EEDB5B8BBA04551E74D550FE58358" import="1">Art/advisorForeign003.dds</File>
+    <File md5="C4F225BFB6611CC1CE7F45B2C59D2B68" import="1">Art/advisorMilitary001.dds</File>
+    <File md5="2F7F8AE2B270ECEED30234901D172CC9" import="1">Art/advisorMilitary002.dds</File>
+    <File md5="470A3252985B0509B17427413631B93E" import="1">Art/advisorMilitary003.dds</File>
+    <File md5="D0BCDDB9B20263705733D6FD894E81F7" import="1">Art/advisorScience001.dds</File>
+    <File md5="3B18FA8F92DB8D8FF2EA0EB43AF0AFCA" import="1">Art/advisorScience002.dds</File>
+    <File md5="B646A234B2C464774775B39C6ED8A502" import="1">Art/advisorScience003.dds</File>
+    <File md5="25081FA6887E7F08EB92DAA964DE3B16" import="1">Art/era_atomic.dds</File>
+    <File md5="B3DE5FEEBE5E90B9008393B8148C0638" import="1">Art/era_classical.dds</File>
+    <File md5="0E91340638FC0682AC97C852560563FA" import="1">Art/era_future.dds</File>
+    <File md5="AC57DBCA9CCCAE4B8E7F1C5EC1114CB3" import="1">Art/era_industrial.dds</File>
+    <File md5="6EC325AF00A836ED2EC7A38AE905979A" import="1">Art/era_medievel.dds</File>
+    <File md5="DF4601F4CB5D3F2F6BFB3A1065769248" import="1">Art/era_modern.dds</File>
+    <File md5="9168190F994E22E82F038EA2FB07A6B0" import="1">Art/era_renissance.dds</File>
+    <File md5="E16FC9BE64D3FA92D9000A6041019BCE" import="1">Art/greatmusician_background.dds</File>
+    <File md5="820E3D162C2D2851025B8FD35C34AB83" import="1">Art/greatwriter_background.dds</File>
+    <File md5="A27DBB82A38E3E845246E1B9CCFF44CC" import="1">Art/gw_bindo_altoviti.dds</File>
+    <File md5="069F86472046F0494B6C33AD1C549FED" import="1">Art/gw_ponification_judgement_of_spike.dds</File>
+    <File md5="F171C3E756038936F5D69DEB609875A5" import="1">Art/gw_ponification_Persistence_of_Memory.dds</File>
+    <File md5="0081B630CA036338897E371A45B8F952" import="1">Art/gw_ponification_Pets_Playing_Poker.dds</File>
+    <File md5="B692FCD3C07C231F69B503BA21E43E4C" import="1">Art/gw_starry_night.dds</File>
+    <File md5="F090A97C5D1339C718639A377AC3A86E" import="1">Art/policybranch_aesthetics.dds</File>
+    <File md5="221D62C1187798629A9F67956A5581AD" import="1">Art/policybranch_exploration.dds</File>
+    <File md5="B71A73FB96B9C5767F6723DAE17B82A7" import="1">Art/socialpoliciescommerce.dds</File>
+    <File md5="2F71E0D190DE3882277271B5544BBE60" import="1">Art/socialpoliciesautocracy.dds</File>
+    <File md5="C45D3AD3B3F618D4633542C2A2D77DB0" import="1">Art/socialpoliciesfreedom.dds</File>
+    <File md5="3D61DC8D2221EAE48D6BFAB7A335F93D" import="1">Art/socialpolicieshonor.dds</File>
+    <File md5="1661978076BD86F712BA3485A5E9F2B6" import="1">Art/socialpoliciesliberty.dds</File>
+    <File md5="A0E2C7ECE8597372D2B2FE7E23F98B3C" import="1">Art/socialpoliciesorder.dds</File>
+    <File md5="B55843F955ED048D0F1896F14D8C34D6" import="1">Art/socialpoliciespatronage.dds</File>
+    <File md5="FEDE34AEFA3BDA55FC49E32516EC6315" import="1">Art/socialpoliciespiety.dds</File>
+    <File md5="F80843A070C4EAC34BFE53CD513A2E36" import="1">Art/socialpoliciesrationalism.dds</File>
+    <File md5="B0889579DB8550B0A0D279FA67EE608D" import="1">Art/socialpoliciestradition.dds</File>
+    <File md5="3E07870230BE79A9A956955EBB76CE94" import="1">Art/victory_cultural.dds</File>
+    <File md5="D7F42CF1BF852E76D93003F336175272" import="1">Art/victory_science.dds</File>
+    <File md5="D7F42CF1BF852E76D93003F336175272" import="1">Art/victory_scientific.dds</File>
+    <File md5="DEFE7B1CB929E7E9BB8285AA8993858F" import="1">Art/wonderconceptbroadway.dds</File>
+    <File md5="E69EA58E3B7CFD0D8603B45ED4C05E6A" import="1">Art/wonderconceptgreatlibrary.dds</File>
+    <File md5="C7ED3CBE443F2D398A80DCF284409978" import="1">Art/wonderconcepthanginggardens.dds</File>
+    <File md5="755AA58995296869870372C776358EE9" import="1">Art/wonderconceptneuschwanstein.dds</File>
+    <File md5="D4C4562FC9FAC8AF1A9DEFD88068D7CA" import="1">Art/wonderconceptstatueliberty.dds</File>
+    <File md5="9A5F1F0132732E7711BF2EFD60152217" import="1">Art/worldcongress.dds</File>
+    <File md5="8CFEC9832DD0D2CC5C5BDB433070EA6A" import="0">Great People.xml</File>
+    <File md5="875B886D26FC27AA50CF85DCD69218DB" import="0">Great Works.xml</File>
+    <File md5="7ADD49EAE3B4D55082470E45B35FB2C2" import="0">Icon atlases/Atlas.xml</File>
+    <File md5="9147B27378542CFCF0ECEDEBC7164EE5" import="1">Icon atlases/notificationancientruins.dds</File>
+    <File md5="9147B27378542CFCF0ECEDEBC7164EE5" import="1">Icon atlases/notificationancientruinsglow.dds</File>
+    <File md5="AD12110413D794C58DF97C44B6D436F7" import="1">Icon atlases/Ponification_Atlas_1_128.dds</File>
+    <File md5="7176D8BC593F9451B6A43E480E0ACDF4" import="1">Icon atlases/Ponification_Atlas_1_214.dds</File>
+    <File md5="F6AA2E63FE8D7100CA16A84212DB4A8A" import="1">Icon atlases/Ponification_Atlas_1_256.dds</File>
+    <File md5="1650042244479D9D4F8D8285BD5D88B5" import="1">Icon atlases/Ponification_Atlas_1_45.dds</File>
+    <File md5="92D9FE6C655176C07437B1464793CFFA" import="1">Icon atlases/Ponification_Atlas_1_64.dds</File>
+    <File md5="B2785BC417D175A657C150CB3177EB67" import="1">Icon atlases/Ponification_Atlas_1_80.dds</File>
+    <File md5="9B80DF5D6F67BC6C35A97A9E7EF91AEA" import="1">Icon atlases/Ponification_Atlas_2_128.dds</File>
+    <File md5="4B1B0551D5F98779051A8A00A876F671" import="1">Icon atlases/Ponification_Atlas_2_214.dds</File>
+    <File md5="7D4312E474C768274B7C8FE99BD9E493" import="1">Icon atlases/Ponification_Atlas_2_256.dds</File>
+    <File md5="47948FD7D9BE6123957102D715FDBE6E" import="1">Icon atlases/Ponification_Atlas_2_45.dds</File>
+    <File md5="46E681EF09677C8CA58AF93FAAD38A38" import="1">Icon atlases/Ponification_Atlas_2_64.dds</File>
+    <File md5="AE3ED3C1688E2B3C39AFCE2B3CE1990E" import="1">Icon atlases/Ponification_Atlas_2_80.dds</File>
+    <File md5="E94ECF94451265CE809DCBBB8951E3FE" import="1">Icon atlases/Ponification_Atlas_3_128.dds</File>
+    <File md5="2BB50909644CB539C4D1C61DF70B6A9B" import="1">Icon atlases/Ponification_Atlas_3_214.dds</File>
+    <File md5="0361EDC92CF9921932DA807112DD3DE7" import="1">Icon atlases/Ponification_Atlas_3_256.dds</File>
+    <File md5="FCC20BE26AB8641F274ACB469F1BF0A5" import="1">Icon atlases/Ponification_Atlas_3_45.dds</File>
+    <File md5="CAE327308761DEE3F40A8A84F968AC13" import="1">Icon atlases/Ponification_Atlas_3_64.dds</File>
+    <File md5="FD4E49CFE7984DC570A23EA805A07892" import="1">Icon atlases/Ponification_Atlas_3_80.dds</File>
+    <File md5="5D520BA73AD71984DE956592A980F283" import="1">Icon atlases/Ponification_Atlas_4_128.dds</File>
+    <File md5="E15FC6EB2CD8E7AE19C3D415CE6C6E50" import="1">Icon atlases/Ponification_Atlas_4_214.dds</File>
+    <File md5="1D64C502755F0E7B70B22D0F4C6D7B3A" import="1">Icon atlases/Ponification_Atlas_4_256.dds</File>
+    <File md5="E3724EE2E244334215DEFE33434AB662" import="1">Icon atlases/Ponification_Atlas_4_45.dds</File>
+    <File md5="2B1BB4BAF6F27475C087377177510046" import="1">Icon atlases/Ponification_Atlas_4_64.dds</File>
+    <File md5="C4774B775D73C829426A266239A17701" import="1">Icon atlases/Ponification_Atlas_4_80.dds</File>
+    <File md5="5A99EF01AD7F91B0CD820A0ECAD9EB1F" import="1">Icon atlases/Ponification_Atlas_5_128.dds</File>
+    <File md5="41EED3ADC2227944FA502A4AFEDFE546" import="1">Icon atlases/Ponification_Atlas_5_214.dds</File>
+    <File md5="2AFAE4D54B8A1269927CCE6EDF5A1CEB" import="1">Icon atlases/Ponification_Atlas_5_256.dds</File>
+    <File md5="E139497CE97B458070643416B0872912" import="1">Icon atlases/Ponification_Atlas_5_45.dds</File>
+    <File md5="4FC16FC61C99BE5BFD83AABE9A72F87E" import="1">Icon atlases/Ponification_Atlas_5_64.dds</File>
+    <File md5="472F04A40E61F0661F96154AAE578D84" import="1">Icon atlases/Ponification_Atlas_5_80.dds</File>
+    <File md5="77D601148E9ACDA4684F4A6FD0937970" import="1">Icon atlases/Ponification_Atlas_6_128.dds</File>
+    <File md5="E74C5933CC2D982FBA0A29FC5193A1A7" import="1">Icon atlases/Ponification_Atlas_6_214.dds</File>
+    <File md5="76C24F1E6481D335988B7DDA7871CDD2" import="1">Icon atlases/Ponification_Atlas_6_256.dds</File>
+    <File md5="92C8313045F63180F31C6611CD9DC16C" import="1">Icon atlases/Ponification_Atlas_6_45.dds</File>
+    <File md5="998168DDB4455F01D1796B968A9615E9" import="1">Icon atlases/Ponification_Atlas_6_64.dds</File>
+    <File md5="8A7819CAE6BD06F7D0B26AF0DBFE0591" import="1">Icon atlases/Ponification_Atlas_6_80.dds</File>
+    <File md5="F38FE1308D0BB72EC595D90320FCDA2B" import="1">Icon atlases/Ponification_Atlas_7_128.dds</File>
+    <File md5="4DED259EEBD151A18D47A57EA0EC7868" import="1">Icon atlases/Ponification_Atlas_7_214.dds</File>
+    <File md5="61388173F83E3F4FED80C3BF7F721B7E" import="1">Icon atlases/Ponification_Atlas_7_256.dds</File>
+    <File md5="275A1E1C4E74F84A0D35A133697AE0FB" import="1">Icon atlases/Ponification_Atlas_7_45.dds</File>
+    <File md5="4F2E94E5396A74D8AC7E11A2B24BE092" import="1">Icon atlases/Ponification_Atlas_7_64.dds</File>
+    <File md5="85EE9871C44F1B70B12BA65163A3297F" import="1">Icon atlases/Ponification_Atlas_7_80.dds</File>
+    <File md5="3BE964B275B73D9B36AD0F6F35AFA6F8" import="1">Icon atlases/Ponification_Atlas_8_128.dds</File>
+    <File md5="7E2639E56467FC8AE8107CE5DBD25F03" import="1">Icon atlases/Ponification_Atlas_8_214.dds</File>
+    <File md5="799BD1C23797A6AEE07D24ED925658AA" import="1">Icon atlases/Ponification_Atlas_8_256.dds</File>
+    <File md5="7FE46F94FA596F735CC702A92A2ED273" import="1">Icon atlases/Ponification_Atlas_8_45.dds</File>
+    <File md5="D5B8EFB49BDF1A57B2E5EFB6AF5FBF09" import="1">Icon atlases/Ponification_Atlas_8_64.dds</File>
+    <File md5="8C3AE0FDDB9D30F0FDFEA0E20761A0CE" import="1">Icon atlases/Ponification_Atlas_8_80.dds</File>
+    <File md5="95882891BEF1F7496D0DE74AB1DE7CC7" import="1">Icon atlases/Ponification_Atlas_9_128.dds</File>
+    <File md5="9607FEFE030C9537688F72D6D429EF6C" import="1">Icon atlases/Ponification_Atlas_9_214.dds</File>
+    <File md5="B94D4F52672AA06623D662CC3E036E6E" import="1">Icon atlases/Ponification_Atlas_9_256.dds</File>
+    <File md5="52D835CB31637A928D0536C1C2C58491" import="1">Icon atlases/Ponification_Atlas_9_45.dds</File>
+    <File md5="13B23045F9FCC8F0FB40D8877C78C3BB" import="1">Icon atlases/Ponification_Atlas_9_64.dds</File>
+    <File md5="BEC75EF05BEC058BF7E4C174B7834DCA" import="1">Icon atlases/Ponification_Atlas_9_80.dds</File>
+    <File md5="39EF2BD4B171691BBFDB0D62F30D09DA" import="1">Icon atlases/SV_AncientRuins.dds</File>
+    <File md5="AA3346E3A9B531E93376AC6E2D91747B" import="0">Icon Replacement.xml</File>
+    <File md5="E30DEDBF634CC97F368834574A6DA067" import="0">Policy Renaming.xml</File>
+    <File md5="5F40E9FFD65D865111F906E9720975BF" import="1">Sound/E.A.HaveInformation.mp3</File>
+    <File md5="32F67CE520EC9C36C79067F2A3B8A724" import="1">Sound/M.A.HaveInformation.mp3</File>
+    <File md5="C980C1939BF9A7EB898A21338826E263" import="1">Sound/F.A.HaveInformation.mp3</File>
+    <File md5="8BC7344C127835FC61C19D72BD7133B6" import="1">Sound/S.A.HaveInformation.mp3</File>
+    <File md5="3582EE9A6585B6B46E524CA200B6DE3E" import="0">Various renaming.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Great People.xml</UpdateDatabase>
+      <UpdateDatabase>Policy Renaming.xml</UpdateDatabase>
+      <UpdateDatabase>Icon atlases/Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Icon Replacement.xml</UpdateDatabase>
+      <UpdateDatabase>Various renaming.xml</UpdateDatabase>
+      <UpdateDatabase>Great Works.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

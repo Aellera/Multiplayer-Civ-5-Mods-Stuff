@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:21 AM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PEGASOPOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_CLOUDSDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINDERMARE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BREEZBIN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULUMBUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CIRRUSOPOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STRATUS_HEIGHTS</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_PEGASOPOLIS">
+			<Text>Pegasopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_CLOUDSDALE">
+			<Text>Old Cloudsdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WINDERMARE">
+			<Text>Windermare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BREEZBIN">
+			<Text>Breezbin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULUMBUS">
+			<Text>Culumbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIRRUSOPOLIS">
+			<Text>Cirrusopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STRATUS_HEIGHTS">
+			<Text>Stratus Heights</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

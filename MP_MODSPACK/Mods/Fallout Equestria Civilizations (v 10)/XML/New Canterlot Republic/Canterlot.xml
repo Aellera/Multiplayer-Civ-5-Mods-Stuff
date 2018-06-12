@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:10:11 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_CANTERLOT</Type>
+			<Description>TXT_KEY_CIV_CANTERLOT_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_CANTERLOT_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CANTERLOT_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_CANTERLOT_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_CANTERLOT</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_CANTERLOT</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOE</AlphaIconAtlas>
+			<MapImage>NCRepublicmap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_CANTERLOT_DOM</DawnOfManQuote>
+			<DawnOfManImage>NCRepublicDOM.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<ReligionType>RELIGION_TAOISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CANTERLOT_ICON</Type>
+			<Red>0.607</Red>
+			<Green>0.000</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CANTERLOT_BACKGROUND</Type>
+			<Red>0.796</Red>
+			<Green>0.674</Green>
+			<Blue>0.251</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_CANTERLOT</Type>
+			<PrimaryColor>COLOR_PLAYER_CANTERLOT_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CANTERLOT_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CANTERLOT_ICON</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<LeaderheadType>LEADER_LITTLEPIP</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_CANTERLOT_ADJECTIVE">
+			<Text>NCR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CANTERLOT_DESC">
+			<Text>The New Canterlot Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CANTERLOT_SHORT_DESC">
+			<Text>The NCR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CANTERLOT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CANTERLOT_TEXT_1">
+			<Text>The New Canterlot Republic was founded by Gawdyna Grimfeathers in the wake of the Battle of Fillydelphia and the Day of Sunshine and Rainbows. The newly formed NCR brought several previously autonomous settlements (such as New Appleoosa, Tenpony Tower, Shattered Hoof, and Friendship City) under one flag, with Junction Town as it's capital. Many of these settlements are powered by the energy cells of converted Star Blasters, which provide electricity without the need for coal. The NCR's lands are also subject to almost constant favorable weather, since LittlePip controls the SPP towers, a pre-apocalyptic system that allows all the weather in Equestria to be managed by one pony. [NEWLINE][NEWLINE] The Republic is accepting of many different species besides ponies, including Alicorns, Zebras, Hellhounds, griffons, and ghouls. However, ever since the Gardens of Equestria matrix was used to replenish the land, Ghoul ponies have been struggling to survive since the Gardens cleared the radioactive taint that keeps them alive. However, Ditzy Doo runs a caravan that delivers tainted water from a far away land to the NCR ghouls for free. Hellhounds also face extinction after much of their population was killed by LittlePip's megaspell explosion at Splendid Valley. Luckily, the newly revived Fluttershy is organizing the establishment of a Hellhound Sanctuary to help bring them back from the brink. [NEWLINE][NEWLINE] Not much else is know about the NCR's history, as most of it's existance is not covered by Kkat's Fallout: Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CANTERLOT_DOM">
+				<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient taint that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables.  But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE]After much struggle and strife, a new nation known as The New Canterlot Republic rose from the ashes! Using the Single Pony Project towers, the clouds have been parted to let in the light, but the broken spirits of the wasteland beings linger on. These ponies, along with many other species that dwell under the NCR's flag, seek guidance; how will you lead Equestria into this bold new era? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CANTERLOT_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_CANTERLOT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TENPONY_TOWER</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_APPLELOOSA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SHATTERED_HOOF</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRIENDSHIP_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GLYPHMARK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STABLE_TWONINE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HELLHOUND_SANCTUARY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MEGAMART</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLUTTERSHY_MEDICAL_CENTER</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_COLLEGIATE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHAPEL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_RIVERSIDE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SPIKES_CAVE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CANTERLOT</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GUTTERVILLE</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_CANTERLOT">
+			<Text>Junction Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TENPONY_TOWER">
+			<Text>Tenpony Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_APPLELOOSA">
+			<Text>New Appleoosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRIENDSHIP_CITY">
+			<Text>Friendship City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SHATTERED_HOOF">
+			<Text>Shattered Hoof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STABLE_TWONINE">
+			<Text>Stable 29 (AJ’s Rangers)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GLYPHMARK">
+			<Text>Glyphmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HELLHOUND_SANCTUARY">
+			<Text>Hellhound Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHAPEL">
+			<Text>Chapel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MEGAMART">
+			<Text>Megamart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLUTTERSHY_MEDICAL_CENTER">
+			<Text>Fluttershy Medical Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_COLLEGIATE">
+			<Text>The Collegiate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLANK">
+			<Text>Flank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RIVERSIDE">
+			<Text>Riverside</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SPIKES_CAVE">
+			<Text>Spikes Cave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GUTTERVILLE">
+			<Text>New Gutterville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_0">
+			<Text>Lionheart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_1">
+			<Text>Watcher’s Spritebot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_2">
+			<Text>Ditzy Doo</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_3">
+			<Text>Pyrelight</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_4">
+			<Text>Blackjack</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_5">
+			<Text>Palette</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_6">
+			<Text>Crane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_7">
+			<Text>Homage’s SPP Tower</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_8">
+			<Text>Mouse</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CANTERLOT_9">
+			<Text>Regina Grimfeathers</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
+

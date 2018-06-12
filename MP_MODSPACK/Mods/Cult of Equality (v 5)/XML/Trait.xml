@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Row>
+      <Type>TRAIT_Nopony_Left_Behind</Type>
+      <Description>TXT_KEY_TRAIT_Nopony_Left_Behind</Description>
+      <ShortDescription>TXT_KEY_TRAIT_Nopony_Left_Behind_Short</ShortDescription>
+	  <PopulationUnhappinessModifier>-33</PopulationUnhappinessModifier>
+	  <GreatPeopleRateModifier>-50</GreatPeopleRateModifier>
+    </Row>
+  </Traits>
+
+  <!-- Trait_ExtraYieldThresholds -->
+  <!-- Trait_YieldChanges -->
+  <!-- Trait_YieldChangesStrategicResources -->
+  <!-- Trait_YieldChangesNaturalWonder -->
+  <!-- Trait_YieldChangesPerTradePartner -->
+  <!-- Trait_YieldChangesIncomingTradeRoute -->
+  <!-- Trait_YieldModifiers -->
+  <!-- Trait_FreePromotions -->
+  <!-- Trait_FreePromotionUnitCombats -->
+  <!-- Trait_MovesChangeUnitCombats -->
+  <!-- Trait_MaintenanceModifierUnitCombats -->
+  <!-- Trait_Terrains -->
+  <!-- Trait_ResourceQuantityModifiers -->
+  <!-- Trait_FreeResourceFirstXCities -->
+  <!-- Trait_ImprovementYieldChanges -->
+  <!-- Trait_SpecialistYieldChanges -->
+  <!-- Trait_UnimprovedFeatureYieldChanges -->
+  <!-- Trait_NoTrain -->
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_Nopony_Left_Behind">
+      <Text>[ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens is reduced by 33%. However, the rate of [ICON_GREAT_PEOPLE] Great Person generation  is halved.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_Nopony_Left_Behind_Short">
+      <Text>Nopony Left Behind</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

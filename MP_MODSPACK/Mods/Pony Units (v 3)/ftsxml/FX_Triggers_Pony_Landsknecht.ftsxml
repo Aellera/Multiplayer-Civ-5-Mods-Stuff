@@ -1,0 +1,297 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1120">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1160">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1560">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1800">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1140">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1540">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1110">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1450">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1180">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerEffect" id="3" time="0.207407" duration="0.47" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_MELEE_TORCH_PROJECTILE_LEFT" bone="HorseBip L Hand"/>
+    <trigger type="FTimedTriggerSound" id="44" time="0" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="53" time="0.318947852" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BODY_FALL_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="30" time="0.361228973" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerAction" id="39" time="0.251852" duration="0" repeat="0" ec="2100" track="4" tier="0" action="1"/>
+    <trigger type="FTimedTriggerSound" id="48" time="0" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FORTIFY" bone=""/>
+    <trigger type="FTimedTriggerSound" id="34" time="0.661043465" duration="0" repeat="0" ec="2200" track="1" tier="0" event="AS3D_UNIT_U_GREEK_HOPLITE_WOOD_POLE_DROP_20" bone=""/>
+    <trigger type="FTimedTriggerSound" id="11" time="0.400092" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="20" time="0.686777353" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH" bone=""/>
+    <trigger type="FTimedTriggerSound" id="6" time="0.382374853" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING" bone=""/>
+    <trigger type="FTimedTriggerSound" id="47" time="0.192116231" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="1" time="0" duration="0" repeat="0" ec="1200" track="2" tier="0" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="HorseBip Spine2"/>
+    <trigger type="FTimedTriggerSound" id="28" time="0.48104" duration="0" repeat="0" ec="1500" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_STAFF_TAP" bone=""/>
+    <trigger type="FTimedTriggerSound" id="37" time="0.751511335" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BODY_FALL_DIRT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="14" time="0.167221934" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_ATTACK_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="23" time="0.249831" duration="0" repeat="0" ec="1800" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_WOOD_SHIELD_DROP_20" bone=""/>
+    <trigger type="FTimedTriggerTransfer" id="4" time="0.660444558" duration="0" repeat="0" ec="1160" track="3" tier="0" refid="3" speed="24.6359" tangent.x="-0.4835366" tangent.y="-0.767998159" tangent.z="-0.419965774"/>
+    <trigger type="FTimedTriggerSound" id="45" time="0.284008771" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="54" time="0.240740389" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_AXE_RATTLE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="40" time="0" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="49" time="0.3931674" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_STAFF_TAP" bone=""/>
+    <trigger type="FTimedTriggerSound" id="26" time="0.329285" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="35" time="0.180123731" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_WOOD_POLE_DROP_20" bone=""/>
+    <trigger type="FTimedTriggerSound" id="12" time="0.488759637" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_WOOD_POLE_DROP_20" bone=""/>
+    <trigger type="FTimedTriggerSound" id="21" time="0.114866704" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_IMPACT_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="7" time="0.48" duration="0" repeat="0" ec="1500" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="16" time="0.0908003449" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="2" time="0" duration="0" repeat="0" ec="2200" track="2" tier="0" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="HorseBip Spine2"/>
+    <trigger type="FTimedTriggerAction" id="43" time="0.488889" duration="0" repeat="0" ec="1140" track="4" tier="0" action="1"/>
+    <trigger type="FTimedTriggerSound" id="52" time="0.264646" duration="0" repeat="0" ec="1800" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_VICTORY_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="38" time="0.303014636" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_STAFF_TAP" bone=""/>
+    <trigger type="FTimedTriggerSound" id="15" time="0.432836" duration="0" repeat="0" ec="1500" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_STAFF_DIRT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="24" time="0.23574" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="10" time="0.239239" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_LEATHER_CREAK_SHORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="19" time="0.311943531" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_ATTACK_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="5" time="0.287882268" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_ATTACK_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="55" time="0.192593" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_AXE_RATTLE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="41" time="0.104541644" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_IMPACT_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="50" time="0.121713668" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_DEATH_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="27" time="0.107192352" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_DEATH_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerAction" id="36" time="0.17037" duration="0" repeat="0" ec="1100" track="4" tier="0" action="1"/>
+    <trigger type="FTimedTriggerSound" id="13" time="0.471642" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FORTIFY_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="61" time="0" duration="1" repeat="0" ec="2100" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T1_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="61" time="0" duration="1" repeat="0" ec="2100" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T2_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="61" time="0" duration="1" repeat="0" ec="2100" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="61" time="0" duration="1" repeat="0" ec="2100" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="49" time="0" duration="1" repeat="0" ec="1100" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T1_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="49" time="0" duration="1" repeat="0" ec="1100" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T2_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="49" time="0" duration="1" repeat="0" ec="1100" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="49" time="0" duration="1" repeat="0" ec="1100" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="62" time="0" duration="0" repeat="0" ec="1120" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_CHRG_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="63" time="0" duration="1.43" repeat="0" ec="1140" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T1_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="63" time="0" duration="1.43" repeat="0" ec="1140" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BAT_AMB_T2_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="63" time="0" duration="1.43" repeat="0" ec="1140" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="63" time="0" duration="1.43" repeat="0" ec="1140" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_BATTLE_AMB_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="44" time="0" duration="0.6" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_T1_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="44" time="0" duration="0.6" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_T2_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="62" time="0" duration="0" repeat="0" ec="1120" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_CHRG_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="46" time="0.207407" duration="0.47" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_MELEE_TORCH_PROJECTILE_LEFT" bone="HorseBip L Hand"/>
+    <trigger type="FTimedTriggerTransfer" id="58" time="0.6622964" duration="0" repeat="0" ec="1180" track="3" tier="0" refid="46" speed="24.6359" tangent.x="-0.469638258" tangent.y="-0.7589519" tangent.z="-0.451034367"/>
+    <trigger type="FTimedTriggerSound" id="9" time="0.34914583" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="17" time="0.525926948" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="29" time="0.467879474" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="31" time="0.598944545" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING_LOW" bone=""/>
+    <trigger type="FTimedTriggerSound" id="32" time="0.5883904" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_ATTACK_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="32" time="0.5883904" duration="0" repeat="0" ec="1160" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="32" time="0.5883904" duration="0" repeat="0" ec="1160" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="51" time="0.598944545" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING_LOW" bone=""/>
+    <trigger type="FTimedTriggerSound" id="56" time="0.5883904" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_ATTACK_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="56" time="0.5883904" duration="0" repeat="0" ec="1180" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="56" time="0.5883904" duration="0" repeat="0" ec="1180" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="59" time="0.6978885" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_THROW_TORCH" bone=""/>
+    <trigger type="FTimedTriggerSound" id="60" time="0.382585734" duration="0" repeat="0" ec="1200" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_WOOD_POLE_DROP_20" bone=""/>
+    <trigger type="FTimedTriggerSound" id="65" time="0.3034301" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FORTIFY_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="66" time="0.5593666" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="67" time="0.490765154" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FORTIFY_VOX_C" bone=""/>
+    <trigger type="FTimedTriggerSound" id="68" time="0" duration="0.6" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="69" time="0" duration="0.6" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="70" time="0" duration="0" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="71" time="0" duration="0" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_RUN_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="72" time="0.275156975" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING" bone=""/>
+    <trigger type="FTimedTriggerSound" id="73" time="0.303459257" duration="0" repeat="0" ec="2200" track="1" tier="0" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_STAFF_DIRT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="8" time="0.5685187" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="18" time="0.6037037" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_SWORD_SWING" bone=""/>
+    <trigger type="FTimedTriggerSound" id="22" time="0" duration="0.6" repeat="0" ec="1440" track="1" tier="1" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_T1_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="25" time="0" duration="0.6" repeat="0" ec="1440" track="1" tier="2" event="AS3D_UNIT_U_GERMAN_LANDSKNECHT_T2_RUN_$(TERRAIN)" bone=""/>
+  </triggers>
+</trigger_system>

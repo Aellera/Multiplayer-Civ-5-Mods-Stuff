@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/26/2013 10:34:19 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_RAMKHAMHAENG"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_TRIXIE</Description>
+				<Civilopedia>TXT_KEY_LEADER_TRIXIE_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE</CivilopediaTag>
+				<ArtDefineTag>Trixie_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>9</VictoryCompetitiveness>
+				<WonderCompetitiveness>7</WonderCompetitiveness>
+				<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
+				<Boldness>9</Boldness>
+				<DiploBalance>2</DiploBalance>
+				<WarmongerHate>2</WarmongerHate>
+				<DenounceWillingness>5</DenounceWillingness>
+				<DoFWillingness>4</DoFWillingness>
+				<Loyalty>4</Loyalty>
+				<Neediness>4</Neediness>
+				<Forgiveness>4</Forgiveness>
+				<Chattiness>9</Chattiness>
+				<Meanness>9</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_TRIXIE</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>2</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG"/>
+			<Set TraitType="TRAIT_CONQUEROR"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_CONQUEROR</Type>
+			<Description>TXT_KEY_TRAIT_CONQUEROR</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CONQUEROR_SHORT</ShortDescription>
+			<CombatBonusVsHigherTech>20</CombatBonusVsHigherTech>
+			<FreeBuildingOnConquest>BUILDING_BARRACKS</FreeBuildingOnConquest>
+			<CityUnhappinessModifier>20</CityUnhappinessModifier>
+		</Row>
+	</Traits>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CONQUEROR">
+			<Text>Trixie is the conqueror of worlds. 20% combat bonus vs. civ's with a higher tech level, a free barracks on conquering a city and 20% more unhappiness from the number of cities owned due to her rebellious subjects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONQUEROR_SHORT">
+			<Text>Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TRIXIE">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_TRIXIE_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_TRIXIE_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_TRIXIE_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_TRIXIE_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_TRIXIE_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_TRIXIE_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_TRIXIE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_TRIXIE_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_TRIXIE_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_TRIXIE_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRIXIE_DEFEATED_1">
+			<Text>Interesting, the first challenge I've had in along time. I look forward to our next meeting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_DEFEATED_2">
+			<Text>I'm merely stepping out, I am not stepping down. We will meet again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Do you think the Great and Powerful Trixie does not notice you taking her lands? If you wish to be the first one I conquer continue to settle near my lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_FIRSTGREETING_1">
+			<Text>Are you not in awe? Before you stands the Great and Powerful Trixie! Conqueror of worlds! Oh, did you think I was merely my old revenge filled self? That was soooo season 3. Yes, I know. Your precious '4th Wall' crumbled to me long ago. This amulet, merely a tool. I am far more powerful then you can comprehend. Now, have you come to challenge me? Sooner or later I will come for you. All succumb to my power. Either fight me now or later, it makes no difference to me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_GREETING_HOSTILE_HELLO_1">
+			<Text>Hello my future subject, have you come to witness the greatness that is your future overlord?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_GREETING_NEUTRAL_HELLO_1">
+			<Text>Hello my future subject. I was partaking in studying your little world. So much different from where I'm from. I mean no giant monument of myself that can be seen from orbit. Well, thats just a temporary problem. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_GREETING_POLITE_HELLO_1">
+			<Text>Oh hello my faithful subject, The Great and Powerful Trixie is most pleased to see you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Trixie had long noticed the movements of your troops the moment you ordered them out. Have you finally come to test Trixie?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>The Great and Powerful Trixie will allow you the small benefit of allying yourself with me by allowing open borders between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_RESPONSE_REQUEST_1">
+			<Text>The Great and Powerful Trixie demands that you send what I require. This may or may not delay my inevitable invasion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIXIE_LUXURY_TRADE_1">
+			<Text>Trixie is always fond of nice things, but she requires new trinkets and bobbles. Impress me with what you have.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<Language_en_US>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_1"/>
+		<Set Text="Trixie is fine with this."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_2"/>
+		<Set Text="Trixie agrees."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_3"/>
+		<Set Text="As I thought."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_4"/>
+		<Set Text="Excellent."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_5"/>
+		<Set Text="Wise choice."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_6"/>
+		<Set Text="It's the right choice."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_7"/>
+		<Set Text="Trixie is pleased."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_1"/>
+		<Set Text="Challenge accepted."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_2"/>
+		<Set Text="Finally, a real challenge!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_3"/>
+		<Set Text="Trixie is not surprised. You are simply not prepared."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_1"/>
+		<Set Text="The time has come. If you will not serve, you will be crushed."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_2"/>
+		<Set Text="You knew this was coming. I'm the conqueror, not the peacemaker."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_3"/>
+		<Set Text="It is time for the Great and Powerful Trixie to show you foals what true power is."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEMANDTRIBUTE_ANGRY"/>
+		<Set Text="Do this now. There is no other way."/>
+	</Update>
+	<Update>
+		<Where Tag="RAMKHAMHAENG_DEMANDTRIBUTE_HAPPY"/>
+		<Set Text="Do this now and maybe I will spare you for alittle longer."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEMANDTRIBUTE_NEUTRAL"/>
+		<Set Text="My future subject, complete this task."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_1"/>
+		<Set Text="Trixie finds this amusing!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_2"/>
+		<Set Text="You must be joking."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_3"/>
+		<Set Text="Hah!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_5"/>
+		<Set Text="The Great and Powerful Trixie declines."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_6"/>
+		<Set Text="Trixie is amused that you would think she would agree."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_7"/>
+		<Set Text="Trixie is not fine with this"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_1"/>
+		<Set Text="You'll be back soon."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_2"/>
+		<Set Text="So long."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_3"/>
+		<Set Text="Trixie will be seeing you soon."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_4"/>
+		<Set Text="Bye."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_5"/>
+		<Set Text="Trixie is done with you for now. You may leave."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_6"/>
+		<Set Text="Farewell, be seeing you soon."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_7"/>
+		<Set Text="Goodbye."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_1"/>
+		<Set Text="Welcome."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_2"/>
+		<Set Text="Greetings, my future subject."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_3"/>
+		<Set Text="Ah, my future subject, welcome."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_4"/>
+		<Set Text="Welcome future subject."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_5"/>
+		<Set Text="Trixie is always pleased to see her future subjects."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_6"/>
+		<Set Text="Do you need something from your future overlord?"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_7"/>
+		<Set Text="You can stop your worrying, I am here."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_1"/>
+		<Set Text="Trixie is listening"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LOSEWAR_1"/>
+		<Set Text="Congratulations, Trixie is impressed. Crushing you will be worth it."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_1"/>
+		<Set Text="You think Trixie will agree to this? Who do you think you are, Trixie?"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_2"/>
+		<Set Text="Only Trixie makes demands. Try again."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_3"/>
+		<Set Text="This offer is beneath the Great and Powerful Trixie."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_HAPPY_1"/>
+		<Set Text="You should make this more appealling to Trixie."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_NEUTRAL_1"/>
+		<Set Text="Trixie requires more."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_ANGRY"/>
+		<Set Text="Hah! You should instead bow to me. That I'll accept."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_HAPPY"/>
+		<Set Text="Trixie has no use for your bobbles."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_NEUTRAL"/>
+		<Set Text="Trixie does not wish to trade with subjects that are about to be hers."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_ANGRY"/>
+		<Set Text="Trixie will accept this. For now."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_HAPPY"/>
+		<Set Text="Trixie is pleased with this."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_NEUTRAL"/>
+		<Set Text="Trixie supposes this is acceptable."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADERQUEST_ANGRY"/>
+		<Set Text="Trixie would suggest accepting this."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADERQUEST_HAPPY"/>
+		<Set Text="This deal would probably be in your best interest."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADERQUEST_NEUTRAL"/>
+		<Set Text="Trixie would prefer you accept this."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_ANGRY"/>
+		<Set Text="Oh how hilarious. You would make demands of Trixie? Hah!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_HAPPY"/>
+		<Set Text="A demand? Laughable. You can only make demands if you are Great and Powerful, and only Trixie is!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_NEUTRAL"/>
+		<Set Text="You demand something of Trixie? HAH!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_ANGRY"/>
+		<Set Text="I suppose. Trixie does not want to win so easily."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_HAPPY"/>
+		<Set Text="How's my faithful little subject, you wanna treat? Yes you do, yes you do!"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_NEUTRAL"/>
+		<Set Text="You are no match for me so I suppose. I do hope this makes you more of a challenge."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_1"/>
+		<Set Text="How bold."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_2"/>
+		<Set Text="Interesting."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_3"/>
+		<Set Text="Trixie is not amused."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_4"/>
+		<Set Text="You tempt Trixie?"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_5"/>
+		<Set Text="Trixie is disappointed."/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_6"/>
+		<Set Text="What game are you playing?"/>
+	</Update>
+	<Update>
+		<Where Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WINWAR_1"/>
+		<Set Text="Did Trixie not tell you how this would happen? You dared to defy me and this is the result. Prepare for a life of servitude."/>
+	</Update>
+	</Language_en_US>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_LIVED">
+			<Text>Present?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_NAME">
+			<Text>Trixie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_SUBTITLE">
+			<Text>The Great and Powerful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_TEXT_1">
+			<Text>The Great and Powerful Trixie was not always the conquering menace that she is now. Once, in a place very distant and different from memory, she was known as Trixie Lulamoon, magician and showpony extraordinaire. She was upstaged by another pony, Twilight Sparkle, and run out of Ponyville. She was ridiculed everywhere she went. She found revenge, using the power of the alicorn amulet to beat Twilight in a magic duel. Thats where accounts of Trixie's past end. Something happened to her after the duel, she began a campaign to conquer all of Equestria. She succeeded and continued to invade other worlds using powers unknown to any. She now rules a multiworld empire, overlord over dozens of different beings. She has yet to meet a challenge that could impede her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIXIE_TITLES_1">
+			<Text>The Great and Powerful</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

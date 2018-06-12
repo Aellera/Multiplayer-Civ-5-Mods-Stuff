@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:20 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_HIAWATHA"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_NIGHTMARE_MOON</Description>
+				<Civilopedia>TXT_KEY_LEADER_NIGHTMARE_MOON_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON</CivilopediaTag>
+				<ArtDefineTag>Nightmare_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>6</VictoryCompetitiveness>
+				<WonderCompetitiveness>7</WonderCompetitiveness>
+				<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+				<Boldness>8</Boldness>
+				<DiploBalance>6</DiploBalance>
+				<WarmongerHate>6</WarmongerHate>
+				<DenounceWillingness>7</DenounceWillingness>
+				<DoFWillingness>4</DoFWillingness>
+				<Loyalty>4</Loyalty>
+				<Neediness>5</Neediness>
+				<Forgiveness>4</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>7</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA"/>
+			<Set TraitType="TRAIT_NIGHT_EVERLASTING"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_NIGHT_EVERLASTING</Type>
+			<Description>TXT_KEY_TRAIT_NIGHT_EVERLASTING</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NIGHT_EVERLASTING_SHORT</ShortDescription>
+			<MoveFriendlyWoodsAsRoad>true</MoveFriendlyWoodsAsRoad>
+			<LandBarbarianConversionPercent>50</LandBarbarianConversionPercent>
+			<SeaBarbarianConversionPercent>50</SeaBarbarianConversionPercent>
+		</Row>
+	</Traits>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_NIGHT_EVERLASTING">
+			<Text>Nightmare Moon controls the night. She is able to cloak her movements or manipulate others to fight for her. Units move through forest and jungle as roads and 50% conversion of defeated babarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NIGHT_EVERLASTING_SHORT">
+			<Text>Night Everlasting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NIGHTMARE_MOON">
+			<Text>Nightmare Moon</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIAWATHA" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_NIGHTMARE_MOON_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_DEFEATED_1">
+			<Text>Sister, plea...se....he...l..p....me....</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_DEFEATED_2">
+			<Text>I'll be back, even if its another thousand years!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You dare claim my land? The night shall decend upon you ever so quickly if you choose to continue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_FIRSTGREETING_1">
+			<Text>Greetings, I am Nightmare Moon, Princess of the Night and ruler of Equestria. Have you come to profess your love of my beautiful night? </Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_GREETING_HOSTILE_HELLO_1">
+			<Text>As a future subject of mine, you should learn to kneel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_GREETING_NEUTRAL_HELLO_1">
+			<Text>What is it, I am quite busy tormenting my sister.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_GREETING_POLITE_HELLO_1">
+			<Text>Welcome child of the night. It is always a pleasure to see you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>How will your troops fight in the dead of night? I will have them jumping at shadows unless you remove them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Let us open our boarders and enjoy the night together.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_RESPONSE_REQUEST_1">
+			<Text>The night requires your assistance. Your kindness would not go unnoticed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NIGHTMARE_MOON_LUXURY_TRADE_1">
+			<Text>It would seem I have aquired an abundance of goods. Do you care to trade? Would this work? I don't have my abacus on me.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON_LIVED">
+			<Text>1000?-Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON_NAME">
+			<Text>NIGHTMARE MOON</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON_SUBTITLE">
+			<Text>Princess of the Night</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON_TEXT_1">
+			<Text>Long ago there lived two sisters that shared rulership of Equestria. The eldest governed the sun, the younger governed the moon. The citizens of Equestria worked and played in the day, but slept at night. Over time the younger sister grew jealous of the love her eldest sister recieved. The bitterness grew in her until she trandsformed into Nightmare Moon. She took control of the skies, casting Equestria in eternal darkness. Celestia, with the power of the elements of harmony, defeated her and banished her to the moon. After a thousand years, the stars aided Nightmare Moon in escaping, plunging Equestria in eternal night once again. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NIGHTMARE_MOON_TITLES_1">
+			<Text>Princess</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

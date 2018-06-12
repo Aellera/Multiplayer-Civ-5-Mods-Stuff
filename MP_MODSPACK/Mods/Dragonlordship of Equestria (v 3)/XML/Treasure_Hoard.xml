@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TREASURE_HOARD</Type>
+			<Description>TXT_KEY_BUILDING_TREASURE_HOARD</Description>
+			<Help>TXT_KEY_BUILDING_TREASURE_HOARD_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TREASURE_HOARD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TREASURE_HOARD_STRATEGY</Strategy>
+			<NeverCapture>1</NeverCapture>
+			<GoldMaintenance>0</GoldMaintenance>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<Cost>200</Cost>
+			<HurryCostModifier>15</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>50</ConquestProb>			
+			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<FreeStartEra>ERA_MODERN</FreeStartEra>			
+			<PrereqTech>TECH_BANKING</PrereqTech>			
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_DRAGONS</IconAtlas>
+		</Row>
+	</Buildings>
+  <Civilization_BuildingClassOverrides>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+		  <BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+		  <BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+	  </Row>
+  </Civilization_BuildingClassOverrides>
+  <Building_Flavors>
+	  <Row>
+		  <BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+		  <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+		  <Flavor>10</Flavor>
+	  </Row>
+	  <Row>
+		  <BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+		  <FlavorType>FLAVOR_GOLD</FlavorType>
+		  <Flavor>25</Flavor>
+	  </Row>
+  </Building_Flavors>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_YieldChanges>
+	<Row>
+		<BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+		<YieldType>YIELD_GOLD</YieldType>
+		<Yield>4</Yield>
+	</Row>
+		</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_TREASURE_HOARD</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+  <Language_en_US>
+	  <Row Tag="TXT_KEY_BUILDING_TREASURE_HOARD">
+		  <Text>Treasure Hoard</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_CIV5_BUILDINGS_TREASURE_HOARD_TEXT">
+		  <Text>A Dragon's Treasure Hoard is a symbol of Wealth in a successful Dragon community, being you know... a mound of gold and gems.</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_BUILDING_TREASURE_HOARD_STRATEGY">
+		  <Text>The Treasure Hoard is a replacement for a Bank. It provides +4 [ICON_GOLD], +25% [ICON_GOLD], and 2 Merchant Specialists,(Bean Counters are a prestigous job in Dragon society) it is also gives +15 combat experience... King of the Hoard!</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_BUILDING_TREASURE_HOARD_HELP">
+		  <Text>Adds +4 [ICON_GOLD] +25% [ICON_GOLD], an additional +15 Combat XP plus 2 Merchant Specialists.</Text>
+	  </Row>
+  </Language_en_US>
+</GameData>
+

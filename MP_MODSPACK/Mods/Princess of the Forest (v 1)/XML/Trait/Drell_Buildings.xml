@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/7/2013 8:06:04 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FOREST_TRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_FOREST_TRAIT</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech/>
+			<Description>TXT_KEY_BUILDING_FOREST_TRAIT</Description>
+			<Civilopedia>TXT_KEY_CIVLOPEDIA_BUILDING_FOREST_TRAIT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FOREST_TRAIT_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_FLUTTER</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FOREST_TRAIT</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Row tag="TXT_KEY_BUILDING_FOREST_TRAIT">
+			<text>Trait Building</text>
+		</Row>
+	</Language_en_US>
+</GameData>

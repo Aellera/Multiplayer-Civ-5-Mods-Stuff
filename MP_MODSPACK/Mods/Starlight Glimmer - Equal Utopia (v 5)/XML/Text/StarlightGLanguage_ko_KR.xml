@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER">
+			<Text>스타라이트 글리머</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_LIVED">
+			<Text>n/a</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_NAME">
+			<Text>스타라이트 글리머</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_SUBTITLE">
+			<Text>스타라이트 글리머</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_HEADING_1">
+			<Text>캐릭터</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_TEXT_1">
+			<Text>스타라이트 글리머라는 이름의 여성 유니콘 포니는 MLP:FiM 시즌 5의 오프닝 프리미어와 엔딩 피날레를 장식하는 주연이자 메인 악역입니다. 그녀는 'Our Town'의 전 지도자였으며, 큐티 마크를 제거하여 포니의 능력과 재능을 빼앗음으로써 이퀘스트리아의 모두를 평등하게 만드려는 야망을 가지고 있었습니다. 일종의 이스터 에그로, 스타라이트는 애니메이션 에피소드 'Amending Fences', 'What About Discord?'와 코믹북 'My Little Pony: Friends Forever Issue #14'에서 배경으로 잠깐 모습을 비춘 적이 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARLIGHT_GLIMMER_TITLES_1">
+			<Text>더 큐티 리-마크</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_ADJECTIVE">
+			<Text>이퀄 유토피아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_DESC">
+			<Text>이퀄 유토피아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_SHORT_DESC">
+			<Text>이퀄 유토피아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUAL_UTOPIA_HEADING_1">
+			<Text>연설문</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUAL_UTOPIA_TEXT_1">
+			<Text>"서로의 동등함 속에, 평화가 있다. 예외론은 거짓이다. 스스로를 큐티 마크로부터 해방시켜라. 네 특별한 재능으로 평등함을 선택해라. 서로 다름은 불행이다. 뛰어나고 탁월해보이고 싶은 마음이 실패를 부른다. 네 최선을 다하지 않음으로써 최선을 다해라. 규율에 순응하는 태도가 널 비로소 자유롭게 해줄 것이다. 네가 너 자신의 한계를 받아들이면, 행복이 따를 것이다. 넌 네 친구들보다 전혀 나을 것이 없는 존재다."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_STARLIGHT_GLIMMER_TEXT">
+			<Text>"오, 우리가 진정 모든 포니가 평등하지 못한 세상에서 살고 있다니, 그렇게 애석한 일이 또 있을까요? 아무도 남들과 비교당하지 않고, 아무도 재능으로 놀림받지 않는 세상을 상상해보세요! 정말 완벽하지 않나요?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_0">
+			<Text>이퀄 유토피아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_1">
+			<Text>레인보우 대쉬의 번개구름</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_2">
+			<Text>핑키 파이의 풍선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_3">
+			<Text>래리티의 보석</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_4">
+			<Text>플러터샤이의 나비</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_5">
+			<Text>애플잭의 사과</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_6">
+			<Text>트와일라잇의 마법</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_7">
+			<Text>평등함 하나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_8">
+			<Text>평등함 둘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_9">
+			<Text>평등함 셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_10">
+			<Text>평등함 넷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_11">
+			<Text>평등함 다섯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_12">
+			<Text>평등함 여섯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_13">
+			<Text>평등함 일곱</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_14">
+			<Text>평등함 여덟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_15">
+			<Text>평등함 아홉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_0">
+			<Text>더블 다이아몬드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_1">
+			<Text>슈가 벨</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_2">
+			<Text>파티 페이버</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_3">
+			<Text>나이트 글라이더</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_4">
+			<Text>세뇌된 트와일라잇</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_5">
+			<Text>세뇌된 애플잭</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_6">
+			<Text>세뇌된 대쉬</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_7">
+			<Text>세뇌된 플러터샤이</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_8">
+			<Text>세뇌된 핑키</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_9">
+			<Text>세뇌된 래리티</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_10">
+			<Text>스타라이트 글리머</Text>
+			<Plurality>2</Plurality>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY">
+			<Text>어떤 방법으로든 7개의 도시를 얻으면, [ICON_SILVER_FIST] 이념을 선택할 수 있습니다. 모든 도시가 +2 [ICON_PRODUCTION]을 제공하지만, 문명의 교역로 수가 반으로 줄고, 유닛들은 결코 레벨 업하지 못하며, 도시 하나마다 시민에 의한 [ICON_HAPPINESS_4]이 +5%씩 늘어납니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY_SHORT">
+			<Text>우정은 평등함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT">
+			<Text>평등함의 상징</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_STRATEGY">
+			<Text>이걸 7개 모으세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_PEDIA">
+			<Text>(Blank-flank)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_EQUALISM">
+			<Text>이퀄리즘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_EQUALISM_PEDIA">
+			<Text>"서로의 동등함 속에, 평화가 있다. 예외론은 거짓이다. 스스로를 큐티 마크로부터 해방시켜라. 네 특별한 재능으로 평등함을 선택해라. 서로 다름은 불행이다. 뛰어나고 탁월해보이고 싶은 마음이 실패를 부른다. 네 최선을 다하지 않음으로써 최선을 다해라. 규율에 순응하는 태도가 널 비로소 자유롭게 해줄 것이다. 네가 너 자신의 한계를 받아들이면, 행복이 따를 것이다. 넌 네 친구들보다 전혀 나을 것이 없는 존재다."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT">
+			<Text>큐티 마크 볼트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_HELP">
+			<Text>방공호를 대체하는 스타라이트 글리머의 고유 건물입니다. 큐티 마크 볼트는 기존 방공호의 핵 방어 능력을 가지고 있으며, 방공호와는 달리 게임 시작부터 건설할 수 있으나 50% 더 많은 생산력을 요구합니다. 큐티 마크 볼트는 [ICON_GOLD] 골드로 구매가 불가능한 건물이며, 도시의 생산을 통해서만 건설할 수 있습니다. 건설이 완료되면 무료 사회 정책을 하나 제공하지만, 해당 도시의 문화 생산량이 영구적으로 100% 감소할 것입니다(소수점 이하 버림). 이 건물은 유지비가 0이며, 따라서 페널티를 회피하거나 정책 보너스를 다시 얻기 위해 건물을 판매할 수 없습니다. 큐티 마크 볼트는 [ICON_HAPPINESS_1] 행복을 8 제공합니다. 이 행복은 도시의 [ICON_CITIZEN] 시민 숫자를 넘을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_STRATEGY">
+			<Text>이 건물을 언제 건설할 것인지 현명하게 선택하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_TEXT">
+			<Text>(Blank-flank)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM">
+			<Text>세뇌의 방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_HELP">
+			<Text>국가 정보국을 대체하는 스타라이트 글리머의 고유 국가 원더입니다. 기존의 국가 정보국과는 달리 세뇌의 방은 건설에 더 높은 생산력을 요구하고, 소유한 도시가 많을 수록 요구량이 급격하게 증가합니다. 모든 도시에 경찰서를 지을 필요가 없는 대신, 세뇌의 방이 지어질 도시에 큐티 마크 볼트가 있어야만 합니다. 세뇌의 방은 무료 사회 정책을 하나 제공하고, 국가 정보국과는 달리 스파이들을 레벨 업시키지 않지만, 추가 스파이를 두 명 제공합니다. 세뇌의 방이 건설되면, 스타라이트의 모든 도시에 경찰서가 무료로 건설됩니다. (세뇌의 방은 국가 정보국의 기본 기능인 전역 스파이 효율 감소 15% 능력을 가지고 있습니다)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_STRATEGY">
+			<Text>스타라이트 : "그냥 빨리 짓기나 하라고!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDOCTRINATION_ROOM_TEXT">
+			<Text>(Blank-flank)</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

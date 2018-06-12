@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 8:48:17 PM -->
+<GameData>
+	<Language_en_US>
+		<Row tag="TXT_KEY_CITY_NAME_EVERFREE_FOREST">
+			<text>Everfree Forest</text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WHITETAIL_WOODS">
+			<Text>Whitetail Woods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MACINTOSH_HILLS">
+			<Text>Macintosh Hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HAYSEED_SWAMPS">
+			<Text>Hayseed Swamps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_APPLEWOOD">
+			<Text>Applewood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTTAWA">
+			<Text>Trottawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTONTO">
+			<Text>Trotonto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BALTIMARE">
+			<Text>Baltimare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FILLYDELPHIA">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_PONYVILLE">
+			<Text>New Ponyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SALT_LICK_CITY">
+			<Text>Salt Lick City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANHOOVER">
+			<Text>Vanhoover</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SEADDLE">
+			<Text>Seaddle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DAMARESCUS">
+			<Text>Damarescus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEIGHAGRA_FALLS">
+			<Text>Neighagra Falls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GALLIPOLLI">
+			<Text>Gallipolli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLUTTER_CITY">
+			<Text>Flutter City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STALLIONGRAD">
+			<Text>Stalliongrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEIGH_ORLEANS">
+			<Text>Neigh Orleans</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

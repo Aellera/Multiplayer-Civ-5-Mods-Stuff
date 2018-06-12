@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/25/2016 6:50:59 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SIRENS</Type>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_SIRENS</DawnOfManAudio>
+			<Description>TXT_KEY_CIV_SIRENS_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_SIRENS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_SIRENS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SIRENS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_SIRENS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SIRENS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_SIRENS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_SIRENS</AlphaIconAtlas>
+			<MapImage>MapSirens512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SIRENS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_ADAGIO.dds</DawnOfManImage>
+			<SoundtrackTag>ZULU</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SIRENS_0</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<LeaderheadType>LEADER_ADAGIO</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<ReligionType>RELIGION_JUDAISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SIRENS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<StartAlongOcean>1</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<Civilization_Start_Place_First_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<PlaceFirst>1</PlaceFirst>
+		</Row>
+	</Civilization_Start_Place_First_Along_Ocean>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SIRENS</Type>
+			<PrimaryColor>COLOR_PLAYER_SIRENS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SIRENS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_SIRENS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SIRENS_ICON</Type>
+			<Red>0.318</Red>
+			<Green>0.000</Green>
+			<Blue>0.553</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SIRENS_BACKGROUND</Type>
+			<Red>0.847</Red>
+			<Green>0.553</Green>
+			<Blue>0.027</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SIRENS_TEXT</Type>
+			<Red>0.776</Red>
+			<Green>0.000</Green>
+			<Blue>0.008</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_SIRENS_DESC">
+			<Text>Enthralled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SIRENS_TITLE">
+			<Text>Thrall of Sirens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SIRENS_SHORT_DESC">
+			<Text>The Thrall of Sirens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SIRENS_ADJECTIVE">
+			<Text>Thrall of Sirens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SIRENS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SIRENS_TEXT_1">
+			<Text>These Three creatures are quite an enigma in Equestria. Starswirl the Bearded mentions how much havoc they wreaked in Eastern Equestria before banishing to a world where they would could do no real harm. How they returned, (with one of Celestia's exiled pupils tracking them no less) is a mystery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SIRENS_TEXT">
+			<Text>Artifact #27914 of the Canterlot Archives [NEWLINE][NEWLINE]This Artifact from another world is referred to by Princess Twilight as an [NEWLINE]"Eye Fone". It requires occasional magical energy to reactivate and carries a magical lock which only Princess Celestia knows the secret to unlocking. Pressing the central Trianglular Glyph activates a recording not unlike those found in Trotter Goldmark's vinyl recording devices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SIRENS_0">
+			<Text>Sirenette</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_0">
+			<Text>Wubcake</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_1">
+			<Text>Contralto</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_2">
+			<Text>Cupcake Slash</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_3">
+			<Text>Esbern</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_4">
+			<Text>Sprial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_5">
+			<Text>Zeena</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_6">
+			<Text>Argentum</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_7">
+			<Text>Shoy Ket</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_8">
+			<Text>Feeble</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SIRENS_9">
+			<Text>Slave #397</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

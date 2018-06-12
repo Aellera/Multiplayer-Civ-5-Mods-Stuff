@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/9/2012 9:25:27 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_NLR</Type>
+			<Description>TXT_KEY_CIV_NLR_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_NLR_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_NLR_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_NLR_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_NLR</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_LUNA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_LUNA</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_LUNA</AlphaIconAtlas>
+			<MapImage>MapLuna512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_NLR_DOM</DawnOfManQuote>
+			<DawnOfManImage>LunaDOM.dds</DawnOfManImage>
+			<SoundtrackTag>England</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Colors>
+		<Row>
+			<Type>COLOR_LUNA_MANE</Type>
+			<Red>0.04296875</Red>
+			<Green>0.23828125</Green>
+			<Blue>0.671875</Blue>
+			<Alpha>0.85</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_LUNA_RING2</Type>
+			<Red>0.65625</Red>
+			<Green>0.37109375</Green>
+			<Blue>0.9296875</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_LUNA</Type>
+			<PrimaryColor>COLOR_LUNA_RING2</PrimaryColor>
+			<SecondaryColor>COLOR_LUNA_MANE</SecondaryColor>
+			<TextColor>COLOR_LUNA_RING2</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<LeaderheadType>LEADER_LUNA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<StartAlongOcean>1</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_NLR_ADJECTIVE">
+			<Text>Lunar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NLR_DESC">
+			<Text>New Lunar Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NLR_SHORT_DESC">
+			<Text>The New Lunar Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NLR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NLR_TEXT_1">
+			<Text>Ever since that time when Celestia banished her sister to the moon for a thousand years, there have been ponies who felt that this went much too far. To them, the banishment is but the most prominent symbol of a despot gone mad with power. While not all of them consider Celestia particularly evil, they all feel her governing style is antiquated and overly authoritarian, and strive for far greater polical freedom and self-determination.[NEWLINE]Where such feelings had historically rarely been spoken out loud, the recent return of Princess Luna sparked a resurgence culminating in the so-called Second Lunar Uprising. Large parts of Equestria subsequently renounced Celestia's rule to unite as the New Lunar Republic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NLR_DOM">
+			<Text>Greetings to you, Princess Luna, Chairpony of the New Lunar Republic! History was never very kind to you. While your sister basked in glory, your own handiwork was largely ignored. And when you could suffer through no more, she saw fit to banish you for a thousand years. For all this time you have been so close to this world, watching, waiting.[NEWLINE][NEWLINE]Oh, Luna! Your time has come at last. In the modern age more ponies stay up through the night than ever, and your followers stand ready to unite under your banner. Can you lead them into a new era of freedom, and show the world that you are your sister's equal? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

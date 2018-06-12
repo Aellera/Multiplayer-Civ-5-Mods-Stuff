@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/9/2012 9:48:00 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_LUNA</Type>
+			<Description>TXT_KEY_LEADER_LUNA</Description>
+			<Civilopedia>TXT_KEY_LEADER_LUNA_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_LUNA</CivilopediaTag>
+			<ArtDefineTag>Luna_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>6</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<Boldness>4</Boldness>
+			<DiploBalance>6</DiploBalance>
+			<WarmongerHate>4</WarmongerHate>
+			<DenounceWillingness>4</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>6</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>7</Forgiveness>
+			<Chattiness>4</Chattiness>
+			<Meanness>3</Meanness>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_LUNA</IconAtlas>
+		</Row>
+	</Leaders>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_LUNA">
+			<Text>Luna</Text>
+		<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row LeaderType="LEADER_LUNA">
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row LeaderType="LEADER_LUNA">
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	
+	
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_DEFEATED%</Response>		
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_FIRSTGREETING%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_LUNA_RESPONSE_REQUEST%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_LUNA_DEFEATED_1">
+			<Text>Celestia... avenge me...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_DEFEATED_2">
+			<Text>YOU MAY HAVE WON THIS WAR, EVILDOER, BUT YOU SHALL NEVER DESTROY THE SPIRIT OF FREEDOM!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>The night sky yearns to be cleansed of the filth your settlements produce. Keep your distance or we shall be forced to liberate it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_FIRSTGREETING_1">
+			<Text>WELCOME TO THE NEW LUNAR REPUBLIC. WE WISH FREEDOM AND ENLIGHTENMENT UPON ALL PEOPLE. Sorry, was that too loud?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_GREETING_HOSTILE_HELLO_1">
+			<Text>STATE YOUR BUSINESS, MORTAL.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_GREETING_NEUTRAL_HELLO_1">
+			<Text>Yes, what woulds't thou discuss this evening?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_GREETING_POLITE_HELLO_1">
+			<Text>Such a fine night to meet thee. Come, let us appreciate its splendor a little longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>INSOLENT WHELP! REMOVE THY TROOPS FROM OUR LANDS FORTHWITH OR SUFFER OUR WRATH!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_OPEN_BORDERS_EXCHANGE_1">
+			<Text>We could benefit greatly from exploring of the world's wonders. Let us not stand in each other's way in this pursuit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_RESPONSE_REQUEST_1">
+			<Text>We do not enjoy imposing on thee in this way, but for the good of our ponies we must request this favor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LUNA_LUXURY_TRADE_1">
+			<Text>Our riches are great, but hoarding doesn't do you much good. If we make this exchange, the fun shall be doubled!</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_FACT_1">
+			<Text>During Luna's absence, careful listeners could sometimes hear her use the Canterlot Voice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_HEADING_1">
+			<Text>Myth and Legend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_HEADING_2">
+			<Text>Banishment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_HEADING_3">
+			<Text>Return</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_HEADING_4">
+			<Text>Modern opinions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_LIVED">
+			<Text>? - Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_NAME">
+			<Text>Luna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_SUBTITLE">
+			<Text>Leader of the New Lunar Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_TEXT_1">
+			<Text>Little is known about the true origins of Princess Luna. Some claim she and her sister Celestia have been keeping the day and night cycle going since the beginning of the world itself.[NEWLINE]Perhaps the first known appearance is when the two of them ended the Reign of Discord, using the Elements of Harmony to seal the chaos spirit in stone. In doing so, they ushered in a new era of peace and prosperity under their benevolent rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_TEXT_2">
+			<Text>However, this happy situation would not last forever. With her beautiful night ignored and slept through by the general population, Luna became consumed with jealousy towards her more appreciated sister. She refused to lower the moon, intent on plunging the land into eternal night. Seeing no better alternative, Celestia ultimately used the Elements of Harmony to forcibly banish Luna to the moon. For a thousand years after that Celestia has taken over Luna's duties, ruling Equestria alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_TEXT_3">
+			<Text>Luna's eventual return was no peaceful affair, as the jealousy that had consumed her before was exacerbated by a thousand-year grudge. But it did not take long for her to renounce this darkness and find forgiveness with her sister. She has subsequently reclaimed her responsibilities to raise and lower the moon and shape and watch over the night.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_TEXT_4">
+			<Text>Even after casting aside the Nightmare Moon persona, Luna continues to feel the effects of having been cast as a villain for centuries. For a while she found herself inspiring fear more than anything. Her antiquated mannerisms have made it hard to readjust as well. It is a welcome comfort that partygoers, gamers and the like now stay up at night with her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LUNA_TITLES_1">
+			<Text>Princess</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

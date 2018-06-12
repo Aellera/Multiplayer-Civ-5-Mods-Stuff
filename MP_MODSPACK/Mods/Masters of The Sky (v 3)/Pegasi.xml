@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:17 AM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_CHINA" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_PEGASI</Type>
+			<Description>TXT_KEY_CIV_PEGASI_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_PEGASI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_PEGASI_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_PEGASI_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_PEGASI</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_HURRICANE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CHINA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_HURRICANE</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_HURRICANE</AlphaIconAtlas>
+			<MapImage>HurricaneMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_PEGASI_DOM</DawnOfManQuote>
+			<DawnOfManImage>HurricaneDOM.dds</DawnOfManImage>
+			<SoundtrackTag>China</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_HURRICANE</Type>
+			<PrimaryColor>COLOR_PLAYER_MIDDLE_BLUE</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LIGHT_BLUE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<LeaderheadType>LEADER_WU_ZETIAN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_PEGASI_ADJECTIVE">
+			<Text>Pegasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PEGASI_DESC">
+			<Text>Pegasopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PEGASI_SHORT_DESC">
+			<Text>The Pegasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PEGASI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PEGASI_TEXT_1">
+			<Text>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Earth Ponies were masters of the dirt, responseable for growing food for all ponies. The Unicorns were masters of the Sun and Moon, magically bringing night and day. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Commander Hurricane, leader of the Pegasi, led them to what would become Equestria, naming their new land, Pegasopolis. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PEGASI_DOM">
+			<Text>Commander Hurricane, [NEWLINE] prep...Prep...Prep...PREPERATIONS ARE BEING MADE SIR, er...Preperations are being made sir, to move our forces south from the blizzard. The failure at...Er...Yes, sir. The overwhelming success of Operation Pegasi Independance has forced us to fend for ourselves. Now we move to our new....Er..Yes, sir. Operation Pegasi Lightning Strike is underway and are invasion forces are on the move to take our new home by force.[NEWLINE] All pegasi forces are re...Re..Rea...ALL PEGASI FORCES ARE READY, SIR! Operation Pegasi Stealth Land Grab is ready. What do you mean where's your army? You sent them out already on Operation Pegasi Lightning Strike. Oh no sir, its just us. Well, your last order was to read back your last order, sir. Well you asked if all pegasi were ready and we're the only pegasi here sir, and I already packed. Did you pack, sir? Yes sir, packing your bags now. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

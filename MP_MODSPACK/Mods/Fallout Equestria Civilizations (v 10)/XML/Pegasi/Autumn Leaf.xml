@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:25:33 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_AUTUMN</Type>
+			<Description>TXT_KEY_LEADER_AUTUMN</Description>
+			<Civilopedia>TXT_KEY_LEADER_AUTUMN_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN</CivilopediaTag>
+			<ArtDefineTag>Leaf_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>3</MinorCivCompetitiveness>
+			<Boldness>6</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>3</WarmongerHate>
+			<DenounceWillingness>4</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
+			<Loyalty>6</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>4</Chattiness>
+			<Meanness>7</Meanness>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_AUTUMN</LeaderType>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_AUTUMN_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_AUTUMN_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_AUTUMN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_AUTUMN_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_AUTUMN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_AUTUMN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AUTUMN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_AUTUMN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN">
+			<Text>Autumn Leaf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_FIRSTGREETING_1">
+			<Text>I am Colonel Autumn Leaf, overseer of Operation Cauterize. You must be pleased that I've had the opportunity to personally establish first contact with your people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_FIRSTGREETING_2">
+			<Text>I am Colonel Autumn Leaf. Our soldiers and your people should be able to get along fine as long as you do as I say, and don't do anything stupid.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_FIRSTGREETING_3">
+			<Text>Halt. I am Colonel Autumn Leaf. I speak for the Grand Pegasus Enclave: the last pure race of ponies in Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_WARBLUFF_1">
+			<Text>You're lucky I'm in an abnormally good mood...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_WARBLUFF_2">
+			<Text>You're lucky I'm in an abnormally good mood...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_WARBLUFF_3">
+			<Text>You're lucky I'm in an abnormally good mood...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_WINWAR_1">
+			<Text>Don't act like you're surprised you lost. You should've seen my inevitable victory coming a mile away, you bottomfeeder!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_LOSEWAR_1">
+			<Text>The Pegasi Council has requested that I cease fighting you... Of course, if it were up to me I'd smash you into the dirt, landcrawler.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DEFEATED_1">
+			<Text>Impossible! I cannot be defeated by some land-dwelling bottomfeeder!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DEFEATED_2">
+			<Text>You swine! The Council has declared my operation a failure thanks to your bottom-feeding civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DEFEATED_3">
+			<Text>I suppose the Enclave was right to suspect a threat to its existance beneath the clouds. We will return.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_YES_NEUTRAL">
+			<Text>Fine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_NO_NEUTRAL">
+			<Text>No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_YES_ANGRY">
+			<Text>My superiors request that I accept your demands...but if this were up to me you would not be getting what you want...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_NO_ANGRY">
+			<Text>Do you think me weak-willed?! The answer is no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_YES_HAPPY">
+			<Text>The Enclave is happy to assist one so vital to our cause.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRIBUTE_NO_HAPPY">
+			<Text>I apologize, but the Operation has just had some funding cut, and we can't help you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTUMN_RESPONSE_REQUEST_1">
+			<Text>The Pegasi Council has requested that I ask for your assistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DEMANDTRIBUTE_HAPPY">
+			<Text>The Enclave must ask for your assistance. It is most vital to Operation Cauterize.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DEMANDTRIBUTE_ANGRY">
+			<Text>I, Autumn Leaf, demand that your people hand over your meager possessions, or face the consquences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRADEREQUEST_ANGRY">
+			<Text>The Grand Pegasus Enclave demands that you hand over what you have immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DECLAREWAR_1">
+			<Text>Your actions have been deemed a threat to the Enclave. I hope your ready to be wiped from the face of the Earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DECLAREWAR_2">
+			<Text>Operation Cauterize was begun to assess and eliminate threats to the Enclave. It looks like you made that list.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_DECLAREWAR_3">
+			<Text>I will enjoy seeing the fall of your backwater civilization. Sure, there will be casualties, but they are acceptable losses if it means destroying you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_ATTACKED_BETRAYED">
+			<Text>Looks like I won't need to lobby to the Pegasi Council for your destruction anymore.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_ATTACKED_EXCITED">
+			<Text>I've been waiting for an excuse to pound you back into the hole from which you crawled! My soldiers will show no mercy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_ATTACKED_HOSTILE">
+			<Text>I'd have like to display your head on a pike in front of Neighvarro, but apparently thats, "uncivil." Don't worry, you'll look just as good smeared across a wall!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_TRADE_NEEDMORE_ANGRY_1">
+			<Text>The Enclave doesn't deal with scam artists. You're going to have to do better if you want my attention.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTUMN_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I am willing to allow passage through our borders if you'll allow us to map out your lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTUMN_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You are violating our no-fly zone. Call your troops away, or there will be consequences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTUMN_LUXURY_TRADE_1">
+			<Text>As you can imagine, cloud farms and factories can't always produce what we need. Thats where you come in. Care to trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTUMN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You are violating our no-fly zone. Call your troops away, or there will be consequences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Greetings. What is the purpose of your visit?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Greetings comrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUTUMN_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Hurry up and tell me what you want. Your backwater civilization may love to roll in the dirt like bigs, but unlike you, the Enclave has standards. What do you want?</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_FACT_1">
+			<Text>Colonel Autumn Leaf is the brother of Calamity, Windwheer, and Pride. He was seen as the overachiever in the family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_FACT_2">
+			<Text>Autumn Leaf is a ruthless and cold military commander. He went as far as calling the death of his brother an "acceptable loss," during his command.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_HEADING_1">
+			<Text>Personality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_HEADING_2">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_HEADING_3">
+			<Text>Operation: Cauterize</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_HEADING_4">
+			<Text>Fate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_LIVED">
+			<Text>200 years after [NEWLINE] the Last Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_NAME">
+			<Text>Autumn Leaf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_SUBTITLE">
+			<Text>Colonel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_TEXT_1">
+			<Text>He is described by Calamity as being the over-achiever in the family, as the position of the perfect son was occupied by Windsheer. He displayed a high level of brutality, willing to sacrifice Enclave personnel and mind controlled Hellhounds to achieve his goals. He also had a bit of an ego, personally wanting to kill Red Eye himself. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_TEXT_2">
+			<Text>Colonel Autumn Leaf is the second eldest of his four siblings. He was brought up in a traditionally Enclave military family. When Calamity declared himself a Dashite, Autumn Leaf assisted his brothers in branding Calamity. Autumn Leaf continued to rise in the ranks of the Enclave military, eventually becoming one of the military's highest commanders. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_TEXT_3">
+			<Text>Autumn Leaf is leading the Enclave's attack on the Equestrian Wasteland and Red Eye's forces. He is a ruthless commander, going so far as to count one of his brothers as an "acceptable loss" during Operation Cauterize. After the Thunderhead Overcast arrives at the Cathedral, Autumn Leaf personally leads the ground assault to find and kill Red Eye. Littlepip discovers Autumn Leaf interrogating Red Eye's researcher, Doctor Glue. Autumn Leaf kills Glue when Calamity creates a distraction to draw his brother away. Autumn Leaf eventually finds Red Eye, but before he can attack or kill him, Red Eye cripples his power armor's spell matrix, immobilising him. Autumn Leaf witnesses Littlepip and Red Eye's discussion and learns of his part in Red Eye's scheme to start a new Unity using Autumn Leaf in the process. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_TEXT_4">
+			<Text>Autumn Leaf had previously ordered his second in command to send several Enclave controlled Hellhounds which kill the alicorns blocking the exit and Red Eye, but Littlepip survives. Littlepip convinces Autumn Leaf to walk her through the removal of the bomb collars on Red Eye's prisoners in exchange for his freedom, and showing her how to rig his Star Blaster to explode. Immediately after disarming the last collar, she promptly kills him with a shot from Little Macintosh. His body and the Cathedral are obliterated by the Star Blaster's destruction. (Text from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUTUMN_TITLES_1">
+			<Text>Colonel</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

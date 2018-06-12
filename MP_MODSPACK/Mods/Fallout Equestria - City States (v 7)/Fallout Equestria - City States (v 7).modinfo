@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6827e7ec-5329-4763-8b70-8ca3b4ec0e0c" version="7">
+  <Properties>
+    <Name>Fallout Equestria - City States</Name>
+    <Teaser>Adds 20 city states from the Fallout: Equestria universe.</Teaser>
+    <Description>This mod is compatible with:
+Gods and Kings
+Brave New World.
+
+Vanilla is playable, but people reported random glitches. I don't have a solution yet. If you encounter problems please let me know. 
+
+This mod adds 20 city states from the Fallout: Equestria universe. Every city state comes with its own behaviour, images and civpedia entry. 
+
+Includes: 
+Arbu, Fillydelphia, Bucklyn, Cross Chapel, Friendship City, New Appleloosa, Glyphmark, Tenpony Tower, Stalliongrad, Junction R-7, Stable City, The Glow, Verge, Forum,Colts Well, New Pegasus, Neighwhere,Chicacolt, Salt Cube City and Road Town.
+
+For more detailed information on this mod: 
+http://falloutequestria.wikia.com/wiki/User_blog:ArtisticMink/FOE_Citie_States_for_Civilization_V</Description>
+    <Authors>artisticMink</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://falloutequestria.wikia.com/wiki/User_blog:ArtisticMink/FOE_City_States_for_Civilization_V</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E6CA082E45C916D21789EF90985B7F9E" import="1">ART/foecitystatebackgroundmercantile.dds</File>
+    <File md5="59D973283E7EBB198B5B33F64C621460" import="1">ART/foecitystatebackgroundmilitary.dds</File>
+    <File md5="7A28FC3F1D6A4D32AE80777264B72C09" import="1">ART/foecitystatebackgroundmilitary_old.dds</File>
+    <File md5="451CE5F29251F868740EFBE2BC3E6E25" import="1">ART/foecitystatebackgroundreligious.dds</File>
+    <File md5="6301C33F92C733EE3595D8F27B27C74F" import="1">ART/foeplaceholder.dds</File>
+    <File md5="320276C8F0ACD871B9D0C6857E4CA083" import="0">LUA/FoeCsHook.lua</File>
+    <File md5="DB3DA13549A3108A322971C69C8F37BE" import="0">LUA/FoeCsPersonalitysUpdate.lua</File>
+    <File md5="32A7F92107A8108789CC6AC86E2D4ACA" import="0">XML/feqCs_behaviour.xml</File>
+    <File md5="3705E5578746A37C7450BFC69408BBE4" import="0">XML/feqCs_citieStates.xml</File>
+    <File md5="03B8E8CAE75964862F3343FEB1FF4CC7" import="0">XML/feqCs_local.xml</File>
+    <File md5="11E28AA748A499FFA72543209F60F62A" import="0">XML/feqCs_update.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/feqCs_behaviour.xml</UpdateDatabase>
+      <UpdateDatabase>XML/feqCs_citieStates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/feqCs_local.xml</UpdateDatabase>
+      <UpdateDatabase>XML/feqCs_update.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/FoeCsHook.lua">
+      <Name>popupEventHook</Name>
+      <Description>popupEventHook</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

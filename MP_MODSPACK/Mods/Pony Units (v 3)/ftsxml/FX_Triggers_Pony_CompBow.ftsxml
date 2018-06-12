@@ -1,0 +1,316 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+	<event_tracks>
+		<event_track ec="1160">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1800">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2440">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1580">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2220">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1200">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1520">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1620">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1400">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2040">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1450">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1180">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1500">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1120">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1440">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1220">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1540">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1640">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1100">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1420">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1040">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1140">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2100">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1560">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2200">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1290">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1020">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1285">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1280">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1600">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="2020">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1110">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+	</event_tracks>
+	<triggers>
+		<trigger type="FTimedTriggerSound" id="8" time="0.0138503388" duration="0" repeat="0" ec="1120" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_$(TERRAIN)" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="72" time="0" duration="0.4" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="17" time="0.114049509" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_DEATH_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="58" time="0.412048" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_THROW_FIRE" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="3" time="0.529293" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_RATTLE" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="67" time="1.67733" duration="0.133333" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerEffect" id="53" time="0.362963" duration="0.153" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER" bone="Archer_D_BowMaster" />
+		<trigger type="FTimedTriggerSound" id="30" time="0.9149817" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_WOOD_SHIELD_DROP_20" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="39" time="0.407407" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_TWANG" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="48" time="1.45926" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="25" time="0.703704" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="34" time="1.02222" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="11" time="0.481481" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_RATTLE" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="75" time="0" duration="0.6" repeat="0" ec="1120" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="20" time="1.02222" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="84" time="0.717333" duration="0.133333" repeat="0" ec="1500" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerEffect" id="61" time="0" duration="0.366667" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="6" time="1.1037" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_WHOOSH" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="70" time="1.18933" duration="0.1" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="47" time="1.04445" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_TWANG" bone="" tier="0" />
+		<trigger type="FTimedTriggerTransfer" id="56" time="1.11111" duration="0" repeat="0" ec="1140" track="3" refid="55" speed="18.3983" tangent.x="0" tangent.y="-1" tangent.z="0" />
+		<trigger type="FTimedTriggerSound" id="1" time="0.340741" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_RUN_$(TERRAIN)" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="65" time="1.29067" duration="0.0666667" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="42" time="1.04445" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="51" time="0.392593" duration="0.13" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER" bone="Archer_D_BowMaster" />
+		<trigger type="FTimedTriggerSound" id="28" time="0.403703779" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_TWANG" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="37" time="0.439057" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_WHOOSH" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="14" time="0.511111" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_RATTLE" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="78" time="0.392" duration="0.166667" repeat="0" ec="1600" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="23" time="0.127012745" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_DEATH_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="87" time="0" duration="0.666667" repeat="0" ec="1560" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="32" time="0.123906" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_QUIVER" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="9" time="1.02062" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="73" time="1.18933" duration="0.1" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="18" time="0.383577" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_TWANG" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="82" time="0.056" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="HorseBip Spine2" />
+		<trigger type="FTimedTriggerSound" id="4" time="0.437037" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_WHOOSH" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="68" time="1.78667" duration="0.0666667" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="45" time="0.0299634" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="31" time="0.403604" duration="0" repeat="0" ec="1120" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_QUIVER" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="40" time="0.455856" duration="0" repeat="0" ec="1800" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_QUIVER" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="26" time="0.385185" duration="0.163" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER" bone="Archer_D_BowMaster" />
+		<trigger type="FTimedTriggerSound" id="35" time="1.17037" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_RATTLE" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="12" time="0.377778" duration="0" repeat="0" ec="1800" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_VICTORY_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="76" time="0.306667" duration="0.166667" repeat="0" ec="1110" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="21" time="0.44489947" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FORTIFY_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="85" time="0" duration="3" repeat="0" ec="1520" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerEffect" id="62" time="1.29009" duration="0.0666667" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerEffect" id="7" time="0.06851845" duration="0.47" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_FLAME_ARCHER" bone="Archer_D_BowMaster" />
+		<trigger type="FTimedTriggerEffect" id="71" time="1.29067" duration="0.0666667" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="16" time="0.0666666552" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_RUN_$(TERRAIN)" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="80" time="0" duration="5" repeat="0" ec="1620" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="2" time="0.4" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_TWANG" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="66" time="0" duration="1.02" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="43" time="0.284685" duration="0" repeat="0" ec="1120" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_$(TERRAIN)" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="29" time="0.1111111" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_IMPACT_$(WEAPON)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="38" time="0.00370348128" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FORTIFY" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="15" time="0.125927" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_QUIVER_RUN" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="79" time="0.557333" duration="0.133333" repeat="0" ec="1600" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="24" time="0.114372127" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_IMPACT_$(WEAPON)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="88" time="0" duration="1.16667" repeat="0" ec="1800" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="33" time="0.8255873" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_WOOD_SHIELD_DROP_20" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="10" time="0.059259" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="74" time="1.29067" duration="0.0666667" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="19" time="0.417519" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_WHOOSH" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="83" time="0.514667" duration="0.2" repeat="0" ec="1500" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerEffect" id="60" time="1.12593" duration="0.166667" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="5" time="0.503703" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_RATTLE" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="69" time="0" duration="0.0666667" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="46" time="0.56111145" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="55" time="1.01851356" duration="0.107" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER" bone="Archer_D_BowMaster" />
+		<trigger type="FTimedTriggerEffect" id="64" time="1.12533" duration="0.166667" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="HorseBip R Hand" />
+		<trigger type="FTimedTriggerSound" id="41" time="0.822222233" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BODY_FALL_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerEffect" id="27" time="0.081481" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="HorseBip L Clavicle" />
+		<trigger type="FTimedTriggerSound" id="36" time="0.081481" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="13" time="0.444444" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_WHOOSH" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="77" time="0.456" duration="0.0666667" repeat="0" ec="1110" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="22" time="0.417996" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerEffect" id="86" time="0" duration="5" repeat="0" ec="1540" track="2" event="ART_DEF_VEFFECT_PROJ_ARROW_ARCHER_HAND" bone="Archer_D_StringController" />
+		<trigger type="FTimedTriggerSound" id="44" time="0" duration="0.6" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_T1_RUN_$(TERRAIN)" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="44" time="0" duration="0.6" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_T2_RUN_$(TERRAIN)" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="50" time="0.0238907859" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="59" time="0.3105801" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FORTIFY_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="63" time="0.2662116" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="81" time="0.276450485" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="89" time="0.60750854" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="91" time="0.5597271" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_BOW_CREAK_SHORT" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="92" time="0.245733812" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_PULL" bone="" tier="0" />
+		<trigger type="FTimedTriggerSound" id="93" time="0.423208177" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="94" time="0.331058025" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FORTIFY_VOX_E" bone="" tier="-1" />
+		<trigger type="FTimedTriggerSound" id="90" time="0.0522297844" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_RUN_VOX_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="95" time="0.0485260822" duration="0" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_RUN_VOX_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="96" time="0" duration="0.6" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_RUN_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="97" time="0" duration="0.6" repeat="0" ec="1400" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_RUN_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="98" time="0.405179441" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="99" time="0.410735" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="100" time="0.4014758" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="101" time="0.4033276" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="102" time="0.407031238" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FLAMING_ARROW_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="103" time="0.408883154" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_FLAMING_ARROW_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerSound" id="104" time="0.386661" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T1" bone="" tier="1" />
+		<trigger type="FTimedTriggerSound" id="105" time="0.381105334" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_COMPOSITE_BOWMAN_ARROW_FIRE_T2" bone="" tier="2" />
+		<trigger type="FTimedTriggerTransfer" id="54" time="0.503704" duration="0" repeat="0" ec="1100" track="3" refid="53" speed="16.9878" tangent.x="0.003777073" tangent.y="-0.999991" tangent.z="0.0019221917" />
+		<trigger type="FTimedTriggerTransfer" id="57" time="0.518519" duration="0" repeat="0" ec="1160" track="3" refid="7" speed="20.1234" tangent.x="-0.00495339325" tangent.y="-0.672516167" tangent.z="0.740065932" />
+		<trigger type="FTimedTriggerTransfer" id="49" time="0.533333" duration="0" repeat="0" ec="1180" track="3" refid="26" speed="17.7923" tangent.x="-0.00389349647" tangent.y="-0.6875201" tangent.z="0.726155" />
+		<trigger type="FTimedTriggerTransfer" id="52" time="0.511111" duration="0" repeat="0" ec="2100" track="3" refid="51" speed="16.2938" tangent.x="0.0108736111" tangent.y="-0.999940038" tangent.z="-0.00123755366" />
+	</triggers>
+</trigger_system>

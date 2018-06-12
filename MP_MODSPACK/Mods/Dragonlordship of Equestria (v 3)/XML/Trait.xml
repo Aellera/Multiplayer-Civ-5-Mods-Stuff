@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_Dragonfire</Type>
+			<Description>TXT_KEY_TRAIT_Dragonfire</Description>
+			<ShortDescription>TXT_KEY_TRAIT_Dragonfire_Short</ShortDescription>
+			<RazeSpeedModifier>200</RazeSpeedModifier>
+			<CrossesMountainsAfterGreatGeneral>1</CrossesMountainsAfterGreatGeneral>
+		</Row>
+	</Traits>
+
+	<!-- Trait_ExtraYieldThresholds -->
+	<!-- Trait_YieldChanges -->
+	<!-- Trait_YieldChangesStrategicResources -->
+	<!-- Trait_YieldChangesNaturalWonder -->
+	<!-- Trait_YieldChangesPerTradePartner -->
+	<!-- Trait_YieldChangesIncomingTradeRoute -->
+	<!-- Trait_YieldModifiers -->
+	<!-- Trait_FreePromotions -->
+	<!-- Trait_FreePromotionUnitCombats -->
+	<!-- Trait_MovesChangeUnitCombats -->
+	<!-- Trait_MaintenanceModifierUnitCombats -->
+	<!-- Trait_Terrains -->
+	<!-- Trait_ResourceQuantityModifiers -->
+	<!-- Trait_FreeResourceFirstXCities -->
+	<!-- Trait_ImprovementYieldChanges -->
+	<!-- Trait_SpecialistYieldChanges -->
+	<!-- Trait_UnimprovedFeatureYieldChanges -->
+	<!-- Trait_NoTrain -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_Dragonfire">
+			<Text>Razes Cities three times as fast and Units may cross mountains after the first Great General is earned, taking 50 HP damage if they end a turn on a mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_Dragonfire_Short">
+			<Text>Dragonfire</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

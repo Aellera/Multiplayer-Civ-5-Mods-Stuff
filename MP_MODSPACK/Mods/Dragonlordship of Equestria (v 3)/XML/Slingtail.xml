@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:02:09 PM -->
+<GameData>
+		<Units>
+			<Row>
+				<Class>UNITCLASS_CATAPULT</Class>
+				<Type>UNIT_SLINGTAIL</Type>
+				<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+				<Combat>7</Combat>
+				<RangedCombat>14</RangedCombat>
+				<Cost>70</Cost>
+				<Moves>2</Moves>
+				<HurryCostModifier>20</HurryCostModifier>
+				<Range>2</Range>
+				<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+				<Domain>DOMAIN_LAND</Domain>
+				<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+				<Description>TXT_KEY_UNIT_SLINGTAIL</Description>
+				<Civilopedia>TXT_KEY_CIV_Units_SLINGTAIL_TEXT</Civilopedia>
+				<Strategy>TXT_KEY_UNIT_SLINGTAIL_STRATEGY</Strategy>
+				<Help>TXT_KEY_UNIT_SLINGTAIL_HELP</Help>
+				<MilitarySupport>true</MilitarySupport>
+				<MilitaryProduction>true</MilitaryProduction>
+				<Pillage>true</Pillage>
+				<Mechanized>true</Mechanized>
+				<ObsoleteTech>TECH_PHYSICS</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_TREBUCHET</GoodyHutUpgradeUnitClass>
+				<AdvancedStartCost>20</AdvancedStartCost>
+				<XPValueAttack>3</XPValueAttack>
+				<XPValueDefense>3</XPValueDefense>
+				<UnitArtInfo>ART_DEF_UNIT_CATAPULT</UnitArtInfo>
+				<UnitFlagIconOffset>21</UnitFlagIconOffset>
+				<IconAtlas>CIV_COLOR_ATLAS_DRAGONS</IconAtlas>
+				<UnitFlagAtlas>CIV_COLOR_ATLAS_DRAGONS</UnitFlagAtlas>
+				<PortraitIndex>2</PortraitIndex>
+				<MoveRate>ARTILLERY</MoveRate>
+			</Row>
+		</Units>
+		<Unit_AITypes>
+			<Row>
+				<UnitType>UNIT_SLINGTAIL</UnitType>
+				<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_SLINGTAIL</UnitType>
+				<UnitAIType>UNITAI_RANGED</UnitAIType>
+			</Row>
+		</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SLINGTAIL</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLINGTAIL</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+		<Row>
+		<UnitType>UNIT_SLINGTAIL</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+		<Row>
+			<UnitType>UNIT_SLINGTAIL</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+		<UnitType>UNIT_SLINGTAIL</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+		<Unit_ClassUpgrades>
+			<Row>
+				<UnitType>UNIT_SLINGTAIL</UnitType>
+				<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+			</Row>
+		</Unit_ClassUpgrades>
+		<Unit_Flavors>
+			<Row>
+				<UnitType>UNIT_SLINGTAIL</UnitType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>3</Flavor>
+			</Row>
+		</Unit_Flavors>
+		<Language_en_US>
+			<Row Tag="TXT_KEY_UNIT_SLINGTAIL">
+				<Text>Slingtail</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_UNITS_SLINGTAIL_TEXT">
+				<Text>The Slingtail are Reptillian creatures most known for using their powerful tails to throw boulders at would-be preadators.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_SLINGTAIL_STRATEGY">
+				<Text>Using their excellent sense of smell the Slingtail are able to throw boulders with accuracy without seeing their target.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_SLINGTAIL_HELP">
+				<Text>The Slingtail are Reptillian creatures most known for using their powerful tails to throw boulders at would-be preadators. Using their excellent sense of smell the Slingtail are able to throw boulders with accuracy without seeing their target. </Text>
+			</Row>
+		</Language_en_US>
+
+		<Civilization_UnitClassOverrides>
+			<Row>
+				<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+				<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+				<UnitType>UNIT_SLINGTAIL</UnitType>
+			</Row>
+		</Civilization_UnitClassOverrides>
+</GameData>

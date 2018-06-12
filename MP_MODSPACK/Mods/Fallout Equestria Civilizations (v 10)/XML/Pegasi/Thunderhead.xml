@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/22/2015 1:44:08 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_THUNDERHEAD</Type>
+			<Class>UNITCLASS_CARRIER</Class>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>900</Cost>
+			<Moves>1</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENCE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_THUNDERHEAD</Description>
+			<Civilopedia>TXT_KEY_UNIT_THUNDERHEAD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_THUNDERHEAD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_THUNDERHEAD_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>2</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_STEAM_AIRSHIP</UnitArtInfo>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_FOE</UnitFlagAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Units>
+	<UnitPromotions_UnitCombats>
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_EMBARKATION"/>
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_DEFENSIVE_EMBARKATION"/>
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_ALLWATER_EMBARKATION"/>
+	</UnitPromotions_UnitCombats>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_OFFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CLOUDSHIP</Type>
+			<Description>Thunderhead Cloudship</Description>
+			<Help>Enclave technology allows these massive vessels to remain aloft in the sky.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CanMoveAllTerrain>true</CanMoveAllTerrain>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Enclave technology allows these massive vessels to remain aloft in the sky.</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_CLOUDSHIP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UniqueName>TXT_KEY_THUNDERHEAD_GLORIOUS_DAWN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UniqueName>TXT_KEY_THUNDERHEAD_VICTORIOUS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UniqueName>TXT_KEY_THUNDERHEAD_OVERCAST</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERHEAD</UnitType>
+			<UniqueName>TXT_KEY_THUNDERHEAD_THUNDERHEAD</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_THUNDERHEAD">
+			<Text>Thunderhead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_THUNDERHEAD_TEXT">
+			<Text>Thunderheads are enormous flying aircraft carriers that are slow, but immensely powerful, especially against cities. Each requires 1 uranium and 3 aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_THUNDERHEAD_STRATEGY">
+			<Text>A Thunderhead can move over any terrain, land or sea, but only has one movement point. Therefore, it is advisable to gain combat experience and choose mobility promotions. However, what they lack in speed, they make up for in sheer power. Thunderheads have a wooping 100[ICON_STRENGTH] combat points in the Atomic Era. They can deal massive damage to units and even recieve a bonus vs cities. However, they are suseptible to ranged and anti-air attacks. Use aircraft based on board and nearby units to defend the Thunderhead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_THUNDERHEAD_HELP">
+			<Text>The largest known class of cloudship, Thunderheads act as moving military bases, deploying troops and vehicles to the battlefield and also wielding its own, very lethal weaponry. (Text taken from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THUNDERHEAD_GLORIOUS_DAWN">
+			<Text>Glorious Dawn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THUNDERHEAD_VICTORIOUS">
+			<Text>Victorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THUNDERHEAD_OVERCAST">
+			<Text>Overcast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THUNDERHEAD_THUNDERHEAD">
+			<Text>Triumphant</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

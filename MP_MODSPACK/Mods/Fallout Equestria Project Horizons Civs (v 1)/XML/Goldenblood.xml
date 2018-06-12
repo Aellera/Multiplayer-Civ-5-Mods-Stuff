@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/19/2015 8:26:11 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_GOLDENBLOOD</Type>
+			<DefaultBuilding>BUILDING_GOLDENBLOOD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GOLDENBLOOD</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GOLDENBLOOD</Type>
+			<BuildingClass>BUILDINGCLASS_GOLDENBLOOD</BuildingClass>
+			<Cost>-1</Cost>
+			<GoldMaintenance>50</GoldMaintenance>
+			<ConquestProb>0</ConquestProb>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_GOLDENBLOOD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GOLDENBLOOD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GOLDENBLOOD_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GOLDENBLOOD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BOMB_SHELTER</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GOLDENBLOOD">
+			<Text>Goldenblood's secret project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLDENBLOOD_HELP">
+			<Text>This is one of Goldenblood's many secret projects. What is this one called? What does it do? That's secret, my friend. Respect secrets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOLDENBLOOD_STRATEGY">
+			<Text>Don't build it. It's expensive, goes nowhere and does nothing. Goldenblood will do it himself if he decides it's necessary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GOLDENBLOOD_HEADING">
+			<Text>Goldenblood's secret project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GOLDENBLOOD_TEXT">
+			<Text>Secrets, secrets everywhere!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

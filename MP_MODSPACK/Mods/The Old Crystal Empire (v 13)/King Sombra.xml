@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2012 1:43:08 AM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_ASKIA"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_SOMBRA</Description>
+				<Civilopedia>TXT_KEY_LEADER_SOMBRA_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA</CivilopediaTag>
+				<ArtDefineTag>Sombra_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>8</VictoryCompetitiveness>
+				<WonderCompetitiveness>5</WonderCompetitiveness>
+				<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+				<Boldness>7</Boldness>
+				<DiploBalance>6</DiploBalance>
+				<WarmongerHate>3</WarmongerHate>
+				<DenounceWillingness>6</DenounceWillingness>
+				<DoFWillingness>5</DoFWillingness>
+				<Loyalty>5</Loyalty>
+				<Neediness>4</Neediness>
+				<Forgiveness>5</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>6</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_SOMBRA</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+	
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+	
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA"/>
+			<Set TraitType="TRAIT_CRYSTAAAAALS"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_CRYSTAAAAALS</Type>
+			<Description>TXT_KEY_TRAIT_CRYSTAAAAALS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CRYSTAAAAALS_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_CRYSTAAAAALS</TraitType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CRYSTAAAAALS</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_CRYSTAAAAALS</TraitType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CRYSTAAAAALS">
+			<Text>Sombra's obcession with crystals has led to many advances in crystal mining. Double bonus from gems, iron, and +2 [ICON_PRODUCTION] from mines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CRYSTAAAAALS_SHORT">
+			<Text>CRYSTAAAAALS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SOMBRA">
+			<Text>Sombra</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+		
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_SOMBRA_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_SOMBRA_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_SOMBRA_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_SOMBRA_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_SOMBRA_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_SOMBRA_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_SOMBRA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_SOMBRA_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_SOMBRA_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ASKIA" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_SOMBRA_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		
+		<Row Tag="TXT_KEY_SOMBRA_DEFEATED_1">
+			<Text>Not Again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_DEFEATED_2">
+			<Text>I AM NOT SO EASILY DEFEATED! MY VERY SHADOW SHALL CURSE YOUR LANDS!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You encroach upon my land, MY VERY EMPIRE! LEAVE. NOW.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_FIRSTGREETING_1">
+			<Text>CRYSTAAAAAAAAAAAAALLSS.....Er, sorry, a thousand years of exile can change a pony. Now then, I am Sombra, King of the Crystal Empire. I do hope you came bearing gifts, maybe.....Crystals?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_GREETING_HOSTILE_HELLO_1">
+			<Text>Oh, hello. I was expecting a gift. I heard your kind make excellent laborers, especially in mines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_GREETING_NEUTRAL_HELLO_1">
+			<Text>Oh flugelhorn, oh flugelhorn, oh how your sounds delight me. Oh..Er..Hello. My trumpeters were performing training excerises, yes. Training excerises. What can I do for you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_GREETING_POLITE_HELLO_1">
+			<Text>Welcome! You're just in time to see me joust in the Crystal Festival, you surely have time to watch. Right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Have you ever heard the sound of a flugelhorn? Amongst your troops? Perhaps my trumpeters should entertain your troops along my boarders. Remove them or I shall ponder the thought further.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Our Empires are very much alike. We have castles, armies, crystals. Oh, you don't have crystals? Well allow my people to cross freely into your lands and crystals shall be had by all!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_RESPONSE_REQUEST_1">
+			<Text>It pains me greatly to ask this. I'm not use to this, asking. I'm doing it right, right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOMBRA_LUXURY_TRADE_1">
+			<Text>I'm not one to trade but I heard you might have some crystals. Care to trade for some flugelhorns? No? Then what?</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_FACT_1">
+			<Text>It is unknown what drove King Sombra down his path to darkness. Many statues of the king though can be seen with the name 'Somber' scratched out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_LIVED">
+			<Text>1000 BNM - Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_NAME">
+			<Text>Sombra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_SUBTITLE">
+			<Text>King of the Crystal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_TEXT_1">
+			<Text>Sombra's origin remains shrounded in mystery, perhaps to his own liking. Where he came from, or who he was before he became the dark tyrant of the Crystal Empire remains unknown. His reign was terrible. He ruled his subjects with an iron hoof, using his crystal magic to terrorize and enslave them. His power could be felt all across Equestria, eventaully drawing hte attention of two sisters, Celestia and Luna. The two sisters defeated Sombra, banishing him to the arctic north, but not before he cursed his empire. The Crystal Empire vanished, along with its king. A thousand years later, after Nightmare Moon's return, the Crystal Empire reappeared. With its return, King Sombra has reawaken. With the return of Crystal Empire, King Sombra's influnce can once again be felt across Equestria. His actions are a mystery still. Will he return to his old ways? Or has a thousand years of exile changed the old king?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SOMBRA_TITLES_1">
+			<Text>King</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Units>
+    <Row>
+      <Type>UNIT_DAZZLING</Type>
+      <Description>TXT_KEY_UNIT_DAZZLING</Description>
+      <Civilopedia>TXT_KEY_CIV5_DAZZLING_TEXT</Civilopedia>
+      <Strategy>TXT_KEY_UNIT_DAZZLING_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_HELP_DAZZLING</Help>
+      <Requirements></Requirements>
+      <Combat>0</Combat>
+      <Cost>-1</Cost>
+      <Moves>2</Moves>
+      <BaseSightRange>2</BaseSightRange>
+      <Class>UNITCLASS_MERCHANT</Class>
+      <Special>SPECIALUNIT_PEOPLE</Special>
+      <Domain>DOMAIN_LAND</Domain>
+      <CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+      <DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+      <WorkRate>1</WorkRate>
+      <BaseGold>300</BaseGold>
+      <NumGoldPerEra>100</NumGoldPerEra>
+      <CanBuyCityState>1</CanBuyCityState>
+      <UnitArtInfo>ART_DEF_UNIT_U_VENETIAN_MERCHANT</UnitArtInfo>
+      <ShowInPedia>1</ShowInPedia>
+      <MoveRate>WOODEN_BOAT</MoveRate>
+      <UnitFlagIconOffset>4</UnitFlagIconOffset>
+      <PortraitIndex>3</PortraitIndex>
+		<IconAtlas>CIV_COLOR_ATLAS_SIRENS</IconAtlas>
+		<UnitFlagAtlas>CIV_COLOR_ATLAS_SIRENS</UnitFlagAtlas>
+    </Row>
+  </Units>
+
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <UnitAIType>UNITAI_MERCHANT</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <!-- Unit_Buildings -->
+  <!-- Unit_BuildingClassRequireds -->
+  <!-- Unit_ProductionModifierBuildings -->
+  <!-- Unit_ClassUpgrades -->
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <PromotionType>PROMOTION_TRADE_MISSION_BONUS</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <FlavorType>FLAVOR_GOLD</FlavorType>
+      <Flavor>100</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <!-- Unit_GreatPersons -->
+  <!-- Unit_ResourceQuantityRequirements -->
+  <Unit_UniqueNames>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <UniqueName>TXT_KEY_DAZZLING_ADAGIO_DAZZLE</UniqueName>
+      <GreatWorkType></GreatWorkType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <UniqueName>TXT_KEY_DAZZLING_ARIA_BLAZE</UniqueName>
+      <GreatWorkType></GreatWorkType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <UniqueName>TXT_KEY_DAZZLING_SONATA_DUSK</UniqueName>
+      <GreatWorkType></GreatWorkType>
+    </Row>
+  </Unit_UniqueNames>
+  <!-- Unit_YieldFromKills -->
+  <!-- Unit_NotAITypes -->
+  <!-- Unit_ProductionTraits -->
+  <!-- Unit_TechTypes -->
+  <!-- UnitPromotions_CivilianUnitType -->
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_DAZZLING</UnitType>
+      <SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+      <FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_DAZZLING">
+      <Text>Dazzling</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAZZLING_TEXT">
+      <Text>Sirens of the Sea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DAZZLING_STRATEGY">
+      <Text>The Dazzling is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Dazzlings can acquire a City-State outright, bringing it under their control as a puppet. The Dazzling is expended when used in this way.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_DAZZLING">
+      <Text>This Siren unique Great Person replaces the Great Merchant. Aside from the ability to Conduct a Trade Mission, the Dazzling can purchase City-States outright, bringing them under Siren control as a Puppet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DAZZLING_ADAGIO_DAZZLE">
+      <Text>Adagio Dazzle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DAZZLING_ARIA_BLAZE">
+      <Text>Aria Blaze</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DAZZLING_SONATA_DUSK">
+      <Text>Sonata Dusk</Text>
+    </Row>
+  </Language_en_US>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<UnitType>UNIT_DAZZLING</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

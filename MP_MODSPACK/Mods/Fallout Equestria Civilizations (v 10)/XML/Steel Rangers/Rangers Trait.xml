@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/30/2015 7:24:43 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_POWER_ARMOR</Type>
+			<Description>TXT_KEY_TRAIT_POWER_ARMOR</Description>
+			<ShortDescription>TXT_KEY_TRAIT_POWER_ARMOR_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RANGER_HQ</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_WONDER_RANGER_HQ_HELP</Help>
+			<Description>TXT_KEY_BUILDING_RANGER_HQ</Description>
+			<Civilopedia>TXT_KEY_WONDER_RANGERHQ_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_RANGERHQ_QUOTE</Quote>
+			<Strategy>Allows defensive buildings to produce +1 [ICON_RESEARCH] science.</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<Capital>true</Capital>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+		</Row>
+	</Buildings>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_RANGERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_RANGER_HQ</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_POWER_ARMOR_PROMO</Type>
+			<Description>TXT_KEY_PROMOTION_POWER_ARMOR_PROMO</Description>
+			<Help>TXT_KEY_PROMOTION_POWER_ARMOR_PROMO_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OpenDefense>15</OpenDefense>
+			<RoughDefense>15</RoughDefense>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PediaEntry>TXT_KEY_PROMOTION_POWER_ARMOR_PROMO</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_POWER_ARMOR_PROMO</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_POWER_ARMOR_PROMO">
+			<Text>Steel Ranger Power Armor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_POWER_ARMOR_PROMO_HELP">
+			<Text>Thick Steel Ranger Power Armor gives units a 15% combat bonus when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_POWER_ARMOR">
+			<Text>All defensive buildings produce +1 [ICON_RESEARCH] each. All land units also recieve a +15% [ICON_STRENGTH] combat bonus when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_POWER_ARMOR_SHORT">
+			<Text>Power Armor Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_RANGER_HQ_HELP">
+			<Text>The base of operations for the Steel Rangers. Allows all defensive buildings to produce +1 [ICON_RESEARCH] Science each.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANGER_HQ">
+			<Text>Headquarters of the Steel Rangers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_RANGERHQ_DESC">
+			<Text>The Steel Ranger Headquarters establishes the base of operations for recovering technology. Large-scale operations to recover and reverse engineer technology are planned and approved here, allowing defensive buildings to produce +1 [ICON_RESEARCH] science each.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_RANGERHQ_QUOTE">
+			<Text>"Honestly, most of them would be more interested in saving your PipBuck than saving you." [NEWLINE][NEWLINE] -Homage to LittlePip</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

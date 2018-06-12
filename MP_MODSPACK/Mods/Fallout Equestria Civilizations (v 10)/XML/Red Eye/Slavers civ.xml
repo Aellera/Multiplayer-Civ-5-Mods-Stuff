@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/6/2015 6:43:04 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SLAVERS</Type>
+			<Description>TXT_KEY_CIV_SLAVERS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_SLAVERS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SLAVERS_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_SLAVERS_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_SLAVERS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_SLAVERS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOE</AlphaIconAtlas>
+			<MapImage>Slaversmap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_SLAVERS_DOM</DawnOfManQuote>
+			<DawnOfManImage>SlaversDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Aztec</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SLAVERS_ICON</Type>
+			<Red>0.243</Red>
+			<Green>0.243</Green>
+			<Blue>0.243</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SLAVERS_BACKGROUND</Type>
+			<Red>0.800</Red>
+			<Green>0.000</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SLAVERS</Type>
+			<PrimaryColor>COLOR_PLAYER_SLAVERS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SLAVERS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_SLAVERS_ICON</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<LeaderheadType>LEADER_REDEYE</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<RegionType>REGION_HILLS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SLAVERS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FILLYDELPHIASLAVE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CRATER</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OLD_APPLELOOSA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PARADISE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BRIMSTONE_FALLS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SCRAPYARD</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BALTIMARE_SLAVER_BASE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LAS_PEGASUS_SLAVER_BASE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VANHOOVER_SLAVER_BASE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CATHEDRAL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TALL_TALE_SLAVER_BASE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_I</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_II</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_III</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_IV</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_V</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_VI</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_FILLYDELPHIASLAVE">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CRATER">
+			<Text>The Crater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_APPLELOOSA">
+			<Text>Old Appleloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATHEDRAL">
+			<Text>The Cathedral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PARADISE">
+			<Text>Paradise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRIMSTONE_FALLS">
+			<Text>Brimstone Falls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SCRAPYARD">
+			<Text>Scrapyard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BALTIMARE_SLAVER_BASE">
+			<Text>Baltimare Slavers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LAS_PEGASUS_SLAVER_BASE">
+			<Text>Las Pegasus Slavers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANHOOVER_SLAVER_BASE">
+			<Text>Vanhoover Slavers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TALL_TALE_SLAVER_BASE">
+			<Text>Tall Tale Slavers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_I">
+			<Text>Slaver Base I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_II">
+			<Text>Slaver Base II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_III">
+			<Text>Slaver Base III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_IV">
+			<Text>Slaver Base IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_V">
+			<Text>Slaver Base V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SLAVER_ENCAMPMENT_VI">
+			<Text>Slave Camp VI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_0">
+			<Text>Stern</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_1">
+			<Text>Daff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_2">
+			<Text>Blood</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_3">
+			<Text>Mister Shiny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_4">
+			<Text>Doc Slaughter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_5">
+			<Text>Gizmo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_6">
+			<Text>Winter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_7">
+			<Text>Doc Glue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_8">
+			<Text>Cracker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SLAVERS_9">
+			<Text>Sawed-Off</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SLAVERS_ADJECTIVE">
+			<Text>Red Eye's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SLAVERS_DESC">
+			<Text>The New Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SLAVERS_SHORT_DESC">
+			<Text>Slavers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SLAVERS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SLAVERS_TEXT_1">
+			<Text>Red Eye's army saw it's beginnings when Red Eye took over his Stable and forced it to open up to the Wasteland. Red Eyes stable had cybernetic technologies far more advanced and excessive than was neccesary. The aim of his stable was to promote the Earth Pony way of leadership. When Red Eye emerged from his stable, he had it dismantled and used to build shelter, he over an indisclosed amount of time took over Fillydelphia. Once he had control of Fillydelphia, he began working to rebuild it, and needed 'volunteers' (Slave labour) to make it possible. Red Eye built up a powerful army of slavers who would buy or find slaves for his army. Using his charismatic charm, Red Eye kept Fillydelphia under his hoof and set about building schools to brainwash Fillies and Colts into being loyal to him. (Text taken from Fo:E wiki) [NEWLINE][NEWLINE] Although the work is painstaking and the Slavers themselves are cruel, Red Eye's ultimate goal is to see Equestria rebuilt and revived from its shattered state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SLAVERS_DOM">
+			<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient taint that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables.  But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE] It has been many years since you, Red Eye, emerged from Stable 101 and took the Wasteland by storm. Your charism and vision for a better tomorrow have earned you many followers and an army large enough to challenge the Enclave for dominance. Your people scour every corner of the Wasteland, bringing new ponies to work in the refurbished factories of Fillydelphia. Glorious Red Eye of the New Equestria, can you secure Equestria for future generations? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

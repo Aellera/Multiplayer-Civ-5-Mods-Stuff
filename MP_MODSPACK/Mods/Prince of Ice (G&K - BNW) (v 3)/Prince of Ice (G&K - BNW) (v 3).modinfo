@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2281c1c5-7750-444d-b237-1fcced4bee71" version="3">
+  <Properties>
+    <Name>Prince of Ice (G&amp;K - BNW)</Name>
+    <Teaser>Adds the Frozen Kingdom, let by Prince Sentium. Replaces Germany.</Teaser>
+    <Description>Adds the Frozen Kingdom, let by Prince Sentium. Replaces Germany.[NEWLINE][NEWLINE]------------------------------------------------------------------------------------------------------------ [NEWLINE] This mod includes: [NEWLINE][NEWLINE]
+Custom music, sounds and voice acting. [NEWLINE]
+Custom art and royalty free art. [NEWLINE]
+Screenshots from the online game: Second Life. [NEWLINE][NEWLINE]
+New Civilization: Frozen Kingdom. [NEWLINE]
+New Leader: Prince Sentium. [NEWLINE]
+New Units: Frozen Spirit, Blue Knight. [NEWLINE]
+New Religion: Spiritism. [NEWLINE][NEWLINE]
+Renames the following things. [NEWLINE]
+Building: Great Wall &gt; Sentian Wall. [NEWLINE]
+Building: Red Fort &gt; Blue Palace. [NEWLINE]
+Promotion: Homeland Guardian Boogaloo &gt; Scepter of the North. [NEWLINE][NEWLINE]------------------------------------------------------------------------------------------------------------[NEWLINE]First of all, I want to thank Storm Holder, StarMan_Dx, SharpUnforgiven, Sparkle Aftermath and my good friend Muffin. Storm Holder gave me handy tips during the build of the mod. Without him I would still be working on this. StarMan_Dx has always bin a big inspiration. I love his MLP mods and its the main reason why i started to make them myself. Muffin provided the nicely made castle you see in the mod itself. I'm very thankful for that. SharpUnforgiven is the guy behind the voice acting for the Dawn of Man audio. You're awesome, dude! Sparkle Aftermath voices Prince Sentium for me, and he did an amazing job as wel. [NEWLINE][NEWLINE]Making this mod was both interesting and fun. I learned allot of new things about how the game works. It was a pleasant experience to see how my mod grow from nothing into a big thing. I admit, i had a moment where the mod broke and that I wanted to drop it all, but after a while I came back and fixed it. I'm glad i did. [NEWLINE][NEWLINE]I am planning on making more mods. I have some in mind already. So expect to see more of me in the future. Have fun gaming!</Description>
+    <Authors>The Pinkie Pie.</Authors>
+    <SpecialThanks>Storm Holder, StarMan_Dx, Muffin, SharpUnforgiven, Sparkle Aftermath.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks>
+    <Mod id="190c3c6d-1b9f-4e1c-bd10-87285705073d" minversion="0" maxversion="999" title="Prince of Ice (Vanilla)" />
+  </Blocks>
+  <Files>
+    <File md5="A57FA61EC6CE39274D6C37B3E736E25D" import="1">Art/MapSentium512.dds</File>
+    <File md5="6230042061E29E5A1C43B7419B224B47" import="1">Art/Scene/Sentium.fxsxml</File>
+    <File md5="E68F6725A17D19DC5EAF51E56D817A17" import="1">Art/Scene/Sentium_Triggers.ftsxml</File>
+    <File md5="8AC78EEE312223993032BC0C0E88B8C2" import="1">Art/Scene/Sentium_dipo.dds</File>
+    <File md5="1B4F80EB36EC2E0C19D75A09721836E9" import="1">Art/Scene/Sentium_scene.xml</File>
+    <File md5="628288AC8C1A2CB45412E6B334C5E1A1" import="1">Art/SentiumAtlas128.dds</File>
+    <File md5="25355F211E7DE362BB1BA1C99FEF6D1F" import="1">Art/SentiumAtlas214.dds</File>
+    <File md5="F508CCD661B1E46274C2B1A90750746D" import="1">Art/SentiumAtlas256.dds</File>
+    <File md5="AE0A3604394F001DD2A5A137032F9308" import="1">Art/SentiumAtlas32.dds</File>
+    <File md5="EDA8B376B6CC25462AC066AD6D3078B1" import="1">Art/SentiumAtlas45.dds</File>
+    <File md5="E3C87BC8F015F04970A37D00730F4055" import="1">Art/SentiumAtlas64.dds</File>
+    <File md5="A53672D449291D625FF6C66CC55FA66F" import="1">Art/SentiumAtlas80.dds</File>
+    <File md5="7956A8390C4C530B53E9535B39E034BB" import="1">Art/SentiumAtlasAlpha32.dds</File>
+    <File md5="36142A630F9190E1575945DA2CD4CE95" import="1">Art/SentiumDOM.dds</File>
+    <File md5="31A8F691FF05225B1F4AB8ADA0350FFB" import="1">Art/Spiritism Art/Spiritism_atlas_128.dds</File>
+    <File md5="28FCDD83988DB8AF254D224597434FE7" import="1">Art/Spiritism Art/Spiritism_atlas_16.dds</File>
+    <File md5="78325905E4538F0F8D1E287EB550DD0D" import="1">Art/Spiritism Art/Spiritism_atlas_24.dds</File>
+    <File md5="99607A23D8B8676BE590A663A3DCC85B" import="1">Art/Spiritism Art/Spiritism_atlas_32.dds</File>
+    <File md5="682F2B830E006584E6E710AC85ABD620" import="1">Art/Spiritism Art/Spiritism_atlas_48.dds</File>
+    <File md5="AAAA9F9989FC548C7B7717146D82FDD2" import="1">Art/Spiritism Art/Spiritism_atlas_64.dds</File>
+    <File md5="AF0B859902F488D8CDB67F451E5C3A9D" import="1">Art/Spiritism Art/Spiritism_atlas_80.dds</File>
+    <File md5="58B5D9EC3D63A885E1EF256CC2BB54C2" import="1">Art/Spiritism Art/Spiritism_fonticon.dds</File>
+    <File md5="EC4D37BB7647387A91A940CEDAA08B16" import="1">Sound/Bismarck_Peace.mp3</File>
+    <File md5="BDC6A00E21D512A5D766A05F0D0BCAEB" import="1">Sound/Bismarck_War.mp3</File>
+    <File md5="9D04C93B3AD7341B002444380C61D694" import="1">Sound/Select_Blue_Knight.wav</File>
+    <File md5="0B4C75A794DF7C66BF8771906E67D030" import="1">Sound/Select_Frozen_Spirit.wav</File>
+    <File md5="850BE6CA6C80E18938450EC11D13D2E5" import="1">Sound/Sentium_Dom.wav</File>
+    <File md5="9526D109AF005DADCAD456D1082D4E04" import="1">Sound/Speech/Sentium_Attacked.wav</File>
+    <File md5="496E2F867ED959714F62A204E489749C" import="1">Sound/Speech/Sentium_Declare_War.wav</File>
+    <File md5="AC2EA34118FDF7435EDBD1DD940158BE" import="1">Sound/Speech/Sentium_Demand.wav</File>
+    <File md5="6F7ED903BB1F9477D9AEDA0754E92C3C" import="1">Sound/Speech/Sentium_Excellent.mp3</File>
+    <File md5="86A40E5781E481ECC20E4A9FA2521448" import="1">Sound/Speech/Sentium_Hate_Hear_It_01.wav</File>
+    <File md5="84CF45816289766524C34EDC39EF6BA4" import="1">Sound/Speech/Sentium_Hate_Hear_It_02.wav</File>
+    <File md5="C6CF6CE6D96AB56AD7275D3525AA5E72" import="1">Sound/Speech/Sentium_Hate_Hello.wav</File>
+    <File md5="4F59A32F9EF1F81FC58C089F5B1A501D" import="1">Sound/Speech/Sentium_Hate_No_01.wav</File>
+    <File md5="903CDECE6739F0187E53647A955558B5" import="1">Sound/Speech/Sentium_Hate_No_02.wav</File>
+    <File md5="B520DA5FD3D7FCD5A27302E7BAAAA406" import="1">Sound/Speech/Sentium_Hate_No_03.wav</File>
+    <File md5="5E53C1A11A35E498AACB51E1DDBAF1C9" import="1">Sound/Speech/Sentium_Hate_Yes_01.wav</File>
+    <File md5="8020A6DCAE143BE60AD661E2814FF873" import="1">Sound/Speech/Sentium_Hate_Yes_03.wav</File>
+    <File md5="EEA77BF45B927E2E6C04B23585E16305" import="1">Sound/Speech/Sentium_Hate_Yes_04.wav</File>
+    <File md5="A8FA83D5A231E9EBDA0691ECAEB9CAB5" import="1">Sound/Speech/Sentium_Intro.wav</File>
+    <File md5="0F9A06AD0244B894202ECDC7418DC4A9" import="1">Sound/Speech/Sentium_Neutral_Hear_It_01.wav</File>
+    <File md5="F7DE501883F0521BD9E1BF89CA8D4A51" import="1">Sound/Speech/Sentium_Neutral_Hear_It_02.wav</File>
+    <File md5="17380DE15652FFB4E6D9A5E97F061EA2" import="1">Sound/Speech/Sentium_Neutral_Hear_It_03.wav</File>
+    <File md5="F3A19B7384747507AA015A28814C108C" import="1">Sound/Speech/Sentium_Neutral_Hello.wav</File>
+    <File md5="8C8A8F1561837665162B60ADBFF72F1F" import="1">Sound/Speech/Sentium_Neutral_Hello_02.wav</File>
+    <File md5="BB723CF12E4CBC6CC796BA13D983460E" import="1">Sound/Speech/Sentium_Neutral_No_01.wav</File>
+    <File md5="5D1CF62DE3A7B845675150AE7AA45732" import="1">Sound/Speech/Sentium_Neutral_No_02.wav</File>
+    <File md5="41F1A17EF629D3FB5F12982B60235D53" import="1">Sound/Speech/Sentium_Neutral_Yes_01.wav</File>
+    <File md5="7BD4B9A69DEF7EE4E35D40874C34AC67" import="1">Sound/Speech/Sentium_Neutral_Yes_02.wav</File>
+    <File md5="0FBEA5D4850B9B76E47FF91763C9DB1A" import="1">Sound/Speech/Sentium_Neutral_Yes_03.wav</File>
+    <File md5="9E67EDC7220EAD51772943788AD252B2" import="1">Sound/Speech/Sentium_Peaceful.wav</File>
+    <File md5="DD35B838A0E6D36ED640E54FC78C60CC" import="1">Sound/Speech/Sentium_Request.wav</File>
+    <File md5="BE29F4B783E3DDDC5334A68430F8ACF8" import="0">XML/Atlas - Sound.xml</File>
+    <File md5="A6FA4093F28BC6E2DA35501501F9D7BE" import="0">XML/Cities.xml</File>
+    <File md5="6F02730707BD9CD4D2F31AA8DEE1F11F" import="0">XML/Renaming.xml</File>
+    <File md5="FB38E087164ABEF94BE623F8F632EB32" import="0">XML/Prince Sentium.xml</File>
+    <File md5="4C7F582E298E2D11BAAEE8E5A86EFED2" import="0">XML/Religion/Religion (Spiritism).xml</File>
+    <File md5="D651266708A352CC8BD3893C054E000A" import="0">XML/Religion/Spiritism Atlas.xml</File>
+    <File md5="2C06F0B9E72093C10F00C64E0C0BF212" import="1">XML/Religion/Spiritism_fonticon.ggxml</File>
+    <File md5="490B2BF3666E3D961727C7C7879629A4" import="0">XML/Frozen Kingdom.xml</File>
+    <File md5="DCAC5418F63CA08E4E09F24A90026628" import="0">XML/Spies.xml</File>
+    <File md5="5D5E9B59489E89430E29C195D8A8C57F" import="0">XML/Units/Blue Knight.xml</File>
+    <File md5="52793F147DE197773227F19F5FDEDAA6" import="0">XML/Units/Frozen Spirit.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Religion/Religion (Spiritism).xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religion/Spiritism Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Atlas - Sound.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cities.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Renaming.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Spies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Blue Knight.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Frozen Spirit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Frozen Kingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Prince Sentium.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2012 1:32:58 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CANTERLOT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MANEHATTAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CLOUDSDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PONYVILLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LAS_PEGASUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FILLYDELPHIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BALTIMARE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_APPLELOOSA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HOOFINGTON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DODGE_JUNCTION</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TROTTINGHAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EVERLOST_CITY</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_CANTERLOT">
+			<Text>Canterlot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MANEHATTAN">
+			<Text>Manehattan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CLOUDSDALE">
+			<Text>Cloudsdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PONYVILLE">
+			<Text>Ponyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LAS_PEGASUS">
+			<Text>Las Pegasus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FILLYDELPHIA">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BALTIMARE">
+			<Text>Baltimare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_APPLELOOSA">
+			<Text>Appleloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HOOFINGTON">
+			<Text>Hoofington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DODGE_JUNCTION">
+			<Text>Dodge Junction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTTINGHAM">
+			<Text>Trottingham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EVERLOST_CITY">
+			<Text>City Everlost</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

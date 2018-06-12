@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:12 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_ALEXANDER"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_SAUDIAN</Description>
+				<Civilopedia>TXT_KEY_LEADER_SAUDIAN_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN</CivilopediaTag>
+				<ArtDefineTag>SAUDIAN_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>8</VictoryCompetitiveness>
+				<WonderCompetitiveness>8</WonderCompetitiveness>
+				<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+				<Boldness>8</Boldness>
+				<DiploBalance>7</DiploBalance>
+				<WarmongerHate>4</WarmongerHate>
+				<WorkAgainstWillingness>5</WorkAgainstWillingness>
+				<WorkWithWillingness>8</WorkWithWillingness>
+				<DenounceWillingness>5</DenounceWillingness>
+				<DoFWillingness>6</DoFWillingness>
+				<Loyalty>3</Loyalty>
+				<Neediness>2</Neediness>
+				<Forgiveness>8</Forgiveness>
+				<Chattiness>6</Chattiness>
+				<Meanness>3</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_SADDLEARABIANS</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+	
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>2</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+	-<Leader_Traits>
+		-<Update>
+			<Where LeaderType="LEADER_ALEXANDER"/>
+			<Set TraitType="TRAIT_NATURAL_TRADERS"/>
+		</Update>
+	</Leader_Traits> -<Traits>
+		-<Row>
+			<Type>TRAIT_NATURAL_TRADERS</Type>
+			<Description>TXT_KEY_TRAIT_NATURAL_TRADERS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NATURAL_TRADERS_SHORT</ShortDescription>
+		</Row>
+	</Traits> -<Trait_ResourceQuantityModifiers>
+		-<Row>
+			<TraitType>TRAIT_NATURAL_TRADERS</TraitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers> -<Trait_ImprovementYieldChanges>
+		-<Row>
+			<TraitType>TRAIT_NATURAL_TRADERS</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges> -<Language_en_US>
+		-<Row Tag="TXT_KEY_TRAIT_NATURAL_TRADERS">
+			<Text>The Saddle Arabian's homeland is at the crossraods of many traderoutes, allowing them to master trade, doubles resources of oil and increases trade posts' gold by 2 [ICON_GOLD].</Text>
+		</Row> -<Row Tag="TXT_KEY_TRAIT_NATURAL_TRADERS_SHORT">
+			<Text>Natural Traders</Text>
+		</Row> -<Row Tag="TXT_KEY_LEADER_SAUDIN">
+			<Text>Saudin</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- PEDIA ENTRY -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_HEADING_1">
+			<Text>Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_TEXT_1">
+			<Text>King Saudian leads the proud and ancient nation of Saddle Arabia. Aided by his lovely and intellegent wife, Saudian rules his nation justly and focuses on trade and diplomacy rather than outright conflict to resolve isssues. Saudian stands resolute ready to defend his people and their way of life.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_LIVED">
+			<Text>Unknown - Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_NAME">
+			<Text>Saudian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_SUBTITLE">
+			<Text>Leader of the Saddle Arabians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAUDIAN_TITLES_1">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAUDIAN">
+			<Text>Saudian</Text>
+		<Gender>masculine</Gender>
+		</Row>
+	</Language_en_US>
+	
+	<!-- DIPLOMACY RESPONSES -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_1"/>
+			<Set Text="Ohai there, it is so wonderful to meet such an interesting person as yourself please take a seat."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_2"/>
+			<Set Text="Welcome to the Saddle Arabia. Feel free to relax our home is your home...for the right price of course."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_3"/>
+			<Set Text="Welcome friend, what can the grand nation of Saddle Arabia do for you today?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_1"/>
+			<Set Text="You care to test me?So be it."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_2"/>
+			<Set Text="I'll let this incident slide, but it shall never happen again."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_3"/>
+			<Set Text="I'll be most triumpent in the end, despite any of your best efforts."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_WINWAR_1"/>
+			<Set Text="I'm sorry it had to come to this, but now your subjects can enjoy all the wonderful freedoms you've kept them from."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_LOSEWAR_1"/>
+			<Set Text="No Matter Saddle Arabia shall be victorious next time, I concede this battle to you."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_1"/>
+			<Set Text="You think we merely defeated but we shall hide in our native deserts and in time will rise to greatness once more!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_2"/>
+			<Set Text="Clearly I underestimated you, next time you won't be so lucky. Enjoy your spoils of war while they last."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_3"/>
+			<Set Text="I've been beaten, my one request now is to look after my subjects as if they were your own."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_YES_NEUTRAL"/>
+			<Set Text="I'll pay your tribute, but next time how about we just trade instead?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_NEUTRAL"/>
+			<Set Text="Haha why ask when you could just pay for it?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ALEXANDER_RESPONSE_REQUEST_1"/>
+			<Set Text="I need some resources to start up a new project of mine and I'm a little short on funds..."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DEMANDTRIBUTE_HAPPY"/>
+			<Set Text="I'm sorry but my nation desperatly needs this right now, could you spare it for the children?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DEMANDTRIBUTE_ANGRY"/>
+			<Set Text="I need this now!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_TRADEREQUEST_ANGRY"/>
+			<Set Text="You might as well sell that for now, you won't find a better deal elsewhere."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_1"/>
+			<Set Text="It's a pity it had to come to this, but I will stop at nothing to protect my people!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_2"/>
+			<Set Text="I'll never let you take my lands or people, prepare for me to take yours."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_3"/>
+			<Set Text="All I wanted was to trade and live peacefully but you've forced my hooves!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_1"/>
+			<Set Text="How could you? I thought you were my friend..."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_2"/>
+			<Set Text="My people shall win and claim victory."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_3"/>
+			<Set Text="You'll never take away any of my people or their lands as long as I'm here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_ANGRY_1"/>
+			<Set Text="Don't be stupid, that could never work."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ALEXANDER_OPEN_BORDERS_EXCHANGE_1"/>
+			<Set Text="These borders are stoping our mutual benifical trade please allow our people free access to your lands."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ALEXANDER_EXPANSION_SERIOUS_WARNING_1"/>
+			<Set Text="Your unending expansion is encroaching on areas clearly destined for my peoples."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ALEXANDER_LUXURY_TRADE_1"/>
+			<Set Text="Excellent another sucessful exchange! May we both and our peoples prosper."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ALEXANDER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1"/>
+			<Set Text="I would hate to think that you are planning againist me when we could be trading."/>
+		</Update>
+	</Language_en_US>
+</GameData>

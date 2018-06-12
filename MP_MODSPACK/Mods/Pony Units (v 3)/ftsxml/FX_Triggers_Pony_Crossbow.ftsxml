@@ -1,0 +1,302 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1120">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1160">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1560">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1800">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1140">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1180">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1540">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1110">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1450">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerSound" id="8" time="0.437037" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_BOW_WHOOSH" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="72" time="0" duration="1" repeat="0" ec="1500" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="17" time="0.11296314" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_IMPACT_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerTransfer" id="58" time="0.472221881" duration="0" repeat="0" ec="1160" track="3" tier="0" refid="3" speed="11.7884" tangent.x="0.08520431" tangent.y="-0.6809251" tangent.z="0.727379739"/>
+    <trigger type="FTimedTriggerEffect" id="67" time="0.740741" duration="0.266667" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerEffect" id="53" time="0" duration="0.433333" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="30" time="0.799999" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CB_DRAW_PULL" bone=""/>
+    <trigger type="FTimedTriggerSound" id="25" time="0.286486" duration="0" repeat="0" ec="2200" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FALL" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="75" time="0" duration="0.666667" repeat="0" ec="1560" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerEffect" id="20" time="0" duration="0" repeat="0" ec="1200" track="2" tier="0" event="ART_DEF_VEFFECT_BLUNT_HIT_SM" bone="HorseBip Spine2"/>
+    <trigger type="FTimedTriggerSound" id="44" time="0.02222222" duration="0.67" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_T1_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="44" time="0.024074072" duration="0.67" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_T2_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="61" time="0.4" duration="0.08" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT" bone="Archer_D_StringController"/>
+    <trigger type="FTimedTriggerSound" id="6" time="0.00130039011" duration="0" repeat="0" ec="1500" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_FORTIFY" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="70" time="0" duration="1" repeat="0" ec="1600" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerEffect" id="56" time="0.777778" duration="0.266667" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="1" time="0.861972" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FORTIFY_VOX_J" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="65" time="0.4666667" duration="0.06" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT" bone="Archer_D_StringController"/>
+    <trigger type="FTimedTriggerSound" id="42" time="0.050524" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_BOUNCE_RUN" bone=""/>
+    <trigger type="FTimedTriggerTransfer" id="51" time="0.475925565" duration="0" repeat="0" ec="1100" track="3" tier="0" refid="50" speed="71.1529" tangent.x="0.0996525" tangent.y="-0.9948024" tangent.z="-0.0209159125"/>
+    <trigger type="FTimedTriggerSound" id="28" time="0.315716" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_FOOT_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="14" time="0.625887" duration="0" repeat="0" ec="1800" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CLUB_HAND" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="78" time="0" duration="5" repeat="0" ec="2040" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="23" time="0.5013994" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_BODY_FALL_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="32" time="0.894851" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_VICTORY_VOX_I" bone=""/>
+    <trigger type="FTimedTriggerSound" id="9" time="0.3814813" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="73" time="0" duration="5" repeat="0" ec="1520" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="18" time="0.770371" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CB_DRAW_PULL" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="59" time="0.76111114" duration="0.266667" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="4" time="0.0257000718" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_FOOT_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="68" time="0" duration="0.666667" repeat="0" ec="1120" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerEffect" id="54" time="0.433333" duration="0.055" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT" bone="Archer_D_StringController"/>
+    <trigger type="FTimedTriggerSound" id="31" time="0.437037" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="49" time="0" duration="0.45" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="26" time="0.797116" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CB_DRAW_PULL" bone=""/>
+    <trigger type="FTimedTriggerSound" id="35" time="0.434395" duration="0" repeat="0" ec="1200" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FALL" bone=""/>
+    <trigger type="FTimedTriggerSound" id="12" time="0.169014" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_QUIVER_RUN" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="76" time="0" duration="1" repeat="0" ec="1020" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="21" time="0.112962455" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_DEATH_VOX_S" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="62" time="0.777778" duration="0.266667" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="7" time="0.4" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="71" time="0" duration="5" repeat="0" ec="1620" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="16" time="0.448148131" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_BOW_WHOOSH" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="57" time="0.09629632" duration="0.31" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT_FIRE" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="2" time="0.428386271" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerTransfer" id="66" time="0.5166667" duration="0" repeat="0" ec="1140" track="3" tier="0" refid="65" speed="6.56281" tangent.x="0.09965256" tangent.y="-0.9948025" tangent.z="-0.02091621"/>
+    <trigger type="FTimedTriggerSound" id="43" time="0.424974" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_BOUNCE_RUN" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="52" time="0.755556" duration="0.266667" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="29" time="0.329577" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="38" time="0.09534026" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_IMPACT_$(WEAPON)" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="15" time="0" duration="0" repeat="0" ec="2200" track="2" tier="0" event="ART_DEF_VEFFECT_BLUNT_HIT_MD" bone="HorseBip Spine2"/>
+    <trigger type="FTimedTriggerSound" id="33" time="0.466667" duration="0" repeat="0" ec="1140" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_BOW_WHOOSH" bone=""/>
+    <trigger type="FTimedTriggerSound" id="10" time="0.481480569" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_BOW_WHOOSH" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="74" time="0" duration="5" repeat="0" ec="1540" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="19" time="0.426604718" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="60" time="0" duration="0.4" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="5" time="0.10489814" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_DEATH_VOX_S" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="69" time="0" duration="0.5" repeat="0" ec="1110" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerTransfer" id="55" time="0.475925744" duration="0" repeat="0" ec="2100" track="3" tier="0" refid="54" speed="25.4476" tangent.x="0.09965251" tangent.y="-0.9948024" tangent.z="-0.0209164582"/>
+    <trigger type="FTimedTriggerEffect" id="64" time="0" duration="0.47" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="41" time="0.805638" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CB_DRAW_PULL" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="50" time="0.429630071" duration="0.065" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT" bone="Archer_D_StringController"/>
+    <trigger type="FTimedTriggerSound" id="27" time="0.14148" duration="0" repeat="0" ec="1400" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CROSSBOW_QUIVER_RUN" bone=""/>
+    <trigger type="FTimedTriggerSound" id="36" time="0.477328" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_BODY_FALL_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="13" time="0.00652070343" duration="0" repeat="0" ec="1120" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerEffect" id="77" time="0" duration="6" repeat="0" ec="2000" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="22" time="0.814815" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_CB_DRAW_PULL" bone=""/>
+    <trigger type="FTimedTriggerTransfer" id="63" time="0.464814425" duration="0" repeat="0" ec="1180" track="3" tier="0" refid="61" speed="74.4567" tangent.x="0.085204415" tangent.y="-0.6809252" tangent.z="0.72737956"/>
+    <trigger type="FTimedTriggerEffect" id="3" time="0.4" duration="0.092" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_PROJ_CROSSBOW_BOLT_FIRE" bone="Archer_D_StringController"/>
+    <trigger type="FTimedTriggerEffect" id="11" time="0" duration="0.1" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_CROSSBOW_BOLT" bone="Archer_D_BowMaster"/>
+    <trigger type="FTimedTriggerSound" id="24" time="0.4240741" duration="0" repeat="0" ec="1100" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="37" time="0.427777946" duration="0" repeat="0" ec="1100" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="39" time="0.429629743" duration="0" repeat="0" ec="1160" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_FLAMING_ARROW_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="45" time="0.425926119" duration="0" repeat="0" ec="1160" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_FLAMING_ARROW_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="46" time="0.4888889" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_CROSSBOWMAN_THROW_FIRE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="47" time="0.3814816" duration="0" repeat="0" ec="1180" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="48" time="0.374074161" duration="0" repeat="0" ec="1180" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="79" time="0.262962878" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="80" time="0.3148148" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="81" time="0.314814746" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FORTIFY_VOX_J" bone=""/>
+    <trigger type="FTimedTriggerSound" id="82" time="0" duration="0.67" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_RUN_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="83" time="0.00130039011" duration="0.67" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_RUN_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="84" time="0.00195058517" duration="0" repeat="0" ec="1400" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_RUN_VOX_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="85" time="-0.00325097539" duration="0" repeat="0" ec="1400" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_RUN_VOX_T2" bone=""/>
+    <trigger type="FTimedTriggerSound" id="86" time="0.863032" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="88" time="0.8140232" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="89" time="0.449462354" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="90" time="0.632258058" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FORTIFY_VOX_J" bone=""/>
+    <trigger type="FTimedTriggerSound" id="91" time="0.6688172" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_CROSSBOWMAN_FOOT_ALWAYS_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="92" time="0.397849441" duration="0" repeat="0" ec="2100" track="1" tier="1" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T1" bone=""/>
+    <trigger type="FTimedTriggerSound" id="93" time="0.402150482" duration="0" repeat="0" ec="2100" track="1" tier="2" event="AS3D_UNIT_CROSSBOWMAN_ARROW_FIRE_T2" bone=""/>
+  </triggers>
+</trigger_system>

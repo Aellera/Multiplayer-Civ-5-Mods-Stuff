@@ -1,0 +1,360 @@
+<!-- via Resource\Common\Washington_Sound.ftsxml -->
+<trigger_system type="FGrannyTimedTriggerSystem">
+	<event_tracks>
+		<event_track ec="9004">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9013">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7006">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7015">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="6000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7001">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7010">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7060">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9021">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9030">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9007">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9016">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="1">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="8001">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9002">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9011">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7004">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7013">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9998">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7008">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7021">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9005">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7030">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9014">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7007">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7002">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9050">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7011">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9022">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9031">
+			<track id="1" name="Sound" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9017">
+			<track id="2" name="Effect" />
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9003">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9012">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7005">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7014">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7009">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9006">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7031">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9015">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="8000">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9001">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9010">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7003">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7012">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7070">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7071">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9070">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9071">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7080">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="7081">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9080">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+		<event_track ec="9081">
+			<track id="1" name="Sound" />
+			<track id="2" name="Effect" />
+			<track id="3" name="Transfer" />
+			<track id="4" name="Action" />
+		</event_track>
+	</event_tracks>
+	<triggers>
+		<trigger type="FTimedTriggerSound" id="8" time="1.16296" duration="0" repeat="0" ec="9015" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_YES_03" bone="" />
+		<trigger type="FTimedTriggerSound" id="16" time="0.992592" duration="0" repeat="0" ec="7007" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_HEAR_IT_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="24" time="0.851853" duration="0" repeat="0" ec="9005" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_NO_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="1" time="0.859259" duration="0" repeat="0" ec="7012" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_YES_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="9" time="1.11111" duration="0" repeat="0" ec="9003" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_DEMAND" bone="" />
+		<trigger type="FTimedTriggerSound" id="17" time="1.99259" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_DEFEATED" bone="" />
+		<trigger type="FTimedTriggerSound" id="2" time="1.24444" duration="0" repeat="0" ec="9014" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_YES_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="10" time="1.2" duration="0" repeat="0" ec="7004" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_GLOATS" bone="" />
+		<trigger type="FTimedTriggerSound" id="18" time="0.57037" duration="0" repeat="0" ec="7003" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_HELLO" bone="" />
+		<trigger type="FTimedTriggerSound" id="26" time="1.26666" duration="0" repeat="0" ec="9007" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_HEAR__IT_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="3" time="0.718518" duration="0" repeat="0" ec="9004" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_HELLO" bone="" />
+		<trigger type="FTimedTriggerSound" id="11" time="1.14815" duration="0" repeat="0" ec="9012" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_NO_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="19" time="1.16296" duration="0" repeat="0" ec="7006" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_NO_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="27" time="2.21667" duration="0" repeat="0" ec="6000" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_INTRO" bone="" />
+		<trigger type="FTimedTriggerSound" id="4" time="1.05926" duration="0" repeat="0" ec="7011" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_HEAR_IT_03" bone="" />
+		<trigger type="FTimedTriggerSound" id="12" time="0.844444" duration="0" repeat="0" ec="7010" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_HEAR_IT_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="20" time="1.5926" duration="0" repeat="0" ec="9016" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_HEAR_IT_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="28" time="1.3037" duration="0" repeat="0" ec="7014" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_NO_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="5" time="1.51852" duration="0" repeat="0" ec="7002" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_REQUEST" bone="" />
+		<trigger type="FTimedTriggerSound" id="13" time="1" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_PEACEFUL" bone="" />
+		<trigger type="FTimedTriggerSound" id="21" time="1.88148" duration="0" repeat="0" ec="9050" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_PEACEFUL" bone="" />
+		<trigger type="FTimedTriggerSound" id="29" time="1.5926" duration="0" repeat="0" ec="9017" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_HEAR_IT_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="6" time="1.64444" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_DECLARE_WAR" bone="" />
+		<trigger type="FTimedTriggerSound" id="14" time="1.13333" duration="0" repeat="0" ec="9013" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_NO_03" bone="" />
+		<trigger type="FTimedTriggerSound" id="22" time="1.04444" duration="0" repeat="0" ec="9006" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_HATE_YES_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="30" time="0.548148" duration="0" repeat="0" ec="7060" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_HELLO_02" bone="" />
+		<trigger type="FTimedTriggerSound" id="7" time="1.26667" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_ATTACKED" bone="" />
+		<trigger type="FTimedTriggerSound" id="23" time="0.88889" duration="0" repeat="0" ec="7005" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_YES_01" bone="" />
+		<trigger type="FTimedTriggerSound" id="53" time="1.3037" duration="0" repeat="0" ec="7015" track="1" tier="0" event="AS2D_LEADER_SPEECH_SENTIUM_NEUTRAL_NO_02" bone="" />
+	</triggers>
+</trigger_system>

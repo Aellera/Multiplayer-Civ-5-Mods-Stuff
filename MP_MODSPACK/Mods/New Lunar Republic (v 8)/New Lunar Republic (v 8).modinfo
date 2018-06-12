@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a49528d9-37f0-47f9-8181-4a6e535e6abe" version="8">
+  <Properties>
+    <Name>New Lunar Republic</Name>
+    <Teaser>Adds the New Lunar Republic, led by Princess Luna.</Teaser>
+    <Description>Adds the New Lunar Republic, led by Princess Luna.
+
+Trait: Tides Ever Favorable: Naval units get +2 Movement. Fishing Boats produce +1 Food.
+UB: Watchtower Observatory: Half the science bonus of a normal Observatory, but doesn't require a mountain. Small defense bonus.
+UU: Hovertank: more powerful than Modern Armor and ignores terrain costs, but also significantly more expensive
+
+My Little Pony: Friendship is Magic and related names tm and (c) Hasbro, obviously. New Lunar Republic logo by Metrukuta/Emkay-MLP ([url=http://emkay-mlp.deviantart.com/art/New-Lunar-Republic-Emblem-291749840]source[/url]). Music by CarbonMaestro and Makkon ([url=http://www.youtube.com/watch?v=IHYMBkfFCqw]Peace[/url], [url=http://www.youtube.com/watch?v=nh_nhUJ78gM]War[/url]). City names courtesy of Forderz.
+
+* this should work for all versions, whether or not you have Gods &amp; Kings and/or Brave New World
+* also available [url=http://forums.civfanatics.com/downloads.php?do=file&amp;id=21952]through CivFanatics[/url]</Description>
+    <Authors>Harald B</Authors>
+    <SpecialThanks>Forderz</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>7</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="24665CC36A579F1D78A1E4C853C5D7E0" import="1">Art/Hovertank.fxsxml</File>
+    <File md5="D0AABBCBA12FA0DE359F861AA7EA4107" import="1">Art/Hovertank.gr2</File>
+    <File md5="1166B397BBE3C66CFB48807D80ECAB97" import="1">Art/Hovertank_diff.dds</File>
+    <File md5="CEDFF01FC73134866118E0B13584E7B8" import="1">Art/LunaAlphaAtlas24.dds</File>
+    <File md5="0FD4F7D3AFFF819EB276A5D53919F603" import="1">Art/LunaAlphaAtlas32.dds</File>
+    <File md5="98411A7D4155552BC0EF3434B0ED36D7" import="1">Art/LunaAlphaAtlas48.dds</File>
+    <File md5="9EF29CC2EA71E20F5FDD95332CDF3A6A" import="1">Art/LunaAlphaAtlas64.dds</File>
+    <File md5="A54CF839DF03311575546693E6130985" import="1">Art/LunaAtlas128.dds</File>
+    <File md5="C364DE13E1FB49561D3B8D3CCC72D94A" import="1">Art/LunaAtlas256.dds</File>
+    <File md5="E021A30AA4967D81058B1EE545A0CA8A" import="1">Art/LunaAtlas32.dds</File>
+    <File md5="CA51C15E20967A03B026710A2052573F" import="1">Art/LunaAtlas45.dds</File>
+    <File md5="D84EC6056805FAA6C404C856391322B9" import="1">Art/LunaAtlas64.dds</File>
+    <File md5="7D0BFAE81C868B97FC4272B44CBA1263" import="1">Art/LunaAtlas80.dds</File>
+    <File md5="F30B46EE42D1E6BEDFE2B96EFADF0857" import="1">Art/LunaDOM.dds</File>
+    <File md5="C8CA83DD654F72F13C94D0155DE172A7" import="1">Art/Luna_diplo.dds</File>
+    <File md5="12D0A0738BED92EDBE15F781405B4796" import="1">Art/Luna_Scene.xml</File>
+    <File md5="C4792399F7AAEAFAFB68334A50D75B43" import="1">Art/MapLuna512.dds</File>
+    <File md5="4602B7C584C650B2A7E55AD6AF7645D8" import="0">Atlas.xml</File>
+    <File md5="8853D4C7F8648023E3FA6D0569C1EF22" import="0">City Names.xml</File>
+    <File md5="A5B3628B9E89C5BD5CE1FFF60CA4DB8C" import="0">Spies.xml</File>
+    <File md5="C78BB7A2836C32FAEA71E84569DE7B4C" import="0">Hovertank.xml</File>
+    <File md5="55D8497093D802F1A35FDB2D6A3515D5" import="0">Luna Trait.xml</File>
+    <File md5="60CA450B68780DB11AD6269FE1696F97" import="0">misc.sql</File>
+    <File md5="E9E1F5029746E1A1DDA64AAA1BBE7DDA" import="1">Music/Luna_Peace.mp3</File>
+    <File md5="4A5410C07F93B9575290812EF1F87797" import="1">Music/Luna_War.mp3</File>
+    <File md5="FB268D8D6E7442F82CD04F9BF647EF19" import="0">NLR.xml</File>
+    <File md5="D77090E4210D835ECA271987C2F00D0B" import="0">Princess Luna.xml</File>
+    <File md5="6FBCA8C43E2BE1A7DC8F1E749B33E36C" import="0">Sound.xml</File>
+    <File md5="CCDE1F3F251B17346C2811D8BD3A22C2" import="0">Vanilla only changes.xml</File>
+    <File md5="2EA9C56B29A87F54B8B603328885552D" import="0">Watchtower Observatory.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>NLR.xml</UpdateDatabase>
+      <UpdateDatabase>Luna Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Princess Luna.xml</UpdateDatabase>
+      <UpdateDatabase>Watchtower Observatory.xml</UpdateDatabase>
+      <UpdateDatabase>Hovertank.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>misc.sql</UpdateDatabase>
+      <UpdateDatabase>Spies.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

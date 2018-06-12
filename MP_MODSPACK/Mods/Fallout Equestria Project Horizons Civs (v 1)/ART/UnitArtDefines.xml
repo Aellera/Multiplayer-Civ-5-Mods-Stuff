@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_ZODIACS</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>EarlyGreatArtist</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_ZODIACS</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_XCOM_SQUAD</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+</GameData>

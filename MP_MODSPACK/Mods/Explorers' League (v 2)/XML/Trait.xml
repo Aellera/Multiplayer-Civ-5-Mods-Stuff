@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Row>
+      <Type>TRAIT_MUSEUM_TOURISM</Type>
+      <Description>TXT_KEY_TRAIT_MUSEUM_TOURISM</Description>
+      <ShortDescription>TXT_KEY_TRAIT_MUSEUM_TOURISM_SHORT</ShortDescription>
+      <GoldenAgeTourismModifier>100</GoldenAgeTourismModifier>
+	  <CapitalThemingBonusModifier>50</CapitalThemingBonusModifier>
+    </Row>
+  </Traits>
+
+  <!-- Trait_ExtraYieldThresholds -->
+  <!-- Trait_YieldChanges -->
+  <!-- Trait_YieldChangesStrategicResources -->
+  <!-- Trait_YieldChangesNaturalWonder -->
+  <!-- Trait_YieldChangesPerTradePartner -->
+  <!-- Trait_YieldChangesIncomingTradeRoute -->
+  <!-- Trait_YieldModifiers -->
+  <!-- Trait_FreePromotions -->
+  <!-- Trait_FreePromotionUnitCombats -->
+  <!-- Trait_MovesChangeUnitCombats -->
+  <!-- Trait_MaintenanceModifierUnitCombats -->
+  <!-- Trait_Terrains -->
+  <!-- Trait_ResourceQuantityModifiers -->
+  <!-- Trait_FreeResourceFirstXCities -->
+  <!-- Trait_ImprovementYieldChanges -->
+  <!-- Trait_SpecialistYieldChanges -->
+  <!-- Trait_UnimprovedFeatureYieldChanges -->
+  <!-- Trait_NoTrain -->
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_MUSEUM_TOURISM">
+      <Text>Doubles Tourism output during Golden Ages, and theming bonuses in the capitol are increased by 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_MUSEUM_TOURISM_SHORT">
+      <Text>It belongs in a museum!</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

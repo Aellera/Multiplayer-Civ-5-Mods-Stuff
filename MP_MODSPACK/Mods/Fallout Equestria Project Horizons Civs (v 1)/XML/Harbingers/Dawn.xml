@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:25:33 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_DAWN</Type>
+			<Description>TXT_KEY_LEADER_DAWN</Description>
+			<Civilopedia>TXT_KEY_LEADER_DAWN_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_DAWN</CivilopediaTag>
+			<ArtDefineTag>Dawn_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>10</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>3</MinorCivCompetitiveness>
+			<Boldness>8</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>3</WarmongerHate>
+			<DenounceWillingness>5</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
+			<Loyalty>4</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>2</Forgiveness>
+			<Chattiness>6</Chattiness>
+			<Meanness>3</Meanness>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_DAWN</LeaderType>
+			<TraitType>TRAIT_HOOFINGTON_RISES</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_DAWN_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_DAWN_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_DAWN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_DAWN_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_DAWN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_DAWN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DAWN">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_DAWN_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_DAWN">
+			<Text>Dawn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_FIRSTGREETING_1">
+			<Text>Hello, stranger! Harbingers welcome you! My name is Dawn. Please, ask for anything you need. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_FIRSTGREETING_2">
+			<Text>My name is Dawn. Allow me to show you The Core. Once you witness all its capabilities, you will understand what we are trying to accomplish.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_FIRSTGREETING_3">
+			<Text>Hoofington rises! My friend, welcome to The Core, the future capital of the reborn Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_WARBLUFF_1">
+			<Text>I will not oppose you for now. But you will see before long, that making yourself an enemy of Harbingers is not a wise move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_WARBLUFF_2">
+			<Text>Leave, but remember: Hoofington Rises!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_WARBLUFF_3">
+			<Text>Leave, but remember: Hoofington Rises!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_WINWAR_1">
+			<Text>Your petty attemt to oppose the might of The Core and the fitire of Equestia has failed. It's time for you to admit your defeat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_LOSEWAR_1">
+			<Text>Harbingers see the war as a cause of old Equestria collapse. Let us end this now and not repeat the mistakes of the past.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DEFEATED_1">
+			<Text>You do not realize what have you done. Equestrian rebirth has once again been postponed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DEFEATED_2">
+			<Text>Barbarian! How could you let your selfisness endanger the fitire of Equestria?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DEFEATED_3">
+			<Text>This is not over! The Hoofington will rise, and you will fall!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_YES_NEUTRAL">
+			<Text>I accept.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_NO_NEUTRAL">
+			<Text>No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_YES_ANGRY">
+			<Text>For now, I have to agree. But beware, the power of The Core will have its payback.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_NO_ANGRY">
+			<Text>Do you really think you can blackmail The Harbingers?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_YES_HAPPY">
+			<Text>Of course, my friend. As I said, we will provide you all the help that you need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRIBUTE_NO_HAPPY">
+			<Text>I'm sorry, but The Core has not yet reached its full potentian, and, for now, we are at shortage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_RESPONSE_REQUEST_1">
+			<Text>Harbringers ask for your assistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DEMANDTRIBUTE_HAPPY">
+			<Text>My friend, I ask you to help Harbingers with a very delicate matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DEMANDTRIBUTE_ANGRY">
+			<Text>The future of Equestria needs something that you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRADEREQUEST_ANGRY">
+			<Text>I propose an exchange and I will not take "no" as an answer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DECLAREWAR_1">
+			<Text>Your nation stands in the way of Equestrian rebirth. But not for long.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DECLAREWAR_2">
+			<Text>I have just deployed a large amount of troops to annex your lands and reunite them with a new Equesria. I suggest you to hand your power immediately and avoid unnecessary bloodshed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_DECLAREWAR_3">
+			<Text>We are the Harbingers. Disband your troops and surrender your cities. We will add you cultural and technological distinctives to our own. Your nation will be reunited with Equestria. Resistance is futile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_ATTACKED_BETRAYED">
+			<Text>How could you? We were rebuilding this land together!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_ATTACKED_EXCITED">
+			<Text>The Core will crash you, and that will be glorious!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_ATTACKED_HOSTILE">
+			<Text>When I reunite the Equestria, I'll make sure that history will not remember you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_TRADE_NEEDMORE_ANGRY_1">
+			<Text>You cannot be serious. The Core's mighty industry provides us with much more than that!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OPEN_BORDERS_EXCHANGE_1">
+			<Text>All the borders must be eliminated if we want to reunite Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_EXPANSION_SERIOUS_WARNING_1">
+			<Text>If you hold dear your independence for this moment, do not try to annex lands that we are trying to reunite with Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_LUXURY_TRADE_1">
+			<Text>Even The Core cannot produce this resourse just yet. I ask you to traid it for a fair price.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Stop you expantion towards the reborn Equestria, or face the wrath of Harbingers military!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Greetings. What brings you to The Core?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Hoofington rises! What is that you need?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DAWN_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Don't waste my time, I've got a nation to rebuild.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_FACT_1">
+			<Text>Dawn or The Prophet is a former comrade of Big Daddy Reaper, Crunchy Carrots, King Awesome, Dr. Zodiac and Keeper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_FACT_2">
+			<Text>She is a pegasus mare with a light, dove grey coat with a mane consisting of various shades of purples and pinks. Her cutie mark is covered by a Dashite brand, though was formally a rising sun at dawn. She has numerous old scars on her hide and seems to constantly squint to the point it is difficult to see her eyes. Dawn is an experienced combatant and is extremely quick when flying. She is revealed to be a cyborg and is capable of taking a lot of damage and incredibly quick flight. Her wings are augmented with knife-like feathers and she has metal griffin claws on her forehooves.  (FOE Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_HEADING_1">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_HEADING_2">
+			<Text>Present day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_LIVED">
+			<Text>200 years after [NEWLINE] the Last Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_NAME">
+			<Text>Dawn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_SUBTITLE">
+			<Text>Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_TEXT_1">
+			<Text>Dawn was born in the wasteland where she grew up around Hoofington. Dawn became determined to change the wasteland and bring about a new and better era, this revelation led to her discovering her cutie mark, the sun rising at dawn. She travelled with Big Daddy Reaper, Crunchy Carrots, King Awesome, Dr. Zodiac and Keeper all across Hoofington, trying to make some kind of difference and improve the Wasteland. The group eventually split up, Dawn meeting the Enclave Pegasus, Sky Striker after he defeated and wounded a black dragon. Dawn nursed him back to health, eventually falling in love with him. [NEWLINE][NEWLINE]Sky Striker brought her back to Thunderhead and cleared her to stay there getting married in the process. Dawn had five daughters, Dusk, Moon Shadow, Morning Glory and the twins Lambent and Lucent. As a surface pony she didn't quite meet Thunderhead's standards of an ideal citizen and her attempts to get the Enclave to assist the surface made her a target for several assassination attempts. Eventually she decided to leave Thunderhead and become a Dashite, traveling the wasteland and helping ponies as was her true calling. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_TEXT_2">
+			<Text>Dawn arrives in Chapel looking for her daughter after hearing supposedly hearing Blackjack's radio transmission and presumably not recognizing Glory due to her Rainbow Dash appearance. She spends the night though later reveals to Blackjack that she does indeed recognize Glory due to her habits. Blackjack encouraged her to speak with her daughter as it would be good for both of them. Dawn speaks with Glory at Scotch Tape's cute-ceañera party and later meets Blackjack at Chapel's old church, after she views a memory orb that P-21 gave her. Dawn attacks Blackjack again at Roseluck Farms Emergency shelter, where they converse briefly. Blackjack eventually defeats her, mangling her cybernetics, but spares her life.  (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DAWN_TITLES_1">
+			<Text>Prophet</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

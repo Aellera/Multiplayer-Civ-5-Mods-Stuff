@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_1">
+			<Text>어서 와요! 여러분이 이 마을에 와서 정말 기쁘답니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_2">
+			<Text>다른 포니들은 늘 다퉈요. 왜 그런지 생각해본 적이 있나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_3">
+			<Text>환영합니다! 그럼 이제 제가 우리 마을 사람들과 함께 당신에게... 큐티 마크가 *없는* 삶이 얼마나 멋진 것인지 가르쳐드리죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_1">
+			<Text>만일 이 짓거리가 너와 네 친구들이 큐티 마크의 운명으로 엮이는 것을 막는다면, 얼마든지, 기꺼이! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_2">
+			<Text>안 돼, 저리 가!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_3">
+			<Text>또 다시 '경주 끝장내기' 싸움을 벌이러 오셨나?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WINWAR_1">
+			<Text>다른 결과라도 나올 줄 알았어?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_LOSEWAR_1">
+			<Text>뭘 그렇게 쳐다보는 거야? 문제는 바로 너희야, 내가 아니라!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_1">
+			<Text>난... 난 그래야만 했어, 이 멍청이들아! 내가 내 마법 없이 어떻게 너희의 큐티 마크를 모을 수 있었겠어?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_2">
+			<Text>너와 네 잘난 친구들이 내가 이룩한 것들을 모조리 망쳐버리기 전까진, 난 완벽하게 행복했어!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_3">
+			<Text>어으, 스타라이트, 이 덜 떨어진 망아지 같으니...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_NEUTRAL">
+			<Text>그래야만 한다면.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_NEUTRAL">
+			<Text>내겐 별로 공평해보이지 않는데.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_ANGRY">
+			<Text>이 일은 잊지 않겠어.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_ANGRY">
+			<Text>안 돼!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_HAPPY">
+			<Text>내가 도울 수 있는 거라면 뭐든지!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_HAPPY">
+			<Text>그럴 순 없어!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_REQUEST_1">
+			<Text>좋아요, 이거라면 우리의 작은 공동체에 추진력을 제공할 수 있겠군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEMANDTRIBUTE_HAPPY">
+			<Text>자, 여러분이 지금까지 벌였던 난장판은 딱히 탓하지 않겠어요, 너흰 그 마크가 좋은 것이라고 생각하면서 평생을 착각 속에 살았을테니까 말이죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEMANDTRIBUTE_ANGRY">
+			<Text>시끄러워!! 그걸 내게 넘기기나 하란 말이야, 지금 당장!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRADEREQUEST_ANGRY">
+			<Text>너같은 포니 따위에게 거래를 제시하고 싶진 않지만, 이건 어떨까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_1">
+			<Text>서로의 동등함 속에, 평화가 있다. 예외론은 거짓이다. 스스로를 큐티 마크로부터 해방시켜라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_2">
+			<Text>네 특별한 재능으로 평등함을 선택해라. 서로 다름은 불행이다. 뛰어나고 탁월해보이고 싶은 마음이 실패를 부른다. 네 최선을 다하지 않음으로써 최선을 다해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_3">
+			<Text>규율에 순응하는 태도가 널 비로소 자유롭게 해줄 것이다. 네가 너 자신의 한계를 받아들이면, 행복이 따를 것이다. 넌 네 친구들보다 전혀 나을 것이 없는 존재다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_BETRAYED">
+			<Text>믿을 만한 녀석이 아니란 건 알고 있었는데!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_EXCITED">
+			<Text>네가 날 공격하길 바라고 있었던 참이야! 그래, 기꺼이 받아주지!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_HOSTILE">
+			<Text>네가 날 공격하길 바라고 있었던 참이야! 그래, 기꺼이 받아주지!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRADE_NEEDMORE_ANGRY_1">
+			<Text>한참 모자라는군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_OPEN_BORDERS_EXCHANGE_1">
+			<Text>하나처럼 행동하는 법을 배운다면, 매일이 휴일 같을텐데!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_EXPANSION_SERIOUS_WARNING_1">
+			<Text>어으! 도대체 너랑 네 친구들이 뭐가 그렇게 특별한 건데?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_LUXURY_TRADE_1">
+			<Text>우리에게 필요가 없는 여분의 자원이 있어요. 아마 당신이라면 거래에 관심이 있을지도?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>당신의 군대가 너무 가까이 있어요. 그들을 물리세요, 지금 당장.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>이퀘스트리아의 변방에 위치한 우리의 작은 마을을 마음껏 즐겨주시길. 주민들이 모두 기뻐하고 있어요, 당신도 분명히 그럴 거라고 생각합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>자, 크고 행복한 미소를 보여주세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>어으! 도대체 너랑 네 친구들이 뭐가 그렇게 특별한 건데?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>아, 피에 굶주린 전쟁광께서 여기 오셨군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>우리 마을은 당신같은 사람에게는 볼 일이 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>우리 마을은 당신같은 쓰레기와는 결코 볼 일이 없어![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]그들이 우리를 공개적으로 비난했습니다! 주의: 이것은 선전포고가 아닙니다.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>이제 분명히 알겠어. 당신은 어떤 포니에게도 믿을 수 없는 존재야![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]그들이 우리를 공개적으로 비난했습니다! 주의: 이것은 선전포고가 아닙니다.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>뭐?! 반드시 후회할 줄 알아!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_AI_1">
+			<Text>마을 사람들이 이제 자기 큐티 마크를 돌려받고 싶어하고 있어! 네 그 잘난 문화가 전세계를 잠식해버리진 않을지 걱정이로군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_HUMAN_1">
+			<Text>아주 잘 보이지? 네 국민들이 이퀄 유토피아로 이주하고 있는 모습이! 자발적으로 큐티 마크를 떼어내면서까지 말이야!</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

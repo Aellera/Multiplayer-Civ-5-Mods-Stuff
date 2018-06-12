@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/23/2013 9:28:46 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CHANGELING_DIPLOMATIC_OFFICE</Type>
+			<Description>Diplomatic Office</Description>
+			<DefaultBuilding>BUILDING_CHANGELING_DIPLOMATIC_OFFICE</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CHANGELING_DIPLOMATIC_OFFICE</Type>
+			<BuildingClass>BUILDINGCLASS_CHANGELING_DIPLOMATIC_OFFICE</BuildingClass>
+			<Cost>-1</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Help>Houses the Changeling's imitation delegates for this city's original owner.</Help>
+			<Description>Diplomatic Substitution Office</Description>
+			<Civilopedia>As part of Queen Chrysalis' latest scheme, the destruction of her enemies is covered up. This allows Changeling agents to impersonate the Civilization's politicians, letting them send imitation delegates to the World Congress to vote in whatever way the Changelings prefer.</Civilopedia>
+			<Strategy>Automatically constructed where appropriate. The amount of generated votes is corrected at the beginning of the Changelings' turn.</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+		</Row>
+	</Buildings>
+</GameData>

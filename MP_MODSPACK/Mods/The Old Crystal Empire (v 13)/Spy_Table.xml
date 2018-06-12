@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 10:35:31 AM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OLDCRYSTAL_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_0">
+			<Text>Silver Lance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_1">
+			<Text>Tempest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_2">
+			<Text>Ruby Sparkle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_3">
+			<Text>Prisma</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_4">
+			<Text>Stormie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_5">
+			<Text>Sapphire Shores</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_6">
+			<Text>Caramel Cream</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_7">
+			<Text>Copper</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_8">
+			<Text>Jade</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OLDCRYSTAL_9">
+			<Text>Summer Breeze</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

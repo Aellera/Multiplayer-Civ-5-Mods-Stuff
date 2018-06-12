@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:17 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_SMARTCOOKIE</Type>
+			<Cost>100</Cost>
+			<Moves>3</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMARTCOOKIE</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_SMARTCOOKIE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMARTCOOKIE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_SMARTCOOKIE_HELP</Help>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<WorkRate>110</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_PUDDING</IconAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_FARM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_MINE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_TRADING_POST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_LUMBERMILL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_PASTURE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_CAMP</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_PLANTATION</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_QUARRY</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_WELL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_REMOVE_MARSH</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_REMOVE_FOREST</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_SCRUB_FALLOUT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_REPAIR</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<BuildType>BUILD_REMOVE_ROUTE</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMARTCOOKIE">
+			<Text>Smart Cookie Farmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_SMARTCOOKIE_HELP">
+			<Text>The Smart Cookie Farmer works faster and moves farther than a normal worker.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_SMARTCOOKIE_TEXT">
+			<Text>While Chancellor Puddinghead lead the development of many farming improvements, it was Smart Cookie that motivated the earth pony farmers to work hard. Smart Cookie's leadership was key to the Earth Ponies legendary farming talents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMARTCOOKIE_STRATEGY">
+			<Text>Smart Cookie motivated the earth pony farmers to perform better than any other. They work 10% faster and have +1 movement.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+			<UnitType>UNIT_SMARTCOOKIE</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+</GameData>

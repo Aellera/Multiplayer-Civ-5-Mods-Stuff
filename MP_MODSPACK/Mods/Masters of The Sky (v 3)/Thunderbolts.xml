@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:28 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_JET_FIGHTER</Class>
+			<Type>UNIT_THUNDERBOLTS</Type>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<RangedCombat>70</RangedCombat>
+			<Cost>525</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_THUNDERBOLTS</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_THUNDERBOLTS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_THUNDERBOLTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_THUNDERBOLTS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
+			<UnitFlagIconOffset>78</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_HURRICANE</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+		<UnitType>UNIT_THUNDERBOLTS</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_THUNDERBOLTS</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	</Unit_ResourceQuantityRequirements>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_THUNDERBOLTS">
+			<Text>ThunderBolts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_THUNDERBOLTS_HELP">
+			<Text>The Thunderbolts perform just like jet fighters, but are stronger and have a longer range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_THUNDERBOLTS_TEXT">
+			<Text>The Pegasi have always prided themselves on their flying. Those of great skill go on to join the illustrous Thunderbolts, the elite of pegasi flyers. The Thunderbolts are the Pegasi's answer to air power, easily besting any in the sky. In more modern times, the Thunderbolts serve as Equestria's first strike option, on call whenever the Princess must bring decisive action to any situation. In peace time many Thunderbolts serve in the showpony group, The Wonderbolts, preforming air shows across Equestria. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_THUNDERBOLTS_STRATEGY">
+			<Text>The Thunderbolts control the sky. They perform better than normal jet fighters.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+			<UnitType>UNIT_THUNDERBOLTS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

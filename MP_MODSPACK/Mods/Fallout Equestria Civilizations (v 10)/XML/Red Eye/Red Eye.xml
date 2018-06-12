@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/6/2015 6:42:43 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_REDEYE</Type>
+			<Description>TXT_KEY_LEADER_REDEYE</Description>
+			<Civilopedia>TXT_KEY_LEADER_REDEYE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE</CivilopediaTag>
+			<ArtDefineTag>RedEye_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>5</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<Boldness>7</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>4</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>4</DoFWillingness>
+			<Loyalty>5</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>5</Meanness>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_REDEYE</LeaderType>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_REDEYE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_REDEYE_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_REDEYE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_REDEYE_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_REDEYE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_REDEYE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REDEYE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_REDEYE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_REDEYE">
+			<Text>Red Eye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_FIRSTGREETING_1">
+			<Text>Hello and welcome to the Fillydephia, capital of the New Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_FIRSTGREETING_2">
+			<Text>Behold! The New Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_FIRSTGREETING_3">
+			<Text>Welcome, my child, to the New Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_WARBLUFF_1">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_WARBLUFF_2">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_WARBLUFF_3">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_WINWAR_1">
+			<Text>This is what you get when you threaten the safety of the New Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_LOSEWAR_1">
+			<Text>Inconcievable...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DEFEATED_1">
+			<Text>You fool! Your selfishness has doomed us all. Equestria can't rise without my sacrifice!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DEFEATED_2">
+			<Text>You idiot! You have destroyed Equestria's last chance for recovery!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DEFEATED_3">
+			<Text>This isn't over! I am confident that the New Equestria will rise again and destroy you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_YES_NEUTRAL">
+			<Text>If it will keep my people safe, so be it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_NO_NEUTRAL">
+			<Text>The New Equestria has a stronger backbone than you may think. No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_YES_ANGRY">
+			<Text>I'll give you what you want this time, but don't get cocky.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_NO_ANGRY">
+			<Text>You wish to take from the NEw Equestria for your own selfish desires? No way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_YES_HAPPY">
+			<Text>You have long been a friend to my cause, so I am happy to support yours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRIBUTE_NO_HAPPY">
+			<Text>I'm sorry, but I am already sacrificing everything I've got for the New Equestria, and I have nothing left to give you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDEYE_RESPONSE_REQUEST_1">
+			<Text>Will you please make a donation to the New Equestria cause?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DEMANDTRIBUTE_HAPPY">
+			<Text>In order for our friendship to survive, I must ask that you hand the following over to the New Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DEMANDTRIBUTE_ANGRY">
+			<Text>I, Red Eye, demand that you contribute to the rebuilding of Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRADEREQUEST_ANGRY">
+			<Text>The New Equestria shouldn't even accept your paltry goods, but I will make an exception for your sake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DECLAREWAR_1">
+			<Text>Your people have selfishly ignored the suffering of the wasteland for too long. It is time for you to contribute towards our a brighter future!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DECLAREWAR_2">
+			<Text>New Equestria can never prosper while your kind taints the land like a stain. Prepare to join the New Equestria!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_DECLAREWAR_3">
+			<Text>It is time to bring your people into my glorious vision of a better Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_ATTACKED_BETRAYED">
+			<Text>I should have expected aggression from the likes of you. I supposed I'll just have to show you it now!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_ATTACKED_EXCITED">
+			<Text>It is about time I get a chance to show your people a brighter tomorrow! I will welcome them into my protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_ATTACKED_HOSTILE">
+			<Text>You will pay for your attack against the New Equestria. I don't think I'll even offer you the luxury of joining my vision!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_TRADE_NEEDMORE_ANGRY_1">
+			<Text>I expect the New Equestria to be made up of more than beggars and bums. We demand more in exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDEYE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>My forces would like to travel through your territory. Surely we can work this out like civilized equines?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDEYE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your approaching troops are causing my people to worry they'll be kidnapped. Please move your troops away and end this pointless rumor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDEYE_LUXURY_TRADE_1">
+			<Text>Our factories in Fillydelphia have produced many fine items found no where else in the wasteland. We'd be willing to trade them for a price.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDEYE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>The New Equestria is always looking for new people to take in, and yours are beginning to looks quite needy. Prove yourself a friend to my cause, or I will have no choice but to liberate your people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Welcome.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>It is always nice to see a friend to progress. What can I help you with today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REDEYE_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>What do you want?</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_FACT_1">
+			<Text>Red Eye still wears his old Stable 101 barding as a cape.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_FACT_2">
+			<Text>LittlePip has recognized that many of Red Eye's goals and ambitions for Equestria align with her own. She describes him as the corrupted Element of Generosity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_HEADING_1">
+			<Text>Description</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_HEADING_2">
+			<Text>Origins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_HEADING_3">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_HEADING_4">
+			<Text>the New Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_LIVED">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_NAME">
+			<Text>Red Eye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_SUBTITLE">
+			<Text>Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_TEXT_1">
+			<Text>Red Eye was a strong, able-bodied earth pony stallion with a crimson coat and a few light scars around a blank flank where his cutie mark should have been. He had a jet black mane and tail which were groomed in a practical manner, and he wore a black cape that was slung to droop off his right side. His left eye was blue whilst his right was a glowing red, cybernetic one. (text taken from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_TEXT_2">
+			<Text>Red Eye grew up in Stable 101. His Stable offered medical and technological advancements far in excess of even pre-war civilization. Ponies in the highest ranks of Stable-Tec conspired to make Stable 101 an experiment in rulership through the earth pony way. Red Eye firmly believed that the Stable inhabitants were being closed-minded, hoarding technology and medicine. He believed the stable's inhabitants weren't following Stable 101's core belief of earth pony leadership and so he wiped out the residents of Stable 101, with the exception of Winter, Doc Slaughter, Doctor Glue & Gizmo. (Text takes from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_TEXT_3">
+			<Text>Red Eye gathered a massive army, took over Fillydelphia as a base of operations and used his intelligence and charisma to win many ponies and griffons to his cause. He established the slave trade or at least became the biggest buyer of slaves and used the slave labour to begin restoring Fillydelphia, with the eventual goal of restoring the Equestrian Wasteland. [NEWLINE][NEWLINE] He also established the religion of the Unity, constructing the massive Cathedral in the Everfree Forest over the remains of his home stable. It is also mentioned that Red Eye visited Canterlot and had the stained-glass windows depicting famous scenes from history, like Discord's defeat, installed in the Cathedral he was building.(text taken from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_TEXT_4">
+			<Text>Red Eye's followers have grown into a major force in the Equestria Wasteland. Slavers roam the land finding and securing workers for his factories in Fillydelphia. Although his forces have a brutish reputation, Red Eye himself is not above diplomacy, as shown by his friendship with New Appleoosa, agreement with the Goddess, and negotiations with LittlePip. Red Eye also maintains one of the only major radio broadcasts in the Wasteland, the other being DjPon3's broadcast. [NEWLINE][NEWLINE] Red Eye works tirelessly to rebuild the Wasteland into his new vision of Equestria. Although his methods are harsh and often quite morally questionable, Red Eye has devoted his life and spirit to improving Equestria for future generations, a notions that many wasteland ponies fail to comprehend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REDEYE_TITLES_1">
+			<Text>Master</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

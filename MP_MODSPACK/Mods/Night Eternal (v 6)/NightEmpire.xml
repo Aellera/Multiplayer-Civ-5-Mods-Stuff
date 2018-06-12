@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:13 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_IROQUOIS" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_NME</Type>
+			<Description>TXT_KEY_CIV_NME_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_NME_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_NME_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_NME_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_NME</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_NIGHTMARE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_IROQUOIS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_NIGHTMARE_MOON</AlphaIconAtlas>
+			<MapImage>NightmareMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_NME_DOM</DawnOfManQuote>
+			<DawnOfManImage>NightmareDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Iroquois</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_NIGHTMARE</Type>
+			<PrimaryColor>COLOR_PLAYER_DARK_BLUE</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BLUE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE</TextColor>
+		</Row>
+	</PlayerColors>
+	
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<LeaderheadType>LEADER_HIAWATHA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_NME_ADJECTIVE">
+			<Text>Nightmare Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NME_DESC">
+			<Text>Nightmare Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NME_SHORT_DESC">
+			<Text>Nightmare Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NME_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NME_TEXT_1">
+			<Text>In the magical land of Equestria, there lived two regal sisters who ruled together and created harmony for all the land. The eldest used her unicorn powers to raise the sun at dawn. The younger brought out the moon to begin the night. Their subjects, the ponies, played in the day but shunned the night and slept through it, which made the younger unicorn grow bitter, eventually refusing to lower the moon to make way for the dawn. Her bitterness transformed her into a wicked mare of darkness, Nightmare Moon. The elder sister reluctantly harnessed the power of the Elements of Harmony and banished her permanently in the moon, taking responsibility for both sun and moon, and harmony has been maintain in Equestria for generations since. Legend has it that on the longest day of the thousandth year the stars will aid in her escape, and she will bring about nighttime eternal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NME_DOM">
+			<Text>FREEDOM! SWEET GLORIOUS FREEDOM! MYUH HUU HUU HAH! I AM FR.....Er, hmm.[NEWLINE] I am free sister! Did you think I had forgotten all those long years? I have seen everything you have done all those years, sister. All the adoration you recieved. All the love of my subjects you recieved when you stole them from me! When you stole MY power from me! AND THEY LOVED YOU MORE FOR IT! I WILL NOT BE FORGOTTEN! I WILL NOT GO QUIETLY INTO THE NIGHT![NEWLINE][NEWLINE] I am coming, sister. The sun has set for the final time, and a new moon rises............A nightmare moon. Myuh huu huu huu ah aah haah!</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

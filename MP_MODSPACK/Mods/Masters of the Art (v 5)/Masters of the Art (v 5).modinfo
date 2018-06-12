@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="29faa2b2-59d4-455f-8c23-6e744154a0ce" version="5">
+  <Properties>
+    <Name>Masters of the Art</Name>
+    <Teaser>Adds the unicorns, led by Princess Platinum and Clover the clever</Teaser>
+    <Description>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. The Earth Ponies were masters of the dirt, responseable for growing food for all ponies. The Unicorns were masters of the Sun and Moon, magically bringing night and day. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Princess Platinum, leader of the Unicorns, led them to what would become Equestria, naming their new land, Unicornia. The Unicorns were not alone as the other tribes had laid claim to the very same land. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding.
+
+The second faction of Hearth's Eve is finally done.
+
+Adds the Unicorns, led by Princess Platinum and Clover the clever. Replaces Russia.
+
+New Trait, Lineage of the Unicorn Kings. The Unicorns can trace their heritage back to the great unicorn kings of old. Their pride of their past has expressed itself in their art and crafting. The Unicorns are able to build things  20% faster if its already built in their capital and all culture buildings provide +1 culture.
+
+New Unit, Beeteaters, replaces the pikeman. The Beeteaters are highly trained and look dashing. They recieve the March promotion for free.
+
+New Building, Hall of Kings, replaces the bank. The Hall of Kings is a place of great importance for any unicorn. It boosts gold production by 20% and +1 culture for each gold, silver, and gems worked.
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc.
+
+Won't be doing custom models, blah blah blah, same thing I say for my other mods.
+
+Should be Vanilla friendly, let me know if its not.</Description>
+    <Authors>SilentModder</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8555D949F4BAF27643E253A740038081" import="1">Art/PlatAlphaAtlas32.dds</File>
+    <File md5="43C19A8C95782B67B2CD18468753D83D" import="1">Art/PlatAtlas128.dds</File>
+    <File md5="E2957C3497E04B092B749DC11E3521DD" import="1">Art/PlatAtlas214.dds</File>
+    <File md5="9906CAD30A1D629B578F75FA54166970" import="1">Art/PlatAtlas256.dds</File>
+    <File md5="A80318B8499550F83AB094658C3DFB90" import="1">Art/PlatAtlas32.dds</File>
+    <File md5="63781F8053A235CEFB1A99939440A580" import="1">Art/PlatAtlas45.dds</File>
+    <File md5="3DF39A6EAFE57EF9BCE80475CFF53A7B" import="1">Art/PlatAtlas64.dds</File>
+    <File md5="2C0AF4C20D2FBBFEA424C10E61CA5AB4" import="1">Art/PlatAtlas80.dds</File>
+    <File md5="F75DD60D6650762CCACF494896E6B3EA" import="1">Art/PlatDiplo.dds</File>
+    <File md5="9A37BAFA06C640BA6C8EE0E9BAE8862C" import="1">Art/PlatDom.dds</File>
+    <File md5="49BF452B867AAE46FBCFB83D78418F24" import="1">Art/PlatMap.dds</File>
+    <File md5="C46F8C8DDDFE69F4C64396FEE3671D1D" import="1">Art/Plat_Scene.xml</File>
+    <File md5="A8F8552AFB13D6A26290226D057300BB" import="1">Music/Catherine_Peace.mp3</File>
+    <File md5="69D0FEE1EB0F80DC90D6C156DAAA7471" import="1">Music/Catherine_War.mp3</File>
+    <File md5="F4905208792870D84B491227935D9F54" import="1">Unicorns.xml</File>
+    <File md5="C2214D298692053A14F57C9B74B2D171" import="1">Platinum.xml</File>
+    <File md5="48AE15774C7012DB42ECD7AE94D7839E" import="1">Spy Table.xml</File>
+    <File md5="8C5E09B65BC0F560B59EB8354FCC52F9" import="1">City Names.xml</File>
+    <File md5="E9D0510D004E3CC7457792B56A51821A" import="1">Beeteaters.xml</File>
+    <File md5="6B437BD157E143CBF235FE10161D69C6" import="1">HallofKings.xml</File>
+    <File md5="CB50EDFBFFC8C9D5A4FD185DF2ECBE98" import="1">Atlas.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Plat_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Beeteaters.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>HallofKings.xml</UpdateDatabase>
+      <UpdateDatabase>Platinum.xml</UpdateDatabase>
+      <UpdateDatabase>Spy Table.xml</UpdateDatabase>
+      <UpdateDatabase>Unicorns.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

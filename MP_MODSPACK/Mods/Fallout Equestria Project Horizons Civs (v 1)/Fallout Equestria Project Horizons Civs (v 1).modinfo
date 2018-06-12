@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f88cab43-1f4f-4a0c-8cf4-fe6e5106bc96" version="1">
+  <Properties>
+    <Name>Fallout Equestria Project Horizons Civs</Name>
+    <Teaser>Adds factions from Fallout Equestria Project Horizons by Somber</Teaser>
+    <Description>So, do you feel like this game needs more ponies? Do you think that over 20 ponymods that are already in Steam Workshop are not enough? Well, I've got some good new for y'all!
+
+This mod thingy here adds two factions from the masterpiece known as Fallout Equestria Project Horizons by none other that Somber, the best writer around.
+All added factions cannot produce Settlers and, overall, are balanced for a one-city challenge. At least, I think I balanced them for the thing. Sorta-kinda.
+
+The Harbingers are led by Dawn.
+Trait: Hoofington Rises. -50% unhappiness and a free dam at the very start of the game.
+Building: Tokomare. +50 production and no Eater of Souls inside. Pinkie promise.
+Unit: Seekers. They are identical to the common infantry, but cheaper. So, basically, they are as useless as they are in the book.
+
+The Collegiate is led by Dr. Zodiac, a.k.a. Silver Stripe.
+Trait: Medical Wonders. A free hospital and a rapid healing for all units.
+Building: Project Steelpony. +20 science, +2 production. Needs 2 iron and 2 alluminum to be built.
+Unit: Zodiacs. These guys receive gold each time they kill someone, because bounty hunters. They replace XCOM Squad and are stronger than those alien-haters. Also, they all have unique names.
+
+Image Credits: VectorBrony, Foreling, TheOmegaRidley, DolphinFox, SilentCarto.
+
+Music Credits: DJDelta, AwkwardMarina, SlyphStorm, Jeffthestrider, Ponyphonic.
+
+MLP, Fallout and other stuff are not mine... yet.</Description>
+    <Authors>Decumos</Authors>
+    <SpecialThanks>Somber, because best pony. KKat, because FoE. Malexlee1, because he made the first FoE civs mod</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="884BAF1B2A86CC50CC7209C0E1EF99C5" import="1">ART/Dawn_Diplomacy.dds</File>
+    <File md5="85D473554DF82BCA3BE82991C2232C9E" import="1">ART/Dawn_Leader_Scene.xml</File>
+    <File md5="033F083958821EEFD835FBA179B8D256" import="1">ART/FoEPHIcons128.dds</File>
+    <File md5="4B20DBC6CED0DD7652D21D0CEA001721" import="1">ART/FoEPHIcons24.dds</File>
+    <File md5="9BEE33786A841584E15F1357DA8E3A08" import="1">ART/FoEPHIcons256.dds</File>
+    <File md5="1A5B0E54B9F9A91C685B418D95B04045" import="1">ART/FoEPHIcons32.dds</File>
+    <File md5="45DF52649C2BED6EEFCBFF7FEEC6F088" import="1">ART/FoEPHIcons45.dds</File>
+    <File md5="1BED2D2189B4EA04A66EF7F5C6E58717" import="1">ART/FoEPHIcons64.dds</File>
+    <File md5="7283ACD0D3F79142561C47F1BC89DF9C" import="1">ART/FoEPHIcons80.dds</File>
+    <File md5="0DEB9FBE4FC9924EB47686D0A4C162F0" import="1">ART/UnitArtDefines.xml</File>
+    <File md5="5B5CEFFBAAC143A99D3CC24475FAFAD9" import="1">ART/zodiacsDOM.dds</File>
+    <File md5="ED121921030316AB869579B1E8485AFC" import="1">ART/zodiacsmap.dds</File>
+    <File md5="481BD1854F696017382F8C4D09B05644" import="1">ART/Zodiac_Diplomacy.dds</File>
+    <File md5="DF3F1D58A22BE8266831274E5266B300" import="1">ART/Zodiac_Leader_Scene.xml</File>
+    <File md5="29AD2B06AE662C94B79EF98595E6E730" import="1">ART/harbingersDOM.dds</File>
+    <File md5="3EF2E5B6B0941F89AE9A91650712DB34" import="1">ART/harbingersmap.dds</File>
+    <File md5="4852DD8A224A15EDD717BFE3ACF92CAB" import="0">ART/IconAtlas.xml</File>
+    <File md5="087C671F227CEE5FF24581A731372E4A" import="1">SOUND/Zodiac_War.mp3</File>
+    <File md5="2F5DA74B1C9A2F83DB218D9AA2D867EB" import="1">SOUND/Zodiac_Peace.mp3</File>
+    <File md5="A31726F46674A0CCFB890CAF68077296" import="1">SOUND/Dawn_Peace.mp3</File>
+    <File md5="B5168D09AB86154D584C40125100575C" import="1">SOUND/Dawn_War.mp3</File>
+    <File md5="FDE34C71DBFA9280E7E96B9A53EE5BDC" import="0">SOUND/Sound.xml</File>
+    <File md5="A8F2FE60B1ED9D45B9DFB6C307AF1122" import="0">XML/Collegiate/Collegiate Trait.xml</File>
+    <File md5="D5EC32584CDE5DCEF478163131329F23" import="0">XML/Collegiate/Zodiacs.xml</File>
+    <File md5="3EDC3E76D50BF75D132378F02CCEED48" import="0">XML/Collegiate/Project Steelpony.xml</File>
+    <File md5="7EAB42AE76B025F032DD09AE4C97BAEA" import="0">XML/Collegiate/Zodiac.xml</File>
+    <File md5="64975835CB0BA8DED90C0249B01C80C4" import="0">XML/Collegiate/Collegiate.xml</File>
+    <File md5="0363004C21F629CCE91804315EB5F535" import="0">XML/Goldenblood.xml</File>
+    <File md5="BBFFB5DD0BEBD4C45A1B153EFB85078C" import="0">XML/Harbingers/Dawn.xml</File>
+    <File md5="6C22DC99068CB0C56991F1D3AFFE551B" import="0">XML/Harbingers/Tokomare.xml</File>
+    <File md5="EE0A5E553C4C1058CE9D43644D1A1BAC" import="0">XML/Harbingers/Harbingers.xml</File>
+    <File md5="601F7A0F5127DFEEFC072993CD271A8E" import="0">XML/Harbingers/Seekers.xml</File>
+    <File md5="7F866809539EF514C61858BE079C5307" import="0">XML/Harbingers/Harbingers Trait.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ART/Dawn_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>ART/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Zodiac_Leader_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>SOUND/Sound.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Harbingers/Dawn.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Harbingers/Harbingers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Harbingers/Seekers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Harbingers/Harbingers Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Harbingers/Tokomare.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Collegiate/Collegiate Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Collegiate/Collegiate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Collegiate/Project Steelpony.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Collegiate/Zodiac.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Collegiate/Zodiacs.xml</UpdateDatabase>
+      <UpdateDatabase>ART/UnitArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Goldenblood.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

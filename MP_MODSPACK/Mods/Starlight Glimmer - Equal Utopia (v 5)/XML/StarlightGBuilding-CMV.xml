@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CUTIE_MARK_VAULT</Type>
+			<BuildingClass>BUILDINGCLASS_BOMB_SHELTER</BuildingClass>
+			<Cost>450</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CUTIE_MARK_VAULT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CUTIE_MARK_VAULT_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CUTIE_MARK_VAULT_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_CUTIE_MARK_VAULT_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HYDRO_PLANT</ArtDefineTag>
+			<NeverCapture>true</NeverCapture>
+			<NukeModifier>-75</NukeModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>8</Happiness>
+			<FreePolicies>1</FreePolicies>
+			<CultureRateModifier>-100</CultureRateModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>STARLIGHT_GLIMMER_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CUTIE_MARK_VAULT</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CUTIE_MARK_VAULT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CUTIE_MARK_VAULT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT">
+			<Text>Cutie Mark Vault</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_HELP">
+			<Text>Starlight's Unique Building replace Bomb Shelter. Unlike Bomb Shelter, Cutie Mark Vault can be built at the start of the game with higher cost, and it can't be purchased with [ICON_GOLD] gold. Cutie Mark Vault provides 8 [ICON_HAPPINESS_1] Happiness and 1 free Social Policy when constructed, but it will permanently decrease 100% of [ICON_CULTURE] Culture yield of the city it is built in. It cannot provide more Happiness than there are [ICON_CITIZEN] Citizens in the city. Cutie Mark Vault has no maintenance cost, so player can't sold this building for avoid penalty or build it again. (Of course it has original function of Bomb Shelter)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_STRATEGY">
+			<Text>Choose wisely when to build this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CUTIE_MARK_VAULT_TEXT">
+			<Text>(Blank-flank)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/13/2014 5:36:04 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_FIRSTGREETING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_DECLAREWAR%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_GREETING_POLITE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_GREETING_NEUTRAL_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_GREETING_HOSTILE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_EXPANSION_SERIOUS_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_DARINGDO_LUXURY_TRADE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_DARINGDO_RESPONSE_REQUEST%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_DARINGDO_OPEN_BORDERS_EXCHANGE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_DEFEATED%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_ATTACKED_BETRAYED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_ATTACKED_EXCITED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_DARINGDO</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_DARINGDO_ATTACKED_HOSTILE</Response>
+			<Bias>1</Bias>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_FIRSTGREETING_1">
+			<Text>Oh, hello there. I'm Daring Do, Archaeologist extraordinaire and leader of the Explorers' League. As long as you're not working for Ahuizotl, we should get along just fine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_FIRSTGREETING_2">
+			<Text>Oh, hello there. I'm Daring Do, Archaeologist extraordinaire and leader of the Explorers' League. As long as you're not working for Ahuizotl, we should get along just fine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_FIRSTGREETING_3">
+			<Text>Oh, hello there. I'm Daring Do, Archaeologist extraordinaire and leader of the Explorers' League. As long as you're not working for Ahuizotl, we should get along just fine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DEFEATED_1">
+			<Text>But... now who will protect Equestria from the dreaded Ahuizotl?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DEFEATED_2">
+			<Text>You fool! Now there's nothing stopping Ahuizotl from accomplishing his plans! You've doomed us all!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DEFEATED_3">
+			<Text>But... now who will protect Equestria from the dreaded Ahuizotl?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DARINGDO_RESPONSE_REQUEST_1">
+			<Text>I hate to admit it... but I'm in a bit of a bind. Think you could lend me a hoof?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DECLAREWAR_1">
+			<Text>I know this might seem sudden, but it's about time I payed you back for all the help you've been!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DECLAREWAR_2">
+			<Text>You'd better hope your friend Ahuizotl comes to your rescue, because I won't go easy on you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DECLAREWAR_3">
+			<Text>It's about time somepony put a stop to your plans. Get ready, because here I come!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_ATTACKED_BETRAYED">
+			<Text>Let me guess. Did Ahuizotl put you up to this? I knew I shouldn't have trusted you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_ATTACKED_EXCITED">
+			<Text>I was wondering when you'd work up the courage to attack me! Don't worry, this will be over quickly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_ATTACKED_HOSTILE">
+			<Text>Bring it! I'll send you home with your tail between your legs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DARINGDO_OPEN_BORDERS_EXCHANGE_1">
+			<Text>You don't mind if I explore your land, right? I'll even let you through mine, too. How's that sound?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Hey! That's my land you're settling on! You can take your settlers someplace else, or else we're gonna have a problem on our hooves. Got it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DARINGDO_LUXURY_TRADE_1">
+			<Text>You've got something I need, and I've got something you need. So let's make a deal. Sound good?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You think I don't see that army? If you think you can take me, then bring it on!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Can't you see I'm a little busy here? These priceless artifacts don't rescue themselves, you know.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Oh, hey there. Did you need something from me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Give me one good reason why I should listen to anything you have to say.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_WARBLUFF_1">
+			<Text>Don't worry. You'll get yours soon enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_WARBLUFF_2">
+			<Text>You'd better watch yourself. Next time, I won't be so forgiving.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_WARBLUFF_3">
+			<Text>Do you think this is a joke? Well you'd better think again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_WINWAR_1">
+			<Text>You should have known you were in way over your head! Maybe next time you'll think twice before getting in my way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_LOSEWAR_1">
+			<Text>You win... this time. Next time I won't go so easy on you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_YES_NEUTRAL">
+			<Text>Urgh, fine! I didn't need that anyway!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_NO_NEUTRAL">
+			<Text>Do you even know how valuable that is? Why would I ever give it to you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_YES_ANGRY">
+			<Text>You won't get away with this! I'll get it back, soon enough!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_NO_ANGRY">
+			<Text>I've stood up to the likes of the dreaded Ahuizotl and won! And you think you can intimidate me? Think again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_YES_HAPPY">
+			<Text>I... guess I can give that to you. But only this once, alright?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRIBUTE_NO_HAPPY">
+			<Text>I'd love to help, but that's way too valuable to just give it up. Sorry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DEMANDTRIBUTE_HAPPY">
+			<Text>I hate to admit it... but I'm in a bit of a bind. Think you could lend me a hoof?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_DEMANDTRIBUTE_ANGRY">
+			<Text>Since you obviously don't know how to take care of anything of worth, I'll take it off your hooves and keep it someplace safe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRADEREQUEST_ANGRY">
+			<Text>You're lucky I'm even willing to talk to you, much less offering to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARINGDO_TRADE_NEEDMORE_ANGRY_1">
+			<Text>You think that trade is worth it? Ha! Don't make me laugh.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:02:09 PM -->
+<GameData>
+		<Units>
+			<Row>
+				<Class>UNITCLASS_LANCER</Class>
+				<Type>UNIT_CUTIE_UNMARKER</Type>
+				<PrereqTech>TECH_METALLURGY</PrereqTech>
+				<Combat>25</Combat>
+				<Cost>105</Cost>
+				<Moves>4</Moves>
+				<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+				<Domain>DOMAIN_LAND</Domain>
+				<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+				<Description>TXT_KEY_UNIT_CUTIE_UNMARKER</Description>
+				<Civilopedia>TXT_KEY_CIV_UNITS_CUTIE_UNMARKER_TEXT</Civilopedia>
+				<Strategy>TXT_KEY_UNIT_CUTIE_UNMARKER_STRATEGY</Strategy>
+				<Help>TXT_KEY_UNITS_CUTIE_UNMARKER_HELP</Help>
+				<MilitarySupport>true</MilitarySupport>
+				<MilitaryProduction>true</MilitaryProduction>
+				<Pillage>true</Pillage>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+				<AdvancedStartCost>30</AdvancedStartCost>
+				<XPValueAttack>3</XPValueAttack>
+				<XPValueDefense>3</XPValueDefense>
+				<UnitArtInfo>ART_DEF_UNIT_LANCER</UnitArtInfo>
+				<UnitFlagIconOffset>4</UnitFlagIconOffset>
+				<IconAtlas>CIV_COLOR_ATLAS_CULTISTS</IconAtlas>
+				<UnitFlagAtlas>CIV_COLOR_ATLAS_CULTISTS</UnitFlagAtlas>
+				<PortraitIndex>2</PortraitIndex>
+				<MoveRate>QUADRUPED</MoveRate>
+			</Row>
+		</Units>
+		<Unit_AITypes>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<UnitAIType>UNITAI_ATTACK</UnitAIType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+			</Row>
+		</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+		<Unit_ClassUpgrades>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+			</Row>
+		</Unit_ClassUpgrades>
+		<Unit_Flavors>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<FlavorType>FLAVOR_RECON</FlavorType>
+				<Flavor>2</Flavor>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>3</Flavor>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>2</Flavor>
+			</Row>
+		</Unit_Flavors>
+		<Language_en_US>
+			<Row Tag="TXT_KEY_UNIT_CUTIE_UNMARKER">
+				<Text>Cutie Unmarker</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNITS_CUTIE_UNMARKER_HELP">
+				<Text>The Cutie Unmarker perform much like normal Lancers, but are much cheaper.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CIV_UNITS_CUTIE_UNMARKER_TEXT">
+				<Text>Due to recent breakthroughs in the Founder's knowledge in the Cutie Unmarking process now all ponies who wish to spread Equality can take part in freeing uninitiated ponies from their shackles.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_CUTIE_UNMARKER_STRATEGY">
+				<Text>Cutie Unmarkers preform the sacred task of freeing their enemies of Cutie Marks. They act as fast moving Lancers that cost much less to produce.</Text>
+			</Row>
+		</Language_en_US>
+
+		<Civilization_UnitClassOverrides>
+			<Row>
+				<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+				<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+				<UnitType>UNIT_CUTIE_UNMARKER</UnitType>
+			</Row>
+		</Civilization_UnitClassOverrides>
+</GameData>

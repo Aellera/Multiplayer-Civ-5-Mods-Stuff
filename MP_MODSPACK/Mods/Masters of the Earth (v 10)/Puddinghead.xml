@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:07 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_MONTEZUMA"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_PUDDING</Description>
+				<Civilopedia>TXT_KEY_LEADER_PUDDING_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING</CivilopediaTag>
+				<ArtDefineTag>Puddinghead_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>3</VictoryCompetitiveness>
+				<WonderCompetitiveness>7</WonderCompetitiveness>
+				<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
+				<Boldness>6</Boldness>
+				<DiploBalance>7</DiploBalance>
+				<WarmongerHate>8</WarmongerHate>
+				<DenounceWillingness>4</DenounceWillingness>
+				<DoFWillingness>8</DoFWillingness>
+				<Loyalty>8</Loyalty>
+				<Neediness>4</Neediness>
+				<Forgiveness>7</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>4</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_PUDDING</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA"/>
+			<Set TraitType="TRAIT_MASTER_OF_THE_LAND"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_MASTER_OF_THE_LAND</Type>
+			<Description>TXT_KEY_TRAIT_MASTER_OF_THE_LAND</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MASTER_OF_THE_LAND_SHORT</ShortDescription>
+			<NoHillsImprovementMaintenance>true</NoHillsImprovementMaintenance>
+			<ImprovementMaintenanceModifier>-50</ImprovementMaintenanceModifier>
+			<PopulationUnhappinessModifier>10</PopulationUnhappinessModifier>
+		</Row>
+	</Traits>
+
+
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_MASTER_OF_THE_LAND</TraitType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MASTER_OF_THE_LAND</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MASTER_OF_THE_LAND</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MASTER_OF_THE_LAND</TraitType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_MASTER_OF_THE_LAND">
+			<Text>The Earth Ponies are masters of the land. Hill improvements have no upkeep, all other improvements half. All Farms, Fishing Boats, Pastures, and Plantations provide +1 food. Due to the blizzard, food is still scarce and the Earth Ponies suffer 10% more unhappiness from Pop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MASTER_OF_THE_LAND_SHORT">
+			<Text>Masters of the Land</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PUDDING">
+			<Text>PuddingHead</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_PUDDING_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_PUDDING_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_PUDDING_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_PUDDING_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_PUDDING_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_PUDDING_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_PUDDING_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_PUDDING_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_PUDDING_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_MONTEZUMA" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_PUDDING_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PUDDING_DEFEATED_1">
+			<Text>My hat! Not the hat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_DEFEATED_2">
+			<Text>I didn't see this coming!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_EXPANSION_SERIOUS_WARNING_1">
+			<Text>This is our dirt, we got here first! Stop taking our land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_FIRSTGREETING_1">
+			<Text>PuddingHead: I got it, crops on carts! So when they arrive they're fully grown![NEWLINE]Smart Cookie: Chancellor, it looks like we have guests.[NEWLINE]Puddinghead: Oh, Hi! Welcome to Dirtville![NEWLINE]Smart Cookie: Earth...[NEWLINE]Puddinghead: Earth! I hope we can work together, oh I got it! Shovelnoculars! So you can see what your digging!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_GREETING_HOSTILE_HELLO_1">
+			<Text>I knew that twitch ment something. What do you want?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_GREETING_NEUTRAL_HELLO_1">
+			<Text>Puddinghead: Oh hi! I'm real busy coming up with brillent ideas for our farms.[NEWLINE]Smart Cookie: Sigh.[NEWLINE]Puddinghead: What do you need?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_GREETING_POLITE_HELLO_1">
+			<Text>Oh hi! Super nice seeing you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Puddinghead: Hmpf, you think I don't see what you're doing. You see this? This is my serious face.[NEWLINE]Smart Cookie: Sigh, she is being serious.[NEWLINE]Puddinghead: Well duh, you don't have to be a smart cookie to know that. Move your troops off our land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Hi! I was thinking that we should open our boarders! We got all kinds of neat stuff here!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_RESPONSE_REQUEST_1">
+			<Text>Puddinghead: Er..Umm.........[NEWLINE]Smart Cookie: The Chancellor isn't really good at asking, but we could use your help.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PUDDING_LUXURY_TRADE_1">
+			<Text>Hi! We got lots of this stuff, and Smart Cookie tells me you have lots of stuff too! We should trade!</Text>
+		</Row>
+	</Language_en_US>
+
+
+	
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_LIVED">
+			<Text>Past</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_NAME">
+			<Text>PuddingHead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_SUBTITLE">
+			<Text>Chancellor of the Earth Ponies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_TEXT_1">
+			<Text>Not much is know about Puddinghead or her rise to be Chancellor of the Earth Ponies. Many details have been lost over the many many years. She is known for several farming techniques still used today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PUDDING_TITLES_1">
+			<Text>Chancellor</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

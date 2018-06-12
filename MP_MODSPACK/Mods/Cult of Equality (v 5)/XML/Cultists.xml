@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/25/2016 6:50:59 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_CULTISTS</Type>
+			<Description>TXT_KEY_CIV_CULTISTS_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_CULTISTS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_CULTISTS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CULTISTS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_CULTISTS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CULTISTS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_POLYNESIAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CULTISTS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_CULTISTS</AlphaIconAtlas>
+			<MapImage>MapCultists512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CULTISTS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_StarlightGlimmer.dds</DawnOfManImage>
+			<SoundtrackTag>Aztec</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CULTISTS_11</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<LeaderheadType>LEADER_STARLIGHTGLIMMER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<ReligionType>RELIGION_TAOISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CULTISTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CULTISTS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- Civilization_Start_Along_Ocean -->
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_CULTISTS</Type>
+			<PrimaryColor>COLOR_PLAYER_CULTISTS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CULTISTS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CULTISTS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CULTISTS_ICON</Type>
+			<Red>0.996</Red>
+			<Green>0.706</Green>
+			<Blue>0.933</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CULTISTS_BACKGROUND</Type>
+			<Red>0.576</Red>
+			<Green>0.114</Green>
+			<Blue>0.686</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CULTISTS_TEXT</Type>
+			<Red>0.678</Red>
+			<Green>0.941</Green>
+			<Blue>0.</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_CULTISTS_DESC">
+			<Text>Cultist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CULTISTS_TITLE">
+			<Text>Cult of Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CULTISTS_SHORT_DESC">
+			<Text>Cult of Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CULTISTS_ADJECTIVE">
+			<Text>Cult of Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CULTISTS_HEADING_1">
+			<Text>Description</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CULTISTS_TEXT_1">
+			<Text>The Cult of Equality is a way of life dedicated to helping their fellow ponies realize the evils of cutie marks and how they only bring unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_CULTISTS_TEXT">
+			<Text>Our Glorious Founder we beg your forgiveness for turning away from all that you have taught us. It so fortunate that you have returned to our town and freed us from our Cutie Marks and thus releasing us from variation which only caused distrust and resentment in our fellow ponies. We know now that only through Equality can happiness and True Friendship follow. You are an inspiration to us all... at least, just as much an inspiration as anypony else who chooses Equality.[NEWLINE][NEWLINE]But what of the rest of Equestria? They've all been blinded by the Princess of Friendship and her so called friends; after all different talents lead to different opinions, which ultimately leads to bitterness and misery. We must let everypony know that exceptionalism is a lie and in sameness there is peace. We look to you now to guide Equestria into accepting Equality by any means.[NEWLINE][NEWLINE]Conformity will set us free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_0">
+			<Text>Our Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_1">
+			<Text>Our Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_2">
+			<Text>Our Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_3">
+			<Text>Our Burg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_4">
+			<Text>Our Keep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_5">
+			<Text>Our Homestead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_6">
+			<Text>Our Hamlet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_7">
+			<Text>Our Parish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_8">
+			<Text>Our Krall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_9">
+			<Text>Our Port</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_10">
+			<Text>Our Kampong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_11">
+			<Text>Our Metropolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CULTISTS_12">
+			<Text>Our Fort</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_0">
+			<Text>Night Glider</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_1">
+			<Text>Double Diamond</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_2">
+			<Text>Party Favor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_3">
+			<Text>Sugar Belle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_4">
+			<Text>Quick Quill</Text>
+			
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_5">
+			<Text>Dancing Leaf</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_6">
+			<Text>Archive Record</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_7">
+			<Text>Sunny Glasses</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_8">
+			<Text>Brilliant Cut</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CULTISTS_9">
+			<Text>Civil Servant</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

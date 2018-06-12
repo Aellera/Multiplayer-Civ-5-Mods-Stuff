@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/26/2012 9:21:28 AM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_CATHERINE"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_PLAT</Description>
+				<Civilopedia>TXT_KEY_LEADER_PLAT_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_PLAT</CivilopediaTag>
+				<ArtDefineTag>Plat_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>5</VictoryCompetitiveness>
+				<WonderCompetitiveness>8</WonderCompetitiveness>
+				<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+				<Boldness>6</Boldness>
+				<DiploBalance>7</DiploBalance>
+				<WarmongerHate>8</WarmongerHate>
+				<DenounceWillingness>4</DenounceWillingness>
+				<DoFWillingness>8</DoFWillingness>
+				<Loyalty>8</Loyalty>
+				<Neediness>7</Neediness>
+				<Forgiveness>6</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>4</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_PLAT</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE"/>
+			<Set TraitType="TRAIT_LINEAGE_OF_THE_UNICORN_KINGS"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_LINEAGE_OF_THE_UNICORN_KINGS</Type>
+			<Description>TXT_KEY_TRAIT_LINEAGE_OF_THE_UNICORN_KINGS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LINEAGE_OF_THE_UNICORN_KINGS_SHORT</ShortDescription>
+			<CultureBuildingYieldChange>1</CultureBuildingYieldChange>
+			<CapitalBuildingModifier>20</CapitalBuildingModifier>
+		</Row>
+	</Traits>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_LINEAGE_OF_THE_UNICORN_KINGS">
+			<Text>The Unicorns can trace their heritage back to the great unicorn kings of old. Their pride of their past has expressed itself in their art and crafting. The Unicorns are able to build things much 20% faster if its already built in their capital and all [ICON_CULTURE] buildings provide +1 [ICON_CULTURE].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LINEAGE_OF_THE_UNICORN_KINGS_SHORT">
+			<Text>Lineage of the Unicorn Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PLAT">
+			<Text>Platinum</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_PLAT_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_PLAT_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_PLAT_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_PLAT_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_PLAT_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_PLAT_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_PLAT_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_PLAT_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_PLAT_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_CATHERINE" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_PLAT_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PLAT_DEFEATED_1">
+			<Text>No! Not the face! Clover shield my perfectly wonderful face.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_DEFEATED_2">
+			<Text>I surrender! Stop getting dirt all over the carpets!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Platinum: I find it hilarious that you think that land you are settling on is yours. Clover, laugh at them.[NEWLINE]Clover:Hah..Hah..Hah..[NEWLINE]PLatinum: Excellent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_FIRSTGREETING_1">
+			<Text>Platinum: Clover, oh, there are dirty things approaching, make them go away![NEWLINE]Clover: I think they're guests, Princess.[NEWLINE]Platinum: Oh, well I am Princess Platinum, of the Unicorns. My generous reputation is well known and loved by everypony.[NEWLINE]Clover: Yah, real generous.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_GREETING_HOSTILE_HELLO_1">
+			<Text>Platinum: Oh, dirty dirty dirty! Clover make them go away![NEWLINE]Clover: How can I? I'm carrying everything.[NEWLINE]Platinum: Hmpf, I see that I'll have to suffer your presence then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_GREETING_NEUTRAL_HELLO_1">
+			<Text>PLatinum: Clover, greet our guests.[NEWLINE]Clover: Hello.[NEWLINE]Platinum: What kind of greeting is that?[NEWLINE]Clover: Why don't you greet them? You are the princess.[NEWLINE]Platinum: Yes, yes I am the princess, do remember that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_GREETING_POLITE_HELLO_1">
+			<Text>Platinum: Oh, hello! Clover, get our guests something to drink.[NEWLINE]Clover:............[NEWLINE]Platinum: Why do I call you the clever?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Platinum: I can see what you're doing with your troops. I can see how uncouth they are from here.[NEWLINE]Clover: Its problaly a good idea to move them.[NEWLINE]Platinum: Yes, what she said, but with more elegance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Platinum:I've grown tired of our lands, I wish to see yours. Let us open our boarders.[NEWLINE]Clover: She's just going to complain about them.[NEWLINE] Platinum: Hush you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_RESPONSE_REQUEST_1">
+			<Text>Clover: The Princess asks for your assitance. I don't know why she can't just ask herself.[NEWLINE]Platinum: I never ask for anything.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAT_LUXURY_TRADE_1">
+			<Text>Platinum: My mareservant has developed an interest in your wares.[NEWLINE]Clover: Wait, What? Mareservant?![NEWLINE]Platinum: We wish to trade.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_LIVED">
+			<Text>Past</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_NAME">
+			<Text>Platinum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_SUBTITLE">
+			<Text>Princess of the Unicorns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_TEXT_1">
+			<Text>Princess Platinum comes from a long line of great unicorn kings. She has led the unicorns to great wealth and splender that still is evident in the halls of Canterlot today. What she looked like is still a mystery as no imagine of her has survived through the ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PLAT_TITLES_1">
+			<Text>Princess</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

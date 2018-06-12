@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e4376e3d-4015-4c9f-99ca-251da8e8f7a9" version="3">
+  <Properties>
+    <Name>Rock of Destiny</Name>
+    <Stability>Beta</Stability>
+    <Teaser>The Rock of Destiny is a natural wonder that replaces Cerro de Potosi.</Teaser>
+    <Description>Special thanks to ambug666 for his Fictional Natural Wonders pack (http://steamcommunity.com/sharedfiles/filedetails/?id=134800340) which was the basis for this mod. That mod and this mod are not compatible.
+
+The Rock of Destiny is a natural wonder that replaces Cerro de Potosi. It is based on the rock from My Little Pony: Friendship is Magic, but takes its name from Fallout: Equestria. 
+
+Also the yields in the civilopedia go outside the box. It was probably not intended to have that many or I forgot to add a [NEWLINE] somewhere. 
+
+Speaking of the civilopedia if you can think of a better description I would also appreciate that.</Description>
+    <Authors>Ahuizotl</Authors>
+    <SpecialThanks>ambug666</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="56F280C954840097F64368A09A6FA496" import="1">ART/IconNewWonders128.dds</File>
+    <File md5="B3672BBC88751488554DF573927A12A1" import="1">ART/IconNewWonders256.dds</File>
+    <File md5="F0BF3153BF78C25435E1A2ABBDD64741" import="1">ART/IconNewWonders32.dds</File>
+    <File md5="684C10FCD93202A2730547EA3F1D4E45" import="1">ART/IconNewWonders45.dds</File>
+    <File md5="ED0B533A35CB40D7D7721FE2898A7F3E" import="1">ART/IconNewWonders64.dds</File>
+    <File md5="254814890A4271379657C76857E38946" import="1">ART/IconNewWonders80.dds</File>
+    <File md5="C37AED51DD523F7D5A0331E762F0C611" import="1">ART/rockdestiny/feature_rockdestiny.fxsxml</File>
+    <File md5="D238190A2454092F6F236A56781FFB16" import="1">ART/rockdestiny/feature_rockdestiny.gr2</File>
+    <File md5="472CB3656A9C69B52814B5B182134760" import="1">ART/rockdestiny/rockdestiny_decal_diff.dds</File>
+    <File md5="C37A8C05DD7DFB4450AE63078B71F72A" import="1">ART/rockdestiny/rockdestiny_gem_decal_h.dds</File>
+    <File md5="D75F3E13993F7B5AD27F14E3C19378ED" import="1">ART/rockdestiny/rockdestiny_gem_diff.dds</File>
+    <File md5="D75F3E13993F7B5AD27F14E3C19378ED" import="1">ART/rockdestiny/rockdestiny_gem_sref.dds</File>
+    <File md5="F26A74D6D830DB653A3AB95BACDF7DFC" import="0">SQL/NewWonderArt.sql</File>
+    <File md5="687578EE30EA215510A727BEE27D0BD6" import="0">XML/GameText.xml</File>
+    <File md5="CE72FDBCEDFCC34A93FD3AAAD3AB6615" import="0">XML/NewWonders.xml</File>
+    <File md5="9F51A36E73790B8AD2532254E4FD1033" import="0">XML/NewWonderTextureAtlases.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/NewWonderArt.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewWonders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewWonderTextureAtlases.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

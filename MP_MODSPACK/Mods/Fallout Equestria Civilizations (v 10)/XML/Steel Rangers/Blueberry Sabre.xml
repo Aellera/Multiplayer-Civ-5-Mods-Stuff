@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/30/2015 7:19:38 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_SABRE</Type>
+			<Description>TXT_KEY_LEADER_SABRE</Description>
+			<Civilopedia>TXT_KEY_LEADER_SABRE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_SABRE</CivilopediaTag>
+			<ArtDefineTag>Sabre_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>6</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>3</MinorCivCompetitiveness>
+			<Boldness>7</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>2</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>5</DoFWillingness>
+			<Loyalty>3</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>6</Meanness>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_SABRE</LeaderType>
+			<TraitType>TRAIT_POWER_ARMOR</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_SABRE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_SABRE_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_SABRE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_SABRE_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_SABRE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_SABRE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SABRE">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_SABRE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_SABRE">
+			<Text>Blueberry Sabre</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_FIRSTGREETING_1">
+			<Text>Greetings. I am Elder Blueberry Sabre of the Steel Rangers. To what do we owe this visit?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_FIRSTGREETING_2">
+			<Text>Greetings. I am Elder Blueberry Sabre of the Steel Rangers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_FIRSTGREETING_3">
+			<Text>Greetings. I am Elder Blueberry Sabre of the Steel Rangers. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_WARBLUFF_1">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_WARBLUFF_2">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_WARBLUFF_3">
+			<Text>We will concede... </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_WINWAR_1">
+			<Text>Do not so much as think of crossing the Steel Rangers again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_LOSEWAR_1">
+			<Text>Inconcievable...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DEFEATED_1">
+			<Text>Who would guess that in the end, it wasn't the Balefire bombs that would destroy our Order...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DEFEATED_2">
+			<Text>I will not surrender, you may have defeated the Order, but I will not go along willingly!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DEFEATED_3">
+			<Text>Beware. The Steel Rangers will one day rise again, and the first thing well do is wipe you off the face of Equestria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_YES_NEUTRAL">
+			<Text>We will concede.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_NO_NEUTRAL">
+			<Text>You cannot push us around. No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_YES_ANGRY">
+			<Text>We will concede this time, but do not expect us to give in so easily next time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_NO_ANGRY">
+			<Text>I'd sooner give up my armor than give in to you! The answer is no, and I suggest you leave my presence before I test out my grenade machine gun on your flank!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_YES_HAPPY">
+			<Text>You have done much in service to the Steel Rangers. I will see to it that you get what you need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRIBUTE_NO_HAPPY">
+			<Text>I am sorry, but the Steel Rangers cannot help you this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SABRE_RESPONSE_REQUEST_1">
+			<Text>We seem to have misplaced some of our resources. Would you mind lending a hoof?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DEMANDTRIBUTE_HAPPY">
+			<Text>You have been a friend to the Steel Rangers in the past, and we appreciate it. We will also appreciate what you are about to give me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DEMANDTRIBUTE_ANGRY">
+			<Text>The Order of the Steel Rangers demands access to your technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRADEREQUEST_ANGRY">
+			<Text>I sometimes wonder if its even worth it to try to obtain your resources. I suppose I can entertain the idea this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DECLAREWAR_1">
+			<Text>I can no longer stand idly by while technology is wasted on your pitiful nation. Prepare for war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DECLAREWAR_2">
+			<Text>It is time for the Ministry of Wartime Technology to reclaim what your people have stolen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_DECLAREWAR_3">
+			<Text>You posses technology that should rightfully belong to the Steel Rangers. Its time I take it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_ATTACKED_BETRAYED">
+			<Text>There was once a pony, Steelhooves, who betrayed the Steel Rangers as you have. You don't want to find out what happened to him in the end.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_ATTACKED_EXCITED">
+			<Text>Hah, I've been betting on your attack for days! Don't expect me to show you mercy after this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_ATTACKED_HOSTILE">
+			<Text>Hah, I've been waiting for an excuse to test my new missle launchers. Don't expect the Steel Rangers to hesitate before crushing you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_TRADE_NEEDMORE_ANGRY_1">
+			<Text>This is your trade plan? I've seen calculators worth more than what you are offering.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SABRE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>The Steel Rangers would like to map out your territory. In return, I will allow you to do the same.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SABRE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>This area is the soverign territory of the Steel Rangers. Back off, or I'll order my Star Paladins to escort you out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SABRE_LUXURY_TRADE_1">
+			<Text>I see you have some surplus resources. So do we. Would you be interested in a trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SABRE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I can see you eyeing our Power Armor from my bunker. Keep your troops away unless you'd like a hooves-on demonstration on what they can really do.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Greetings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>It is good to see you again. What can I do for you today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SABRE_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>What do you want?</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_FACT_1">
+			<Text>Elder Blueberry Sabre is the leader of the Fillydelphia Steel Ranger Contingent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_FACT_2">
+			<Text>Elder Blueberry Sabre does not share Steelhooves' ideas about devotion to the ministry mare. Instead, she says her loyalties lie with the Ministry of Wartime Technology and its products.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_HEADING_1">
+			<Text>Description</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_HEADING_2">
+			<Text>Fillydelphia Contingent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_HEADING_3">
+			<Text>Sabre's plan for LittlePip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_HEADING_4">
+			<Text>Assault on Stable 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_LIVED">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_NAME">
+			<Text>Blueberry Sabre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_SUBTITLE">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_TEXT_1">
+			<Text>LittlePip describes Blueberry Sabre as "...a rather pretty older mare.  I suspected that, when she was closer to my age (or even Velvet’s), she must have been quite cute." She has a blue coat and a berry-purple colored mane that has turned silvery grey with age. Only a few strands of her mane still retain their puple hue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_TEXT_2">
+			<Text>Elder Blueberry Sabre is the leader of the Fillydelphia Contingent of Steel Rangers. Stable-Tec's Headquarters serves as her stronghold, and the Steel Rangers base of operations in the area. The Rangers under Blueberry Sabre's command constantly clash with Red Eye's Slavers, who are also based in the city, protected (and caged in) by a giant wall. However, Blueberry Sabre maintains her position nearby, with the hopes of infiltrating and recovering technology and knowledge from structures within Red Eye's territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_TEXT_3">
+			<Text>Blueberry Sabre's hope to recover technology from within Red Eye's stronghold are answered by LittlePip. Sabre agrees to get LittlePip inside the wall in exchange for her retrieving the plans for a radiation powered generator and pre-war research on Bypass Spells. However, sending LittlePip into Fillydelpia's inner city was really part of a larger plan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_TEXT_4">
+			<Text>While LittlePip was inside Red Eye's stronghold, Elder Blueberry Sabre gathered her contingent and left Fillydelphia to escape constant harrassment by the Slavers. The Fillydelphia Contingent discovered Stable 2, and launched an invasion with the intention of claiming the Stable as their new base of operations. Elder Blueberry Sabre would have succeeded in her mission, had it not been for the arrival of LittlePip and her gang, followed by Blackwing's talons. Blankwing herself ended up killing Blueberry Sabre in Stable 2's Apple Orchard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SABRE_TITLES_1">
+			<Text>Elder</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

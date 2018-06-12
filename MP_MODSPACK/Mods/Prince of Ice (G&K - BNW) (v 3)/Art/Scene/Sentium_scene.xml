@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/17/2016 7:56:41 PM -->
+<LeaderScene FallbackImage="Sentium_dipo.dds">
+	<LeaderObject  model="Sentium.fxsxml"></LeaderObject>
+</LeaderScene>

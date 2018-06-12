@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:10:11 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_UNITY</Type>
+			<Description>TXT_KEY_CIV_UNITY_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_UNITY_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_UNITY_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_UNITY_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_UNITY</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_UNITY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOE</AlphaIconAtlas>
+			<MapImage>Unitymap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_UNITY_DOM</DawnOfManQuote>
+			<DawnOfManImage>Unity_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>Brazil</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_UNITY_ICON</Type>
+			<Red>0.824</Red>
+			<Green>0.518</Green>
+			<Blue>0.851</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_UNITY_BACKGROUND</Type>
+			<Red>0.490</Red>
+			<Green>0.745</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_UNITY_TEXT</Type>
+			<Red>0.000</Red>
+			<Green>0.400</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_UNITY</Type>
+			<PrimaryColor>COLOR_PLAYER_UNITY_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_UNITY_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_UNITY_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<LeaderheadType>LEADER_GODDESS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_UNITY_ADJECTIVE">
+			<Text>Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITY_DESC">
+			<Text>The Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITY_SHORT_DESC">
+			<Text>Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNITY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNITY_TEXT_1">
+			<Text>All alicorns everywhere, regardless of distance, are connected to the hive-mind of the Unity. They share their consciousness, their emotions, and their thoughts to such a degree that alicorns refer to themselves as "We" rather than "I". The Unity as a whole can learn from the experiences of each individual, even going so far as to remember the circumstances of a sister's death; each trick used to defeat an alicorn works only once. Knowledge of spells is also shared among the Unity. Each alicorn possesses a single spell based on their color -- teleportation, invisibility, or telepathy -- plus whatever magic they had learned before being transformed. However, since they are all linked, each alicorn can "borrow" the spells known by any other alicorn, making each a powerful magic-user in her own right. [NEWLINE][NEWLINE]The Unity is controlled, by and large, by its most powerful personalities. Trixie dominates the collective consciousness, but Twilight Sparkle contributes significantly. Gestalt and Mosaic are also noted as dominant personalities, able to influence the creation of new alicorns, but they seem content to let the other two carry on as they wish. Their telepathic link with one another, however, forms the foundation for the hive-mind that defines the Unity.(Text taken from Fo:E wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITY_DOM">
+			<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient radiation that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables. But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE] However, the Wasteland is not a hell to all ponies. In recent years, a fearsome new race of Alicorn ponies have emerged from Splendid Valley, immune to the effects of taint, radiation, and perfectly adapted to exist in this harsh new world. Oh Great and Powerful Goddess, ruler of the Alicorns, it is time for your bold vision to be realized. Can you bring Unity to this shattered Wasteland? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNITY_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MARIPONY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_A_WING</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_B_WING</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_MARIPONY">
+			<Text>Maripony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_A_WING">
+			<Text>Facility A Wing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_B_WING">
+			<Text>Facility B Wing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_0">
+			<Text>Nightseer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_1">
+			<Text>Calculare</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_2">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_3">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_4">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_5">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_6">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_7">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_8">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNITY_9">
+			<Text>Alicorn</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
+

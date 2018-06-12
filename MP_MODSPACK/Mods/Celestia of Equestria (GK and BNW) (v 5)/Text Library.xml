@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/29/2012 6:12:24 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_EQACELESTIA_FIRSTGREETING1">
+			<Text>Welcome to the land of Equestria! Is there is anything you wish to ask?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_FIRSTGREETING2">
+			<Text>Oh! As always, I am fascinated to meet new faces. How can I help you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_DEFEATED1">
+			<Text>Blunt force and Chaos can only last for so long. I shall see how long yours will last.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_DEFEATED2">
+			<Text>Harmony, lost. I only worry for future of my little ponies and peoples of Equestria has to endure without me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_EXPANSION_SERIOUS_WARNING1">
+			<Text>While we do love friendly approach, it would be nice if we can have some space.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_EXPANSION_SERIOUS_WARNING2">
+			<Text>We would appreciate if you can direct your attention to somewhere else.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_GREETING_HOSTILE_HELLO1">
+			<Text>Was there any good reason we need to talk?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_GREETING_NEUTRAL_HELLO1">
+			<Text>What a beautiful day, isn't it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_GREETING_POLITE_HELLO1">
+			<Text>Welcome! My friend. Is there anything you wish to talk about?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_HOSTILE_AGGRESSIVE_MILITARY_WARNING1">
+			<Text>May I ask what are you planning to do? I hope your reason is not what I think. Because if it is...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_LUXURY_TRADE1">
+			<Text>This will be a fulfilling trade for our, and your citizen as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_OPEN_BORDERS_EXCHANGE1">
+			<Text>Wouldn't be nice if our citizen can share their friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_RESPONSE_REQUEST1">
+			<Text>We must unite in this age of darkness against chaos, will you help us?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_WARBLUFF1">
+			<Text>I won't let you ravage harmony in your whim! Stand down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_WINWAR1">
+			<Text>Harmony, is the way ponies and people should live.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_WINWAR2">
+			<Text>Finally, we can return to usual, and peaceful day at last.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_LOSEWAR1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_DECLAREWAR1">
+			<Text>This is it. We are sick of your atypical measure. BE PREPARED!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EQACELESTIA_ATTACKED1">
+			<Text>Is there any reason or point on doing this? I am not angry. I am just very dissapointed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_OCTAVIA">
+			<Text>Octavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VINYL_SCRATCH">
+			<Text>Vinyl Scratch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TWILIGHT_SPARKLE">
+			<Text>Twilight Sparkle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LUNA">
+			<Text>Luna of Equestria</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

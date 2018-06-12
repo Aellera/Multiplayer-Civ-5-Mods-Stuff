@@ -1,0 +1,36 @@
+<Asset>
+	<Mesh file="PonyArchaeologist.gr2"/>
+	<Animation file="PonyWarrior_idle_anim.gr2" ec="1000, 1020, 2000, 2020"/>
+	<Animation file="PonyWarrior_fidget_anim.gr2" ec="1040, 2040"/>
+	<Animation file="PonyWarrior_fortify_anim.gr2" ec="1280, 1500"/>
+	<Animation file="PonyWarrior_fortify_idle_anim.gr2" ec="1285, 1290, 1520, 1580"/>
+	<Animation file="PonyWarrior_run_anim.gr2" ec="1400, 1440"/>
+	<Animation file="PonyWarrior_die_anim.gr2" ec="1200"/>
+	<Animation file="PonyWarrior_die_fade_anim.gr2" ec="1220"/>
+	<Animation file="PonyWorker_buildbegin_anim.gr2" ec="1995"/>
+	<Animation file="PonyWorker_road_anim.gr2" ec="1910, 1960"/>
+	<Animation file="PonyWorker_farm_anim.gr2" ec="1920"/>
+	<Animation file="PonyWorker_chop_anim.gr2" ec="1930"/>
+	<Animation file="PonyWorker_mine_anim.gr2" ec="1940"/>
+	<Animation file="PonyWorker_build_anim.gr2" ec="1950"/>
+	<AnimGraph file="WORKER_EXIT_SLEEP.dge"/>
+	<AnimGraph file="WORKER_ENTER_SLEEP.dge"/>
+	<AnimGraph file="FORTIFY_GRAPH.dge"/>
+	<AnimGraph file="WORKER_ENTER_WORK.dge"/>
+	<AnimGraph file="WORKER_EXIT_WORK.dge"/>
+	<AnimGraph file="WORKER_WORK.dge"/>
+	<AnimGraph file="TRANSITIONS_FOR_IDLES.dge"/>
+	<AnimGraph file="RUNNING_LOOP_GRAPH.dge"/>
+	<AnimGraph file="IDLE_GRAPH.dge"/>
+	<AnimGraph file="FIDGETS_GRAPH.dge"/>
+	<AnimGraph file="STOP_RUNNING_CIVILIAN.dge"/>
+	<AnimGraph file="RUN_START_CIVILIAN.dge"/>
+	<AnimGraph file="CAPTURED.dge"/>
+	<StateMachine file="WORKER_STATE.fsmxml"/>
+	<AnimGraph file="BOMBARD_DEFEND_LOOP_GRAPH.dge"/>
+	<AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="CIVILIAN_ENTER_BOMBARD_DEFEND.dge"/>
+	<AnimGraph file="CIVILIAN_DEATH_FINAL.dge"/>
+	<TimedTrigger file="FX_Triggers_Archeologist.ftsxml"/>
+</Asset>
+

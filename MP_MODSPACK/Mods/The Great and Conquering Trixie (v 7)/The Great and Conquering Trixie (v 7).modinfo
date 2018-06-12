@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e0f22225-4a21-4a45-9728-d64d469c395b" version="7">
+  <Properties>
+    <Name>The Great and Conquering Trixie</Name>
+    <Teaser>Adds the Great and Powerful Trixie to your Civ</Teaser>
+    <Description>Look in awe upon your overlord citizens of my future world. I, The Great and Powerful Trixie, have come! I have traveled through reality to conquer all that I gaze upon. Bow to me or face utter defeat. 
+
+I have conquered the nation of Siam, they are Trixie's now. 
+
+Trixie bring's her own trait, Conqueror, Trixie is the conqueror of worlds. I recieve 20% combat bonus against civ's with a higher tech level than herself. I recieve a free barracks when Trixie easily conquers a city. Trixie also recieves 20% more unhappiness from the number of cities owned due to her subjects constantly trying to overthrow her. The foals always try. Trixie also share's her city names with other civs, the real ones will be mine soon enough. You will not see me say this in game though. 
+
+My new building, Spire of Submission, it replaces your woefully pathetic Armory. The Spire of Submission is Trixie's reeducation and training facility. It provides xp for units built and +1 happiness. All of my subjects are required to attend. 
+
+With me comes my loyal Trixie Troops. The Trixie Troops are Trixie's shock troopers, utterly loyal to me. They replace Rifleman and recieve the blitz promotion. 
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc. Which Trixie is the master of! Myuh huu huu ah! 
+
+Trixie will not sully her hooves in petty work. My slave lacks the time to create any custom models so there are not going to be any. Trixie will not stop her loyal subjects though from honoring her in the creation of them. 
+
+Trixie will not lower herself to what is called 'vanilla'. The Great and Powerful Trixie requires 'Gods and Kings'. Both of which I have easily defeated.</Description>
+    <Authors>SilentModder</Authors>
+    <SpecialThanks>Trixie, lord and master who spared the whip so I can craft this for her.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E37E4DDE7CEE297AD1FF4EB4AE8FBCCF" import="1">Art/TrixieAlphaAtlas32.dds</File>
+    <File md5="8AC388C5DB12F456218CC2057842ABBC" import="1">Art/TrixieAtlas128.dds</File>
+    <File md5="6E810C01328FC013123DEF1F1D871C45" import="1">Art/TrixieAtlas214.dds</File>
+    <File md5="F084F96D9FA68A85E93BBE5A9641F375" import="1">Art/TrixieAtlas256.dds</File>
+    <File md5="FEA9A7380E335871B7C829008724E564" import="1">Art/TrixieAtlas32.dds</File>
+    <File md5="EB2915B1E6021382ED2E166B9EEFC67A" import="1">Art/TrixieAtlas45.dds</File>
+    <File md5="8E0B2F1761F725BA5AD613EF5D9BDC3C" import="1">Art/TrixieAtlas64.dds</File>
+    <File md5="E812A2D12B10A9C4ACF93913D7E5E085" import="1">Art/TrixieAtlas80.dds</File>
+    <File md5="643B28147D0F2210EABD6EE4DBDD90EA" import="1">Art/TrixieDiplo.dds</File>
+    <File md5="9499A18857C5412D0B7FE5EB3FF674DD" import="1">Art/TrixieDOM.dds</File>
+    <File md5="6A6E3A6EACA9A54A03B3005A8CE2E9B4" import="1">Art/TrixieMap.dds</File>
+    <File md5="52E08F4DF8F13B7D468845CDBFCC79A8" import="1">Art/Trixie_Scene.xml</File>
+    <File md5="06718A9E919D9302100F025678BB47DF" import="1">Music/RamkhamhaengPeace.mp3</File>
+    <File md5="0C9A4F8EF616A0F6779D814D7F0278C7" import="1">Music/RamkhamhaengWar.mp3</File>
+    <File md5="8FE6DF3605DDA26A615F09FACC66FF61" import="1">TrixieEmpire.xml</File>
+    <File md5="93E53FF76B6B55E6554EE1196C84CCB8" import="1">Trixie.xml</File>
+    <File md5="D7556372F0E174B0B8F7A30D5C3E7CC0" import="1">Atlas.xml</File>
+    <File md5="4DDBAE7732236018B98B2574B7356E62" import="1">City Names.xml</File>
+    <File md5="D5D2D49371B9B24B2AAA9C8BF1A8EFD9" import="1">Spy Table.xml</File>
+    <File md5="1B579240407CB6A741FFADD56A382EB8" import="1">TrixieTroops.xml</File>
+    <File md5="BE5F3865B833B914A9DB797CB0E3ACCF" import="1">SpireofSubmission.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Trixie_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>TrixieTroops.xml</UpdateDatabase>
+      <UpdateDatabase>SpireofSubmission.xml</UpdateDatabase>
+      <UpdateDatabase>Spy Table.xml</UpdateDatabase>
+      <UpdateDatabase>Trixie.xml</UpdateDatabase>
+      <UpdateDatabase>TrixieEmpire.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

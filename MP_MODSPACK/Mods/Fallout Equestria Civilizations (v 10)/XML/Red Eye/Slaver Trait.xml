@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2015 7:35:50 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_SLAVE_TRADE</Type>
+			<Description>TXT_KEY_TRAIT_SLAVE_TRADE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SLAVE_TRADE_SHORT</ShortDescription>
+			<LandBarbarianConversionPercent>50</LandBarbarianConversionPercent>
+			<CityUnhappinessModifier>30</CityUnhappinessModifier>
+		</Row>
+	</Traits>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CAPITAL_SNIPERS</Type>
+			<Description>TXT_KEY_PROMOTION_CAPITAL_SNIPERS</Description>
+			<Help>TXT_KEY_PROMOTION_CAPITAL_SNIPERS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CapitalDefenseModifier>20</CapitalDefenseModifier>
+			<CapitalDefenseFalloff>-3</CapitalDefenseFalloff>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CAPITAL_SNIPERS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Trait_YieldChangesPerTradePartner>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldChangesPerTradePartner>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SLAVE_TRADE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_CAPITAL_SNIPERS</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CAPITAL_SNIPERS">
+			<Text>M.o.M. Balloon Snipers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CAPITAL_SNIPERS_HELP">
+			<Text>Old Ministry of Morale balloons provide sniper support from above Fillydelphia (combat bonus).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SLAVE_TRADE">
+			<Text>Each trade route produces +2[ICON_GOLD] gold. All units recieve a combat strength around the capital and have a chance of recruiting Barbarians in encampments (Raiders) to Red Eye's cause. Cities produce more unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SLAVE_TRADE_SHORT">
+			<Text>Corrupted Generosity</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

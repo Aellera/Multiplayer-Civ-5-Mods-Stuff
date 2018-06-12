@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/15/2015 10:29:37 AM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_EXTRACTIONCAMP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_EXTRACTIONCAMP</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_EXTRACTIONCAMP_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MANUFACTORY</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<BuildableOnResources>true</BuildableOnResources>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PillageGold>50</PillageGold>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Builds>
+		<Row>
+			<Type>BUILD_EXTRACTIONCAMP</Type>
+			<ImprovementType>IMPROVEMENT_EXTRACTIONCAMP</ImprovementType>
+			<Description>TXT_KEY_BUILD_EXTRACTIONCAMP</Description>
+			<Help>TXT_KEY_BUILD_EXTRACTIONCAMP_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_MINE_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<Time>800</Time>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>22</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_EXTRACTIONCAMP">
+			<Text>Refurbished Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EXTRACTIONCAMP_TEXT">
+			<Text>Refurbished Factories are factories that have either been restored or built by Red Eye to produce weapons and propaganda for the New Equestria. Most of these factories are worked by slaves, and produce +3 [ICON_PRODUCTION]production and +2 [ICON_CULTURE] culture, but repairing and maintaining these prewar relics comes at the expense of -3 [ICON_GOLD]gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EXTRACTIONCAMP">
+			<Text>Build a Refurbished Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EXTRACTIONCAMP_HELP">
+			<Text>Refurbished Factoriess produce +3 [ICON_PRODUCTION]production and +1 [ICON_CULTURE], but cost -3 [ICON_GOLD]gold.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

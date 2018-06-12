@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:01 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_AZTEC" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_EARTHPONY</Type>
+			<Description>TXT_KEY_CIV_EARTHPONY_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_EARTHPONY_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EARTHPONY_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_EARTHPONY_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_EARTHPONY</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_PUDDING</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AZTEC</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_PUDDING</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_PUDDING</AlphaIconAtlas>
+			<MapImage>PuddingheadMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_EARTHPONY_DOM</DawnOfManQuote>
+			<DawnOfManImage>PuddingheadDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Aztec</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_PUDDING</Type>
+			<PrimaryColor>COLOR_PLAYER_BROWN</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DARK_YELLOW</SecondaryColor>
+			<TextColor>COLOR_PLAYER_BROWN</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<LeaderheadType>LEADER_MONTEZUMA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_EARTHPONY_ADJECTIVE">
+			<Text>Earth Pony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EARTHPONY_DESC">
+			<Text>Earth Pony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EARTHPONY_SHORT_DESC">
+			<Text>The Earth Ponies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EARTHPONY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EARTHPONY_TEXT_1">
+			<Text>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. The Unicorns were masters of the Sun and Moon, using their magic to bring night and day. The Earth Ponies were master of the dirt, responseable for growing food for all ponies. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Chancellor Puddinghead, leader of the Earth Ponies led them to what would become Equestria, naming their new land, Earth. The Earth Ponies were not alone as the other tribes had laid claim to the very same land. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EARTHPONY_DOM">
+			<Text> Dear Chancellor Puddinghead,[NEWLINE] I don't know why you're making me write this, you're right next to me....................Fine...........Our old home has succome to the mysterious blizzard that has appeared......[NEWLINE]Now why would the pegasi do that, they need our food. Sigh, fine....Er hmm..........Now under your brillent guidence and inspiring leadership....Really chancellor, thats strenching it a bit?....Sigh, we set out for a new land to call home. One with bright warm skies, good fertile dirt, and no stinking pegasi or unicorns...[NEWLINE]..Chancellor that seems a bit harsh. No, I don't have a giant pudding cup on my hat......Sigh.[NEWLINE][NEWLINE]Today marks a new day for Earth Ponykind.....Why did you make me write this on the map? You're not even going to be able to read it and use the map. No, wearing it on your face is the dumbest idea I've ever heard.....Sigh, yes Chancellor.</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

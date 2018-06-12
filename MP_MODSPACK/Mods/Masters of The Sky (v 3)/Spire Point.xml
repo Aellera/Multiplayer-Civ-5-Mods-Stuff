@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:25 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SPIRE</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_EPIC</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SPIRE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SPIRE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SPIRE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SPIRE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_EPIC</ArtDefineTag>
+			<Defense>1200</Defense>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_HURRICANE</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>20</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEGASI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<BuildingType>BUILDING_SPIRE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SPIRE">
+			<Text>Spire Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPIRE_HELP">
+			<Text>Spire Point requires a barracks in every city. It provides +20% more xp for combat units and acting as a Military Base in the city that its built in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SPIRE_TEXT">
+			<Text>Spire Point is the legendary academy where all Thunderbolt trainee's attend. It is a massive citadel thought to have been commisioned by Commander Hurricane itself. Some of Equestria's greatest flyers have graced its hallowed halls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPIRE_STRATEGY">
+			<Text>Spire Point is the greatest of all Pegasi academies, serving as the trainee grounds for the Thunderbolts. It provides 20% more xp, and acts as a Military base for the city that its built in.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

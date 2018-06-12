@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/19/2012 9:53:47 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_HOSPITAL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LIBRARY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PUBLIC_SCHOOL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GLOBE_THEATER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSEUM"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MUSEUM"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STADIUM"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COURTHOUSE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HYDRO_PLANT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_AMPHITHEATER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GARDEN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LABORATORY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_OPERA_HOUSE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MILITARY_ACADEMY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_WINDMILL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_AIRPORT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CIRCUS_MAXIMUS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HOTEL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MARKET"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ARSENAL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_BROADWAY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_OF_LIBERTY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+	</Buildings>
+	<Projects>
+		<Update>
+			<Where Type="PROJECT_MANHATTAN_PROJECT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+	</Projects>
+	<Technologies>
+		<Update>
+			<Where Type="TECH_AGRICULTURE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ANIMAL_HUSBANDRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ARCHAEOLOGY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CALENDAR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CONSTRUCTION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CURRENCY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_EDUCATION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_HORSEBACK_RIDING"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MINING"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PRINTING_PRESS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_RAILROAD"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_WRITING"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_1</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ACOUSTICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_FERTILIZER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_FLIGHT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_FUTURE_TECH"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_INDUSTRIALIZATION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_LASERS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MACHINERY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_NANOTECHNOLOGY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_STEAM_POWER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_THE_WHEEL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_THEOLOGY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_TRAPPING"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CHEMISTRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CHIVALRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CIVIL_SERVICE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMPASS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMPUTERS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_DRAMA"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ELECTRONICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_GUNPOWDER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MATHEMATICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_NUCLEAR_FUSION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_OPTICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHILOSOPHY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_POTTERY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_3</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ASTRONOMY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_BIOLOGY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_SCIENTIFIC_THEORY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ARCHITECTURE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_GUILDS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ADVANCED_BALLISTICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MILITARY_SCIENCE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ROBOTICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMBUSTION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHYSICS"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ATOMIC_THEORY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_IRON_WORKING"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_NUCLEAR_FISSION"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+	</Technologies>
+	<Units>
+		<Update>
+			<Where Type="UNIT_ARCHER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_TANK"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_LANCER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_PIKEMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_RIFLEMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SCOUT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPEARMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_WARRIOR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ANTI_TANK_GUN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CATAPULT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CROSSBOWMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GATLINGGUN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARTIST"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MERCHANT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_INFANTRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_KNIGHT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_LONGSWORDSMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MARINE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MECHANIZED_INFANTRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SETTLER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SWORDSMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_WORKER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CANNON"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GREAT_ADMIRAL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ENGINEER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GREAT_GENERAL"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_PROPHET"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SCIENTIST"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MISSIONARY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MODERN_ARMOR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_PARATROOPER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARCHAEOLOGIST"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BAZOOKA"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_DANISH_BERSERKER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BOMBER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MACHINE_GUN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MUSICIAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GERMAN_PANZER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_WWI_BOMBER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_COMPOSITE_BOWMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_4</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ANTI_AIRCRAFT_GUN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARTILLERY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARAVAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CAVALRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ENGLISH_LONGBOWMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_FIGHTER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MECH"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GREAT_WAR_INFANTRY"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>7</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_WRITER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HORSEMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_INQUISITOR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>10</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_JET_FIGHTER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>11</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MUSKETMAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>12</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_TRIPLANE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ATOMIC_BOMB"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BARBARIAN_WARRIOR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BARBARIAN_SPEARMAN"/>
+			<Set>
+				<Description>Speardog</Description>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_STEALTH_BOMBER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>13</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_XCOM_SQUAD"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>15</PortraitIndex>
+			</Set>
+		</Update>
+	</Units>
+	<ArtDefine_UnitInfos>
+		<Update>
+			<Where Type="ART_DEF_UNIT__WORKER_LATE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>14</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARAVAN_POSTMODERN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>6</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GREAT_MUSICIAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_2</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GREAT_MUSICIAN_POSTMODERN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_7</IconAtlas>
+				<PortraitIndex>9</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GREAT_WRITER"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARAVAN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_8</IconAtlas>
+				<PortraitIndex>2</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GREAT_ARTIST_POSTMODERN"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_5</IconAtlas>
+				<PortraitIndex>5</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GREAT_ADMIRAL_LATE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>3</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_ENGINEER_LATE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_6</IconAtlas>
+				<PortraitIndex>4</PortraitIndex>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GENERAL_LATE"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>8</PortraitIndex>
+			</Set>
+		</Update>
+	</ArtDefine_UnitInfos>
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_GOODY_HUT"/>
+			<Set>
+				<IconAtlas>PONIFICATION_ATLAS_9</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Set>
+		</Update>
+	</Improvements>
+</GameData>

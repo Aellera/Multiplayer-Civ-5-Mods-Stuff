@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+	  <Row>
+		  <Type>TRAIT_PRODIGAL_SUN</Type>
+		  <Description>TXT_KEY_TRAIT_PRODIGAL_SUN</Description>
+		  <ShortDescription>TXT_KEY_TRAIT_PRODIGAL_SUN_SHORT</ShortDescription>
+		  <BonusReligiousBelief>true</BonusReligiousBelief>
+		  <FreeBuilding>BUILDING_HARBOR</FreeBuilding>
+	  </Row>
+  </Traits>
+  <!-- Trait_ExtraYieldThresholds -->
+  <!-- Trait_YieldChanges -->
+  <!-- Trait_YieldChangesStrategicResources -->
+  <!-- Trait_YieldChangesNaturalWonder -->
+  <!-- Trait_YieldChangesPerTradePartner -->
+  <!-- Trait_YieldChangesIncomingTradeRoute -->
+  <!-- Trait_YieldModifiers -->
+  <!-- Trait_FreePromotions -->
+  <!-- Trait_FreePromotionUnitCombats -->
+  <!-- Trait_MovesChangeUnitCombats -->
+  <!-- Trait_MaintenanceModifierUnitCombats -->
+  <!-- Trait_Terrains -->
+  <!-- Trait_ResourceQuantityModifiers -->
+  <!-- Trait_FreeResourceFirstXCities -->
+  <!-- Trait_ImprovementYieldChanges -->
+  <!-- Trait_SpecialistYieldChanges -->
+  <!-- Trait_UnimprovedFeatureYieldChanges -->
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_PRODIGAL_SUN">
+      <Text>Choose one more Belief than normal when you found a Religion. All Coastal Cities start with a free Harbor.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_PRODIGAL_SUN_SHORT">
+      <Text>Prodigal Sun</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

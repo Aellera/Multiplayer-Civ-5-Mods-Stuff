@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7596ec21-de05-46e1-8794-e3250a8bc295" version="3">
+  <Properties>
+    <Name>Thrall of Sirens</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Do you hear the Siren's Call?</Teaser>
+    <Description>Adds the Thrall of Sirens Civilization. Do you hear the Siren's Call? The Dazzlings have returned and will have their voices pass over all of Equestria. This is a Venice style civ to be used with Harald B's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=373462512]Pony Units Mod[/url] To help bring the Sirens to life the very talented Wubcake has provided her to voice speak for all the Sirens. Go check out her channel [url=https://www.youtube.com/user/PinkamenaVA]here![/url]
+		
+Unique Ability: Siren's Song -- Due to losing their magical Pendants the Sirens can no longer gain settlers nor annex cities. Their natural affinty for Oceans doubles the normal number of trade routes available. A Dazzling appears after researching Drama and Poetry. May purchase in puppeted cities.
+		
+Unique Unit: Seapony Scout -- These Seaponies are friends of Sonata and love to tell her all about their adventures. These scouts start off with the ability to embark into the ocean and have double movement while embarked. They also cost no maintenance.
+		
+Unique Great Person: Dazzling -- The Sirens themselves come down to replace the Great Merchant. Aside from the ability to Conduct a Trade Mission, the Dazzling can coerce City-States, bringing them under Siren control as a Puppet.
+
+------------------------------------------------------------------------------------------------------------------------------
+My Little Pony: Friendship is Magic is copyright and trademarked by Hasbro. I do not claim jurisdiction or ownership over any characters, images, or music from MLP FIW.
+
+Peace Music by [url=https://www.youtube.com/watch?v=L5-kpPEC11s]Carbon Maestro[/url]
+War Music by [url=https://www.youtube.com/channel/UCfLc8gOnK6MZ-bYOJTWyZtw]DJDelta0[/url] 
+Diplomacy Image by [url=http://argentumzeena.deviantart.com/art/Stormy-Adagio-495052705]Argentumzeena[/url]
+Dazzling Emblem by [url=http://90sigma.deviantart.com/art/Adagio-Dazzle-s-Cutie-Mark-515323968]90Sigma[/url]
+Seapony art by [url=https://derpiboo.ru/769705]Flashequestria[/url]
+
+Disclaimer: Me being under the Siren's Spell has in no way influenced this Mod's Production.</Description>
+    <Authors>Storm Holder</Authors>
+    <SpecialThanks>DHX, Meghan McCarthy, Wubcake</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="638671DF475A12987DD5FB572D149518" import="1">Art/IconAtlasAdagio128.dds</File>
+    <File md5="699F22B248EFCAF1CAA0F1709A26DC82" import="1">Art/IconAtlasAdagio24.dds</File>
+    <File md5="B960DF677C44AB275FE2EFF41D3D36F2" import="1">Art/IconAtlasAdagio256.dds</File>
+    <File md5="3A7DC122BBAE4709154442E645F17A35" import="1">Art/IconAtlasAdagio32.dds</File>
+    <File md5="EA3D876055C463835249C3BE473CB94D" import="1">Art/IconAtlasAdagio45.dds</File>
+    <File md5="D086E7A1593320FC20526E40B05BD371" import="1">Art/IconAtlasAdagio48.dds</File>
+    <File md5="01979DA1564D7B40619E752C107493A5" import="1">Art/IconAtlasAdagio64.dds</File>
+    <File md5="C71F65069C08DF339CDCDE6BBB15512D" import="1">Art/IconAtlasAdagio80.dds</File>
+    <File md5="D39B9ACF7EDDB675F524D35F1E3BA171" import="1">Art/MapSirens512.dds</File>
+    <File md5="7081BBC70F1D602F27260A4A35AE8451" import="1">Art/DOM_Adagio.dds</File>
+    <File md5="75C1F86EE4E7BD7A25D78CED0967AF2E" import="1">Music/ADAGIO_ATTACKED.wav</File>
+    <File md5="3246FC2AAC51262B25DA97FAB9EB0C0F" import="1">Music/ADAGIO_BIRD_AMBIENCE.wav</File>
+    <File md5="082019D727E7EFDCA00A67E0BA0A115E" import="1">Music/ADAGIO_DECLARE_WAR.wav</File>
+    <File md5="C64D08394FF599A39487F0008BF38F3B" import="1">Music/ADAGIO_DEFEATED.wav</File>
+    <File md5="E0EB5C4136BE2D6E4E40C0BB35F9B7F0" import="1">Music/ADAGIO_DEMAND.wav</File>
+    <File md5="C3DA9F9ABBEFB4B427703772B4E87479" import="1">Music/ADAGIO_EXCELLENT.wav</File>
+    <File md5="A31D89E556ED0F9DD55CC1113B10811D" import="1">Music/ADAGIO_GLOATS.wav</File>
+    <File md5="7F60A1B51D2DB6064BF9167C3E6081F2" import="1">Music/ADAGIO_HATE_HEAR_IT_01.wav</File>
+    <File md5="B8C61AEB76C8DF3E0E64176750F59466" import="1">Music/ADAGIO_HATE_HEAR_IT_02.wav</File>
+    <File md5="A712FD7D6B882BCC32CD460ED857E4B7" import="1">Music/ADAGIO_HATE_HELLO.wav</File>
+    <File md5="00DF54D01542AB1AA75FFAAE6E8560D4" import="1">Music/ADAGIO_HATE_NO_01.wav</File>
+    <File md5="C27465E57E5774C26220D33721906DFC" import="1">Music/ADAGIO_HATE_NO_02.wav</File>
+    <File md5="F6F936417B85D5BECB9808BFBFB1719F" import="1">Music/ADAGIO_HATE_NO_03.wav</File>
+    <File md5="D4D64B043EF0176AE9289FA212F4C2A9" import="1">Music/ADAGIO_HATE_YES_01.wav</File>
+    <File md5="06059D233EAF3BAED7935CD1CBFA2859" import="1">Music/ADAGIO_HATE_YES_02.wav</File>
+    <File md5="45379AF1D0D2E522935F8C0CB3296E4D" import="1">Music/ADAGIO_HATE_YES_03.wav</File>
+    <File md5="D4A57B09B56C43D06BDA6EC127D38C01" import="1">Music/ADAGIO_INTRO.wav</File>
+    <File md5="F484FA0CEF1AC1E2FF7A3CDC611C5234" import="1">Music/ADAGIO_NEUTRAL_HEAR_IT_01.wav</File>
+    <File md5="2A6A449748EEAF86261E966F0B3D828F" import="1">Music/ADAGIO_NEUTRAL_HEAR_IT_02.wav</File>
+    <File md5="153EEC79CA788D1DF26FC18CFB9ECD95" import="1">Music/ADAGIO_NEUTRAL_HEAR_IT_03.wav</File>
+    <File md5="ED243621F8F6B97BA0EBB9007237E293" import="1">Music/ADAGIO_NEUTRAL_HELLO.wav</File>
+    <File md5="EF742D3FB09981011837F5C4031D6F39" import="1">Music/ADAGIO_NEUTRAL_HELLO_02.wav</File>
+    <File md5="F81F5E0B4413E7ED7BBE5066D0D11109" import="1">Music/ADAGIO_NEUTRAL_HELLO_03.wav</File>
+    <File md5="D580AC86C3690C7EE0D62131A62BCA57" import="1">Music/ADAGIO_NEUTRAL_NO_01.wav</File>
+    <File md5="895318DE6A1DDE9FC4D800033A75D282" import="1">Music/ADAGIO_NEUTRAL_YES_01.wav</File>
+    <File md5="D5951F139DC468807E9D2F4B06744480" import="1">Music/ADAGIO_NEUTRAL_YES_02.wav</File>
+    <File md5="C5CF6A6BD6CE2CE77E12587F7CE209CC" import="1">Music/ADAGIO_NEUTRAL_YES_03.wav</File>
+    <File md5="0C2E641ED3EC21FAEDF9AF50788558B7" import="1">Music/ADAGIO_PEACE.mp3</File>
+    <File md5="F2E8B7DFE320B18C4D8406804DE5E66E" import="1">Music/ADAGIO_PEACEFUL.wav</File>
+    <File md5="3B9E87C2B759AD2A2CA350B2195BA767" import="1">Music/ADAGIO_REQUEST.wav</File>
+    <File md5="F3DDFA3156A341588909BFE1F199A01A" import="1">Music/ADAGIO_WAR.mp3</File>
+    <File md5="CFEDA37BD9A3F36C72F442DB9C05EC13" import="1">Music/SIRENS_DOM.mp3</File>
+    <File md5="ED46B93CFB5545CE95721090C82C3306" import="1">Scene/ADAGIO.dds</File>
+    <File md5="DDC87546F962F9D24272B36AF0C6CE1A" import="1">Scene/ADAGIO.fxsxml</File>
+    <File md5="55529639CF0980AAABA9BD3E366ED4D0" import="1">Scene/Adagio_Scene.xml</File>
+    <File md5="E5BC0D3050AF4EA4A5C70127BCE2C6B0" import="1">Scene/ADAGIO_Triggers.ftsxml</File>
+    <File md5="D09B2381BEE791D22E9C805C37011A10" import="0">XML/Atlas.xml</File>
+    <File md5="84DEA5E96ECD43E264774B0CB039169E" import="0">XML/Dazzling.xml</File>
+    <File md5="3FE24763D6EA1567639D6BF2CF35BC4C" import="0">XML/Diplomacy_Responses.xml</File>
+    <File md5="1A3DB6E8E4DFC55BE2F79506A0662726" import="0">XML/Seapony_Scout.xml</File>
+    <File md5="9417C6990289B14EFC9F4C9C542B5FD9" import="0">XML/Sirens.xml</File>
+    <File md5="F08C3A4238479F9974A624AD5052FF21" import="0">XML/Adagio.xml</File>
+    <File md5="7A3412C90896EB4476B6539300CE3A4C" import="0">XML/Sound.xml</File>
+    <File md5="833B253B0277B3FA408718ACFAAEFB79" import="0">XML/Trait.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sirens.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Adagio.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Seapony_Scout.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Dazzling.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy_Responses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sound.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

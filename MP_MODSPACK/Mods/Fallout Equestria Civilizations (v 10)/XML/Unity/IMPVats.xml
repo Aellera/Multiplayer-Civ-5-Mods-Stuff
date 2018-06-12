@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/1/2015 11:07:39 AM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_IMPVATS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_IMPVATS</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_IMPVATS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_FEATURE_FALLOUT</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<CultureBombRadius>1</CultureBombRadius>
+			<OutsideBorders>true</OutsideBorders>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<NearbyEnemyDamage>15</NearbyEnemyDamage>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Builds>
+		<Row>
+			<Type>BUILD_IMPVATS</Type>
+			<ImprovementType>IMPROVEMENT_IMPVATS</ImprovementType>
+			<Description>TXT_KEY_BUILD_IMPVATS</Description>
+			<Help>TXT_KEY_BUILD_IMPVATS_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_IMPVATS</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<Time>700</Time>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>54</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_IMPVATS</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_IMPVATS</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_IMPVATS</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<BuildType>BUILD_EXTRACTIONCAMP</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_IMPVATS</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<BuildType>BUILD_IMPVATS</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_IMPVATS">
+			<Text>IMP-Taint Vat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_IMPVATS_TEXT">
+			<Text>IMP Vats produce +2 [ICON_PEACE]faith, +1 [ICON_CULTURE]culture, and +2 [ICON_FOOD] and can be built anywhere. Enemy units around IMP Vats become mutated, taking 15 damage per turn. The IMP Vat pollutes the surrounding tiles, bringing them into the Unity's control. (This is the Unity's only way to expand besides conquest.) IMP Vats can not be built next to each other.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_IMPVATS">
+			<Text>Spill IMP Fluid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_IMPVATS_HELP">
+			<Text>IMP Fluid produces +1 [ICON_PEACE]faith, +2 [ICON_CULTURE]culture, and +1 [ICON_FOOD].It also grants a combat bonus to units and expands the borders of Unity.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

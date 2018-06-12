@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_WEAK_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_BETRAYED</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_STRONG_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_HOSTILE</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_POLITE_HELLO%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_NEUTRAL_HELLO%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HELLO%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_EXPANSION_SERIOUS_WARNING%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_LUXURY_TRADE%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_TRADE_ACCEPT_ACCEPTABLE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_REQUEST%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_REQUEST%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_OPEN_BORDERS_EXCHANGE%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED%</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_BETRAYED</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_EXCITED</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_HOSTILE</Response>
+	<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HUMAN_AT_WAR</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_AT_WAR%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HUMAN_IS_WARMONGER</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_IS_WARMONGER%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_HUMAN_DENOUNCED_ENEMY</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_ENEMY%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_HUMAN_DENOUNCED_FRIEND</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_FRIEND%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_RESPONSE_TO_BEING_DENOUNCED</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_TO_BEING_DENOUNCED%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_INFLUENTIAL_ON_AI</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_AI%</Response>
+			<Bias>500</Bias>
+		</Row>
+		<Row LeaderType="LEADER_STARLIGHT_GLIMMER">
+			<ResponseType>RESPONSE_INFLUENTIAL_ON_HUMAN</ResponseType>
+			<Response>TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_HUMAN%</Response>
+			<Bias>500</Bias>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_1">
+			<Text>Welcome! I'm so pleased to have you here!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_2">
+			<Text>Other ponies argue. Do you ever wonder why?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_FIRSTGREETING_3">
+			<Text>Welcome! And we'll teach you just how much better life can be... *without* your cutie marks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_1">
+			<Text>If that's what it takes to keep you and your friends from getting your cutie mark connection, then I'm game! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_2">
+			<Text>No, get away!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WARBLUFF_3">
+			<Text>Up for another race-ending fight?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_WINWAR_1">
+			<Text>Did you think anything else would happen?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_LOSEWAR_1">
+			<Text>What are you looking at? You're the problem, not me!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_1">
+			<Text>I... I had to, you fools! How could I collect your cutie marks without my magic?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_2">
+			<Text>I was perfectly happy before you and your friends ruined what I built!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEFEATED_3">
+			<Text>Ugh! Starlight, you clumsy foal!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_NEUTRAL">
+			<Text>If I have to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_NEUTRAL">
+			<Text>That doesn't seem fair to me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_ANGRY">
+			<Text>I won't forget this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_ANGRY">
+			<Text>No!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_YES_HAPPY">
+			<Text>Anything I can do to help!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRIBUTE_NO_HAPPY">
+			<Text>I can't!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_REQUEST_1">
+			<Text>Well, this will certainly provide a boost to our little community.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEMANDTRIBUTE_HAPPY">
+			<Text>Now, I don't blame you for what you tried to do here today, you've spent your whole lives thinking those marks are a good thing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DEMANDTRIBUTE_ANGRY">
+			<Text>QUIET!!! Just give that to me, NOW!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRADEREQUEST_ANGRY">
+			<Text>Though I hate to ask it of somepony like you, how about this?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_1">
+			<Text>In sameness, there is peace. Exceptionalism is a lie. Free yourself from your cutie mark.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_2">
+			<Text>Choose equality as your special talent. Difference is frustration. To excel is to fail. Be your best by never being your best.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_DECLAREWAR_3">
+			<Text>Conformity will set you free. Accept your limitations, and happiness will follow. You're no better than your friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_BETRAYED">
+			<Text>I knew you couldn't be trusted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_EXCITED">
+			<Text>I was hoping you'd try to attack me! Yes, I'm game!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_ATTACKED_HOSTILE">
+			<Text>I was hoping you'd try to attack me! Yes, I'm game!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_TRADE_NEEDMORE_ANGRY_1">
+			<Text>That's not nearly enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_OPEN_BORDERS_EXCHANGE_1">
+			<Text>When you learn to act as one, it's like a holiday!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_EXPANSION_SERIOUS_WARNING_1">
+			<Text>UGH! What's so special about you and YOUR FRIENDS?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_LUXURY_TRADE_1">
+			<Text>We have some resources we don't need. Perhaps you would be interested in a trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Your troops are too close. Move them, now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Please enjoy our little corner of Equestria. We're all quite fond of it. No doubt you will be as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Let's see those big happy smiles!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>UGH! What's so special about you and YOUR FRIENDS?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>Ah, that bloodthirst warmonger is here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>Our town will have no business with likes of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>Our town will have no business with likes of YOU!![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>I can see clearly now. You couldn't be trusted by anypony![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>WHAT?! You will regret this!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now wanting to take their cutie marks back! I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARLIGHT_GLIMMER_INFLUENTIAL_ON_HUMAN_1">
+			<Text>I can see your people are offering themselves to Equal Utopia, by removing their cutie marks!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

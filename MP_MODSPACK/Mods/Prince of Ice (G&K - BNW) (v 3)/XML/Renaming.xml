@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/16/2016 8:45:52 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_GREAT_WALL"/>
+			<Set Text="Sentian Wall"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO"/>
+			<Set Text="Scepter of the North"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_RED_FORT"/>
+			<Set Text="Blue Palace"/>
+		</Update>
+	</Language_en_US>
+
+</GameData>

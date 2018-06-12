@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 10:34:31 AM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_DARK_KEEP</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ZIRCONICOUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CRYSTOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EMERALIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BERYLICOUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CITRINOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PERIDOTAL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KUNZITIPOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SPINELICOUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NORTH_QUARTZLAND</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SOUTH_QUARTZLAND</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_RUBIDELPHIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TOPAZ_BAY</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_DARK_KEEP">
+			<Text>The Dark Keep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ZIRCONICOUS">
+			<Text>Zirconicous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CRYSTOLIS">
+			<Text>Crystolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EMERALIS">
+			<Text>Emeralis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BERYLICOUS">
+			<Text>Berylicous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CITRINOLIS">
+			<Text>Citrinolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PERIDOTAL">
+			<Text>Peridotal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KUNZITIPOLIS">
+			<Text>Kunzitipolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SPINELICOUS">
+			<Text>Spinelicous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NORTH_QUARTZLAND">
+			<Text>North Quartzland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SOUTH_QUARTZLAND">
+			<Text>South Quartzland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RUBIDELPHIA">
+			<Text>Rubidelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TOPAZ_BAY">
+			<Text>Topaz Bay</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

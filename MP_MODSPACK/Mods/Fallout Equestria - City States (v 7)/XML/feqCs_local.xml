@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Arbu -->
+		<Row Tag="TXT_KEY_CITYSTATE_ARBU">
+			<Text>Arbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ARBU_ADJ">
+			<Text>Arbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARBU_S">
+			<Text>Arbu is a small town of seemingly wholesome and generous ponies who survive by hunting and selling Radigator meat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARBU">
+			<Text>
+				The town of Arbu is located near the ruins of Bucklyn Cross, the skeleton of an impressive bridge built in the pre-war world.
+				[NEWLINE][NEWLINE]The inhabitants of Arbu make a living from selling meat, gathered from Radigators. Large cow-sized reptiles who are found in the ruins of Gummy's Retirement Hostel and Alligator Sanctuary.
+				[NEWLINE][NEWLINE]But even with this source of meat, it remeains a secret of the ponies of Arbu how they manage to deliver huge amounts of their famous meat to even the most remote corners of the equiestrian wasteland.
+			</Text>
+		</Row>
+		<!-- Fillydelphia -->
+		<Row Tag="TXT_KEY_CITYSTATE_FILLYDELPHIA">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_FILLYDELPHIA_ADJ">
+			<Text>Fillydelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FILLYDELPHIA_S">
+			<Text>A ruined metropolis, mostly inhabitated by Red Eye's Army who are trying to bring the city back to its former glory by using legions of slave workers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FILLYDELPHIA">
+			<Text>
+				The city lays in ruins, but has been occupied by powerful factions like the Steel Rangers and Red Eye.
+				[NEWLINE][NEWLINE]Many of the factories have been restored to serve the purposes of Red Eye's Army, allowing him to arm a large host of soldiers with a variety of deadly weaponry. The restored factories are also used by Red Eye to print books and other essentials, Red Eye has established himself as the slave master of the wasteland, with Fillydelphia as the slaver capital.
+				[NEWLINE][NEWLINE]The stable dweller infiltrated Red Eye's operations in Fillydelphia to steal information for the Steel Rangers. The stable dweller later escaped with another slave, a zebra, but was soon recaptured. She was freed afterwards by Red Eye in return for his second in command whom had been captured by the rest of the stable dweller's companions.
+			</Text>
+		</Row>
+		<!-- Bucklyn Cross -->
+		<Row Tag="TXT_KEY_CITYSTATE_BUCKLYN">
+			<Text>Bucklyn Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BUCKLYN_ADJ">
+			<Text>Bucklyn Cross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUCKLYN_S">
+			<Text>Bucklyn Cross is a Steel Rangers fortification built near the last standing ruins of the Bucklyn Bridge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUCKLYN">
+			<Text>
+				The bridge houses a group of Steel Rangers and an old stable that they use as a base. The stable dweller tried to organise a trade with the Rangers at Bucklyn Cross for the safe return of the former Manehattan Elder, Cottage Cheese.
+				[NEWLINE][NEWLINE]The exchange didnt go according to plan and a firefight broke out between the stable dweller and the rangers, after a Steel Ranger accidentally fires his gun, due to how nervous they where.
+			</Text>
+		</Row>
+		<!-- Chapel -->
+		<Row Tag="TXT_KEY_CITYSTATE_CHAPEL">
+			<Text>Chapel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CHAPEL_ADJ">
+			<Text>Chapel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHAPEL_S">
+			<Text>Chapel is a small village located near Hoofington, led by Priest, a preacher of the Celestial Sisters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHAPEL">
+			<Text>TODO: Add Chapel civilopedia entry.</Text>
+		</Row>
+		<!-- Friendship City -->
+		<Row Tag="TXT_KEY_CITYSTATE_FRIENDSHIP">
+			<Text>Friendship City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_FRIENDSHIP_ADJ">
+			<Text>Friendship City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FRIENDSHIP_S">
+			<Text>Friendship City is a large settlement situated near the Statue of Friendship off the coast of mainland Manehattan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FRIENDSHIP">
+			<Text>
+				Frienship city is one of the largest and safest settlements within the Equestrian Wasteland.
+				[NEWLINE][NEWLINE]The city is built inside the massive pre-war monument, the Statue of Friendship, which depicts a pony, holding up a flaming torch. The settlement is governed by a council that oversees the management of the large settlement, access to Friendship city requires a large bridge be extended so ponies on land may enter the town.
+			</Text>
+		</Row>
+		<!-- New Appleloosa -->
+		<Row Tag="TXT_KEY_CITYSTATE_APPLELOOSA">
+			<Text>New Appleloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_APPLELOOSA_ADJ">
+			<Text>New Appleloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_APPLELOOSA_S">
+			<Text>A small town in the middle of nowhere. Mostly minding its own business.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_APPLELOOSA">
+			<Text>
+				New Appleloosa is a few hours from Ponyville . Several lines of train track lead to the town, suggesting it was once a major rail hub.
+				[NEWLINE][NEWLINE]It is a relatively peaceful settlement with most buildings made of derailed and salvaged train cars, some being stacked several cars high. There where rumors that the safety of New Appleoosa is provided by slavers with which the town frequently trades with.
+			</Text>
+		</Row>
+		<!-- Glyphmark -->
+		<Row Tag="TXT_KEY_CITYSTATE_GLYPHMARK">
+			<Text>Glyphmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_GLYPHMARK_ADJ">
+			<Text>Glyphmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GLYPHMARK_S">
+			<Text>Glyphmark is a Zebra town, home of Xenith's child Xephyr and the rest of her surviving tribe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GLYPHMARK">
+			<Text>
+				After a tribe of zebra where attacked by slavers, who took the adult population, the children who where to young to be of any real use founded the setlmement of Gyphmark.
+				[NEWLINE][NEWLINE]The town itself is constructed around the veterinary medicine building, the Angel Bunny Pharmaceuticals building near Canterlot.
+			</Text>
+		</Row>
+		<!-- Tenpony Tower -->
+		<Row Tag="TXT_KEY_CITYSTATE_TENPONY">
+			<Text>Tenpony Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TENPONY_ADJ">
+			<Text>Tenpony Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TENPONY_S">
+			<Text>The former ministry of arcane science has lost most of it's former glory. however, dispite this, it is a mostly restored building with many luxuries one cannot find  anywhere else. If you have the caps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TENPONY">
+			<Text>
+				When the megaspell that destroyed Manehattan went off, the tower's protective shielding kept it and its occupants safe with minimal damage compared to other nearby buildings. The building did suffer significant damage to one side but this has been patched up over time. The main entrance at ground level has been sealed, armoured and blocked with magically-fused rubble. Of the spark generators that protected the building during the blast, only around half have survived. This means that the building would not survive another similar explosion.
+				[NEWLINE][NEWLINE]The giant letters that advertised the building's name are now in pieces at the foot of the tower. After the war, Tenpony Tower became a beacon of life in the Manehattan ruins. The occupants of the tower live their lives in relative seclusion from the troubles of the world around them. Entrance to the tower is via a heavily guarded entrance at the monorail station. Ornate but armoured double doors block the way and the words "NO ZOMBIES" have been painted in red across the gates. Once inside the gates, entrance to the tower is via the original marble lobby of the station, complete with chandelier. Compared to most of the wasteland the tower is still luxuriantly appointed inside, and of a relatively high state of cleanliness as befits its high-status occupants.
+				[NEWLINE][NEWLINE]The tower contains living quarters; a large mall area that houses a number of different types of stores; guest rooms (such as Goldentail's Luxury Suites); restaurants; a small but well-equipped hospital area; and a broadcasting studio; as well as other notable features that are not necessarily known to the majority of the inhabitants.
+			</Text>
+		</Row>
+		<!--Stalliongrad -->
+		<Row Tag="TXT_KEY_CITYSTATE_STALLIONGRAD">
+			<Text>Stalliongrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_STALLIONGRAD_ADJ">
+			<Text>Stalliongrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STALLIONGRAD_S">
+			<Text>Stalliongrad is barely mentioned by wanderers or traveling merchant. A mighty capital of civilization in the equestrian wasteland. Inhabitated by various species.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STALLIONGRAD">
+			<Text>
+				Stalliongrad was a hub of Equestrian industry. The city's inhabitants were a stalwart group of ponies that worked under harsh conditions. Stalliongrad was also a multicultural city populated by non-equine species like buffalo and griffins. Stalliongrad also collaborated with cities such as Hoofington to create new weapons and vehicles, such as the Vertibuck cloudship. Stalliongrad was occupied by the zebras during the war. The city put up a fierce resistance, thousands of civillians being killed in air raids performed by the zebra's dragon allies.
+				[NEWLINE][NEWLINE]The civilians and the soldiers that remained banded together and fought back, continuing to keep the city's factories functioning and using the equipment they manufactured to fight the zebra occupation. The Stalliongrad people also sabotaged factories captured by the zebra and engaged their foes in fierce, urban warfare and at times resorting to scrapped weaponry when ammunition went scarce. The zebra were driven off, unused to such fierce resistance and the colder climates of Northern Equestria. Two balefire bombs landed outside the city, killing its inhabitants but otherwise leaving the city relatively intact.
+				[NEWLINE][NEWLINE]Some of the city's inhabitants made it into the nearby fallout shelter, Stable 47, whose descendants would emerge much later and repopulate Stalliongrad. A large group of raiders captured the city, forcing them out. With the help of Frost Windchill, they would later retake it. Stalliongrad is a bastion of civilization in the wasteland, populated by ponies, griffins, buffalo etc. The town is heavily protected by gun emplacements and boasts some of the most accurate and skilled sharpshooters and snipers in the Equestrian wasteland. Behaviour
+			</Text>
+		</Row>
+		<!--Junction R-7 -->
+		<Row Tag="TXT_KEY_CITYSTATE_JUNCTION">
+			<Text>Junction R-7</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JUNCTION_ADJ">
+			<Text>Junction R-7</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JUNCTION_S">
+			<Text>After the recent liberation of the Shattered Hoof Re-education Facility, Junction R-7 has declared itself an independet settlement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JUNCTION">
+			<Text>
+				Junction R-7 is a makeshift town and Talon camp built around an old railroad junction. The stationed Talon Company mercenaries supported the Stable Dweller in her quest to fight deadeye. After the Talons take control of Shattered Hoof Re-education Facility, they still remain in and around the junction. As a reward, the stable dweller is given a home here in the form of her very own boxcar. As time goes on, she sends more and more travelers to Junction R-7 as a safe haven.
+				[NEWLINE][NEWLINE]Homage briefly stays with the Talons here when she is on the run from the Enclave as well. Later, Gawd has plans to get out of the mercenary game and develop R-7 into a settlement now that it has a Water Talisman and a growing population
+			</Text>
+		</Row>
+		<!--Stable City -->
+		<Row Tag="TXT_KEY_CITYSTATE_STABLECITY">
+			<Text>Stable City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_STABLECITY_ADJ">
+			<Text>Stable City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STABLECITY_S">
+			<Text>Due to the huge amount of magical radiation, Stable Citys inhabitants consists almost invariably out of ghouls. Therefore, Stable City became one of the very few major Ghoul settlements in the Equestrian Wasteland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STABLECITY">
+			<Text>
+				Stable 1 was breached by Pink Cloud over the first century of its operation. This exposed the inhabitants to Pink Cloud and Balefire radiation. Many died, some survived and escaped Canterlot whilst others became ghouls.
+				[NEWLINE][NEWLINE]The ghouls made a settlement for themselves inside and outside Stable 1, establishing Stable city. They trade with anypony foolhardy enough to brave the Pink Cloud. In the last ten years, the ghouls of Stable City have been at war against the alicorns who are looking for the Black Book. Star Sparkle, the mother of Twilight Sparkle, lives at the edge of the settlement, shunned by the majority of its residents for Twilight's actions during the war.
+				[NEWLINE][NEWLINE]Stable City guards employ the usage of broadcasters as defense.
+			</Text>
+		</Row>
+		<!--The Glow -->
+		<Row Tag="TXT_KEY_CITYSTATE_GLOW">
+			<Text>The Glow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_GLOW_ADJ">
+			<Text>The Glow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GLOW_S">
+			<Text>A settlement of mostly peaceful salt-mining Ghouls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GLOW">
+			<Text>
+				The Glow is a settlement near the center of Salt Cube City that is populated by numerous ghouls. It is extremely hazardous to any non-ghoul creatures to approach the Glow not only because of the radiation, but also the feral ghouls wander around the edge of the Glow.
+			</Text>
+		</Row>
+		<!--Verge -->
+		<Row Tag="TXT_KEY_CITYSTATE_VERGE">
+			<Text>Verge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VERGE_ADJ">
+			<Text>Verge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VERGE_S">
+			<Text>Verge is one of the most economically successful and thriving settlements outside of Roam. Its size would allow it to be called a city by wasteland standards, as well as its resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VERGE">
+			<Text>
+				Verge is one of the most economically successful and thriving settlements outside of Roam, and is also one of the largest.
+				[NEWLINE][NEWLINE]Its size would allow it to be called a city by wasteland standards, as well as its resources. The city itself also its own defensive force, composing of mercenaries and armored vehicles.Within the city itself are many roads, either pre-war or post-war.
+				[NEWLINE][NEWLINE]There are many merchant stalls, comprising a large majority of the settlement's area.
+			</Text>
+		</Row>
+		<!--Forum -->
+		<Row Tag="TXT_KEY_CITYSTATE_FORUM">
+			<Text>Forum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_FORUM_ADJ">
+			<Text>Forum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FORUM_S">
+			<Text>Once home of the emperor and his family, forum is still the center of zebra society. Cultural the same as Military.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FORUM">
+			<Text>
+				The Forum, during the war, was the home of the Emperor and his family, and also the centerpiece of every aspect of the Zebra Roaman Empire. It was heavily guarded, with various branches of Praetorian guards, split up into several cohorts, manning stations all over and within the Forum's fortress, and even going so far as to swim within the Tiber river's branch within the walls. It is also the only place that was left completely unscathed by the physical apocalypse, as it is the only place with an invisible energy field surrounding it.
+				[NEWLINE][NEWLINE]The Forum is very wide, with the fortress itself built upon a mountain in the center. Several kilometers of grassy green fields separates the walls (which can enter a non-physical state when necessary) from the mountain, which can be ascended by a broad marble staircase. The Forum and its walls reside upon a massive artificial plateau of marble, and this plateau, like the Forum, is also heavily guarded. Leading up to this plateau is the Via Triumphos, the Road of Triumphs.
+				[NEWLINE][NEWLINE]Internally, the Forum follows the Roaman architectural policies of great size and luxury. Statues and marble columns are everywhere inside, built to accommodate the circular curve of the fortress' structure. Many hallways vein all over the many floors, with one of those halls leading to the guest rooms, a mountainside set of living rooms with a balcony that can oversee the entire field of green grass. At the very center of all this is the throne room, where the emperor himself stayed.
+			</Text>
+		</Row>
+		<!--Colts Well -->
+		<Row Tag="TXT_KEY_CITYSTATE_WELL">
+			<Text>Colts Well</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WELL_ADJ">
+			<Text>Colts Well</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WELL_S">
+			<Text>Home to the Crimson Company, Colts Well is supposed to be a safe haven for civilization. Under the surface however, it is just another slaver nest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WELL">
+			<Text>
+			
+			</Text>
+		</Row>
+		<!--New Pegasus -->
+		<Row Tag="TXT_KEY_CITYSTATE_PEGASUS">
+			<Text>New Pegasus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PEGASUS_ADJ">
+			<Text>New Pegasus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PEGASUS_S">
+			<Text>
+				The City of New Pegasus is a walled, closed city with an elitist conception of itself. In order to be allowed to live in New Pegasus, a pony must have obtained a Citizenship Card from the local authority. Apart from that, the City keeps living in the reckless ways of the past, with its Casinos, hotels, restaurants and fancy shops.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PEGASUS">
+			<Text>
+		TODO: New Pegasus Civpedia entry.
+			</Text>
+		</Row>
+		<!--Neighwhere -->
+		<Row Tag="TXT_KEY_CITYSTATE_NEIGH">
+			<Text>Neighwhere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_NEIGH_ADJ">
+			<Text>Neighwhere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEIGH_S">
+			<Text>
+				Neighwhere is a pre-war city within the Hornsmith region, now home of the Paragons and their raider and slaver army. It is built under the shadow of the maremack mountains and is also the location of Sable 87.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEIGH">
+			<Text>
+				Hate now leading the Paragons, an group of combatants comprised mostly of other ponies from Stable 87, rules over Neighwhere. Commanding an army of slavers and raiders, the city is a hub for slave trade and hosts daily gladiatorial battles. Neighwhere was later attacked by Steel Rangers by using heavy weaponry.
+				[NEWLINE][NEWLINE]Large portions of the city have been utterly demolished by the rangers, Stable 87 was also destroyed purposefully by Hate to prevent anyone from following him up the Maremack mountains.
+			</Text>
+		</Row>
+		<!--Chicacolt -->
+		<Row Tag="TXT_KEY_CITYSTATE_CHICA">
+			<Text>Neighwhere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PEGASUS_CHICA">
+			<Text>Neighwhere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHICA_S">
+			<Text>
+				Prior to the war, Chicacolt was a booming metropolis of development, both civilian and military. Musical theater, rock and roll music, and movies were among some of Chicacolt's primary exports. Today however, just a shadow of its former glory remains with raiders and slavers creeping trough the ruins.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHICA">
+			<Text>
+				Prior to the war, Chicacolt was a booming metropolis of development, both civilian and military. The city played host to the Ministries, complete with major hubs for most of them (the Ministry of Morale had a limited amount of involvement in the city due to intervention by the Ministry of Image). Chicacolt was also a center of cultural development. Musical theater, rock and roll music, and movies were among some of Chicacolt's primary exports.
+				[NEWLINE][NEWLINE]
+				Chicacolt was also highly famous for its sports teams. Hoofball was a major sport there, with Colter Field being the primary location to see the city's hoofball team (the Chicacolt Bearies) play.
+				[NEWLINE][NEWLINE]
+				Chicacolt's destruction on the day the megaspells dropped was in part due to a group of zebra infiltrators that took control of a specialized defense megaspell located inside of Filly's Tower. Because of this, while there is balefire radiation within the city (thanks to this radiation being blown in from the lake and the city's trademark winds) a vast majority of its buildings and structures are semi-intact or at the very least half-demolished.
+				[NEWLINE][NEWLINE]
+				Since the end of the war, Chicacolt has become a center of gang and raider activity, with several factions vying for control of the ruined metropolis.
+			</Text>
+		</Row>
+		<!--Salt Cube City -->
+		<Row Tag="TXT_KEY_CITYSTATE_SALT">
+			<Text>Salt Cube City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PEGASUS_SALT">
+			<Text>Salt Cube City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SALT_S">
+			<Text>
+				Salt Cube City is a pre-war city, made famous for the Salt Cube it is named after. It is the first major city along Route 52/Big 52 and is more well preserved than many other pre-war settlements.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SALT">
+			<Text>
+				Salt Cube City was a city on Route 52, the first major stop that ponies travelling the route from Canterlot would encounter. The city was made famous for the large salt cube stored in the dome, which attracted visitors to the city. The Salt Cube was struck by a balefire megaspell on the Last Day, which saved the city from complete destruction as the cube absorbed the megaspell and the radiation.
+				[NEWLINE][NEWLINE]
+				Salt Cube City due to being largely intact, is now inhabited by a large population of ponies, the dome where the salt cube is stored, emits large amounts of radiation, making it uninhabitable to non-ghoul ponies. The radioactive cube has a ghoul settlement known as The Glow built around it, whilst the rest of Salt Cube is occupied by traders and controlled by the Hired Hooves and White Apples.
+			</Text>
+		</Row>
+		<!-- Road Town -->
+		<Row Tag="TXT_KEY_CITYSTATE_ROAD">
+			<Text>Road Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PEGASUS_ROAD">
+			<Text>Road Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ROAD_S">
+			<Text>
+				Road Town is an independent settlement, located within the ruins of the pre-war zebra capital of Roam.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ROAD">
+			<Text>
+				Road Town is built within the fissures and cracks of the roads of a four-way intersection within a business district on the outskirts of Roam. To deal with floods that may come with whatever rain arrives, all the structures -- whether shanty shacks or more substantial stations -- have several split-open pipes at the entrance that lead out of the town.
+				[NEWLINE][NEWLINE]
+				As of yet, the town has a bar, a medical station, a guard station, several animal pens with brahmin inside, and uses one of the buildings nearby as the office of Conductor, the town's duly appointed representative.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

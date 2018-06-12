@@ -1,0 +1,17 @@
+<Asset>
+	<Mesh file="Feature_rockdestiny.gr2"/>
+	<Texture file="Generic_Grey_8.dds"/>
+	<Texture file="Resource_Irradiance.dds"/>
+	<Texture file="rockdestiny_gem_DIFF.dds"/>
+	<Texture file="rockdestiny_gem_Decal_H.dds"/>
+	<Texture file="rockdestiny_gem_SREF.dds"/>
+	<Texture file="resource_Environment_Sharp.dds"/>
+	<Texture file="resources_Environment_Dull.dds"/>
+	<Texture file="rockdestiny_Decal_DIFF.dds"/>
+	<DecisionTree file="StaticLandmarkDecisionTree.ddtxml"/>
+	<TimedTrigger file="FX_Triggers_Cerro_de_Potosi.ftsxml" model="SilverOre14" state="0,1,2,3"/>
+	<BoneUsage>
+		<Bone name="FX_Glitter"/>
+	</BoneUsage>
+</Asset>
+

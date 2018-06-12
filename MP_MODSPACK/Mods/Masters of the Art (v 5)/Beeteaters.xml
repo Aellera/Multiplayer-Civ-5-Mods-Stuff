@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/26/2012 9:21:36 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_PIKEMAN</Class>
+			<Type>UNIT_BEETEATERS</Type>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>90</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BEETEATERS</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_BEETEATERS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BEETEATERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_BEETEATERS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_GERMAN_LANDSKNECHT</UnitArtInfo>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_PLAT</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_BEETEATERS">
+			<Text>Beeteaters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_BEETEATERS_HELP">
+			<Text>The Beeteaters perform much like pikeman, but receive the March promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_BEETEATERS_TEXT">
+			<Text>The Beeteaters were formed by Princess Platinum to protect their new land and to look good doing it. She insured that her troops looked absolutely fabulous as they marched in formations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BEETEATERS_STRATEGY">
+			<Text>The Beeteaters are highly trained and look dashing. They recieve the March promotion for free.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+			<UnitType>UNIT_BEETEATERS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

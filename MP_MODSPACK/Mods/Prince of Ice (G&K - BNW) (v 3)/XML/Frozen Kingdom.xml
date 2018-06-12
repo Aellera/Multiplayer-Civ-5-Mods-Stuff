@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/6/2012 11:32:06 AM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_GERMANY" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_TFK</Type>
+			<Description>TXT_KEY_CIV_TFK_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TFK_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TFK_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_TFK_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_TFK</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_SENTIUM</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GERMANY</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_SENTIUM</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_SENTIUM</AlphaIconAtlas>
+			<MapImage>MapSentium512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_TFK_DOM</DawnOfManQuote>
+			<DawnOfManImage>SentiumDOM.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_LEADER_SPEECH_SENTIUM_DOM</DawnOfManAudio>
+			<SoundtrackTag>GERMANY</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<ReligionType>RELIGION_SPIRITISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SENTIUM</Type>
+			<PrimaryColor>COLOR_PLAYER_CYAN</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DARK_BLUE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CYAN</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<LeaderheadType>LEADER_BISMARCK</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_TFK_ADJECTIVE">
+			<Text>Sentian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TFK_DESC">
+			<Text>Frozen Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TFK_SHORT_DESC">
+			<Text>The Frozen Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_2">
+			<Text>Scepter of the North</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_3">
+			<Text>The Griffon War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_4">
+			<Text>The Dark War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_5">
+			<Text>Invation of the Night Ponies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_6">
+			<Text>Silver Oak the Wise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_7">
+			<Text>The Blue Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_HEADING_8">
+			<Text>Sentian Wall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_1">
+			<Text>The Frozen Kingdom is a land surounded by snow, ice, forest and tundra. Its know for its history and culture like ice skating, ice carving and the finest jewelry crafting. The best of the world. Its led by the beloved Prince Sentium. The Frozen Kingdom was founded in 834 BNM by King Blizzard. Blizzard was a Equestrian Unicorn that on a day earned his wings. 22 years after that event he, his lovely wife and followers went up to the Frozen North to found the new kingdom. Higher then anypony ever did before. Even though it was a good place to live, there where a few who started to rebel against the crown in years, telling they earned less Flakes (The currency of the kingdom) then the ponies living in the big cities causing them to lose their stuff and even home in some cases. They called them selves: The Northern Rebellion. Lukely Prince Sentium knew how to made peace with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_2">
+			<Text>The Scepter of the North is a acient artifact created by the great Star Swirl the Bearded and King Blizzard with the purpose to protect the kingdom and its subjects. The scepter has to power to create blizzards, make it snow and freeze. The scapter stand symbol for the royal family, and is very effective in defending. The scapter was created to protect, not harm. If somepony tries to use it for evil, it wont do the spell. UNLESS you manipulate it. The scepter can only be used by those who are an expect in the magical arts. Using it can be very exhausting for non alicorns sins it requires allot of magic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_3">
+			<Text>In 1170 BNM the Griffon Kingdoms declared war on Sentium. They killed his little sister Auroa at an age of 16 in an crual attack in forest territory. Sentium was furious and he responded, and clearly. He odered all his troops to attack and within 2 weeks the griffons retreated. As was trophy Sentium got a new city to his kingdom cappruted from the griffons. A city called Griffania.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_4">
+			<Text>In 1175 BNM an evil Alicorn named Lord Deathray attacked The Frozen Kingdom for steal the Scepter of the North. Deathray broke through both the city and palace walls with his evil Shadow Minions and finaly entered the Blue Palace. An epic battle begon but Deathray was stronger. Right before Deathray could get an hold of the Scepter of the North Sentium did a spell that hides the scepter at a total random place in the world. Sentium was turned to stone together with all his subjects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_5">
+			<Text>In 7 ANM (After Nightmare Moon) the Night Pony Folk declared war on The Frozen Kingdom, Equestria and The Crystal Empire. After a battle of 6 months the war was finally over and the kingbom was back to peace and the world a safer place.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_6">
+			<Text>From all the bright minds in the history of The Frozen Kingdom is Silver the wisest of them all. He created amazing spells that are still used today be everypony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_7">
+			<Text>When King Bizzard and his wife arrived in their new land he ordered his troops to build a palace. The palace started with 3 towers but expanded in time. The west tower is used for allot of things. It has multiple purposes. The east tower is where Silver oak the Whise stays. It also has a HUGE library. The middle tower is the clock tower. It contains a total of 44 bells all driven by magical energy and medieval engineering. The tower is named the Queen Snowfall Tower by King Blizzard after his wife Queen Snowfall. The tower is also used as storrage for the Scepter of the North. Kept heavily guarded at the top.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TFK_TEXT_8">
+			<Text>A kingdom with powerful enemies requires a good defence. Queen Queen Edelweiss, the third queen in the history of the kingdom ordered her troops to build a wall around the capital. A wall, so big, so long, it took 40 years to finish it. By the time it was done, Queen Edelweiss was already 63. The wall is still used today, and well maintained. Any invader who wants to take the captital has to pass the Sentian Wall, the city, and then the palace walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TFK_DOM">
+			<Text>The Spirit be with you Prince Sentium, beloved ruler of The Frozen Kingdom. [NEWLINE][NEWLINE]Long have your subjects waited for your return, oh merciful Prince of Ice. For it was you who protected them from many years against other warmongering nations. The Griffon Kingdoms, Night Pony Folk and Shadow Empire. All alike tried to take over your kingdom within your reign. Indeed, you went through dark times as prince. Your sister Aurora, who maybe was even more beloved then you, got killed by griffon soldiers during the Griffon War. With her gone, and your parents who both died of a natural death some years earlier, you where the last remaining member of your family with royal blood flowing through his veins. Even with your great losses, you didn't kneel down. You stayed strong through all times and drove out the griffons, and Night Pony assaulters with justice! Some years laters your position as prince would be testen again as The Shadow Empire tried to claim what's yours. Their evil ruler, Lord Deathray, attempted to steal the Scepter of the North and use it for evil. Deathray's forces were to strong and the kingdom fell. Even the spirit was no match for his dark magic. Before Deathray could bring any harm using the scepter, you, Prince Sentium, used a spell to hide the staff at a random place over the whole world. When Deathray didn't get what you wanted he turned the kingdom to stone with a horrible curse. Then, after many years you, and the kingdom, got freed from their stone prison, and you where able the rule once again! [NEWLINE][NEWLINE]Great prince, your subjects need your protrction against other warmongering nations, and lead them to greatness once again. Will you bring peace to your subjects by using the arts of diplomacy? Or will you conquer your enemies, and bring them to their knees? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="36c97065-add3-4e73-945d-40a672f67509" version="5">
+  <Properties>
+    <Name>Starlight Glimmer - Equal Utopia</Name>
+    <Teaser>Add [COLOR_POSITIVE_TEXT]Starlight Glimmer[ENDCOLOR] from MLP-FiM</Teaser>
+    <Description>Add Starlight Glimmer from MLP-FiM</Description>
+    <Authors>WG-WanBiTan</Authors>
+    <SpecialThanks>Hasbro</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="421EE07B3704541D395BFA728A09B52C" import="1">ART/StarlightGNKAlpha128.dds</File>
+    <File md5="938EBDD025BA0010504BC296A68025B9" import="1">ART/StarlightGNKAlpha16.dds</File>
+    <File md5="BFA3FCBA77E1E828BF2ED793AC8B9F94" import="1">ART/StarlightGNKAlpha24.dds</File>
+    <File md5="57DCD580A4DD4A795E57792F43AD2F00" import="1">ART/StarlightGNKAlpha32.dds</File>
+    <File md5="2B30E97A43E764D2394B0A0BB9F4D7BF" import="1">ART/StarlightGNKAlpha48.dds</File>
+    <File md5="7E7C50286C8D11C1F562842C1A078C3F" import="1">ART/StarlightGNKAlpha64.dds</File>
+    <File md5="FC04F46B89506D0436325D0C0406571E" import="1">ART/StarlightGNKAlpha80.dds</File>
+    <File md5="1B8277C21308C69B2D9C663216769E21" import="1">ART/StarlightGNKAtlas128.dds</File>
+    <File md5="F6A2FA8381A9B28309BF36806EED9624" import="1">ART/StarlightGNKAtlas256.dds</File>
+    <File md5="98CAC935AB58AF794622C95A7FDBBF8B" import="1">ART/StarlightGNKAtlas32.dds</File>
+    <File md5="27E735FA28C8E9E6D04333383FF97669" import="1">ART/StarlightGNKAtlas45.dds</File>
+    <File md5="2F36D6B4D8DD689F43E9038461191677" import="1">ART/StarlightGNKAtlas64.dds</File>
+    <File md5="0E10731EAC8F8C6CC1E51EE258F1A120" import="1">ART/StarlightGNKAtlas80.dds</File>
+    <File md5="130F6069BE129E2C8D7499A519C0A0EC" import="1">ART/StarlightGReligionFontIcons.dds</File>
+    <File md5="8FD520E1A645E151E012535980E67F30" import="1">ART/StarlightG_DOM.dds</File>
+    <File md5="FC8AF60707DED4163DC94B4C47537737" import="1">ART/StarlightG_Map.dds</File>
+    <File md5="F6AF02754C920F190B1852944A33F985" import="1">ART/StarlightG_Scene.dds</File>
+    <File md5="A32AC26CF5DE217180D06D94A8901D70" import="1">ART/StarlightG_Scene.xml</File>
+    <File md5="7A1E9D9A9F02C72784D6CCE4544019E9" import="1">Sound/StarlightGPeace.mp3</File>
+    <File md5="1608D922731E1EE23C035731ED9FD1A3" import="1">Sound/StarlightGWar.mp3</File>
+    <File md5="4F395302C11385DAC0BAD526F1AA067F" import="0">XML/StarlightGBuilding-CMV.xml</File>
+    <File md5="5B3BE6E662C03865ED9935B94631E141" import="0">XML/StarlightGBuilding-IR.xml</File>
+    <File md5="4FBAA35A2763222741ACC243AFD1DE77" import="0">XML/StarlightGCivilization.xml</File>
+    <File md5="D0EA23202DFFD62D54AB4CA6C8B52921" import="0">XML/StarlightGDiplomacyResponses.xml</File>
+    <File md5="2A0B63DCF50CEA3483A8B4036E03D209" import="0">XML/StarlightGIconAtlas.xml</File>
+    <File md5="97F86163A9A67A2D7483F0E1A4F0EAD1" import="0">XML/StarlightGLeader.xml</File>
+    <File md5="DB836EC5DDED00BF6CBD0F84504AA405" import="1">XML/StarlightGReligionFontIcons.ggxml</File>
+    <File md5="28640DFFED726A283C5043EDB6CA4267" import="0">XML/StarlightGReligions.xml</File>
+    <File md5="2DE4AB35A817563E0DAEC6322F19E149" import="0">XML/StarlightGTrait.xml</File>
+    <File md5="0AA83DB3351F1530299A6B1454557B00" import="0">XML/Text/StarlightGDialogText_ko_KR.xml</File>
+    <File md5="66BC7DB3FEB5BD4ACC64CB5794F918DE" import="0">XML/Text/StarlightGLanguage_ko_KR.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/StarlightGTrait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGReligions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGLeader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGCivilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGDiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGBuilding-CMV.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StarlightGBuilding-IR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/StarlightGDialogText_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/StarlightGLanguage_ko_KR.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

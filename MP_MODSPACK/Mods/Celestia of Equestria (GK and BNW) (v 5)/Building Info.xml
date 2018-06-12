@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/27/2012 11:15:47 PM -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Building_ResourceChange">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="ResourceChange" type="integer"/>
+	</Table>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+<Buildings>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE</Type>
+		<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+		<Cost>100</Cost>
+		<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+		<Description>TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE</Description>
+	<Civilopedia>TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE_STRATEGY</Strategy>
+		<Help>TXT_KEY_BUILDING_EQEUSTRIA_MOD_EQUESTRIAN_VILLE_HELP</Help>
+		<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<Happiness>3</Happiness>
+		<HurryCostModifier>25</HurryCostModifier>
+		<IconAtlas>BW_ATLAS_1</IconAtlas>
+		<NeverCapture>true</NeverCapture>
+		<PortraitIndex>0</PortraitIndex>
+	</Row>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_SWEET_SHOP</Type>
+		<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
+		<Cost>80</Cost>
+		<PrereqTech>TECH_POTTERY</PrereqTech>
+		<Description>TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP</Description>
+		<Civilopedia>TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP_STRATEGY</Strategy>
+		<Help>TXT_KEY_BUILDING_EQEUSTRIA_MOD_SWEET_SHOP_HELP</Help>
+		<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<Happiness>4</Happiness>
+		<HurryCostModifier>25</HurryCostModifier>
+		<IconAtlas>BW_ATLAS_1</IconAtlas>
+		<NeverCapture>true</NeverCapture>
+		<PortraitIndex>0</PortraitIndex>
+	</Row>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_EQ_COLOSSEUM</Type>
+		<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
+		<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+		<Cost>100</Cost>
+		<GoldMaintenance>1</GoldMaintenance>
+		<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		<Help>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Help>
+		<Description>TXT_KEY_BUILDING_COLOSSEUM</Description>
+		<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Strategy>
+		<ArtDefineTag>COLESSEUM</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<ConquestProb>100</ConquestProb>
+		<Happiness>4</Happiness>
+		<HurryCostModifier>25</HurryCostModifier>
+		<DisplayPosition>2</DisplayPosition>
+		<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+		<IconAtlas>BW_ATLAS_1</IconAtlas>
+		<PortraitIndex>23</PortraitIndex>
+	</Row>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_EQ_THEATRE</Type>
+		<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
+		<FreeStartEra>ERA_FUTURE</FreeStartEra>
+		<Cost>200</Cost>
+		<GoldMaintenance>2</GoldMaintenance>
+		<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+		<Help>TXT_KEY_BUILDING_THEATRE_HELP</Help>
+		<Description>TXT_KEY_BUILDING_THEATRE</Description>
+		<Civilopedia>TXT_KEY_BUILDING_THEATRE_PEDIA</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_THEATRE_STRATEGY</Strategy>
+		<ArtDefineTag>THEATRE</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<ConquestProb>100</ConquestProb>
+		<Happiness>5</Happiness>
+		<HurryCostModifier>10</HurryCostModifier>
+		<IconAtlas>BW_ATLAS_1</IconAtlas>
+		<PortraitIndex>20</PortraitIndex>
+	</Row>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_EQ_STADIUM</Type>
+		<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
+		<Cost>500</Cost>
+		<GoldMaintenance>2</GoldMaintenance>
+		<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+		<Help>TXT_KEY_BUILDING_STADIUM_HELP</Help>
+		<Description>TXT_KEY_BUILDING_STADIUM_DESC</Description>
+		<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STADIUM_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_STADIUM_STRATEGY</Strategy>
+		<ArtDefineTag>STADIUM</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<ConquestProb>100</ConquestProb>
+		<Happiness>6</Happiness>
+		<HurryCostModifier>0</HurryCostModifier>
+		<DisplayPosition>2</DisplayPosition>
+		<ArtInfoRandomVariation>true</ArtInfoRandomVariation>
+		<IconAtlas>BW_ATLAS_1</IconAtlas>
+		<PortraitIndex>25</PortraitIndex>
+	</Row>
+	<Row>
+		<Type>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</Type>
+		<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
+		<Cost>75</Cost>
+		<GoldMaintenance>1</GoldMaintenance>
+		<PrereqTech>TECH_CALENDAR</PrereqTech>
+		<Help>TXT_KEY_BUILDING_STONE_WORKS_HELP</Help>
+		<Description>TXT_KEY_BUILDING_STONE_WORKS</Description>
+		<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STONE_WORKS_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_BUILDING_STONE_WORKS_STRATEGY</Strategy>
+		<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+		<GlobalCultureRateModifier>3</GlobalCultureRateModifier>
+		<MinAreaSize>-1</MinAreaSize>
+		<ConquestProb>66</ConquestProb>
+		<ProhibitedCityTerrain>TERRAIN_PLAINS</ProhibitedCityTerrain>
+		<Happiness>3</Happiness>
+		<HurryCostModifier>0</HurryCostModifier>
+		<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		<PortraitIndex>1</PortraitIndex>
+	</Row>
+</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE">
+			<Text>Equestrian Ville</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQEUSTRIA_MOD_EQUESTRIAN_VILLE_HELP">
+		<Text>+10% on [ICON_PRODUCTION], [ICON_RESEARCH] and +1 [ICON_HAPPINESS_1].</Text>
+	</Row>
+		<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE_STRATEGY">
+			<Text>Equestrian Ville doesn't give any advantage of having horses, however. It will boost the city greatly.</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE_HEADING">
+		<Text>Equestrian Ville</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE_TEXT">
+		<Text>It's not hard to find towns and cities placed in awkward spot of the map in Equestria, in civilization that is stable as this - It is not hard to expand it's influence to unknown. This is one of the example.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP">
+		<Text>Sweet Shop</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQEUSTRIA_MOD_SWEET_SHOP_HELP">
+		<Text>+2 [ICON_HAPPINESS_1], +1 Food</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP_STRATEGY">
+		<Text>Sweet Shop replaces Circus for Equestria, it produces 2 [ICON_HAPPINESS] and [ICON_FOOD] with no requirement.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP_HEADING">
+		<Text>Sweet Shop</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDING_EQUESTRIA_MOD_SWEET_SHOP_TEXT">
+		<Text>By nature, Equestrian loves sweets, and variety of food culture and capability to surplus the food resource whenever needed increased capability of food greatly.</Text>
+	</Row>
+</Language_en_US>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_SWEET_SHOP</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_SWEET_SHOP</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_COLOSSEUM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_THEATRE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STADIUM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+	<Row>
+		<BuildingType>BUILDING_EQUESTRIA_MOD_SWEET_SHOP</BuildingType>
+		<YieldType>YIELD_FOOD</YieldType>
+		<Yield>1</Yield>
+	</Row>
+	</Building_YieldChanges>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQUESTRIAN_VILLE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_SWEET_SHOP</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_COLOSSEUM</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_THEATRE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STADIUM</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PCEQUESTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
+			<BuildingType>BUILDING_EQUESTRIA_MOD_EQ_STONE_WORKS</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>
+

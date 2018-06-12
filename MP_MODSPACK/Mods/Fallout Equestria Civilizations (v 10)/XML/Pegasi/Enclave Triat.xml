@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/2015 11:29:01 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_OPERATION_CAUTERIZE</Type>
+			<Description>TXT_KEY_TRAIT_OPERATION_CAUTERIZE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_OPERATION_CAUTERIZE_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_PEGASUS</Type>
+			<Description>TXT_KEY_PROMOTION_PEGASUS</Description>
+			<Help>TXT_KEY_PROMOTION_PEGASUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<DropRange>4</DropRange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_PEGASUS_HELP</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_PEGASUS_RECON</Type>
+			<Description>TXT_KEY_PROMOTION_PEGASUS_RECON</Description>
+			<Help>TXT_KEY_PROMOTION_PEGASUS_RECON_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_PEGASUS_RECON_HELP</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS</PromotionType>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OPERATION_CAUTERIZE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_PEGASUS_RECON</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PEGASUS">
+			<Text>Pegasus Mobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PEGASUS_HELP">
+			<Text>Allows all melee, archer, recon, and gunpowder units to fly (paradrop) 4 tiles away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_OPERATION_CAUTERIZE">
+			<Text>All land units recieve +1 sight, and all melee, archer, recon, and gunpowder units can paradrop 4 tiles away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_OPERATION_CAUTERIZE_SHORT">
+			<Text>Operation: Cauterize</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PEGASUS_RECON">
+			<Text>Pegasus Recon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PEGASUS_RECON_HELP">
+			<Text>Airborne pegasi scout out the area from above, resulting in +1 sight.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

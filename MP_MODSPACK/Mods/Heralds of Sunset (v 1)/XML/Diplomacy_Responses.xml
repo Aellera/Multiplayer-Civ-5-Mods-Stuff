@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/29/2016 8:36:10 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_FIRSTGREETING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_DECLAREWAR%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_GREETING_POLITE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_GREETING_NEUTRAL_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_GREETING_HOSTILE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_EXPANSION_SERIOUS_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_SUNSET_LUXURY_TRADE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_SUNSET_RESPONSE_REQUEST%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_SUNSET_OPEN_BORDERS_EXCHANGE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_DEFEATED%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_ATTACKED_BETRAYED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_ATTACKED_EXCITED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_SUNSET</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_SUNSET_ATTACKED_HOSTILE</Response>
+			<Bias>1</Bias>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_FIRSTGREETING_1">
+			<Text>I haven't seen you around before.  My name's Sunset Shimmer.  You wouldn't happen to know a Twilight Sparkle would you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_FIRSTGREETING_2">
+			<Text>I haven't seen you around before.  My name's Sunset Shimmer.  You wouldn't happen to know a Twilight Sparkle would you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_FIRSTGREETING_3">
+			<Text>I haven't seen you around before.  My name's Sunset Shimmer.  You wouldn't happen to know a Twilight Sparkle would you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DEFEATED_1">
+			<Text>I'm really getting tired of losing… Especially to people like you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DEFEATED_2">
+			<Text>I'm really getting tired of losing… and I have a feeling your not going to say we can still be friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DEFEATED_3">
+			<Text>I'm really getting tired of losing… maybe I can join your team?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUNSET_RESPONSE_REQUEST_1">
+			<Text>Listen, I'm kinda of new at this whole Diplomacy thing. Is there anything we can do to work something out?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DECLAREWAR_1">
+			<Text>You know what… playing nice with you just isn't working out for me.  Or my Army now that I think about it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DECLAREWAR_2">
+			<Text>You know what… playing nice with you just isn't working out for me.  Or my Army now that I think about it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DECLAREWAR_3">
+			<Text>You know what… playing nice with you just isn't working out for me.  Or my Army now that I think about it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_ATTACKED_BETRAYED">
+			<Text>(chuckles) Wait… with “that” army? You can't be serious... I thought we were Friends?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_ATTACKED_EXCITED">
+			<Text>(chuckles) Wait… with “that” army? You can't be serious... I can fight you without being called a Warmonger!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_ATTACKED_HOSTILE">
+			<Text>(chuckles) Wait… with “that” army? You can't be serious... They will all burn because of you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUNSET_OPEN_BORDERS_EXCHANGE_1">
+			<Text>So my Trading Guild is asking us to tear down the metaphorical walls between us... Maybe even the physical ones too while we're at it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your cities are getting a little too close for comfort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUNSET_LUXURY_TRADE_1">
+			<Text>You know… I used to watch Celestia do this, all the time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You should really consider moving you're soldiers before they come into the range of my cannons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>What's up?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Hello again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Oh for Celestia's sake. You again?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_WARBLUFF_1">
+			<Text>Only the Strong survive.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_WARBLUFF_2">
+			<Text>This won't end well for you...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_WARBLUFF_3">
+			<Text>You face a Student of Celestia!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_WINWAR_1">
+			<Text>Was there ever any doubt?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_LOSEWAR_1">
+			<Text>You have my begrudging respect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_YES_NEUTRAL">
+			<Text>This better be worth it...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_NO_NEUTRAL">
+			<Text>No. Just no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_YES_ANGRY">
+			<Text>Just take it and leave!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_NO_ANGRY">
+			<Text>Not gonna happen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_YES_HAPPY">
+			<Text>Consider it a gift.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRIBUTE_NO_HAPPY">
+			<Text>How about a Trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DEMANDTRIBUTE_HAPPY">
+			<Text>Drastic situations demand drastic actions. Sorry…</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_DEMANDTRIBUTE_ANGRY">
+			<Text>You like your Navy not on fire right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRADEREQUEST_ANGRY">
+			<Text>Let's get this over with as soon as physically possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SUNSET_TRADE_NEEDMORE_ANGRY_1">
+			<Text>Yeah that's not enough.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

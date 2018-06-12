@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Units>
+    <Row>
+      <Type>UNIT_SEAPONY_SCOUT</Type>
+      <Description>TXT_KEY_UNIT_SEAPONY_SCOUT</Description>
+      <Civilopedia>TXT_KEY_CIV5_SEAPONY_SCOUT_TEXT</Civilopedia>
+      <Strategy>TXT_KEY_UNIT_SEAPONY_SCOUT_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_HELP_SEAPONY_SCOUT</Help>
+      <Requirements></Requirements>
+      <Combat>7</Combat>
+      <Cost>35</Cost>
+      <Moves>2</Moves>
+      <BaseSightRange>2</BaseSightRange>
+      <Class>UNITCLASS_SCOUT</Class>
+      <CombatClass>UNITCOMBAT_RECON</CombatClass>
+      <Domain>DOMAIN_LAND</Domain>
+      <DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+      <Pillage>1</Pillage>
+      <PrereqTech></PrereqTech>
+      <ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+      <GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+      <HurryCostModifier>0</HurryCostModifier>
+      <AdvancedStartCost>10</AdvancedStartCost>
+      <XPValueAttack>3</XPValueAttack>
+      <XPValueDefense>3</XPValueDefense>
+      <NoMaintenance>1</NoMaintenance>
+      <UnitArtInfo>ART_DEF_UNIT_SMOKEY_LANDSHIP_LEVEL_1</UnitArtInfo>
+      <ShowInPedia>1</ShowInPedia>
+      <MoveRate>BIPED</MoveRate>
+      <UnitFlagIconOffset>5</UnitFlagIconOffset>
+	  <IconAtlas>CIV_COLOR_ATLAS_SIRENS</IconAtlas>
+	  <UnitFlagAtlas>CIV_COLOR_ATLAS_SIRENS</UnitFlagAtlas>
+	  <PortraitIndex>2</PortraitIndex>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+      <UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+      <UnitAIType>UNITAI_DEFENSE</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <!-- Unit_Buildings -->
+  <!-- Unit_BuildingClassRequireds -->
+  <!-- Unit_ProductionModifierBuildings -->
+  <!-- Unit_Builds -->
+  <!-- Unit_ClassUpgrades -->
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+      <PromotionType>PROMOTION_ALLWATER_EMBARKATION</PromotionType>
+    </Row>
+	  <Row>
+	  <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+	  <PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+	  </Row>
+    <Row>
+      <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+      <PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <!-- Unit_Flavors -->
+  <!-- Unit_GreatPersons -->
+  <!-- Unit_ResourceQuantityRequirements -->
+  <!-- Unit_UniqueNames -->
+  <!-- Unit_YieldFromKills -->
+  <!-- Unit_NotAITypes -->
+  <!-- Unit_ProductionTraits -->
+  <!-- Unit_TechTypes -->
+  <!-- UnitPromotions_CivilianUnitType -->
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+      <SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_SEAPONY_SCOUT">
+      <Text>Seapony Scout</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SEAPONY_SCOUT_TEXT">
+      <Text>These Seaponies are good friends with Sonata Dusk and love to tell her about all their adventures. Being underwater has led their Scientists to pursue Steam powered vehicles to travel on land.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEAPONY_SCOUT_STRATEGY">
+      <Text>The Seapony Scout is the Siren's unique Scout replacement, it explores as well as a Scout except it starts out with the ability to embark move into ocean tiles and has double movement while embarked. They also have no Maintenance cost</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SEAPONY_SCOUT">
+      <Text>Excellent at exploring Land and Sea</Text>
+    </Row>
+  </Language_en_US>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIRENS</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_SEAPONY_SCOUT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/31/2015 11:00:05 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<Type>UNIT_STAR_PALADIN</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STAR_PALADIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_STARPALADIN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_STAR_PALADIN_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_FOE</UnitFlagAtlas>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<PromotionType>PROMOTION_MOBILITY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_RANGERS</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NOVA_RAGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CROSSROADS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_STEEL_RAIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CURLY_FRIES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BROKEN_ARROW</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHEESE_PUFFS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_APPLETART_LONGSHOT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STAR_PALADIN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BUTTERED_TOAST</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_STAR_PALADIN">
+			<Text>Star Paladin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STARPALADIN_TEXT">
+			<Text>A Star Paladin is a high-ranking Steel Ranger operative who has the freedom to pursue and organize their own operations outside of the rank and file army. They typically do so alone, working as agents, though they appear to have seniority over members of both the Military and Civilian branches.(text taken from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STAR_PALADIN_STRATEGY">
+			<Text>Star Paladins can travel faster than the Great Generals they replace and can create Ministry of Wartime Technology Strongholds, which produce +4 [ICON_RESEARCH] along with the usual defensive bonuses of a citadel. Use Star Paladins to fortify positions or take the lead in offensives.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NOVA_RAGE">
+			<Text>Nova Rage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CROSSROADS">
+			<Text>Crossroads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STEEL_RAIN">
+			<Text>Steel Rain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CURLY_FRIES">
+			<Text>Curly Fries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BROKEN_ARROW">
+			<Text>Broken Arrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHEESE_PUFFS">
+			<Text>Cheese Puffs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_APPLETART_LONGSHOT">
+			<Text>Appletart Longshot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BUTTERED_TOAST">
+			<Text>Buttered Toast</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

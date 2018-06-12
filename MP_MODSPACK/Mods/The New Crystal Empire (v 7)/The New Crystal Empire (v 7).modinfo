@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="031ab95b-c7be-44f9-8888-6e3183c9538b" version="7">
+  <Properties>
+    <Name>The New Crystal Empire</Name>
+    <Teaser>Adds the New Crystal Empire, led by the Crystal Princess Cadance and Shining Armor</Teaser>
+    <Description>Long ago, the Crystal Empire was ruled by an evil unicorn named, King Sombra. He enslaved his subjects, forcing them to mine for his beloved crystals. He was defeated though by two sisters, Celestia and Luna. He was exiled by the two sisters, but before he left he cursed his empire to vanish into thin air.
+
+      Now, a thousand years later, the Crystal Empire has returned. Princess Celestia has tasked Candance and Shining Armor to protect the empire from all threats. Now the Crystal Princess and her husband stand against all who would harm the empire, including the newly returned King Sombra.
+
+
+Adds Cadance to your civilizations, replacing India.
+
+New Trait, Crystal Heart, The Crystal Heart increases unhappiness from the number of cities by 75%, reduces population unhappiness by 25%, Golden Age's also last 25% longer, and provides a +25% combat bonus to your units.
+
+New Unit, Honor Guard, replaces the Lancer. More powerful and increased movement.
+
+New Building, the Crystal Festival, replaces the Colosseum. The Crystal Festival provides +2 happiness, +2 food, and +10% food for the city it was built in.
+
+Special Thanks to Stormwolf and Stone McKnuckle for letting me use their music (cuz finding anything for purely Cadance is a huge pain), and also Harald B for his pony mods. Without them I'd never had learn a working schema for modding civ's.
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc.
+
+Much like Sombra's Trumpeters, I won't be doing a custom model for the Honor Guard. Feel free though if you want to make one though.
+
+I appreciate feedback as I'm still playtesting the various changes for all my mods, plus bug hunting for a random crash.
+
+Cadance 'should' work in vanilla as I didn't use anything from GK, I think. Go ahead and try it out and let me know if it doesn't.</Description>
+    <Authors>Silent Modder</Authors>
+    <SpecialThanks>To Stormwolf and Stone McKnuckle for their music</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="29853321536CB5A13D1ACC2AF802D064" import="1">Art/CadAtlas128.dds</File>
+    <File md5="1713E33E19E8AA717969F32C71606AFF" import="1">Art/CadAtlas214.dds</File>
+    <File md5="C2BCCCF1C957F57097A1CBC8543E6491" import="1">Art/CadAtlas256.dds</File>
+    <File md5="24D32EDCF77F82E9DE3A926C22E6164A" import="1">Art/CadAtlas32.dds</File>
+    <File md5="11165AAE96CF6537956AB80C093ADBBD" import="1">Art/CadAtlas45.dds</File>
+    <File md5="61B21AFBE10BEC3CF631E3102574258A" import="1">Art/CadAtlas64.dds</File>
+    <File md5="EFEA80207154B7F4DD3EDC98E25FE807" import="1">Art/CadAtlas80.dds</File>
+    <File md5="29F03C5223D960B2DDD1E8FCFF3E0B82" import="1">Art/CadAtlasAlpha32.dds</File>
+    <File md5="56DE2466953594B2E34B210C579A4281" import="1">Art/Cad_Diplo.dds</File>
+    <File md5="D87B89C2D2840D25A0F12CEC28BA47A8" import="1">Art/Cad_DOM.dds</File>
+    <File md5="EE80CC211B3721D14E562967228656BE" import="1">Art/Cadance_scene.xml</File>
+    <File md5="ABF42DEA0EE142C0F69A95FC5FFB6618" import="1">Art/MapCadance512.dds</File>
+    <File md5="4A545004D443EE831CD60867DB103EF9" import="1">Cadance.xml</File>
+    <File md5="4A9AAFDA5BAC954F7B7CFA4DB02CF5A5" import="1">Atlas.xml</File>
+    <File md5="31F653E606CD3C0074838567760E01C0" import="1">City Names.xml</File>
+    <File md5="DA6E3F3A3E6ED65D9FF6A995E8DB59A1" import="1">Music/Gandhi_Peace.mp3</File>
+    <File md5="EC0547319F611400AEC6DE079EBAC38B" import="1">Music/Gandhi_War.mp3</File>
+    <File md5="C1A968312C95AAB39CDD3FFA78B5E018" import="1">Spy_Table.xml</File>
+    <File md5="0FB16729B4099732C1BA16AFF5F5CAC6" import="1">Crystal Festival.xml</File>
+    <File md5="A7BC523621A256088AD54A2CB5D15D9F" import="1">Honor Guard.xml</File>
+    <File md5="DF1D1B13CFBCA5B1BA8F0BAE35B3E54F" import="1">NewCrystalEmpire.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>NewCrystalEmpire.xml</UpdateDatabase>
+      <UpdateDatabase>Cadance.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Crystal Festival.xml</UpdateDatabase>
+      <UpdateDatabase>Honor Guard.xml</UpdateDatabase>
+      <UpdateDatabase>Spy_Table.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/9/2012 9:50:58 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_WATCHTOWER_OBSERVATORY</Type>
+			<BuildingClass>BUILDINGCLASS_OBSERVATORY</BuildingClass>
+			<Cost>200</Cost>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_WATCHTOWER_OBSERVATORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_OBSERVATORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OBSERVATORY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_WATCHTOWER_OBSERVATORY_HELP</Help>
+			<Quote>TXT_KEY_WATCHTOWER_OBSERVATORY_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_OBSERVATORY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<Defense>200</Defense>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_LUNA</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_WATCHTOWER_OBSERVATORY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATCHTOWER_OBSERVATORY</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_WATCHTOWER_OBSERVATORY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<BuildingType>BUILDING_WATCHTOWER_OBSERVATORY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_WATCHTOWER_OBSERVATORY">
+			<Text>Watchtower Observatory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATCHTOWER_OBSERVATORY_HELP">
+			<Text>Luna's unique building, replacing the Observatory. It doesn't offer as good a view of the sky, but it may be built anywhere and gives a small defense bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATCHTOWER_OBSERVATORY_STRATEGY">
+			<Text>The Watchtower Observatory gives +25% [ICON_RESEARCH] Science for the city in which it was built. This is less than a regular Observatory, but it may be built anywhere and gives +2 [ICON_STRENGTH] Defense as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WATCHTOWER_OBSERVATORY_QUOTE">
+			<Text>"Who goes there? Stay indoors, Twilight Sparkle!"</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

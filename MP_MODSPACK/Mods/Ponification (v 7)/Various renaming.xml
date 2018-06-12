@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/23/2012 10:15:24 AM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT"/>
+			<Set Text="Manehattan Project"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_IMPROVEMENT_QUARRY"/>
+			<Set Text="Rock farm"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILD_QUARRY"/>
+			<Set Text="Build a Rock farm"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_NEUSCHWANSTEIN"/>
+			<Set Text="Canterlot Castle"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SPEARMAN"/>
+			<Set Text="Spearpony"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_RIFLEMAN"/>
+			<Set Text="Riflemare"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_HANGING_GARDEN"/>
+			<Set Text="Winsome Falls"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_BAZOOKA"/>
+			<Set Text="Bass cannon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_FEATURE_SOLOMONS_MINES"/>
+			<Set Text="King Sombra's Mines"/>
+		</Update>
+	</Language_en_US>
+</GameData>

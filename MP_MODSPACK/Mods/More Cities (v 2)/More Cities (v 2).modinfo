@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b3aee727-0015-45ab-8f1e-7b4aa52d18ff" version="2">
+  <Properties>
+    <Name>More Cities</Name>
+    <Teaser>[COLOR_CYAN]Unlimited cities![ENDCOLOR]</Teaser>
+    <Description>[COLOR_CYAN]Found as many cities as you like![ENDCOLOR]
+[NEWLINE]
+[NEWLINE]Tweaks to allow practically unlimited city founding. Policy and Technology costs are no longer affected by the number of cities in your empire. Unhappiness from the number of cities in your empire is removed, and unhappiness from the population density is reduced. Unhappiness from occupied cities and population is reduced as well.
+[NEWLINE]
+[NEWLINE]Suggested for use with FramedArchitect's [COLOR_YELLOW]Move Capital[ENDCOLOR] and Colonize's [COLOR_YELLOW]RazeAllCapitals[ENDCOLOR] mods for maximally flexible cities.</Description>
+    <Authors>Civitar</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="551089EBD1B783BA8643CADA704B05BA" import="0">MoreCities.sql</File>
+    <File md5="5ECA7A4146D3BC57379E85BC436464FC" import="1">TopPanel.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>MoreCities.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_NGK</Type>
+			<Description>TXT_KEY_CIV_NGK_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_OGK</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_NGK_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_NGK_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_NGK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CELTS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_GROVER</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_GROVER</AlphaIconAtlas>
+			<MapImage>MapGrover512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_OGK_TEXT</DawnOfManQuote>
+			<DawnOfManAudio>AS2D_LEADER_SPEECH_GROVER_INTRO</DawnOfManAudio>
+			<DawnOfManImage>DOM_Grover.dds</DawnOfManImage>
+			<SoundtrackTag>Netherlands</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NGK_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_11</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<LeaderheadType>LEADER_GUTO</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NGK_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- Civilization_Start_Along_Ocean -->
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_NGK</Type>
+			<PrimaryColor>COLOR_PLAYER_NGK_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_NGK_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_NGK_BACKGROUND</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NGK_ICON</Type>
+			<Red>1.0</Red>
+			<Green>0.9372549</Green>
+			<Blue>0.38823529</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_NGK_BACKGROUND</Type>
+			<Red>1.0</Red>
+			<Green>0.66666667</Green>
+			<Blue>0.09803922</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_NGK_ADJECTIVE">
+			<Text>Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NGK_DESC">
+			<Text>Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NGK_SHORT_DESC">
+			<Text>The Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NGK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NGK_TITLE">
+			<Text>Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NGK_0">
+			<Text>Griffonstone</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_0">
+			<Text>Gilda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_1">
+			<Text>Gabby</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_2">
+			<Text>Gustave le Grand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_3">
+			<Text>Greta</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_4">
+			<Text>Giselle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_5">
+			<Text>Grampa Gruff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_6">
+			<Text>Roul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_7">
+			<Text>Amenda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_8">
+			<Text>Trulgir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NGK_9">
+			<Text>Murlark</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

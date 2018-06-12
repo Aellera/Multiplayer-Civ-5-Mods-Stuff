@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2015 4:23:02 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_INFANTRY</Class>
+			<Type>UNIT_ALICORN_DRONE</Type>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+			<Combat>75</Combat>
+			<Cost>450</Cost>
+			<FaithCost>600</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<WorkRate>100</WorkRate>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ALICORN_DRONE</Description>
+			<Civilopedia>TXT_KEY_UNIT_HELP_ALICORN_DRONE</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ALICORN_DRONE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ALICORN_DRONE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>6</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_ALICORN_DRONES</UnitArtInfo>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_FOE</UnitFlagAtlas>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_HEAVY_RANGER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNITY</CivilizationType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SPELL_SKILLSET</Type>
+			<Description>TXT_KEY_PROMOTION_SPELL_SKILLSET</Description>
+			<Help>TXT_KEY_PROMOTION_SPELL_SKILLSET_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<HasPostCombatPromotions>true</HasPostCombatPromotions>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SPELL_SKILLSET</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_GESTALT_MOSAIC</Type>
+			<Description>TXT_KEY_PROMOTION_GESTALTMOSAIC</Description>
+			<Help>TXT_KEY_PROMOTION_GESTALTMOSAIC_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<OpenDefense>10</OpenDefense>
+			<RoughDefense>10</RoughDefense>
+			<AdjacentMod>10</AdjacentMod>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_GESTALTMOSAIC</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_INVISIBLE_ALICORN</Type>
+			<Description>TXT_KEY_PROMOTION_INVISIBLE_ALICORN</Description>
+			<Help>TXT_KEY_PROMOTION_INVISIBLE_ALICORN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<Invisible>INVISIBLE_SUBMARINE</Invisible>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INVISIBLE_ALICORN</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_TWILIGHT_TELEPORT</Type>
+			<Description>TXT_KEY_PROMOTION_TWILIGHT_TELEPORT</Description>
+			<Help>TXT_KEY_PROMOTION_TWILIGHT_TELEPORT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_TWILIGHT_TELEPORT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<DropRange>4</DropRange>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SEE_INVISIBLE_ALICORN</Type>
+			<Description>TXT_KEY_PROMOTION_SEE_INVISIBLE_ALICORN</Description>
+			<Help>TXT_KEY_PROMOTION_SEE_INVISIBLE_ALICORN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_SHOCK_1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL_1</PromotionPrereqOr2>
+			<PromotionPrereqOr3>PROMOTION_SCOUTING_2</PromotionPrereqOr3>
+			<PromotionPrereqOr4>PROMOTION_SURVIVALISM_2</PromotionPrereqOr4>
+			<OrderPriority>6</OrderPriority>
+			<SeeInvisible>INVISIBLE_SUBMARINE</SeeInvisible>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SEE_INVISIBLE_ALICORN</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_ALICORN</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_ALICORN</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ALICORN_DRONE</UnitType>
+			<PromotionType>PROMOTION_SPELL_SKILLSET</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<UnitPromotions_PostCombatRandomPromotion>
+		<Row>
+			<PromotionType>PROMOTION_SPELL_SKILLSET</PromotionType>
+			<NewPromotion>PROMOTION_INVISIBLE_ALICORN</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SPELL_SKILLSET</PromotionType>
+			<NewPromotion>PROMOTION_TWILIGHT_TELEPORT</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SPELL_SKILLSET</PromotionType>
+			<NewPromotion>PROMOTION_GESTALT_MOSAIC</NewPromotion>
+		</Row>
+	</UnitPromotions_PostCombatRandomPromotion>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ALICORN_DRONE">
+			<Text>Alicorn Drones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ALICORN_DRONE">
+			<Text>Alicorn Drones are slightly stronger and faster than the infantry they replace, and can spill an IMP Vat over a tile. They can recieve Twilight's teleportation, Trixie's invisibility, or Gestalt and Mosaic's telepathy promotion after their first battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ALICORN_DRONE_TEXT">
+			<Text>The synthetic alicorns (or alicorn drones) are all female, with no cutie mark(even though both male and female ponies can be turned). Alicorns are dark-coated, although they vary in appearance and specialty, with the three varieties each corresponding to the unicorn mares "who were powerful enough to exert influence over the alicorn creation process." Alicorns with dark purple coats have the ability to teleport, as this was Twilight Sparkle's special ability. Dark blue alicorns can turn invisible, as Trixie was the only unicorn to develop such a spell. The dark green alicorns can generate nearly impenetrable shields, and can cooperate with other green alicorns to amplify their powers. Their power comes from the green pallet-swapped twins Gestalt and Mosaic, who had the odd habit of not only finishing each other's sentences, but even each other's spells. (Text taken from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ALICORN_DRONE_STRATEGY">
+			<Text>Alicorn Drones can be used differently depending on which Spell Skillset a unit recieves, although all can be used offensively. Alicorns with Trixie's invisibility can be used to destroy enemy improvements without being spotted, or to spy on enemy movement. Alicorns with Twilight's teleportation ability can paradrop behind enemy lines to destroy artillery placements or avoid enemy defenses. Gestalt and Mosaic's telepathy allows them to coordinate their magical abilities,granting them a large bonus when adjacent to another unit, and making them a valuable front line unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPELL_SKILLSET">
+			<Text>Spell Skillset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPELL_SKILLSET_HELP">
+			<Text>Recieve Twilight's teleportation, Trixie's invisibility, or Gestalt and Mosaic's shields after the first battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GESTALTMOSAIC">
+			<Text>Gestalt/Mosaic's Spells</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GESTALTMOSAIC_HELP">
+			<Text>Recieves Gestalt and Mosaic's telepathic and shielding abilities, which provide a combat boost when adjacent to another unit and when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ALICORN">
+			<Text>Trixie's Invisibility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ALICORN_HELP">
+			<Text>Recieves knowledge of Trixie's invisibility spell, which makes it invisible except to adjacent units and Alicorn Hunters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TWILIGHT_TELEPORT">
+			<Text>Twilight's Teleportation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TWILIGHT_TELEPORT_HELP">
+			<Text>Recieves Twilight's teleportation spell, which allows the Alicorn to paradrop 4 tiles away and move +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_ALICORN">
+			<Text>Alicorn Hunter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_ALICORN_HELP">
+			<Text>This unit knows how track and identify invisible Alicorns, allowing them to be seen.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

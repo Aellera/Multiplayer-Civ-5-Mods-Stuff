@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2015 5:06:10 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TOKOMARE</Type>
+			<BuildingClass>BUILDINGCLASS_GOLDENBLOOD</BuildingClass>
+			<Cost>500</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<ConquestProb>0</ConquestProb>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TOKOMARE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TOKOMARE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TOKOMARE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_TOKOMARE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_NUCLEAR_PLANT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TOKOMARE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>40</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TOKOMARE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TOKOMARE">
+			<Text>Tokomare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOKOMARE_HELP">
+			<Text>The source of Harbingers industrial power located beneath The Core. It increases [ICON_PRODUCTION] by 40, making the faction almost unrivaled within the Equestrian Wasteland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOKOMARE_STRATEGY">
+			<Text>The Tokomare is built by an even more advanced civilization than wartime Equestria. It is made from Star Metal, which Mr. Horse had previously theorized as being advanced alien technology, the discovery of the Tokomare likely confirmed his theory. Despite being buried beneath mountains of earth and colliding with Equestria at immense speeds, the Tokomare is still operational, albeit mostly inert. Once activated, it will grant Harbingers in impressive amoutn of [ICON_PRODUCTION].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TOKOMARE_HEADING">
+			<Text>Tokomare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TOKOMARE_TEXT">
+			<Text>The Tokomare was an ancient device capable of producing tremendous amounts of energy.</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDENBLOOD</BuildingClassType>
+			<BuildingType>BUILDING_TOKOMARE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

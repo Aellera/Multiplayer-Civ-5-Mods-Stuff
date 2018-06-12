@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2012 5:32:02 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MIDNIGHT_CASTLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HALIFLANKS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STABLESIDE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STALLIONGRAD</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MANEBOURNE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WHINNYPEG</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TRAMPLEVANIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLANKFURT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SEADDLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DERBYSHIRE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DETROT</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_MIDNIGHT_CASTLE">
+			<Text>Midnight Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HALIFLANKS">
+			<Text>Haliflanks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STABLESIDE">
+			<Text>Stableside</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STALLIONGRAD">
+			<Text>Stalliongrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MANEBOURNE">
+			<Text>Manebourne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WHINNYPEG">
+			<Text>Whinnypeg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TRAMPLEVANIA">
+			<Text>Tramplevania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLANKFURT">
+			<Text>Flankfurt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SEADDLE">
+			<Text>Seaddle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DERBYSHIRE">
+			<Text>Derbyshire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DETROT">
+			<Text>Detrot</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

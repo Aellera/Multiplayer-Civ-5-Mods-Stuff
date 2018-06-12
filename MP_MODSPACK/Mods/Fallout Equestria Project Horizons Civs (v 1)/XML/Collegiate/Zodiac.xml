@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:25:33 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_ZODIAC</Type>
+			<Description>TXT_KEY_LEADER_ZODIAC</Description>
+			<Civilopedia>TXT_KEY_LEADER_ZODIAC_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC</CivilopediaTag>
+			<ArtDefineTag>Zodiac_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>3</VictoryCompetitiveness>
+			<WonderCompetitiveness>5</WonderCompetitiveness>
+			<MinorCivCompetitiveness>8</MinorCivCompetitiveness>
+			<Boldness>4</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>8</WarmongerHate>
+			<DenounceWillingness>4</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
+			<Loyalty>4</Loyalty>
+			<Neediness>8</Neediness>
+			<Forgiveness>9</Forgiveness>
+			<Chattiness>7</Chattiness>
+			<Meanness>3</Meanness>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_ZODIAC</LeaderType>
+			<TraitType>TRAIT_MEDICAL_WONDERS</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_ZODIAC_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_ZODIAC_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_ZODIAC_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_ZODIAC_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_ZODIAC_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_ZODIAC_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ZODIAC">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_ZODIAC_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC">
+			<Text>Dr. Zodiac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_FIRSTGREETING_1">
+			<Text>Welcome! My name is Silver Stripe, but you can call me Dr. Zodiac. Now, would you like to install some cybernetic augmentations?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_FIRSTGREETING_2">
+			<Text>My name is Dr. Zodiac. I hope that you have no bounties placed on your head. If otherwise I might have already send assassins after you. Oops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_FIRSTGREETING_3">
+			<Text>The Collegiate welcomes you in the Hoofington University. On your left you can receive medical treatment. On your right you can hire assassins. Those two things are so similar when you think about it...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_WARBLUFF_1">
+			<Text>Okay. And I will not send Zodiacs after you. For now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_WARBLUFF_2">
+			<Text>Okay. And I will not send Zodiacs after you. For now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_WARBLUFF_3">
+			<Text>Okay. And I will not send Zodiacs after you. For now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_WINWAR_1">
+			<Text>My Zodiacs are pretty effective, don't you agree? It's time we discuss terms of your surrender.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_LOSEWAR_1">
+			<Text>I am a reasonable mare, and I know where and when to retreat. The question is, are you reasonable as well?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DEFEATED_1">
+			<Text>Please, let it end. We are not warriors, we are peacefull doctors and scientists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DEFEATED_2">
+			<Text>Does it feel good to know that you've beaten a bunch of ponies that were trying to help Wastelanders?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DEFEATED_3">
+			<Text>That's it. I'm beaten. Was this war worth it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_YES_NEUTRAL">
+			<Text>Agreed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_NO_NEUTRAL">
+			<Text>No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_YES_ANGRY">
+			<Text>For now, I have to agree. But be careful. When I send Zodiacs after you, you will not see them coming.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_NO_ANGRY">
+			<Text>How dare you?! Guards! Throw this bitch away!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_YES_HAPPY">
+			<Text>Of course. It is our duty to help people in need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRIBUTE_NO_HAPPY">
+			<Text>No. Everything has it's price. We won't be able to continue our work if we start giving things for free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZODIAC_RESPONSE_REQUEST_1">
+			<Text>The Collegiate needs some help.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DEMANDTRIBUTE_HAPPY">
+			<Text>Hello again. Would you consider a small donation to The Collegiate's cause?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DEMANDTRIBUTE_ANGRY">
+			<Text>We lend you some services in the past. Now its time to pay the bills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRADEREQUEST_ANGRY">
+			<Text>I propose an exchange and I will not take "no" as an answer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DECLAREWAR_1">
+			<Text>It's nothing personal. The bounty on your head is too tempting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DECLAREWAR_2">
+			<Text>My Zodiacs will crush you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_DECLAREWAR_3">
+			<Text>We help ponies, but for that we need money. You have plenty. We will take them and help ponies. End of story.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_ATTACKED_BETRAYED">
+			<Text>I believe I shouldn't have trusted you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_ATTACKED_EXCITED">
+			<Text>My Zodiacs can't wait to capture you. Virgo has been nursing her ingenious plan for days!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_ATTACKED_HOSTILE">
+			<Text>Prepare to be annihilated!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_TRADE_NEEDMORE_ANGRY_1">
+			<Text>That's it? You're kidding. You're kidding, right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZODIAC_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Could you please allow our medical personal a free passage throught your lands?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZODIAC_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I see that you are annexing lands close to Hoofington University. I suggest you to stop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZODIAC_LUXURY_TRADE_1">
+			<Text>We think that we have developed a new medical technology, but in order to use it we need something that you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZODIAC_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I see you can't wait to face my Zodiacs in combat. Because how else would you explain this agressive expancion towards our borders?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Greetings. What brings you to The Collegiate?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Hello, my friend! What is that you need?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ZODIAC_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Don't waste my time, I must attent a delicate operation in a minute.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_FACT_1">
+			<Text>Silver Stripe aka Dr. Zodiac is a 200 years old zony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_FACT_2">
+			<Text>Dr. Zodiac was around during the war between Equestria and the Zebra Empire. She was known as Silver Stripe and worked under Goldenblood on Project Steelpony. (FOE Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_HEADING_2">
+			<Text>Present day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_LIVED">
+			<Text>200 years after [NEWLINE] the Last Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_NAME">
+			<Text>Zodiac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_SUBTITLE">
+			<Text>Silver Stripe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_TEXT_1">
+			<Text>Before the war, Dr. Zodiac went by the name Silver Stripe. She was a brilliant scientist who found finding work in Hoofington difficult, given it's animosity towards the Zebra. Silver Stripe was born to a Pony and Zebra making her a Zony. Goldenblood, unlike others, had no problem with hiring Zebra's or anyone of Zebra descent, so long as they were loyal to Equestria.[NEWLINE] Silver Stripe was tasked by Goldenblood to work on Project Steelpony. She was given Doof as a test subject after he was kicked out of Macintosh's Marauders. Doof was one of the earliest test subjects, and was given the designation Deus; however, the invasive nature of the early Steelpony designs mean Deus' cybernetics caused him a great deal of pain. Deus was likely placed in stasis and awoken by Sanguine after the war.[NEWLINE] Silver Stripe used her knowledge of cybernetics to teach the Diamond Dogs living beneath Hoofington how to construct cybernetic limbs and organs. These Diamond Dogs would survive the war and become known as the Sand Dogs.[NEWLINE] After being critically wounded by a group of bigots, Silver Stripe went through a conversion into a cyberpony, though the process was much more refined and safer than when it was first used on Deus. This also meant there was no conflict between her cybernetic and organic components. Silver Stripe survived the war and would join Big Daddy Reaper's gang of friends and companions as they journeyed the Hoofington Wasteland, trying to make it a better place to live.[NEWLINE] After twenty years of travelling with Big Daddy Reaper and his crew, her cybernetics were heavily damaged. She left his group to founded the Collegiate, placing herself in a preservation chamber of some kind that would keep her alive and prevent her organic portions from rotting. She also became the leader of a group of assassins and bounty hunters, working for the Collegiate, called the Zodiac Clan.  (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_TEXT_2">
+			<Text>Silver Stripe, now called Dr. Zodiac, learned about EC-1101 from Sanguine, but refused to help him get it from Stable 99, but eventually Blackjack fled Stable 99 with EC-1101 in her Pipbuck to draw away Deus. Zodiac wanted EC-1101 so she could get access to Project Steelpony and either figure out how to build herself a new body or repair her current one. [NEWLINE] The Zodiacs heard about the Doctor's desire for EC-1101, and almost the entire clan tried to take it from Blackjack on numerous occasions, thinking it would be a nice surprise for the doctor when they got it. Zodiac however was furious when she found out, and she believed it impossible for her to simply ask Blackjack for EC-1101 after the actions of her Clan. She would suffer a stroke of good fortune though when Blackjack turned up at the Collegiate severely injured and sick. [NEWLINE] Dr. Zodiac tried to charge Blackjack 50,000 bottlecaps for all the medical treatment given to her and her friends, but Glory pointed out that the Collegiate provided the care without asking, meaning it was done for free, with no prior agreement from Blackjack. Zodiac eventually revealed why she needed EC-1101 to Blackjack and her friends.   (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ZODIAC_TITLES_1">
+			<Text>Doctor</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

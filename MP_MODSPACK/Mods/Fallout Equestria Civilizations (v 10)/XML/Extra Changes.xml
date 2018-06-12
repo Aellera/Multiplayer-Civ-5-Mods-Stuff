@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/15/2015 3:47:32 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+			<Text>{@2_MinorCivName} joins {@1_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+			<Text>After a long period of cooperation and friendship, the people of {@2_MinorCivName} have decided to join forces with {@1_CivName}! Sunshine and rainbows are visible in the skies above {@2_MinorCivName} and {@1_CivName} as the ponies below celebrate their friendship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+			<Text>After a long period of cooperation and friendship, the people of {@2_MinorCivName} have decided to join forces with {@1_CivName}! Sunshine and rainbows are visible in the skies above {@2_MinorCivName} and {@1_CivName} as the ponies below celebrate their friendship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT">
+			<Text>Bring into Nation</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

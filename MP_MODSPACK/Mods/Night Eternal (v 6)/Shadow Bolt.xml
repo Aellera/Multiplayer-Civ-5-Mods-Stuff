@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:32 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_STEALTH_BOMBER</Class>
+			<Type>UNIT_SHADOWBOLT</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<RangedCombat>80</RangedCombat>
+			<Cost>425</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>22</Range>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SHADOWBOLT</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_SHADOWBOLT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SHADOWBOLT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_SHADOWBOLT_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
+			<UnitFlagIconOffset>79</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_STEATH_BOMBER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SHADOWBOLT">
+			<Text>Shadowbolt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_SHADOWBOLT_HELP">
+			<Text>Shadowbolts are just like stealth bombers, but with an extended range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_SHADOWBOLT_TEXT">
+			<Text>When Nightmare Moon returned, she attempted to corrupt Twilight's friends. When confronting Rainbow Dash, she took on the form of the Shadowbolts, a dark verison of the Wonderbolts. Strangely though, there have been reports of actual shadowbolts, but these claims have never been confirmed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHADOWBOLT_STRATEGY">
+			<Text>Shadowbolts perform just like steath bombers, but with an extended range.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<UniqueName>TXT_KEY_SHADOWBOLT_1</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<UniqueName>TXT_KEY_SHADOWBOLT_2</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+			<UniqueName>TXT_KEY_SHADOWBOLT_3</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SHADOWBOLT_1">
+			<Text>Decent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHADOWBOLT_2">
+			<Text>Nightingale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHADOWBOLT_3">
+			<Text>Thundercracker</Text>
+		</Row>
+		</Language_en_US>
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+			<UnitType>UNIT_SHADOWBOLT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

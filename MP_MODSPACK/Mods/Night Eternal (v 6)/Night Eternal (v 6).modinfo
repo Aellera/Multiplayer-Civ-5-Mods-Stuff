@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7e508f6e-5700-4099-bf05-3161afc26ceb" version="6">
+  <Properties>
+    <Name>Night Eternal</Name>
+    <Teaser>Adds Nightmare Moon and her eternal night to your civs</Teaser>
+    <Description>In the magical land of Equestria, there lived two regal sisters who ruled together and created harmony for all the land. The eldest used her unicorn powers to raise the sun at dawn. The younger brought out the moon to begin the night. Their subjects, the ponies, played in the day but shunned the night and slept through it, which made the younger unicorn grow bitter, eventually refusing to lower the moon to make way for the dawn. Her bitterness transformed her into a wicked mare of darkness, Nightmare Moon. The elder sister reluctantly harnessed the power of the Elements of Harmony and banished her permanently in the moon, taking responsibility for both sun and moon, and harmony has been maintain in Equestria for generations since. Legend has it that on the longest day of the thousandth year the stars will aid in her escape, and she will bring about nighttime eternal.
+
+She is free, Nightmare Moon brings the everlasting night to your civs, replacing the Iroquois.
+
+New Trait, Night Everlasting, allowing your units to move through forests and jungles as roads and 50% chance to convert defeated barbarians.
+
+New Unit, The Shadowbolts, replacing the steath bomber. They act just like stealth bombers but with increased range.
+
+New Building, Nightmare Shroud, replacing the city walls. The shroud gives 5 xp to new units and provides stronger defence than a normal wall.
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc.
+
+I won't be doing custom models, just like the other mods, but feel free if you want.</Description>
+    <Authors>SilentModder</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F377FFD71A88EA5784A8DDB64EF58693" import="1">Art/Nightmare_Scene.xml</File>
+    <File md5="2F3E6B53D881BA1127D40C3667B3C1D6" import="1">Art/NightmareAlphaAtlas32.dds</File>
+    <File md5="288D9B9714EFB025EDF68F89036FADA5" import="1">Art/NightmareAtlas128.dds</File>
+    <File md5="9A388ECB7EB1F806C04ED183E58EBE72" import="1">Art/NightmareAtlas214.dds</File>
+    <File md5="C623A74DEB8E8AD944CC0C0990CF6CAD" import="1">Art/NightmareAtlas256.dds</File>
+    <File md5="8A1F59D6CD19FEAB7A68C70BAFC72E9B" import="1">Art/NightmareAtlas32.dds</File>
+    <File md5="089A8E44AD6E07812297A9D826CE7562" import="1">Art/NightmareAtlas45.dds</File>
+    <File md5="430591C5BFE7B6F30424283F6484C674" import="1">Art/NightmareAtlas64.dds</File>
+    <File md5="5A93DD8B47BCA4D0FDA9D24D4511660E" import="1">Art/NightmareAtlas80.dds</File>
+    <File md5="25BB142F8084C9FDE6FB17B532849B3D" import="1">Art/NightmareDiplo.dds</File>
+    <File md5="A4F772C7F514DF3496C0F056A510B134" import="1">Art/NightmareDOM.dds</File>
+    <File md5="8D88B1CD79070BD8B778398393220598" import="1">Art/NightmareMap.dds</File>
+    <File md5="BE24DF68F2819FC7DCE4362054D14B61" import="1">Music/HiawathaPeace.mp3</File>
+    <File md5="5F6991CD4B3EBB021F1EF49B9F863F35" import="1">Music/HiawathaWar.mp3</File>
+    <File md5="A8F99408C5C35C65B62A0B61BED377D5" import="1">NightEmpire.xml</File>
+    <File md5="39F36818860EFB7EDE824D1F4F07FA87" import="1">Nightmare Moon.xml</File>
+    <File md5="32254F91A2E7C34615F5F153F92D743D" import="1">Atlas.xml</File>
+    <File md5="94BA919F898B19D12D52DDA305E5E897" import="1">City Names.xml</File>
+    <File md5="A2EE6C776CD8597C9E1FF5901686B7DD" import="1">Spy Table.xml</File>
+    <File md5="26FD3A91094AA037390BE594E84CB1AA" import="1">Shadow Bolt.xml</File>
+    <File md5="A57A01023E6F286E65160E26E983772C" import="1">Nightmare Shroud.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>NightEmpire.xml</UpdateDatabase>
+      <UpdateDatabase>Nightmare Moon.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Nightmare_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Spy Table.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Nightmare Shroud.xml</UpdateDatabase>
+      <UpdateDatabase>Shadow Bolt.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

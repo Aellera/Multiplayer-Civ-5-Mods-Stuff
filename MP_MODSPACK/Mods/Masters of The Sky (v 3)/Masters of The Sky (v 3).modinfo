@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0ef8ee32-eb1c-43fe-a6b9-2d71be8c6ed4" version="3">
+  <Properties>
+    <Name>Masters of The Sky</Name>
+    <Teaser>Adds the Pegasi, led by Commander Hurricane and his aid, Private Pansy</Teaser>
+    <Description>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Earth Ponies were masters of the dirt, responseable for growing food for all ponies. The Unicorns were masters of the Sun and Moon, magically bringing night and day. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Commander Hurricane, leader of the Pegasi, led them to what would become Equestria, naming their new land, Pegasopolis. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding. 
+
+The third and final faction of Hearth's Eve is here, rejoice for your future conquerors!
+
+Adds the Pegasi, led by Commander Hurricane and Private Pansy, replacing the chinese.
+
+New trait, Pegasi tradition, the Pegasi are a warrior nation, with a long rich military tradition. All Pegasi combat unit maintaince is reduced by 20%.
+
+New unit, The Thunderbolts, The Thunderbolts are the Pegasi elite of flyers. They perform just like jet fighters, but are stronger and have a longer range.
+
+New building, Spire Point, replacing National Epic. Spire Point is a nation wonder, it provides +20% more xp for combat units built in the city and acts as a Military Base in the city that its built in.
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc. 
+
+Won't be doing custom unit models, blah blah, just as my other mods. If you want to I won't stop you.
+
+Should be vanilla friendly.</Description>
+    <Authors>SilentModder</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="74F006B0CF9088B3D9691CE1F2394EAB" import="1">Art/Hurricane_Scene.xml</File>
+    <File md5="265367099C41296F0BC1B1C62AE1437F" import="1">Art/HurricaneDiplo.dds</File>
+    <File md5="2F57E734F060206A917392F9CE0AD60D" import="1">Art/HurricaneDOM.dds</File>
+    <File md5="E37815C679CA22D83E73CF320AABD04A" import="1">Art/HurricaneAlphaAtlas32.dds</File>
+    <File md5="AED69BB75A2B698BCA34805DB533AFFE" import="1">Art/HurricaneAtlas128.dds</File>
+    <File md5="E37E22447E8388BCE8B98C1C20D871D7" import="1">Art/HurricaneAtlas214.dds</File>
+    <File md5="D71149AA3D1027D5DDFF08875CD5F391" import="1">Art/HurricaneAtlas256.dds</File>
+    <File md5="984CECFA9ADC8B74172841D2DE60350C" import="1">Art/HurricaneAtlas32.dds</File>
+    <File md5="3830403F0593EC7D3A2A332E90B76A4F" import="1">Art/HurricaneAtlas45.dds</File>
+    <File md5="CF3DCFD6FD5B93B75677FC3A3EC13B29" import="1">Art/HurricaneAtlas64.dds</File>
+    <File md5="70819CA06B7D50D32919BD30D0118A56" import="1">Art/HurricaneAtlas80.dds</File>
+    <File md5="E51F96DA7049CDE6ADF97EDD12E5755D" import="1">Art/HurricaneMap.dds</File>
+    <File md5="FE537119898102344DAF1596750E635C" import="1">Atlas.xml</File>
+    <File md5="BA363718BB1785C6AA11B95BF2CAC56D" import="1">Music/Empress_Wu_Zetian_Peace.mp3</File>
+    <File md5="CB8CE85A45F2E3F5737A8A04805F37B4" import="1">Music/Empress_Wu_Zetian_War.mp3</File>
+    <File md5="7D1E3F6F34F9A9B67514E1D2C21FA947" import="1">Pegasi.xml</File>
+    <File md5="17C16D2D9927805B5E2865CDFB67A88D" import="1">Hurricane.xml</File>
+    <File md5="EA12A6AEF6249A0DE49F570258A2DD2B" import="1">City Names.xml</File>
+    <File md5="EADF2CD4343A964B8E414BF5778E56D6" import="1">Spy Table.xml</File>
+    <File md5="4B20385B9CF24FD6AD45AA2134A4E027" import="1">Spire Point.xml</File>
+    <File md5="E40171C9884FAF7981D5B5E8D8E02489" import="1">Thunderbolts.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Hurricane_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Hurricane.xml</UpdateDatabase>
+      <UpdateDatabase>Pegasi.xml</UpdateDatabase>
+      <UpdateDatabase>Spire Point.xml</UpdateDatabase>
+      <UpdateDatabase>Spy Table.xml</UpdateDatabase>
+      <UpdateDatabase>Thunderbolts.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

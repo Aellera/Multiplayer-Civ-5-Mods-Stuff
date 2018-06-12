@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2014 1:10:12 PM -->
+<GameData>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_PONY_JUDGEMENT_OF_SPIKE</Type>
+			<Description>TXT_KEY_GREAT_WORK_PONY_JUDGEMENT_OF_SPIKE</Description>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Image>gw_ponification_judgement_of_spike.dds</Image>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PONY_PETS_PLAYING_POKER</Type>
+			<Description>TXT_KEY_GREAT_WORK_PONY_PETS_PLAYING_POKER</Description>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Image>gw_ponification_Pets_Playing_Poker.dds</Image>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PONY_PERSISTENCE_OF_MEMORY</Type>
+			<Description>TXT_KEY_GREAT_WORK_PONY_PERSISTENCE_OF_MEMORY</Description>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Image>gw_ponification_Persistence_of_Memory.dds</Image>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+		</Row>
+	</GreatWorks>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PONY_LOMBARDO</UniqueName>
+			<GreatWorkType>GREAT_WORK_PONY_JUDGEMENT_OF_SPIKE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PONY_COOLIDGE</UniqueName>
+			<GreatWorkType>GREAT_WORK_PONY_PETS_PLAYING_POKER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PONY_DALI</UniqueName>
+			<GreatWorkType>GREAT_WORK_PONY_PERSISTENCE_OF_MEMORY</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_WORK_PONY_JUDGEMENT_OF_SPIKE">
+			<Text>The Judgement of Spike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PONY_LOMBARDO">
+			<Text>Enrique Simonet Lombardo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PONY_PETS_PLAYING_POKER">
+			<Text>Pets Playing Poker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PONY_COOLIDGE">
+			<Text>C. M. Coolidge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PONY_PERSISTENCE_OF_MEMORY">
+			<Text>The Persistence of Memory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PONY_DALI">
+			<Text>Salvador Dalí</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_GREAT_WORK_STARRY_NIGHT"/>
+			<Set>
+				<Text>Luna's Starry Night</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GREAT_WORK_BINDO_ALTOVITI"/>
+			<Set>
+				<Text>The School of Canterlot</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

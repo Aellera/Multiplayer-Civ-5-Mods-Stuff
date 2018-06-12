@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/25/2016 6:50:59 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_DRAGONS</Type>
+			<Description>TXT_KEY_CIV_DRAGONS_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_DRAGONS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_DRAGONS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_DRAGONS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_DRAGONS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_DRAGONS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_DRAGONS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_DRAGONS</AlphaIconAtlas>
+			<MapImage>MapDragons512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_DRAGONS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_DragonlordEmber.dds</DawnOfManImage>
+			<SoundtrackTag>Zulu</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONS_11</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<LeaderheadType>LEADER_DRAGONLORDEMBER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DRAGONS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_DRAGONS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- Civilization_Start_Along_Ocean -->
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_DRAGONS</Type>
+			<PrimaryColor>COLOR_PLAYER_DRAGONS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DRAGONS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_DRAGONS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_DRAGONS_ICON</Type>
+			<Red>0.886</Red>
+			<Green>0.169</Green>
+			<Blue>0.208</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_DRAGONS_BACKGROUND</Type>
+			<Red>0.298</Red>
+			<Green>0.788</Green>
+			<Blue>0.867</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_DRAGONS_TEXT</Type>
+			<Red>0.973</Red>
+			<Green>0.498</Green>
+			<Blue>0.384</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_DRAGONS_DESC">
+			<Text>Dragon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DRAGONS_TITLE">
+			<Text>Dragonlordship of Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DRAGONS_SHORT_DESC">
+			<Text>The Dragonlordship of Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DRAGONS_ADJECTIVE">
+			<Text>Dragonlordship of Equestria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DRAGONS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DRAGONS_TEXT_1">
+			<Text>The Dragonlordship of Equestria is a collection of Dragons that obey the call of the "Dragonlord" who is a dragon who weilds the Bloodstone Scepter which is rumored to be a crystalized drop of blood from the first Dragon Broodmother.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_DRAGONS_TEXT">
+			<Text>Dear Dragonlord Ember,[NEWLINE][NEWLINE]First I would like to thank you for this opportunity to start a dialogue of communication between us. Regarding your last letter you should know that I applaud the decision to put your Family's massive treasure hoard to use in building up around the mountains you call home.  I ask you to reach out further with your neighbors in your land because you and Spike have proven that Dragons who stand together are stronger together. I've seen first hoof how this applies to my Pony friends and know if you reach out to us then you'll find more powerful allies then you've ever known.[NEWLINE][NEWLINE]As you know this world isn't always the safest of places, and sometimes the darkest things are hidden behind the brightest of smiles, if Dragon culture is here to stay then it must be defended. If giving Dragons a spot on Equestria's stage of Nations is what you want then their Dragonlord needs to be able to guide, learn, administer, compromise, and fight.  Basically what I'm asking you to do to build a Civilization to stand the test of Time...[NEWLINE][NEWLINE]Your Friend,[NEWLINE]Princess Twilight Sparkle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_0">
+			<Text>Hoard Prime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_1">
+			<Text>Goldcrest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_2">
+			<Text>Blizzard's Krull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_3">
+			<Text>Pitmeddon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_4">
+			<Text>Firebend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_5">
+			<Text>Hexesteppes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_6">
+			<Text>Scalekirk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_7">
+			<Text>Magma Vale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_8">
+			<Text>IceKrall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_9">
+			<Text>Balepool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_10">
+			<Text>Sharpton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_11">
+			<Text>Pyro Wat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGONS_12">
+			<Text>The Green Dragon Inn</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_0">
+			<Text>Crackle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_1">
+			<Text>Garble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_2">
+			<Text>Wingnut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_3">
+			<Text>Blizzard</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_4">
+			<Text>Feeble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_5">
+			<Text>Kraven</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_6">
+			<Text>Pyro</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_7">
+			<Text>Sprial</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_8">
+			<Text>Feeble</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DRAGONS_9">
+			<Text>Ridley</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

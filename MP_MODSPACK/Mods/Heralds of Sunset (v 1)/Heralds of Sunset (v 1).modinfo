@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0234ec14-bc70-4295-9bda-2bdf7f8e3247" version="1">
+  <Properties>
+    <Name>Heralds of Sunset</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>do this later</Teaser>
+    <Description>do this later</Description>
+    <Authors>Storm Holder</Authors>
+    <SpecialThanks>DHX, Wubcake, and Oroboro</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="2D93ECBAFC78313ABE53CBF273CED4E1" import="1">Art/DOM_Sunset.dds</File>
+    <File md5="D86D1C7973F08CBF4322AA2C1672556A" import="1">Art/IconAtlasSunset128.dds</File>
+    <File md5="5F50D5C67A19ABACCC2EC5BB01F1BF80" import="1">Art/IconAtlasSunset24.dds</File>
+    <File md5="011B725ECA0F1C78223DD71F15F46876" import="1">Art/IconAtlasSunset256.dds</File>
+    <File md5="D77856CF4EBA8EBBF779A0B095621665" import="1">Art/IconAtlasSunset32.dds</File>
+    <File md5="94E41E571C8197A5D89F00838A7EAD7E" import="1">Art/IconAtlasSunset45.dds</File>
+    <File md5="12826F17F052B4EAB676EC5CF4F038E1" import="1">Art/IconAtlasSunset48.dds</File>
+    <File md5="09C335C204B7620C9592A6A2BF308767" import="1">Art/IconAtlasSunset64.dds</File>
+    <File md5="844F346FDE06C7330A26A19ED45FF841" import="1">Art/IconAtlasSunset80.dds</File>
+    <File md5="DDAC84FF959034AB2BCEE3310DE592BF" import="1">Art/MapHeralds512.dds</File>
+    <File md5="0C9457C6B36C358E9F7A51C842037FA5" import="0">Art/SUNSET_ATTACKED.wav</File>
+    <File md5="6EA3BC904DCF0C4A36B05C90748B201B" import="1">Music/HERALDS_DOM.mp3</File>
+    <File md5="7DA6C7FAF198588B68E7E922117F61B3" import="1">Music/SUNSET_ATTACKED.wav</File>
+    <File md5="3246FC2AAC51262B25DA97FAB9EB0C0F" import="1">Music/SUNSET_BIRD_AMBIENCE.wav</File>
+    <File md5="8202E86CAE81ABAD2AEFFEEB1983C4BC" import="1">Music/SUNSET_DECLARE_WAR.wav</File>
+    <File md5="511B143BD3662F6646ADE361F3C4EEC7" import="1">Music/SUNSET_DEFEATED.wav</File>
+    <File md5="E72B82411077155D76FC7B088C4BAB10" import="1">Music/SUNSET_EXCELLENT.wav</File>
+    <File md5="5D3E86510FE3F98BD8805ED8AA489348" import="1">Music/SUNSET_GLOATS.wav</File>
+    <File md5="D6409C685650600253F320CA9DC6430C" import="1">Music/SUNSET_HATE_HEAR_IT_01.wav</File>
+    <File md5="A0F2266197182F1B038C09B803DC93ED" import="1">Music/SUNSET_HATE_HEAR_IT_02.wav</File>
+    <File md5="1BEBE8D26F9C5C963249235A3DDF7365" import="1">Music/SUNSET_HATE_HELLO.wav</File>
+    <File md5="CD87FB26388ACD9463438602CBC89716" import="1">Music/SUNSET_HATE_NO_01.wav</File>
+    <File md5="267B3DB675002D44E0159911CA6BF6D1" import="1">Music/SUNSET_HATE_NO_02.wav</File>
+    <File md5="5EB950EEC522975EB964733098E416A6" import="1">Music/SUNSET_HATE_NO_03.wav</File>
+    <File md5="51A27C9EDC4A3BAFEEFCC5D7521B5374" import="1">Music/SUNSET_HATE_YES_01.wav</File>
+    <File md5="5E838D9D80337E1564BA40E7AAEC3F38" import="1">Music/SUNSET_HATE_YES_02.wav</File>
+    <File md5="EF790F04E118D17A29013FD8ED06486D" import="1">Music/SUNSET_HATE_YES_03.wav</File>
+    <File md5="8E44D49F2B98FD25CF5E83D923BD0572" import="1">Music/SUNSET_INTRO.wav</File>
+    <File md5="ABCD5CDF96B6029CDB7DFB2B4BAFDC96" import="1">Music/SUNSET_NEUTRAL_HEAR_IT_01.wav</File>
+    <File md5="32068DCFEBA98FF041144D95D2EF73B4" import="1">Music/SUNSET_NEUTRAL_HEAR_IT_02.wav</File>
+    <File md5="8048BC0801143811F0B8AD306C762E4B" import="1">Music/SUNSET_NEUTRAL_HEAR_IT_03.wav</File>
+    <File md5="009A253C2C76C56514E5E0C51A999A2D" import="1">Music/SUNSET_NEUTRAL_HELLO.wav</File>
+    <File md5="829500288E331136DBABEF5E970A66BD" import="1">Music/SUNSET_NEUTRAL_HELLO_02.wav</File>
+    <File md5="8480E9B9D5113B0A5F366FC44E5BAA8A" import="1">Music/SUNSET_NEUTRAL_HELLO_03.wav</File>
+    <File md5="631273A018C12C9AEDC6D822468F5771" import="1">Music/SUNSET_NEUTRAL_NO_01.wav</File>
+    <File md5="10905FEBC5EB6D6420924367B937FB5A" import="1">Music/SUNSET_NEUTRAL_YES_01.wav</File>
+    <File md5="FA1486E6621E3648DF27C12F5DE198AB" import="1">Music/SUNSET_NEUTRAL_YES_02.wav</File>
+    <File md5="99D9B53D2D68CE1237EE6B550D0E0671" import="1">Music/SUNSET_NEUTRAL_YES_03.wav</File>
+    <File md5="C576837277B3FF70CACE05C89E39842B" import="1">Music/SUNSET_PEACE.mp3</File>
+    <File md5="A030390185497922ACBC9976CE44228F" import="1">Music/SUNSET_PEACEFUL.wav</File>
+    <File md5="F2DA2DCDA6B8D1CC17BFAC2831401E78" import="1">Music/SUNSET_REQUEST.wav</File>
+    <File md5="6587D672857F79A69C1B189D6BF4683E" import="1">Music/SUNSET_WAR.mp3</File>
+    <File md5="BFDE02205944D2070D858443A1D091A8" import="1">Scene/SUNSET.dds</File>
+    <File md5="D1BEC5414AD2FB12C50BB5395A3772FA" import="1">Scene/SUNSET.fxsxml</File>
+    <File md5="221821007801A9C288E456F91E5B5D68" import="1">Scene/Sunset_Scene.xml</File>
+    <File md5="9A0BB0FCE25DAD80C1BDF577BE94CD8B" import="1">Scene/SUNSET_Triggers.ftsxml</File>
+    <File md5="461FF26B780CD54A7D75794FADFEFEB6" import="0">XML/Sound.xml</File>
+    <File md5="479C9C74A518355C98572D3785616E66" import="0">XML/Sunset.xml</File>
+    <File md5="2C16382A4431A4564042660DBCEFFE3E" import="0">XML/Atlas.xml</File>
+    <File md5="73B1BF4E099E5529F25D022AF5BAFF10" import="0">XML/Diplomacy_Responses.xml</File>
+    <File md5="54D35A2AF2453C8A97F8076FB019FC88" import="0">XML/Equestrian_Xebec.xml</File>
+    <File md5="C0E6D36AF9951D30AE4BA0167888BFD6" import="0">XML/Heralds.xml</File>
+    <File md5="4200EE4CE28E606A4B2D1CC011E068C1" import="0">XML/Trait.xml</File>
+    <File md5="533A9F72F5C587333BF500D5C801F871" import="0">XML/Alicorn_Alter.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Alicorn_Alter.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy_Responses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Equestrian_Xebec.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Heralds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sunset.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sound.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

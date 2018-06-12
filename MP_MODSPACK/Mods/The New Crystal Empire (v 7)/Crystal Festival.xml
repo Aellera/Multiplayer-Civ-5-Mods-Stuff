@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:02:05 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CRYSTAL_FESTIVAL</Type>
+			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>250</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CRYSTAL_FESTIVAL_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_CRYSTAL_FESTIVAL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CRYSTAL_FESTIVAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CRYSTAL_FESTIVAL_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<Happiness>2</Happiness>
+			<DisplayPosition>2</DisplayPosition>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<IconAtlas>CIV_COLOR_ATLAS_CADANCE</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_FESTIVAL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+	</Building_Flavors>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_FESTIVAL">
+			<Text>Crystal Festival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_FESTIVAL_TEXT">
+			<Text>The Crystal Festival is a happy time for the Crystal Empire. Its purpose is to inspire hope and love into its citizens so that the Crystal Heart may be empowered to protect the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_FESTIVAL_STRATEGY">
+			<Text>The Crystal Festival provides +2 [ICON_HAPPINESS_1], provides +2 [ICON_FOOD], and 10% [ICON_FOOD] for the city that its built in.</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

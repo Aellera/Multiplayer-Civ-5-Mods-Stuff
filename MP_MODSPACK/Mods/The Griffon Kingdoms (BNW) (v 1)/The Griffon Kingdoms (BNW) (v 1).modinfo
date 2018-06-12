@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1d4b89f2-2bcc-48c7-8aff-df8e5dbf626b" version="1">
+  <Properties>
+    <Name>The Griffon Kingdoms (BNW)</Name>
+    <Teaser>Adds The Griffon Kingdoms, led by King Grover and King Guto.</Teaser>
+    <Description>Adds The Griffon Kingdoms, led by King Grover and King Guto.[NEWLINE][NEWLINE]------------------------------------------------------------------------------------------------------------ [NEWLINE] This mod includes: [NEWLINE][NEWLINE]
+Music from MLP:FIM, music of Jyc Row, custom sounds and voice acting. [NEWLINE]
+Screenshots from My Little Pony: Friendship is Magic. [NEWLINE][NEWLINE]
+New Civilizations: Old Griffon Kingdoms, Griffon Kingdoms. [NEWLINE]
+New Leaders: King Grover, King Guto. [NEWLINE]
+New Building: Great Bank. [NEWLINE]
+New Unit: Talon Warrior. [NEWLINE][NEWLINE]------------------------------------------------------------------------------------------------------------ [NEWLINE]And here is my 3th mod for the steam workshop. Remeber how I said I was going to make those other two mods first? I changed my mind. Like I said, plans can always change. I hope you all enjoy this mod, I worked very hard on it. I wanna thank Storm Holder, Jyc Row and SharpUnforgiven. Storm Holder  for helping me out with a few things when it comes to the XML coding. Jyc Row for letting me use his music for the war theme and SharpUnforgiven once again for voicing the Dawn of Man audio. Thank you all again for your for all your help, support and kindness, it means allot to me. I'm planning on making more mods in the future. There is no stopping this train! Thank you for reading, and enjoy the mod!</Description>
+    <Authors>The Pinkie Pie</Authors>
+    <SpecialThanks>Storm Holder, Jyc Row, Francis Vace, WoodLore, SharpUnforgiven.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" minversion="0" maxversion="999" title="Pony Units" />
+  </References>
+  <Blocks>
+    <Mod id="e919029c-1eaf-481b-9bd6-28e7567b170f" minversion="0" maxversion="999" title="The Griffon Kingdoms (Vanilla)" />
+  </Blocks>
+  <Files>
+    <File md5="F97EAAD164FB9689136C6C808092E4C2" import="1">Art/DOM_Grover.dds</File>
+    <File md5="F9DDA4C5BD20C57B5E5D966883EC9988" import="1">Art/Grover.dds</File>
+    <File md5="CB7A4185ACB17C0D8C896E52C6748E3D" import="1">Art/GroverAtlas128.dds</File>
+    <File md5="36FB690F6CE7C1D5642497D1A09F9DE2" import="1">Art/GroverAtlas214.dds</File>
+    <File md5="DE82A47EAA841710871A4297C8496412" import="1">Art/GroverAtlas256.dds</File>
+    <File md5="939B93ACFDAED3A9FCD47CBD57CE3027" import="1">Art/GroverAtlas32.dds</File>
+    <File md5="EAE9FB729EF5CBEDD042B11DD46E2EEC" import="1">Art/GroverAtlas45.dds</File>
+    <File md5="BF9C60BB5B0849518BA7024666EBE888" import="1">Art/GroverAtlas64.dds</File>
+    <File md5="5ABC752968715788B5F99CC2A3D170D5" import="1">Art/GroverAtlas80.dds</File>
+    <File md5="649E13789E0FE21CE0F13C92F55F7085" import="1">Art/GroverAtlasAlpha32.dds</File>
+    <File md5="950641EC6ADF7280B193A3D19160DD57" import="1">Art/Grover_Scene.xml</File>
+    <File md5="7EAB9DEF7D34291D9D6D22AE4AA6F4DA" import="1">Art/Guto/Guto.dds</File>
+    <File md5="FA75D7A29A296F1D514B44F57284CDB7" import="1">Art/Guto/Guto_Scene.xml</File>
+    <File md5="D3D3DA0FFA5B3FE17F438D377A83C16A" import="1">Art/MapGrover512.dds</File>
+    <File md5="0990E7A5FE7DC17EF24B9623617B567F" import="1">Sounds/Grover_Peace.mp3</File>
+    <File md5="803106CE3D9C255E95A38F8B29526FF8" import="1">Sounds/Grover_War.mp3</File>
+    <File md5="1E914AB9D781937B6CE1CCA67B52DD1A" import="1">Sounds/Grover_Intro.wav</File>
+    <File md5="0990E7A5FE7DC17EF24B9623617B567F" import="1">Sounds/Guto/Guto_Peace.mp3</File>
+    <File md5="803106CE3D9C255E95A38F8B29526FF8" import="1">Sounds/Guto/Guto_War.mp3</File>
+    <File md5="3263C8F7611279735001815A7C16027A" import="1">Sounds/Select_Talon_Warrior.wav</File>
+    <File md5="A771160130D81F8C0180A632A89CC08C" import="0">XML/Atlas.xml</File>
+    <File md5="030219BEBFF18094E91854F7496C750E" import="0">XML/DiplomacyResponsesGrover.xml</File>
+    <File md5="36A8E9DD2AF9D1EC3BB077798DE94A01" import="0">XML/DiplomacyResponsesGuto.xml</File>
+    <File md5="4E15010560C964CB5D24AB14EF3B7B70" import="0">XML/King Grover.xml</File>
+    <File md5="EF499ABB4363F0B0A2A31FC1B9EE3083" import="0">XML/King Guto.xml</File>
+    <File md5="299B7C843BF804E7630AEA13A8F20FBC" import="0">XML/New Griffon Kingdoms.xml</File>
+    <File md5="4785E35F3F469BDF5F6B14750657CAD2" import="0">XML/Old Griffon Kingdoms.xml</File>
+    <File md5="8EF4F950736F23DAF0D9778B00709D31" import="0">XML/Sound.xml</File>
+    <File md5="5A6F409DF15F6D0CC6BCE5ABFD73CB64" import="0">XML/Traits.xml</File>
+    <File md5="1441C7E9BACB63B14FFAB03B414F9135" import="0">XML/Unit - Building/Talon Warrior.xml</File>
+    <File md5="1C022B9B30E3CF8520723E8CF5883ABC" import="0">XML/Unit - Building/Grand Mine.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/DiplomacyResponsesGrover.xml</UpdateDatabase>
+      <UpdateDatabase>XML/King Grover.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sound.xml</UpdateDatabase>
+      <UpdateDatabase>XML/King Guto.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DiplomacyResponsesGuto.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Griffon Kingdoms.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Old Griffon Kingdoms.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit - Building/Talon Warrior.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit - Building/Grand Mine.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

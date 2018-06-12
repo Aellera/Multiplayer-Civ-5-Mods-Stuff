@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:35 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NIGHTMARE_SHROUD</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NIGHTMARE_SHROUD_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_NIGHTMARE_SHROUD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NIGHTMARE_SHROUD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NIGHTMARE_SHROUD_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>550</Defense>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_NIGHTMARE_MOON</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>5</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_NIGHTMARE_SHROUD</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NIGHTMARE_SHROUD">
+			<Text>Nightmare Shroud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_NIGHTMARE_SHROUD_TEXT">
+			<Text>Nightmare Moon is the Princess of the Night. She has complete control of the night. When she gains control of an area she blankets it in her magical essence, allow her to bolster her minions and her defences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NIGHTMARE_SHROUD_STRATEGY">
+			<Text>The Nightmare Shroud is Nightmare Moon's magic essence. It cloaks any area in a thick darkness giving aid to any who follow her. The shroud gives 5 xp for new combat units and acts like normal walls but stronger.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

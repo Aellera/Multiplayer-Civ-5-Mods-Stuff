@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="33fef2ba-8356-4b61-9ad0-59b58f216283" version="3">
+  <Properties>
+    <Name>Pony Units</Name>
+    <Teaser>*Mod component; only affects the game in combination with other mods* 
+
+Animated pony units for use in pony mods.</Teaser>
+    <Description>--Mod component; only effective in combination with other mods--
+
+Animated pony units for use in pony mods. When this mod is active, custom civs that have _PONY as their &lt;ArtStyleSuffix&gt; tag will get its custom units. (Or _LING for Changeling units.)That currently includes the Workshop versions of the Equestria and NLR mods, and some other modders are planning to update their own.
+(Notes to modders: Changing the ArtStyleSuffix will not harm the experience for people not using this mod. Do not change ArtStylePrefix; that one will only create trouble. To make sure it gets loaded first, add this mod under References. The Mod ID is 33fef2ba-8356-4b61-9ad0-59b58f216283.)
+
+Units converted from Civ4 units by Clanky4, based in turn on other Civ4 units by Refar, The_Coyote, Rabbit, White, WarKirby and Chugginater. Pony models inspired by (and in some cases made to resemble specific characters from) My Little Pony: Friendship is Magic. MlP:FiM and related characters tm and (c) Hasbro., obviously.
+
+notes:
+*Gives pony versions for all base units except vehicles, and Changeling versions for 20. More Changeling units will follow.
+*Doesn't change icons. Use the Ponification mod for that. (Does combine with the Ponification mod properly.) Putting the unit icons in this one as well would cost too much filesize and work for too little gain imo.
+*For technical reasons, this mod removes era variation. It's not to be helped.
+*Known issues: arrows are oversized and musket, cannon and machine gun lack some smoke and fire effects; matching Civ5 effects to Civ4 animations doesn't always work out. Some great person animations repeat; originals weren't quite long enough for Civ5.</Description>
+    <Authors>Harald B, Clanky4</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="3379d36f-25bd-4bc2-b82b-a9301836ad13" minversion="0" maxversion="999" title="Ponification" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="361EC259A8730DEE8879E061407A42A5" import="1">Changelings/AntiAircraftLing.gr2</File>
+    <File md5="F2C1EFE52BDBCCA25AED71BEBE788FC0" import="1">Changelings/ArcherLing.gr2</File>
+    <File md5="9E4339F8D0FF4CE163EAE3DC2FDEBBC3" import="1">Changelings/ArtistLing.gr2</File>
+    <File md5="F91ED71CFAD8E837C7713EA0A026B942" import="1">Changelings/BazookaLing.gr2</File>
+    <File md5="2A468DEDC94D3E77B4FCCCA735228F6C" import="1">Changelings/changeling face.dds</File>
+    <File md5="26A105574DA1095292B2E8CCE707BA8F" import="1">Changelings/changeling.dds</File>
+    <File md5="E9AE1F0C3403083A9A1558C4F7671A22" import="0">Changelings/ChangelingData.sql</File>
+    <File md5="4B709C628FE7D68896892D329D173F28" import="0">Changelings/ChangelingArtInfos.sql</File>
+    <File md5="1F3BC0EBB9E100B397CCEAF1A2A63959" import="1">Changelings/ArcherLing.fxsxml</File>
+    <File md5="ED0439D90980AEA6A08D960A4B6C46CB" import="1">Changelings/CompositebowLing.gr2</File>
+    <File md5="870E41087E6E5EAFACB3875A7AB02346" import="1">Changelings/CrossbowLing.gr2</File>
+    <File md5="D0028D0BDF869D39715C6059F42D4CBB" import="1">Changelings/EngineerLing.gr2</File>
+    <File md5="C9C901B27E10433DA6FE479B51C5C1DA" import="1">Changelings/great_artist_128.dds</File>
+    <File md5="6E1842D45298AC1FD84ECF3F88282ADB" import="1">Changelings/great_scientist_128.dds</File>
+    <File md5="E8F16A973ED761265301EF0E15AA1882" import="1">Changelings/InquisitorLing.gr2</File>
+    <File md5="CF382E1ABD5E3F176F086759828E0CD2" import="1">Changelings/LongswordLing.gr2</File>
+    <File md5="AD90FB4D4167469A476D5A6569699CD7" import="1">Changelings/MerchantLing.gr2</File>
+    <File md5="91F67E38DF7365794F98EDE32AC10797" import="1">Changelings/MissionaryLing.gr2</File>
+    <File md5="BB547EF16AA5235E4CF543ADB5F52DB0" import="1">Changelings/missionary_confucian_128.dds</File>
+    <File md5="20A327B227A3738EA0B1386A7BF8EC31" import="1">Changelings/PikeLing.gr2</File>
+    <File md5="D3539BAF855EE502824B4ECA8EA0F25F" import="1">Changelings/CompBowLing.fxsxml</File>
+    <File md5="448BD16990395B2F82B303DDA114ECB7" import="1">Changelings/CrossbowLing.fxsxml</File>
+    <File md5="6CA2467E8793BED4CA261363DE36B001" import="1">Changelings/InquisitorLing.fxsxml</File>
+    <File md5="79C7F9BD2618894DD6A68071ACD03779" import="1">Changelings/LongswordLing.fxsxml</File>
+    <File md5="5C671D8D6C5AFD13D5E8D1BDD594EA3F" import="1">Changelings/PikeLing.fxsxml</File>
+    <File md5="5A3366DB8304758496A8959319E46D52" import="1">Changelings/AALing.fxsxml</File>
+    <File md5="BA3AE9E75C454FD3D494CADDEC46FE57" import="1">Changelings/ArtistLing.fxsxml</File>
+    <File md5="D641385DCE1F88236D7014797982713C" import="1">Changelings/BazookaLing.fxsxml</File>
+    <File md5="B6D23FD0483B13A78B74DFCB2745D8D7" import="1">Changelings/EngineerLing.fxsxml</File>
+    <File md5="37097BC2890E3077BC5F7A6BE8FA06E5" import="1">Changelings/MerchantLing.fxsxml</File>
+    <File md5="D3F9C889E8C2F4A4BEE3D844C04B3A29" import="1">Changelings/MissionaryLing.fxsxml</File>
+    <File md5="4A959E75C362CF02C6228080322B7528" import="1">Changelings/ScientistLing.fxsxml</File>
+    <File md5="C7D472D0051E994508C3A064C093EF48" import="1">Changelings/ScientistLing.gr2</File>
+    <File md5="EDE8B9B6FEFCC933580FD43D5B04ECFC" import="1">Changelings/settler_child_128.dds</File>
+    <File md5="48EEC96F6CEB70ED6C156657A35BA0D0" import="1">Changelings/SettLing1.fxsxml</File>
+    <File md5="DADF4EEB98F42DED2C2FE6ACEB6B71E6" import="1">Changelings/SettLing1.gr2</File>
+    <File md5="DF049068F29196C9FF3BFFEB4077EF59" import="1">Changelings/SettLing2.fxsxml</File>
+    <File md5="D7D3D12F9794381C41A24176C924F5CE" import="1">Changelings/SettLing2.gr2</File>
+    <File md5="026E8A2174FACE173DB9A42D016E36EE" import="1">Changelings/SettLing3.fxsxml</File>
+    <File md5="36F0F7B359F907D10989615BE41500D7" import="1">Changelings/SettLing3.gr2</File>
+    <File md5="59750765F5CE520ADAF4D30E83CACDC5" import="1">Changelings/SwordLing.fxsxml</File>
+    <File md5="C0AA56C503D07D04B2B472BA01E90B93" import="1">Changelings/SpearLing.fxsxml</File>
+    <File md5="AFF8084BB6190642DCD01A7AB62FFA3F" import="1">Changelings/ScoutLing.fxsxml</File>
+    <File md5="FC77022D04F443EF4EBBD19A149DD0F5" import="1">Changelings/SpearLing.gr2</File>
+    <File md5="E1199A9CE8671DB623C250AB0815CD5C" import="1">Changelings/SwordLing.gr2</File>
+    <File md5="ADCC76E85C8231EB118E77D99DC1D72A" import="1">Changelings/WorkerLing.fxsxml</File>
+    <File md5="C294F90E1FB41943EEEB7BF2CDBA17E1" import="1">Changelings/ScoutLing.gr2</File>
+    <File md5="D01FA3C3377F8739C59F0EAB9259ECA8" import="1">Changelings/WarriorLing.fxsxml</File>
+    <File md5="8D08DD50DAB1EB72BB780013C42FF0D6" import="1">Changelings/WarriorLing.gr2</File>
+    <File md5="6F4839341AFC279DA3A0B768DEB0803E" import="1">Changelings/wings_sword_LING.dds</File>
+    <File md5="6A3E9FE2F28F6BD858473F9C8DB973EF" import="1">Changelings/WorkerLing.gr2</File>
+    <File md5="8F2BB3483818141AD8113396CEEFBB06" import="0">Data.sql</File>
+    <File md5="22A9E57A3E814F3100C47BB9AB4FCCDA" import="1">ftsxml/FX_Triggers_Pony_Antitank.ftsxml</File>
+    <File md5="84154C86547ADAA031AB16B712827431" import="1">ftsxml/FX_Triggers_Pony_Artillery.ftsxml</File>
+    <File md5="6B4F3821CF22B3A01EAB53553258AD78" import="1">ftsxml/FX_Triggers_Pony_Bazooka.ftsxml</File>
+    <File md5="E2F45DC22E4E40151FAB497D0EAB566D" import="1">ftsxml/FX_Triggers_Pony_Caravan.ftsxml</File>
+    <File md5="584419A56D26893C39A41613C4CE69E7" import="1">ftsxml/FX_Triggers_Pony_Catapult.ftsxml</File>
+    <File md5="3BE00201A86DC53E17724E08B48D0FAE" import="1">ftsxml/FX_Triggers_Pony_Cavalry.ftsxml</File>
+    <File md5="1CC42A3A2A2D131A048A2E0D530B3661" import="1">ftsxml/FX_Triggers_Pony_ChariotArcher.ftsxml</File>
+    <File md5="F24ED012F4BA6BFCA9AD16444D9D2B5B" import="1">ftsxml/FX_Triggers_Pony_Foreignlegion.ftsxml</File>
+    <File md5="06C6D76C3EC9F9E7E5AA86FD14A45E76" import="1">ftsxml/FX_Triggers_Pony_Gatling.ftsxml</File>
+    <File md5="85CE17ADA65B81CDF5A7DFF305260F80" import="1">ftsxml/FX_Triggers_Pony_Horseman.ftsxml</File>
+    <File md5="948664EDEADFCA9AC9932FF4D8CE5988" import="1">ftsxml/FX_Triggers_Pony_Inquisitor.ftsxml</File>
+    <File md5="97B4093BBBF134B00AB015859ED6539C" import="1">ftsxml/FX_Triggers_Pony_Knight.ftsxml</File>
+    <File md5="4F2401F8AEEEF1881220885A087F5DA9" import="1">ftsxml/FX_Triggers_Pony_Lancer.ftsxml</File>
+    <File md5="6E99B9D89F468075EEE0921154D95A15" import="1">ftsxml/FX_Triggers_Pony_Landsknecht.ftsxml</File>
+    <File md5="2558CB9F4650252D31075EF7DB2ED638" import="1">ftsxml/FX_Triggers_Pony_MechanizedInfantry.ftsxml</File>
+    <File md5="181A8644A90B67B0340424D604E2F2E7" import="1">ftsxml/FX_Triggers_Pony_Missionary.ftsxml</File>
+    <File md5="300FC49802C729384BA777FC48EDD324" import="1">ftsxml/FX_Triggers_Pony_Musician.ftsxml</File>
+    <File md5="67AE4EDC6556C6F44CA028E3836ACD97" import="1">ftsxml/FX_Triggers_Pony_Prophet.ftsxml</File>
+    <File md5="5F687A0E5A3ECF6CDA9770DEBF37F677" import="1">ftsxml/FX_Triggers_Pony_Longsword.ftsxml</File>
+    <File md5="F4C650A5089E2C3B9D68CA086FC5B70F" import="1">ftsxml/FX_Triggers_Pony_Pike.ftsxml</File>
+    <File md5="D81DEDE1089BD3A2F076E293A652B353" import="1">ftsxml/FX_Triggers_Pony_Artist.ftsxml</File>
+    <File md5="0774520034CF50F566F0E0DDDF0331F9" import="1">ftsxml/FX_Triggers_Pony_Engineer.ftsxml</File>
+    <File md5="01FCD20626B94D8331D3C6107D98CBE9" import="1">ftsxml/FX_Triggers_Pony_General.ftsxml</File>
+    <File md5="7A810C2F20442E4E8B0C5925E094B6E2" import="1">ftsxml/FX_Triggers_Pony_Merchant.ftsxml</File>
+    <File md5="6CA1E21E393F71D614128EBFD3B994BA" import="1">ftsxml/FX_Triggers_Pony_Scientist.ftsxml</File>
+    <File md5="79A1E9174101D6C6C209E1495FCFDE58" import="1">ftsxml/FX_Triggers_Pony_Musket.ftsxml</File>
+    <File md5="BD9B9258D2EC2137D37BD535E47FF2F0" import="1">ftsxml/FX_Triggers_Pony_Paratrooper.ftsxml</File>
+    <File md5="709FE6CBFBDC37743796F4F73BBD6F50" import="1">ftsxml/FX_Triggers_Pony_Cannon.ftsxml</File>
+    <File md5="E48DB4E47DB8866BAD6CE75273355828" import="1">ftsxml/FX_Triggers_Pony_Crossbow.ftsxml</File>
+    <File md5="D390318324651F778F79A22CC001A58A" import="1">ftsxml/FX_Triggers_Pony_Archer.ftsxml</File>
+    <File md5="6EF283FCA28A44799A50F5772659E1E1" import="1">ftsxml/FX_Triggers_Pony_CompBow.ftsxml</File>
+    <File md5="F87CF7AC184B40BCAD8655CFF3703782" import="1">ftsxml/FX_Triggers_Pony_Rifle.ftsxml</File>
+    <File md5="B0B7F1AA8F0BD3A1A30DFFA29AB7430E" import="1">ftsxml/FX_Triggers_Pony_GWI.ftsxml</File>
+    <File md5="09A24D97B9A9E6E175B2314B07B53864" import="1">ftsxml/FX_Triggers_Pony_Infantry.ftsxml</File>
+    <File md5="93548DECA85FFDF5CDAA9D934D227643" import="1">ftsxml/FX_Triggers_Pony_Machinegun.ftsxml</File>
+    <File md5="0BC7302F4A300CAC2C83431756212283" import="1">ftsxml/FX_Triggers_Pony_Scout.ftsxml</File>
+    <File md5="7DFE148978EAF07B0B17A48A64B4CE31" import="1">ftsxml/FX_Triggers_Pony_Spear.ftsxml</File>
+    <File md5="639C04599BCB3B88F0C24A734172D494" import="1">ftsxml/FX_Triggers_Pony_Sword.ftsxml</File>
+    <File md5="3172457A3448EBE6F7E983E7E48E7C24" import="1">ftsxml/FX_Triggers_Pony_Trebuchet.ftsxml</File>
+    <File md5="B0B7F1AA8F0BD3A1A30DFFA29AB7430E" import="1">ftsxml/FX_Triggers_Pony_True_GWI.ftsxml</File>
+    <File md5="891291C23A902258D0BBD87A5D106D2F" import="1">ftsxml/FX_Triggers_Pony_Warrior.ftsxml</File>
+    <File md5="75E44B5DE482CAF519301B2FF1D881C8" import="1">ftsxml/FX_Triggers_Pony_Writer.ftsxml</File>
+    <File md5="CDBAD69B8FF4BA579B8597798F265352" import="1">ftsxml/FX_Triggers_Pony_XCOM.ftsxml</File>
+    <File md5="5DF82D449B7874D447DD18D67AAB9E3E" import="1">fxsxml/PonyAA.fxsxml</File>
+    <File md5="4C3979F0AEB41A46F2A623315119C31B" import="1">fxsxml/PonyAntitank.fxsxml</File>
+    <File md5="CDDEBC0A0EF445949DBEB8F2F5F6DE96" import="1">fxsxml/PonyBazooka.fxsxml</File>
+    <File md5="C0C599E82A1AEE8121DF67CD273C6285" import="1">fxsxml/PonyArcheologist.fxsxml</File>
+    <File md5="5C2565838AAFE8DC39F0887435E8CDDC" import="1">fxsxml/PonyArcher.fxsxml</File>
+    <File md5="BBA8A691F1090EE82EB60EF639DA0604" import="1">fxsxml/PonyArtillery.fxsxml</File>
+    <File md5="E9305D12734A6805D6AEFF04D731E8F5" import="1">fxsxml/PonyArtist.fxsxml</File>
+    <File md5="ECFA9D18EBBB7B7A49D0E2713734805C" import="1">fxsxml/PonyCannon.fxsxml</File>
+    <File md5="E67D9CAFD3B75184DD4FDFF09C5DF609" import="1">fxsxml/PonyCaravan.fxsxml</File>
+    <File md5="333EA7A5A39E05CB6D21158C41EB879C" import="1">fxsxml/PonyCatapult.fxsxml</File>
+    <File md5="F516D9B5CD5132B54DC4D42C557B0125" import="1">fxsxml/PonyCavalry.fxsxml</File>
+    <File md5="321CE78FFE45EC77311D0185815B230A" import="1">fxsxml/PonyChariotArcher.fxsxml</File>
+    <File md5="AB6355400320C2B3C95093C59AF8E90A" import="1">fxsxml/PonyCompBow.fxsxml</File>
+    <File md5="19A70F47CFB9987C0F0DECF629B46FC4" import="1">fxsxml/PonyCrossbow.fxsxml</File>
+    <File md5="8525D9FDE9B00E2C5894109496971C4A" import="1">fxsxml/PonyEngineer.fxsxml</File>
+    <File md5="5633ACE1518294F073D774D3A3F12456" import="1">fxsxml/PonyForeignlegion.fxsxml</File>
+    <File md5="28FC1CBCCEA2C3F11DF1CA584B04E134" import="1">fxsxml/PonyGatling.fxsxml</File>
+    <File md5="AB0B0B62F7F7137C883600A0CC56C3D7" import="1">fxsxml/PonyGeneral.fxsxml</File>
+    <File md5="7C7FA147A074D82B6C7153041980499E" import="1">fxsxml/PonyGWI.fxsxml</File>
+    <File md5="46B1A80F0826ED3FDC273DB7B8F1D218" import="1">fxsxml/PonyHorseman.fxsxml</File>
+    <File md5="4A5D6E3B6327AD7C9DF0260030925E9A" import="1">fxsxml/PonyInfantry.fxsxml</File>
+    <File md5="6F259F8F4A60328FD1CFF972D47E6576" import="1">fxsxml/PonyInquisitor.fxsxml</File>
+    <File md5="672AE004314C0665E021A5EBE200DB5A" import="1">fxsxml/PonyKnight.fxsxml</File>
+    <File md5="050715A617B84FF522D07E4D34A2DDCE" import="1">fxsxml/PonyLancer.fxsxml</File>
+    <File md5="9AC251C70049D6CD5A949839DCF40963" import="1">fxsxml/PonyLandsknecht.fxsxml</File>
+    <File md5="D67BB3213D74D07EF9B77FABAA79002C" import="1">fxsxml/PonyLongsword.fxsxml</File>
+    <File md5="3FAAB6C4E01A5E35804ECA697358908F" import="1">fxsxml/PonyMerchant.fxsxml</File>
+    <File md5="2480E1481812BB2AED70276615B09374" import="1">fxsxml/PonyMG.fxsxml</File>
+    <File md5="3D60BD0473A2521D9FB66D49B816537E" import="1">fxsxml/PonyMissionary.fxsxml</File>
+    <File md5="19FD976972ECA67CEBD71E5D374FE224" import="1">fxsxml/PonyMusket.fxsxml</File>
+    <File md5="09A9E0118CFC0B7148DF205BA3C35758" import="1">fxsxml/PonyPara.fxsxml</File>
+    <File md5="B6AA4855D6330E9D77EE1CF76E5ECF2C" import="1">fxsxml/PonyPike.fxsxml</File>
+    <File md5="008CEF8947F2F73BF4A938ED1BA3D892" import="1">fxsxml/PonyProphet.fxsxml</File>
+    <File md5="1E1633002CE56E77C666D2891C91A6ED" import="1">fxsxml/PonyRifle.fxsxml</File>
+    <File md5="22E51ADCE5B4EAC1C7F61A436DE5B65A" import="1">fxsxml/PonyScientist.fxsxml</File>
+    <File md5="3024726134E3926AF32535D99C4E9999" import="1">fxsxml/PonyScout.fxsxml</File>
+    <File md5="EADEAD9CE2EAB3F765EC02DBD33515AA" import="1">fxsxml/PonySettler1.fxsxml</File>
+    <File md5="7AA1C99FA0B178FD6848ACE815EBF1AD" import="1">fxsxml/PonySettler2.fxsxml</File>
+    <File md5="D513B9099A004F749A366C90A7348BEB" import="1">fxsxml/PonySettler3.fxsxml</File>
+    <File md5="D9E686E6725D42429F0CD347B717E0D7" import="1">fxsxml/PonySpear.fxsxml</File>
+    <File md5="DD2B9E92712298CDA2E5427B3BA6FEAF" import="1">fxsxml/PonySword.fxsxml</File>
+    <File md5="803D1B863B4A01E89A7EDF7B5838E170" import="1">fxsxml/PonyTrueGWI.fxsxml</File>
+    <File md5="3C1EEB5DC1D7FBFE184A0C7A943087BD" import="1">fxsxml/PonyWarrior.fxsxml</File>
+    <File md5="11343730C7B69EFDE2F53EC50567B493" import="1">fxsxml/PonyWorker.fxsxml</File>
+    <File md5="B4719D60662CE721207DCCEB8D550D61" import="1">fxsxml/PonyMusician.fxsxml</File>
+    <File md5="B51F21C2F5E085203C288DD7A67DF2D4" import="1">fxsxml/PonyWriter.fxsxml</File>
+    <File md5="5A57E7C3D22D1D5664DCD8D5576C5425" import="1">fxsxml/PonyTrebuchet.fxsxml</File>
+    <File md5="A6412D49F5536AAB85F11D268676DA97" import="1">fxsxml/PonyXCOM.fxsxml</File>
+    <File md5="943E89B7006B65E452D8962AB197D99C" import="1">fxsxml/PonyMechanizedinfantry.fxsxml</File>
+    <File md5="9CB8D38E2D34CEBB306208FC61392834" import="1">textures/AntiTankInfantry_256.dds</File>
+    <File md5="0DAEBC1E8FA241AF56B941F9DBDDB496" import="1">textures/artillery_256.dds</File>
+    <File md5="9A73B0D56376B00DB87A0582DD7B5F00" import="1">textures/artillery_glossmap_128.dds</File>
+    <File md5="52242CCF053477151DB645446627ACAC" import="1">textures/bartillery_256.dds</File>
+    <File md5="B8EF27977B6EF8780D034C12E4667E0B" import="1">textures/bartillery_glossmap_128.dds</File>
+    <File md5="AFE6B171D3AAED1D27E36B90B933455C" import="1">textures/blazergun.dds</File>
+    <File md5="7824841E0675037EA9B68A343BD8CE3B" import="1">textures/blazergun_gloss.dds</File>
+    <File md5="37FFB0BF736F6445012D7F0885189A1F" import="1">textures/bow.dds</File>
+    <File md5="73D4D6ACC94EEDF80A8E2E3795E8F40F" import="1">textures/bow_musician.dds</File>
+    <File md5="D0729907D0EAF7B84F04BC723A9207B3" import="1">textures/Cannon.dds</File>
+    <File md5="B26D1A052DD67ADE7D6D3C83535EE611" import="1">textures/cannonier_128.dds</File>
+    <File md5="0F0108095BF0D11E6D04E0070843207A" import="1">textures/cannonier_damaged_states.dds</File>
+    <File md5="50986F96551A6AC98069CB0A6F9C4F1B" import="1">textures/cannon_128.dds</File>
+    <File md5="E3DEB356DC45A7E46F3BB17459D19F2B" import="1">textures/cannon_128_gloss.dds</File>
+    <File md5="A05D6EB345ACC9F4B67262260ED241E7" import="1">textures/cannon_damage_states.dds</File>
+    <File md5="CB8435C25981B42F2308E108F7CAA550" import="1">textures/cannon_wheels_128.dds</File>
+    <File md5="75C61E4F2B9B4B318E678373ABE9BE2F" import="1">textures/catapult_256.dds</File>
+    <File md5="6C904A1905D545AEDCF2A3641C73ABFE" import="1">textures/cavalry_rider_128.dds</File>
+    <File md5="50C54F82F9B7D39E2EB0B2E173AB20C5" import="1">textures/cavalry_rider_128_cav.dds</File>
+    <File md5="C64E0C35FA490056E8598A548987E6C4" import="1">textures/cavalry_rider_128_prophet.dds</File>
+    <File md5="076D85F689329FD71649D066A07A6782" import="1">textures/cavalry_rider_128_scientist.dds</File>
+    <File md5="C3E2FDBFD1AF0744F2A9840BB61F1F31" import="1">textures/Celtic_Chariot_128.dds</File>
+    <File md5="4D08C29D14F05C67848DCD5F29025747" import="1">textures/CEO_mob_128.dds</File>
+    <File md5="D1E082359E720E6BA651A185D0C2319B" import="1">textures/CEO_mob_128_writer.dds</File>
+    <File md5="3FC28A178AF405150D368678E9D46B80" import="1">textures/chariot_driver_128.dds</File>
+    <File md5="862A3C809568F7605E5AA17117F2C415" import="1">textures/commando_128.dds</File>
+    <File md5="C03C4606D96BD12C527DDA74281E539C" import="1">textures/crossbowman_128.dds</File>
+    <File md5="8AB36BBA87EF93C3EAB3C1000BFE0B0B" import="1">textures/Cuirassier_Rider_128.dds</File>
+    <File md5="17D28170DB0B14517493528B10BA6490" import="1">textures/cupcakebase.dds</File>
+    <File md5="A2E3EA791FBD0D91D9921EFBF54246A8" import="1">textures/gatling_hat.dds</File>
+    <File md5="A3C6DDD106B815F9B38250670D0F4EF3" import="1">textures/GermanEarlyGrey Kopie.dds</File>
+    <File md5="2086A447B741A461F49EFC0C48D9643E" import="1">textures/glasses.dds</File>
+    <File md5="5D0B00E8E7DD048D96E07CA570D7C6E9" import="1">textures/great_merchant_128.dds</File>
+    <File md5="65E584B9F8F08878186CB90C18F55616" import="1">textures/guardstar.dds</File>
+    <File md5="D39AE13F53DE295194B1D58510870586" import="1">textures/HeavyCavalry_128.dds</File>
+    <File md5="84011D0E946447D88543BFDA63908A43" import="1">textures/HeavyCavalry_128_scientist.dds</File>
+    <File md5="CC6F00044CD752D0562D090713455815" import="1">textures/HeavySwordsman_128.dds</File>
+    <File md5="39BD5654D5057678F184F2E7F63B3680" import="1">textures/HeavySwordsman_128_gloss.dds</File>
+    <File md5="5165A2F72E7664083C832D87E0536A9F" import="1">textures/HeavySwordsman_Weapons_64.dds</File>
+    <File md5="4BC17A465944F82F6120F93A38804129" import="1">textures/HeavySwordsman_Weapons_64_gloss.dds</File>
+    <File md5="E2AFF208E48AC80691CF59EF3193F44A" import="1">textures/HolyRomanLandsknecht_128.dds</File>
+    <File md5="EE17D1EC4255AFAEBD554BF234C3927B" import="1">textures/HolyRomanLandsknecht_Gloss_128.dds</File>
+    <File md5="3EA30A773BF3CA3D16F1599304D8059A" import="1">textures/horsearcher_128.dds</File>
+    <File md5="5A7D52ADA6C500CA3FFA46AC756D39E7" import="1">textures/horsearcher_weapons_64.dds</File>
+    <File md5="2B2CB23F2BC72191368A3E6C9716352A" import="1">textures/infantry_128.dds</File>
+    <File md5="F1946EB4D10586C0430A726080F24465" import="1">textures/inquisitor_128.dds</File>
+    <File md5="6F0FA318350372F34B13FD046074A3E8" import="1">textures/KhmerBallistaCar_128.dds</File>
+    <File md5="265559584277A7C7C2F441FE2D92FFD8" import="1">textures/knight_128.dds</File>
+    <File md5="B11F6A7E87ACB83B5D396EA3F2032DDF" import="1">textures/lancer_diff.dds</File>
+    <File md5="4E2ED0AADEF12B8695A79146202FD59F" import="1">textures/letter.dds</File>
+    <File md5="0F351BA5F830FC7C7B592100937FC5AF" import="1">textures/little horse blue face.dds</File>
+    <File md5="959E411A9B83B81C6245B2AA8713A048" import="1">textures/little horse blue.dds</File>
+    <File md5="5506E3209E30987D61CA662E19DE357B" import="1">textures/little horse bluebd face.dds</File>
+    <File md5="F707D0E0FAD66EC04F132E8DBBF21810" import="1">textures/little horse bluebd.dds</File>
+    <File md5="0DDE8A02F3368C1A9003D225AE8D770E" import="1">textures/little horse bluelr face.dds</File>
+    <File md5="F08B6C0CF0A115B65B468000D271B6E7" import="1">textures/little horse bluelr.dds</File>
+    <File md5="B0CE262A83D2E2B0D2465FD565CBFD10" import="1">textures/little horse blueorange face.dds</File>
+    <File md5="2F5C7FA8D961F2DFCE0D337BEAE09459" import="1">textures/little horse blueorange.dds</File>
+    <File md5="58A3915B3C41D0B28141C2F570716636" import="1">textures/little horse bluepale face.dds</File>
+    <File md5="D01A2798685D4A8F3760C7351EF6EDA4" import="1">textures/little horse bluepale.dds</File>
+    <File md5="0EE0CC24D909761233D107202C1ED65B" import="1">textures/little horse brown face.dds</File>
+    <File md5="26D9E08A4948C70579F93F96781017F2" import="1">textures/little horse brown.dds</File>
+    <File md5="B35E9195E20D4D050D4BA6B0A4C670A6" import="1">textures/little horse brownb face.dds</File>
+    <File md5="086C9BC0BA8B3C847B32F2BB651BA678" import="1">textures/little horse brownb.dds</File>
+    <File md5="CBF1BBB9879118A670BC63C1F67EFD57" import="1">textures/little horse cream face.dds</File>
+    <File md5="5920CAB1D5139F28AC18095A9EB6CCA9" import="1">textures/little horse cream.dds</File>
+    <File md5="437219328D8F3B7EB1F7A99C9EA098C6" import="1">textures/little horse dyellow face.dds</File>
+    <File md5="0A152292DD8917E0D60A37DA67979BC2" import="1">textures/little horse dyellow.dds</File>
+    <File md5="69858C3FD7A0688CB2E0B43EA108EBED" import="1">textures/little horse foreman face.dds</File>
+    <File md5="AE9B3231F4688378290DF5A135B50121" import="1">textures/little horse foreman.dds</File>
+    <File md5="C895A00558842E35788C529895BD6CB0" import="1">textures/little horse goldb face.dds</File>
+    <File md5="D14095677A48CB002DF5053A481C6DBF" import="1">textures/little horse goldb.dds</File>
+    <File md5="9674CE3F12F953B48A7E78450310D476" import="1">textures/little horse gpink face.dds</File>
+    <File md5="7C32196BA64E79B64DEAB3D9AE5F3AF6" import="1">textures/little horse gpink.dds</File>
+    <File md5="442023ED01501DEA868D7010AD040797" import="1">textures/little horse greyp face.dds</File>
+    <File md5="13E52F9BE556A1945AC932339D697D14" import="1">textures/little horse greyp.dds</File>
+    <File md5="87A783A5EA64FE0CBEB81E945A851737" import="1">textures/little horse lblue face.dds</File>
+    <File md5="171B2A1555812C62FE055716CBC1468B" import="1">textures/little horse lblue.dds</File>
+    <File md5="17AA733ACE26B3A33C6B50574CC43E32" import="1">textures/little horse lpurple face.dds</File>
+    <File md5="BFF9E7FD5078E6E62F796EBA7436C19F" import="1">textures/little horse lpurple.dds</File>
+    <File md5="62A1B8E9125989A0528991773D6EC1E9" import="1">textures/little horse lyellow face.dds</File>
+    <File md5="6CAFAAACCA7A26A865AA44CCA4959E28" import="1">textures/little horse lyellow.dds</File>
+    <File md5="816D73E592AD4AD5C428BB5F9EB6ECC9" import="1">textures/little horse myellow face.dds</File>
+    <File md5="CE05220D2173A822C55A14702EB99174" import="1">textures/little horse myellow.dds</File>
+    <File md5="3A17565677D28CC5346B98FE689BCAAF" import="1">textures/little horse offwhite face.dds</File>
+    <File md5="6A47D9B7B8E40D06EDBCFAF9BBD8B661" import="1">textures/little horse offwhite.dds</File>
+    <File md5="9C6F3CB77951443BBBF944050CBB5E3F" import="1">textures/little horse omusician face.dds</File>
+    <File md5="EC2E37EA7CB74CE532DFE8240A21FDE5" import="1">textures/little horse omusician.dds</File>
+    <File md5="2F8972B7BC3104A1EA0784D57E483D33" import="1">textures/little horse orange face.dds</File>
+    <File md5="87024E3CE83AB7D563A605593381651E" import="1">textures/little horse orange.dds</File>
+    <File md5="5A1C8BF0E9C96589CE2FD2204651912D" import="1">textures/little horse orangeb face.dds</File>
+    <File md5="13C6DEEC1E6F3FE0041792C008BED671" import="1">textures/little horse orangeb.dds</File>
+    <File md5="5E523B1CEA36CAB7A7492A347C03FE22" import="1">textures/little horse orangebb face.dds</File>
+    <File md5="C6EA8CD8EE4DD97D52C5D7AEA91D2CAD" import="1">textures/little horse orangebb.dds</File>
+    <File md5="9671BEC2279CFB02B5C12D2F341804FC" import="1">textures/little horse oyellow face.dds</File>
+    <File md5="18C903B262FA41C867178EF87764A427" import="1">textures/little horse oyellow.dds</File>
+    <File md5="4732D2E157DA69B7D89F031BBB155324" import="1">textures/little horse pgreen face.dds</File>
+    <File md5="540971C596C25694E0487B3F544EA1CF" import="1">textures/little horse pgreen.dds</File>
+    <File md5="15E0BFE387412DA12A2F257F68AEB4B0" import="1">textures/little horse pink face.dds</File>
+    <File md5="F13DECF97AB7803E930490A09E44B44E" import="1">textures/little horse pink.dds</File>
+    <File md5="0A9426DAEA1CA12338B3CB7ED0FAED82" import="1">textures/little horse pinkalder face.dds</File>
+    <File md5="C186B0BE96513DEAFD6E032CE1555EE9" import="1">textures/little horse pinkalder.dds</File>
+    <File md5="558F5B61915BE548EA9D8DF26D177D44" import="1">textures/little horse pinkgr face.dds</File>
+    <File md5="6FCD81B2F5842D4611B7B98939A771A1" import="1">textures/little horse pinkgr.dds</File>
+    <File md5="C2B351A5CB27FED2963BA6B94202B5E0" import="1">textures/little horse purplebi face.dds</File>
+    <File md5="C14E61EC097C3001FBAE2AE0D8C17D7F" import="1">textures/little horse purplebi.dds</File>
+    <File md5="0532E0739B8C7539A79A1FBA3C0020AE" import="1">textures/little horse purpledusk face.dds</File>
+    <File md5="C5374C63DCEAEC13A84A311663F1EDEA" import="1">textures/little horse purpledusk.dds</File>
+    <File md5="F81FA1AB8715E7FAEDF5EDC46EFF0E44" import="1">textures/little horse rare face.dds</File>
+    <File md5="3A05C5610B8CA1E9C3AD8E98F0BDAFC5" import="1">textures/little horse rare.dds</File>
+    <File md5="10ACEC6E163F4F149D2317F945CBF3FC" import="1">textures/little horse sarmor face.dds</File>
+    <File md5="50B545C73401C72529FCCCAF235778CA" import="1">textures/little horse sarmor.dds</File>
+    <File md5="AFC0875F563735D18CB95E76293F7DF0" import="1">textures/little horse stars face.dds</File>
+    <File md5="31EC540040633EBB1EB98470ABBA5623" import="1">textures/little horse stars.dds</File>
+    <File md5="437A7E990236FA22496F71F06A3D36EA" import="1">textures/little horse trixie face.dds</File>
+    <File md5="D5552274396AA186A1C31B8EA553EF02" import="1">textures/little horse trixie face1.dds</File>
+    <File md5="34A7F048EEDB1CE26F746DA5215134E0" import="1">textures/little horse trixie.dds</File>
+    <File md5="C26F9A9C92ECF367894CF19B3D8C778C" import="1">textures/little horse twriter face.dds</File>
+    <File md5="3E70092CB60A3EE9D02F5B5515D4DAB9" import="1">textures/little horse twriter.dds</File>
+    <File md5="D00BAC93ADDCE284BF65A7843916636C" import="1">textures/little horse whiteg face.dds</File>
+    <File md5="51051CCB65B8EA2F0B1DB4BC704D4D77" import="1">textures/little horse whiteg.dds</File>
+    <File md5="85BA4B4BB67C1E00761C6DF7484434EB" import="1">textures/little horse whitepr face.dds</File>
+    <File md5="B230A4A9EDAC230D348C9AC09B077942" import="1">textures/little horse whitepr.dds</File>
+    <File md5="A88934C22424E3F615F8AB286E558A6C" import="1">textures/little horse yellow face.dds</File>
+    <File md5="ADD16D1DD7F3C4FC3E79DF800E2602D7" import="1">textures/little horse yellow.dds</File>
+    <File md5="12D3AA4256B0DD415D2E2302927CC4E4" import="1">textures/little horse yellowbg face.dds</File>
+    <File md5="956D38B4079DE110EA03327D0DA05B7D" import="1">textures/little horse yellowbg.dds</File>
+    <File md5="FE66B276E5921E9881397D44C5D6339E" import="1">textures/little horse yellowp face.dds</File>
+    <File md5="86CDE11D272A317D4F2E935B861BC41A" import="1">textures/little horse yellowp.dds</File>
+    <File md5="2D45DC08EF3D277499895FE0D78184B6" import="1">textures/little horse yellowred face.dds</File>
+    <File md5="ECC57AA7D9BED2E1B4CA1E4E97272399" import="1">textures/little horse yellowred.dds</File>
+    <File md5="3A1066EF24B678EE177AC1F89AB34932" import="1">textures/longbowman_128.dds</File>
+    <File md5="E1548476FC6C09F379458E51D726050F" import="1">textures/machine_gunner_128.dds</File>
+    <File md5="5F00800730AE87B025BF56FB194BAE87" import="1">textures/machine_gun_64.dds</File>
+    <File md5="64DFEEE17BC48E98337C02B681A5447B" import="1">textures/Mangammal_Face_Diff.dds</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">textures/marine_128.dds</File>
+    <File md5="7555F61FED22936AD1F1A6FEEFCF3AB6" import="1">textures/merchBow.dds</File>
+    <File md5="F025195E433657FB29E73703CFA2AE38" import="1">textures/mesohead1.dds</File>
+    <File md5="9A5B71E96F7AAA47F9093C197C402E64" import="1">textures/minespark.tga</File>
+    <File md5="4417DC8300F6375EB214889BBB2C4CA7" import="1">textures/modernengineer_128.dds</File>
+    <File md5="C0030C109AF6A462E86A8B424680CF34" import="1">textures/munition.dds</File>
+    <File md5="F775C16E0675DF389CFA82FE8E23863B" import="1">textures/musketman.dds</File>
+    <File md5="249C36E1918144C956428D525D9AA248" import="1">textures/Paratrooper_128.dds</File>
+    <File md5="D70F1F6999FEE9CF90F51859FA305789" import="1">textures/Paratrooper_Chute_128.dds</File>
+    <File md5="350BF3FD8E8C0EDD59F6C6FA5B415FE6" import="1">textures/pikeman_128.dds</File>
+    <File md5="A62B37CCCA27D7D7DAC676E5A6C2573D" import="1">textures/powerarmorbody.dds</File>
+    <File md5="A493086C80968FECB6448172512C2A18" import="1">textures/powerarmorhelmet.dds</File>
+    <File md5="41B759999BB46F441C0C32DF041C7A1C" import="1">textures/praetorian_128.dds</File>
+    <File md5="CD7BA4CF8A588BD64695D68A3FED0039" import="1">textures/rifleman_128.dds</File>
+    <File md5="C78C05F623D340D1E1FBC3185B3E8D75" import="1">textures/rifleman_128_flegion.dds</File>
+    <File md5="512FEF87E6B695D71892F74D41652EC5" import="1">textures/rifleman_128_pwork.dds</File>
+    <File md5="EDF142B71CC8390DF1A9296CDE4D3EE1" import="1">textures/rifleman_gloss.dds</File>
+    <File md5="9A41F3B08E06792C3A99ED1C1220A5E0" import="1">textures/saminfantry_128.dds</File>
+    <File md5="16F3BA45D6ED4AF3F593289993B17F32" import="1">textures/scout_128.dds</File>
+    <File md5="F235206E9F75202EC1DA1E2E802EA8E0" import="1">textures/settler_male_128.dds</File>
+    <File md5="42D392299969CD7D48512B837CB8FED2" import="1">textures/spearman_128.dds</File>
+    <File md5="36C1E0EE4EE43B50CE846F68F4251687" import="1">textures/spearman_128_base.dds</File>
+    <File md5="9EEF9C8862D1C8E8E38AB362DA0C054A" import="1">textures/swordsman_128.dds</File>
+    <File md5="0B504D39E6A9F313B4D4DB9103275ACD" import="1">textures/taoist_128_mips.dds</File>
+    <File md5="018F830F91BD35E85F1836D84BC2F9B1" import="1">textures/Trebuchet.dds</File>
+    <File md5="81770570B8C9869B3A718E4B20E68FBA" import="1">textures/Trebuchet_GLOSS.dds</File>
+    <File md5="9D74CABAA186983E68B5FD6FBD677F4F" import="1">textures/warrior_128.dds</File>
+    <File md5="7A277F6B80C8C81136F3288C4F178BC6" import="1">textures/weapon_ff_cruiser.dds</File>
+    <File md5="7F07968A985B901D20DD32482F1B9988" import="1">textures/weapon_ff_cruiser_gloss.dds</File>
+    <File md5="51A47FDBA054B9E6C7900991BD5E00B0" import="1">textures/weapon_ff_cruiser_glow.dds</File>
+    <File md5="6C58699F8176685BA6541308995D1555" import="1">textures/whitepowerarmorbody.dds</File>
+    <File md5="61B04D7EB58C85BB5D704D830052FB7D" import="1">textures/whitet-51b powerarmor.dds</File>
+    <File md5="3BC7E592037718BD6A47944931FEDB85" import="1">textures/wings_sword brownb.dds</File>
+    <File md5="776500F7F548C16AB68361488042919B" import="1">textures/wings_sword cream.dds</File>
+    <File md5="9312B2B9C5DDACF24314E778003F5D14" import="1">textures/wings_sword orangeb.dds</File>
+    <File md5="48244FB852255C14FD2244CCD6FE8743" import="1">textures/wings_sword whiteg.dds</File>
+    <File md5="F8321F54702CD11C25C64E30FAAE33C2" import="1">textures/wings_sword yellowp.dds</File>
+    <File md5="59C7E2715B34E44EA08165B08F1AA521" import="1">textures/wings_sword.dds</File>
+    <File md5="45913127D7A4DA4CD48DBEF6B351B115" import="1">textures/wings_sword_chariot.dds</File>
+    <File md5="3E47F7584336CF1BF8164A66C9373BCE" import="1">textures/worker.dds</File>
+    <File md5="B8AAF2F95529A1E5A1BF5A1FDC3D0D8B" import="1">textures/worker_128.dds</File>
+    <File md5="83D81B48101EFDB47093B44C85F9C58A" import="1">textures/worker_arabic_128.dds</File>
+    <File md5="FFD151DF38FBFF6BE2BB929A32B57908" import="1">textures/worker_texture.dds</File>
+    <File md5="A710E9F8A3B558AFCE230244855CBFAF" import="1">textures/worker_tools.dds</File>
+    <File md5="77A4BE39CC67B867229779560C52DF3D" import="1">textures/worker_tools_env.dds</File>
+    <File md5="0747DF710A5E6D4436A58BCE99D64C83" import="0">UnitArtInfos.sql</File>
+    <File md5="DBC7811C2D37557561EBC55EC2CFDF80" import="1">units/PonyArcher.gr2</File>
+    <File md5="B329ADA8405E474AAA5EA82114DD5D28" import="1">units/PonyArcher_attack_anim.gr2</File>
+    <File md5="1C0540155C2C04E8D5BB5E379971A1B3" import="1">units/PonyArcher_die_anim.gr2</File>
+    <File md5="1D59497495CB3331B1F5CF6FFEDDC3B9" import="1">units/PonyArcher_die_fade_anim.gr2</File>
+    <File md5="2C55CC95B2D1D9E405A86A4623F62E40" import="1">units/PonyArcher_fidget_anim.gr2</File>
+    <File md5="7E346FFEDBD511478DD87DFA9C90C5D7" import="1">units/PonyArcher_fortify_anim.gr2</File>
+    <File md5="99E737B0DF324287B85A29215D057780" import="1">units/PonyArcher_fortify_idle_anim.gr2</File>
+    <File md5="6C0D07E9898DDD88A62D6AC9C30478DD" import="1">units/PonyArcher_idle_anim.gr2</File>
+    <File md5="F749DF0D9DA5F4E809A19084DB71C9E1" import="1">units/PonyArcher_run_anim.gr2</File>
+    <File md5="65F53DF00AF2045FF8D88F116AF2978F" import="1">units/PonyArtilleryB.gr2</File>
+    <File md5="B4CE4EB7E8EBB8A23303746FFBC8F0A5" import="1">units/PonyBazooka.gr2</File>
+    <File md5="C09B47B4DA49FA1EFB6A9907019C590E" import="1">units/PonyArchaeologist.gr2</File>
+    <File md5="DD6534BE057B77008793AF5A5D7121AA" import="1">units/PonyAA.gr2</File>
+    <File md5="31691548F4D968B733BFF139EC370265" import="1">units/PonyAA_attack_anim.gr2</File>
+    <File md5="30AE7D883B02989CB63702AA1A559CC1" import="1">units/PonyAA_fidget_anim.gr2</File>
+    <File md5="AF0A7C7AB2FD38D2803E9C6F31366E56" import="1">units/PonyAA_fortify_anim.gr2</File>
+    <File md5="5ECA7B0C366F2AD53E26CF320EB469E8" import="1">units/PonyAA_fortify_idle_anim.gr2</File>
+    <File md5="6267E93A6F7F266F40033BB938A36FF8" import="1">units/PonyAA_idle_anim.gr2</File>
+    <File md5="F8DC6FE0E755D49444CC0EBE07A13D3F" import="1">units/PonyAA_run_anim.gr2</File>
+    <File md5="5A07F65AA08931EE09AE74DCCE5DC503" import="1">units/PonyArtillery.gr2</File>
+    <File md5="D2D4E81506B43C5FF90BA46162133C6C" import="1">units/PonyArtillery_attack_anim.gr2</File>
+    <File md5="9DCD84A3FF2BC272D3224EA9F832E063" import="1">units/PonyArtillery_die_anim.gr2</File>
+    <File md5="C4C4B86531EA9BB543ED555632B3B108" import="1">units/PonyArtillery_die_fade_anim.gr2</File>
+    <File md5="3D6FF1819BB9DFE0E9ED7AE13D0E15E5" import="1">units/PonyArtillery_fortify_anim.gr2</File>
+    <File md5="E014E00888DB02060D6CE02241BC60DE" import="1">units/PonyArtillery_fortify_idle_anim.gr2</File>
+    <File md5="972849347C38764EF12BA2EBA849E464" import="1">units/PonyArtillery_idle_anim.gr2</File>
+    <File md5="C8BD9562E43109129925C204A4734697" import="1">units/PonyArtillery_run_anim.gr2</File>
+    <File md5="4D2F8A87AC6EDDF51523F7043FED8377" import="1">units/PonyArtist.gr2</File>
+    <File md5="8783644DA846C0B4E0736847B832FAC6" import="1">units/PonyArtist_activate_anim.gr2</File>
+    <File md5="5B121694F4B071BE2D66A31052B065A7" import="1">units/PonyArtist_idle_anim.gr2</File>
+    <File md5="AC7E257AF62562B18BBB77D54097BD3F" import="1">units/PonyArtist_run_anim.gr2</File>
+    <File md5="C81BD5A4643D4E88EB44FD9B187A1412" import="1">units/PonyCannon.gr2</File>
+    <File md5="7BF29301E374223885C9819603920A46" import="1">units/PonyCannon_attack_anim.gr2</File>
+    <File md5="DD5277E071B503771148FBD932111B5A" import="1">units/PonyCannon_die_anim.gr2</File>
+    <File md5="8E3C7471EFD057AB41942C413F3810B5" import="1">units/PonyCannon_die_fade_anim.gr2</File>
+    <File md5="F5C112776087A0F4444FF238962221A5" import="1">units/PonyCannon_fortify_anim.gr2</File>
+    <File md5="88E57E9B6AFB1C2A9EEEC6210BE37EAB" import="1">units/PonyCannon_heal_anim.gr2</File>
+    <File md5="C6854AC721095C649E2B4D5F930AB9E4" import="1">units/PonyCannon_hurt_anim.gr2</File>
+    <File md5="D0EBDE06C6718054D315ECA110856000" import="1">units/PonyCannon_idle_anim.gr2</File>
+    <File md5="9855D40EF81FFD66B9EB0FDFFE0CBB31" import="1">units/PonyCannon_ranged_idle_anim.gr2</File>
+    <File md5="BB507B1D74073D5507E010800DA7EAC6" import="1">units/PonyCannon_run_anim.gr2</File>
+    <File md5="F808BC6CEA6D3D487EC52619F31A8005" import="1">units/PonyCaravan.gr2</File>
+    <File md5="8B81C5D4C1C61208084DAB8AD4C6EA72" import="1">units/PonyCatapult.gr2</File>
+    <File md5="05ABFCC8C32546B338907F8D79DCDA90" import="1">units/PonyCatapult_attack_anim.gr2</File>
+    <File md5="26018CC29C10A393AADCEF13DF027FD1" import="1">units/PonyCatapult_die_anim.gr2</File>
+    <File md5="E26BEBBCFA16C90D8F327F3BC6A11DB3" import="1">units/PonyCatapult_die_fade_anim.gr2</File>
+    <File md5="436339452B1F2D7222CE0A2953E8A62E" import="1">units/PonyCatapult_fortify_anim.gr2</File>
+    <File md5="A794FCC5B72DE6D84E56BBD5A386A585" import="1">units/PonyCatapult_fortify_idle_anim.gr2</File>
+    <File md5="613D2A73671F24060B403397B31ECAEA" import="1">units/PonyCatapult_idle_anim.gr2</File>
+    <File md5="51A7BA68DF2B90BDC70E345DE62913BB" import="1">units/PonyCatapult_run_anim.gr2</File>
+    <File md5="A28CC0C788CE62B5C9AC81CF96B15BEA" import="1">units/PonyCavalry.gr2</File>
+    <File md5="D683E303888577C772AC03DF0AFAD23E" import="1">units/PonyChariot.gr2</File>
+    <File md5="19CE032D414D70D92F94DAACAEB754EC" import="1">units/PonyChariot_attack_anim.gr2</File>
+    <File md5="6F691C3D1193B14EBEA9E4C6F3CD3043" import="1">units/PonyChariot_die_anim.gr2</File>
+    <File md5="72596F47C79BF4C5EA7317662025E83E" import="1">units/PonyChariot_die_idle_anim.gr2</File>
+    <File md5="0643D85FEAB16F33691936296726296D" import="1">units/PonyChariot_fidget_anim.gr2</File>
+    <File md5="EB863817C410A442DC5900D5A33F6B20" import="1">units/PonyChariot_fortify_anim.gr2</File>
+    <File md5="7C27EA5EB1ADFFF82D4025EC2E9BE98A" import="1">units/PonyChariot_fortify_idle_anim.gr2</File>
+    <File md5="3307BC30A0A4D7AD112D337199893CEF" import="1">units/PonyChariot_idle_anim.gr2</File>
+    <File md5="CD94D5A69CACC5BED5BEC93431709A82" import="1">units/PonyChariot_run_anim.gr2</File>
+    <File md5="83FECA5D1D26FA788A6D597F3B39368A" import="1">units/PonyCompBow.gr2</File>
+    <File md5="AD8A48EFAA06FB43E0D2B03E4BF1824A" import="1">units/PonyCrossbow.gr2</File>
+    <File md5="431CEE58F424B6CDA453B0C6A09BFB6E" import="1">units/PonyEngineer.gr2</File>
+    <File md5="C2A8FE87502AEC9786B980E038E0F3CB" import="1">units/PonyEngineer_activate_anim.gr2</File>
+    <File md5="2E5D3302DBE527B77AAB06CBF5254A0F" import="1">units/PonyEngineer_fidget_anim.gr2</File>
+    <File md5="2CA52F074BE1A5087D45DB01E75E65AF" import="1">units/PonyEngineer_fortify_anim.gr2</File>
+    <File md5="BEC79A4A80B2BFCCB46DE6C8030A24A7" import="1">units/PonyEngineer_fortify_idle_anim.gr2</File>
+    <File md5="8523C800C100A42DA82A8533BF9D948F" import="1">units/PonyEngineer_idle_anim.gr2</File>
+    <File md5="6BD894A4CFFA6B44AB7690F07A32FB52" import="1">units/PonyEngineer_run_anim.gr2</File>
+    <File md5="9D998A5D91AF4E589B95A417DAE57414" import="1">units/PonyForeignLegion.gr2</File>
+    <File md5="E3DA3011B3BEB415ECA10432C4E92F81" import="1">units/PonyGatling.gr2</File>
+    <File md5="448A86E43B1655276EC7879F21E16BB0" import="1">units/PonyGatling_attack_anim.gr2</File>
+    <File md5="2C42A07EE4646869C3367AF7A5BA5F06" import="1">units/PonyGatling_die_anim.gr2</File>
+    <File md5="A6B6963D579DFB8608A94B1A58FC9E37" import="1">units/PonyGatling_die_fade_anim.gr2</File>
+    <File md5="4D86CD5BB68BCD86B16ECBD717CBAB70" import="1">units/PonyGatling_fortify_anim.gr2</File>
+    <File md5="452CDC6A85255D87EC9BBEC7C7FDB2F0" import="1">units/PonyGatling_fortify_idle_anim.gr2</File>
+    <File md5="A921ADCD173C54D6213077A6B8874B6F" import="1">units/PonyGatling_idle_anim.gr2</File>
+    <File md5="3D056A4781B9FB17D8B18D802BD95E75" import="1">units/PonyGatling_run_anim.gr2</File>
+    <File md5="D18AE06DD25176548AF64DF7426A64E0" import="1">units/PonyGeneral.gr2</File>
+    <File md5="AFA92C7528D40CF8DF70FFEE5F706A02" import="1">units/PonyGeneral_activate_anim.gr2</File>
+    <File md5="39F5FDC868711FB27C172134838043C3" import="1">units/PonyGeneral_command_anim.gr2</File>
+    <File md5="C268A555DAE40F785508CBE6B70145EA" import="1">units/PonyGeneral_command_idle_anim.gr2</File>
+    <File md5="FD7301787B26C635E4EE3BF47AC0E422" import="1">units/PonyGeneral_fidget_anim.gr2</File>
+    <File md5="DCE92200EDED9CE62657F2BC5CD5ABFA" import="1">units/PonyGeneral_idle_anim.gr2</File>
+    <File md5="15156C03D66469F3E8489054C628B49B" import="1">units/PonyGeneral_run_anim.gr2</File>
+    <File md5="1451759EC33A26D1149EC04BCB424CC2" import="1">units/PonyGeneral_surrender_anim.gr2</File>
+    <File md5="9E0A86474087DF219D954C4689D597C5" import="1">units/PonyGWI.gr2</File>
+    <File md5="9609F9DAD561F58CA410729FBDEAD274" import="1">units/PonyGWI_attack_anim.gr2</File>
+    <File md5="D54BD40FDD12A9A1D77DD31B2D8A7EC3" import="1">units/PonyGWI_fidget_anim.gr2</File>
+    <File md5="568CC8477638E97E0F55A94090E46AC2" import="1">units/PonyGWI_fortify_anim.gr2</File>
+    <File md5="1C548E6B15D62DDA5B8A7A77D1FD8CD0" import="1">units/PonyGWI_fortify_idle_anim.gr2</File>
+    <File md5="5CFFA628D6D88129BEFCBCCD6D55EDE3" import="1">units/PonyGWI_idle_anim.gr2</File>
+    <File md5="EEC0E6716056323D7E1171E9119AF8C7" import="1">units/PonyGWI_run_anim.gr2</File>
+    <File md5="A9F565A0018ABAD40B302C5DD4F6A8D2" import="1">units/PonyHorseman.gr2</File>
+    <File md5="AB731BFE841D7A8D62B38BBBB703CE3F" import="1">units/PonyInfantry.gr2</File>
+    <File md5="E3DBE8EDA1CE9C952142D98DB42B75CF" import="1">units/PonyInfantry_attack_anim.gr2</File>
+    <File md5="C91C81F3C770452AA1838A5FF9253B34" import="1">units/PonyInfantry_fidget_anim.gr2</File>
+    <File md5="7099BCEF5C287E9C06357EE42E551B62" import="1">units/PonyInfantry_fortify_anim.gr2</File>
+    <File md5="291DF3C56A536E3ADE170C6C2D1BF538" import="1">units/PonyInfantry_fortify_idle_anim.gr2</File>
+    <File md5="05D66F3CF652AC4EEA2EDE1A9A5C6E43" import="1">units/PonyInfantry_idle_anim.gr2</File>
+    <File md5="7D0E66EFE40587473E96FBBC875B612D" import="1">units/PonyInfantry_run_anim.gr2</File>
+    <File md5="EA43A2C5401D76A511FFE1610DB07A2C" import="1">units/PonyInquisitor.gr2</File>
+    <File md5="07AB489E18C9ED59E0CA78E089FC537C" import="1">units/PonyKnight.gr2</File>
+    <File md5="80BFFFFB4ECDE6CAF2416A1E3F78C557" import="1">units/PonyKnight_Charge_anim.gr2</File>
+    <File md5="B6B3A38703ECE73FE6834EA2F7162E8B" import="1">units/PonyLancer.gr2</File>
+    <File md5="07C85B85A600FD65C7D52B051B438E89" import="1">units/PonyLandsknecht.gr2</File>
+    <File md5="5A8DC48A7BD07BA5BABFFCBF8B4A1BD8" import="1">units/PonyLongsword.gr2</File>
+    <File md5="1D5C5BB51D154D94F07614443F077B34" import="1">units/PonyLongsword_attack_anim.gr2</File>
+    <File md5="53BEE82279A7648C4A86C4A164A27515" import="1">units/PonyLongsword_fortify_anim.gr2</File>
+    <File md5="6567487DDEFDD7493389C3AA33BA9999" import="1">units/PonyLongsword_fortify_idle_anim.gr2</File>
+    <File md5="4F2373E16F492C1217AB60555BA5A883" import="1">units/PonyLongsword_idle_anim.gr2</File>
+    <File md5="9583780B8436BD3100FB934072CAB4AE" import="1">units/PonyMechInf.gr2</File>
+    <File md5="713DDDCDA2682F7E4F472479D49D29C9" import="1">units/PonyMerchant.gr2</File>
+    <File md5="67E9C466324CEF447C2877C45A7CC485" import="1">units/PonyMerchant_activate_anim.gr2</File>
+    <File md5="5ECCCBB21D91BB8C7672E295437369B9" import="1">units/PonyMerchant_fidget_anim.gr2</File>
+    <File md5="8D802DEA2A6DDCF9C03C91F486ECC3EA" import="1">units/PonyMerchant_fortify_anim.gr2</File>
+    <File md5="AE5CF5BB9F9B22B4B16E228315B31EC4" import="1">units/PonyMerchant_fortify_idle_anim.gr2</File>
+    <File md5="1D7BEB50BA81679AC4A0884469ADC2E5" import="1">units/PonyMerchant_idle_anim.gr2</File>
+    <File md5="26F54578C86D3D014BA68187C53486D0" import="1">units/PonyMerchant_run_anim.gr2</File>
+    <File md5="4AF6FDCA3297106DB8C4CF14A209193A" import="1">units/PonyMG.gr2</File>
+    <File md5="BC593EBD81640ADA1F55B0BEA1B0587A" import="1">units/PonyMG_attack_anim.gr2</File>
+    <File md5="415111C441137247F2A42ADFA5505CBA" import="1">units/PonyMG_die_anim.gr2</File>
+    <File md5="835FA6D3B7EEAD030A47838FD22D3426" import="1">units/PonyMG_die_fade_anim.gr2</File>
+    <File md5="2347BF314C333B9C7A6D394F413AFA71" import="1">units/PonyMG_fidget_anim.gr2</File>
+    <File md5="97A5396069D1740C745A0494248B9831" import="1">units/PonyMG_fortify_anim.gr2</File>
+    <File md5="6930B3CC08C820A5C4921B398CFA3151" import="1">units/PonyMG_fortify_idle_anim.gr2</File>
+    <File md5="56AC14BDF215FDD30B7778057CB5E389" import="1">units/PonyMG_idle_anim.gr2</File>
+    <File md5="F2995F9EE8730B67150B3BD643BAB6F9" import="1">units/PonyMG_run_anim.gr2</File>
+    <File md5="059CEC84C9BA5ACE03C2265F44BA8BB4" import="1">units/PonyMissionary.gr2</File>
+    <File md5="F3B8373F2CA73459BCA7E2F1786A9B88" import="1">units/PonyMissionary_activate_anim.gr2</File>
+    <File md5="AC9BA74218C502133FFAE4ACC14D2F89" import="1">units/PonyMusician.gr2</File>
+    <File md5="37C18FF81D20BA3609E048542CB83391" import="1">units/PonyMusket.gr2</File>
+    <File md5="D85B87052B3A50694F43E563E19001DA" import="1">units/PonyMusket_attack_anim.gr2</File>
+    <File md5="B34D5C4240A93E283F971F6EDA56B01C" import="1">units/PonyMusket_dieA_anim.gr2</File>
+    <File md5="30C1BEE76B758106B795CF21118173B3" import="1">units/PonyMusket_dieA_fade_anim.gr2</File>
+    <File md5="7481FDC77A03F1FA4B297D6ED99F6EB3" import="1">units/PonyMusket_dieB_anim.gr2</File>
+    <File md5="9B2C8B882E5510EEF57A52B29C318422" import="1">units/PonyMusket_dieB_fade_anim.gr2</File>
+    <File md5="26D8E925F8BB2D6F63C7954FBD0B1CE8" import="1">units/PonyMusket_fortify_anim.gr2</File>
+    <File md5="9F58BDF3AEC5662AA38DE45F4BA8DB7D" import="1">units/PonyMusket_fortify_idle_anim.gr2</File>
+    <File md5="CA11DC9ED0ABBB37FE888E38390FBFF0" import="1">units/PonyMusket_idle_anim.gr2</File>
+    <File md5="3A4B97B0B15744CADA4AF5DD15D89888" import="1">units/PonyMusket_run_anim.gr2</File>
+    <File md5="3ECEC71037789E9180200A7954801F61" import="1">units/PonyPara.gr2</File>
+    <File md5="B8D30D0EBBA97FB56197B79A353C5F4C" import="1">units/PonyPara_attack_anim.gr2</File>
+    <File md5="37122521BF8D6AD1610FF97D06E272EC" import="1">units/PonyPara_die_anim.gr2</File>
+    <File md5="3A5B692411163768E935B6336C1070A0" import="1">units/PonyPara_die_fade_anim.gr2</File>
+    <File md5="27167053B1D76D41483F55DE775D5E21" import="1">units/PonyPara_fidget_anim.gr2</File>
+    <File md5="F09546240BF30A7256AB66937A7E5490" import="1">units/PonyPara_fortify_anim.gr2</File>
+    <File md5="02A9350FB83E321D8A32EDFF8917D9AC" import="1">units/PonyPara_fortify_idle_anim.gr2</File>
+    <File md5="AB45098E39DADC5C29D9158DE96B9884" import="1">units/PonyPara_idle_anim.gr2</File>
+    <File md5="4C8BEA7361DCC61FABD38D79CD768602" import="1">units/PonyPara_paradrop_anim.gr2</File>
+    <File md5="4AF51FEF74FC3663DD8B72C9D52D4597" import="1">units/PonyPara_run_anim.gr2</File>
+    <File md5="903E6FADD20300276326403E5B952137" import="1">units/PonyPike.gr2</File>
+    <File md5="DF48CE43B42DF2180D5985092567F44E" import="1">units/PonyProphet.gr2</File>
+    <File md5="2FF6CE632D3E1A5F5501EE43CF6F046E" import="1">units/PonyProphet_activate_anim.gr2</File>
+    <File md5="F180F08ED2278589A0EC390A72F8F63D" import="1">units/PonyProphet_fidget_anim.gr2</File>
+    <File md5="30AE8BD5BA7A3C15B4F8BD09745E0C3B" import="1">units/PonyProphet_fortify_anim.gr2</File>
+    <File md5="23EF043D57B23B3FC79A8E1A7CAD628C" import="1">units/PonyProphet_fortify_idle_anim.gr2</File>
+    <File md5="C2EE213AE6911FCD6F9072618021E6B1" import="1">units/PonyProphet_idle_anim.gr2</File>
+    <File md5="5673EF3224FFCDA2C1E80CC64D294778" import="1">units/PonyProphet_run_anim.gr2</File>
+    <File md5="5CF541E2F02047C4D012FF38D41EE332" import="1">units/PonyRifle.gr2</File>
+    <File md5="FEE74DAAB69B854FB8A6CF332B63126D" import="1">units/PonyRifle_attack_anim.gr2</File>
+    <File md5="C55E0CFE4A2239CFDFB787F81753DC08" import="1">units/PonyRifle_fidget_anim.gr2</File>
+    <File md5="9B6025B9AC709866B1CB2E91157E9E1C" import="1">units/PonyRifle_fortify_anim.gr2</File>
+    <File md5="98BB33E44503F2E086AA36BE8C65BA78" import="1">units/PonyRifle_fortify_idle_anim.gr2</File>
+    <File md5="ADB0247DC7787304F924C4129684D593" import="1">units/PonyRifle_idle_anim.gr2</File>
+    <File md5="7A4EB32E29C248B6DE65EC3FF8A4AA63" import="1">units/PonyScientist.gr2</File>
+    <File md5="D9A131415E17FC0AF61BB0A5881E54B0" import="1">units/PonyScientist_activate_anim.gr2</File>
+    <File md5="75593E22CC4678DE21B9CF866A461657" import="1">units/PonyScientist_fidget_anim.gr2</File>
+    <File md5="BD244F78A2FFB1EFA4223D3A90980514" import="1">units/PonyScientist_fortify_anim.gr2</File>
+    <File md5="F9C46CA4608623B37FCD23E9B2512086" import="1">units/PonyScientist_fortify_idle_anim.gr2</File>
+    <File md5="A92306977B907E09A3647D0B27A1E7A7" import="1">units/PonyScientist_idle_anim.gr2</File>
+    <File md5="9B0F37EE78229415F54245C381B6C42D" import="1">units/PonyScientist_run_anim.gr2</File>
+    <File md5="2D2B87371E79352602B9FEDF82BDBEE7" import="1">units/PonyScout.gr2</File>
+    <File md5="E1568F0ACC0B8D931C6E7726F98395F9" import="1">units/PonySettler1.gr2</File>
+    <File md5="5B9A761B3AD2D877606F7DCD22B335CB" import="1">units/PonySettler2.gr2</File>
+    <File md5="A2EC6DA8CD37DFA0DC4F9483445AC53A" import="1">units/PonySettler3.gr2</File>
+    <File md5="20F86B2CBC343796AE925A2AF89A4A9F" import="1">units/PonySpear.gr2</File>
+    <File md5="D4AC35CAC853F61910A1EE957AA5BF28" import="1">units/PonySpear_attack_anim.gr2</File>
+    <File md5="49A54FA33FF7108ABD779C6F83400FD7" import="1">units/PonySpear_fortify_anim.gr2</File>
+    <File md5="A4E0774FDCAF333D29AA8A75418DD5A9" import="1">units/PonySpear_fortify_idle_anim.gr2</File>
+    <File md5="849BEC95A6D4EBBB4E1D9B2799E74144" import="1">units/PonySpear_idle_anim.gr2</File>
+    <File md5="20E728C095BDCE00E5377EB659F8D4D7" import="1">units/PonySword.gr2</File>
+    <File md5="664806F80C1140BE75B6E5EEDFC19B3D" import="1">units/PonyTrebuchet.gr2</File>
+    <File md5="55654A2CE43F12DF9935C7012F7D977A" import="1">units/PonyTrebuchet_attack_anim.gr2</File>
+    <File md5="98514028512EBB4B2C13711BAED1B985" import="1">units/PonyTrebuchet_die_anim.gr2</File>
+    <File md5="84BC845E1706883024825DD9D551F38E" import="1">units/PonyTrebuchet_die_fade_anim.gr2</File>
+    <File md5="398C458321CE7ADAD5FC7449395F9C9F" import="1">units/PonyTrebuchet_fortify_anim.gr2</File>
+    <File md5="D89243BC218C993003B107C314ECD7EB" import="1">units/PonyTrebuchet_fortify_idle_anim.gr2</File>
+    <File md5="8F6548F1EC4BB230025D796B0F5A64A9" import="1">units/PonyTrebuchet_idle_anim.gr2</File>
+    <File md5="5499E50CDDABC7501307BF8FE1ADB225" import="1">units/PonyTrebuchet_run_anim.gr2</File>
+    <File md5="7C1EEF2D24445E220FB46269DD38D3E2" import="1">units/PonyTrueGWI.gr2</File>
+    <File md5="06693305AE4A4C205E4481D4358D5C17" import="1">units/PonyWarrior.gr2</File>
+    <File md5="C1D90CF77F00850C34EDE1A1C5B1B018" import="1">units/PonyWarrior_attack_anim.gr2</File>
+    <File md5="B5CA7C62820F1BF799BB659E33F72364" import="1">units/PonyWarrior_die_anim.gr2</File>
+    <File md5="9EDC0D728E7309DF079792B1A6733AD4" import="1">units/PonyWarrior_die_fade_anim.gr2</File>
+    <File md5="8732A9D28EFE96B5D5E9218643BBFB47" import="1">units/PonyWarrior_fidget_anim.gr2</File>
+    <File md5="B3BFE05A2536E2ABFC688E0521961F7E" import="1">units/PonyWarrior_fortify_anim.gr2</File>
+    <File md5="7F4A1BF08DC21027ADC54E204B222F9F" import="1">units/PonyWarrior_fortify_idle_anim.gr2</File>
+    <File md5="79EC6B589D5E70F3422A22ABFECBEE88" import="1">units/PonyWarrior_hurt_anim.gr2</File>
+    <File md5="95E3D2539D6EB308F05BCBAF43F0EA79" import="1">units/PonyWarrior_idle_anim.gr2</File>
+    <File md5="FD15B43A15A3275F1E3654C2108C656B" import="1">units/PonyWarrior_ranged_die_anim.gr2</File>
+    <File md5="501AFDD94C7517BB4C74EA478AFAEF72" import="1">units/PonyWarrior_ranged_die_fade_anim.gr2</File>
+    <File md5="599525EE55B655853A9777DA1B38E7F9" import="1">units/PonyWarrior_run_anim.gr2</File>
+    <File md5="270D18A14BAC6A3E34D5E57B391C4626" import="1">units/PonyWorker.gr2</File>
+    <File md5="450F45D09F6FFF55C7DFFEB914DCC5DA" import="1">units/PonyWorker_buildbegin_anim.gr2</File>
+    <File md5="02373BA3FF75557C7C6AF469BC59BFE3" import="1">units/PonyWorker_buildrest_anim.gr2</File>
+    <File md5="AFC87D4C263F83B7BBC238D2829F45E8" import="1">units/PonyWorker_build_anim.gr2</File>
+    <File md5="BEBB43FEC58ED1D52397C0033772AACF" import="1">units/PonyWorker_chopbegin_anim.gr2</File>
+    <File md5="89FFB13A94BD482CF0EC2DC4C7F0CF55" import="1">units/PonyWorker_choprest_anim.gr2</File>
+    <File md5="AE55E6A2AD3B8C030EDA329671DAC94D" import="1">units/PonyWorker_chop_anim.gr2</File>
+    <File md5="5A08D03F73799974A929DBBC1C1941EA" import="1">units/PonyWorker_farmbegin_anim.gr2</File>
+    <File md5="8759AA222060A2C0456637214C18D41E" import="1">units/PonyWorker_farmrest_anim.gr2</File>
+    <File md5="48446ABE4EC84B5CD3F5683373E1A9B2" import="1">units/PonyWorker_farm_anim.gr2</File>
+    <File md5="D072B762B55486FF71E9DA1EAD8CA2A7" import="1">units/PonyWorker_fidget_anim.gr2</File>
+    <File md5="DCBB86D874D2A77F47ADB9641D8E0FCE" import="1">units/PonyWorker_fortify_anim.gr2</File>
+    <File md5="8B44EC0AE150F92990D513C1EE5DC5D2" import="1">units/PonyWorker_fortify_idle_anim.gr2</File>
+    <File md5="D958522682CB50B64C3282E8E9ED905B" import="1">units/PonyWorker_heal_anim.gr2</File>
+    <File md5="1C8053E57122F4D62507A5DF0F5A1221" import="1">units/PonyWorker_idledie_anim.gr2</File>
+    <File md5="484D5A1CF1CF5BCB0F279299D07B9BEA" import="1">units/PonyWorker_idledie_fade_anim.gr2</File>
+    <File md5="4DB2B283A76F98A5F577DB3C1287BACB" import="1">units/PonyWorker_idle_anim.gr2</File>
+    <File md5="88703F1BB9806C64A4AEE6862264E591" import="1">units/PonyWorker_minebegin_anim.gr2</File>
+    <File md5="399E0CF38110F3387791CE7217BBC981" import="1">units/PonyWorker_minerest_anim.gr2</File>
+    <File md5="A4D281F42499E683DA494CB3FDAFB83A" import="1">units/PonyWorker_mine_anim.gr2</File>
+    <File md5="E246780371D6A1B752FF10A0E5A47FBD" import="1">units/PonyWorker_rigid_perfect.gr2</File>
+    <File md5="4D07431F9764C28673F2C3E7D15342F3" import="1">units/PonyWorker_roadbegin_anim.gr2</File>
+    <File md5="1D8F9197B1188312666986E5EF12896E" import="1">units/PonyWorker_roadrest_anim.gr2</File>
+    <File md5="DEC7F1B194381B7018BF09B4111E9CCC" import="1">units/PonyWorker_road_anim.gr2</File>
+    <File md5="9ED2ACD0600CFFF3E53BD8E4FAB6FD3C" import="1">units/PonyWorker_run_anim.gr2</File>
+    <File md5="5E0EC3BBA5013F05238C1D015264143A" import="1">units/PonyWorker_surrender_anim.gr2</File>
+    <File md5="4BB31645EC89B3D7FD1A5222F375EF2D" import="1">units/PonyWriter.gr2</File>
+    <File md5="70F693A93F6D2A300BDC3A6E47B43F43" import="1">units/PonyXCOM.gr2</File>
+    <File md5="04947EDBF1B4E475691991A0709429F5" import="1">units/PonyXCOM_die_anim.gr2</File>
+    <File md5="7D8B6B299949ACFA861FFB3BB757036A" import="1">units/PonyXCOM_die_idle_anim.gr2</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Data.sql</UpdateDatabase>
+      <UpdateDatabase>UnitArtInfos.sql</UpdateDatabase>
+      <UpdateDatabase>Changelings/ChangelingData.sql</UpdateDatabase>
+      <UpdateDatabase>Changelings/ChangelingArtInfos.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_OGK</Type>
+			<Description>TXT_KEY_CIV_OGK_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_OGK</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_OGK_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_OGK_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_OGK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_CELTS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_GROVER</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_GROVER</AlphaIconAtlas>
+			<MapImage>MapGrover512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_OGK_TEXT</DawnOfManQuote>
+			<DawnOfManAudio>AS2D_LEADER_SPEECH_GROVER_INTRO</DawnOfManAudio>
+			<DawnOfManImage>DOM_Grover.dds</DawnOfManImage>
+			<SoundtrackTag>Netherlands</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OGK_11</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<LeaderheadType>LEADER_GROVER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OGK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_OGK_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- Civilization_Start_Along_Ocean -->
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_OGK</Type>
+			<PrimaryColor>COLOR_PLAYER_OGK_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_OGK_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_OGK_BACKGROUND</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_OGK_ICON</Type>
+			<Red>0.43137255</Red>
+			<Green>0.23921569</Green>
+			<Blue>0.51372549</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_OGK_BACKGROUND</Type>
+			<Red>0.60392157</Red>
+			<Green>0.4745098</Green>
+			<Blue>0.76862745</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_OGK_ADJECTIVE">
+			<Text>Old Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OGK_DESC">
+			<Text>Old Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OGK_SHORT_DESC">
+			<Text>The Old Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OGK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OGK_TITLE">
+			<Text>Old Griffon Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OGK_TEXT_1">
+			<Text>Watch Season 5 episode 8.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_OGK_TEXT">
+			<Text>Gold, glory and greatness.[NEWLINE][NEWLINE]Where one day ends, an other one begins. This also counts for the reign of all kings. But today, yours begins. You have a long journey ahead of you. And indeed it will not be easy. There will be times of greatness, and there will be times of despair. But there is nothing to fear. For you, my king, possess the Idol of Boreas. And with that, you'll find your way to victory, whatever path you may choose to walk upon. So rise up, my king, and show the world how great the griffons truly are![NEWLINE][NEWLINE]Long have your subjects waited for you, great king. They long for your guidance and determination to bring them what they desire most. Will you put the kingdom on the map by mastering the arts or trade? Or will you rule with iron talons, and expand you kingdom with unbeatable force? Can you build a civilization that stands the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_0">
+			<Text>Old Griffonstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_1">
+			<Text>Talonburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_2">
+			<Text>St. Beak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_3">
+			<Text>Featherville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_4">
+			<Text>Wington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_5">
+			<Text>High Wington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_6">
+			<Text>Aneva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_7">
+			<Text>Griff City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_8">
+			<Text>Raven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_9">
+			<Text>Pootis Bird</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_10">
+			<Text>Urefia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_11">
+			<Text>Kolkholm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OGK_12">
+			<Text>New Griffania</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_0">
+			<Text>Gilda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_1">
+			<Text>Gabby</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_2">
+			<Text>Gustave le Grand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_3">
+			<Text>Greta</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_4">
+			<Text>Giselle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_5">
+			<Text>Grampa Gruff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_6">
+			<Text>Roul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_7">
+			<Text>Amenda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_8">
+			<Text>Trulgir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_OGK_9">
+			<Text>Murlark</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

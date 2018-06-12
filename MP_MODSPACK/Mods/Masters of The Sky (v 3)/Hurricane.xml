@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/10/2013 11:31:19 AM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_WU_ZETIAN"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_HURRICANE</Description>
+				<Civilopedia>TXT_KEY_LEADER_HURRICANE_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE</CivilopediaTag>
+				<ArtDefineTag>Hurricane_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>7</VictoryCompetitiveness>
+				<WonderCompetitiveness>5</WonderCompetitiveness>
+				<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
+				<Boldness>8</Boldness>
+				<DiploBalance>4</DiploBalance>
+				<WarmongerHate>4</WarmongerHate>
+				<DenounceWillingness>6</DenounceWillingness>
+				<DoFWillingness>5</DoFWillingness>
+				<Loyalty>8</Loyalty>
+				<Neediness>4</Neediness>
+				<Forgiveness>5</Forgiveness>
+				<Chattiness>8</Chattiness>
+				<Meanness>5</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_HURRICANE</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>4</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN"/>
+			<Set TraitType="TRAIT_PEGASI_TRADITION"/>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_PEGASI_TRADITION</Type>
+			<Description>TXT_KEY_TRAIT_PEGASI_TRADITION</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PEGASI_TRADITION_SHORT</ShortDescription>
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
+			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier>
+		</Row>
+	</Traits>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_PEGASI_TRADITION">
+			<Text>The Pegasi are a warrior nation, with a long rich military tradition. All Pegasi combat units maintaince is reduced by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_PEGASI_TRADITION_SHORT">
+			<Text>Pegasi Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HURRICANE">
+			<Text>Hurricane</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_HURRICANE_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_HURRICANE_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_HURRICANE_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_HURRICANE_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_HURRICANE_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_HURRICANE_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_HURRICANE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_HURRICANE_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_HURRICANE_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WU_ZETIAN" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_HURRICANE_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_HURRICANE_DEFEATED_1">
+			<Text>I REFUSE TO SURRENDER! I WILL BE BACK!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_DEFEATED_2">
+			<Text>I...Regret.......Nothing......</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Hurricane: You think that since we live in the clouds that you can take our land? Private Pansy![NEWLINE] Pansy: Yes, sir?[NEWLINE]Hurricane: When is the next storm scheduled?[NEWLINE]Pansy: In an hour, sir.[NEWLINE]Hurricane: If you don't want a snowstrom on your farms in the next hour I suggest you stop claiming pegasi lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_FIRSTGREETING_1">
+			<Text>Hurricane: Yes, yes, more rainbows. They won't suspect...Until its too late.[NEWLINE]Pansy: Um, sir? We have guests.[NEWLINE]Hurricane: What?...Ummmm, hi! Welcome to Pegasopolis, I hope we can be the best of friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_GREETING_HOSTILE_HELLO_1">
+			<Text>Hurricane: Pansy, is it that land trotter again?[NEWLINE]Pansy: Yeh...yeh...yes, sir.[NEWLINE]Hurricane: You finally have the guts to take us on? Come on, just say the words.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_GREETING_NEUTRAL_HELLO_1">
+			<Text>Pansy: Sir, we have guests.[NEWLINE]Hurricane: Look at them. Like ants, ants to crush under my hoof. Oh its the princess, squish. Oh majordomo puddingpop, smash![NEWLINE]Pansy: Sir![NEWLINE]Hurricane: Wuh, what? Oh....Um.......Hi.[NEWLINE]Pansy: And its Chancellor Puddinghead, sir.[NEWLINE]Umm, yes. Thank you private.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_GREETING_POLITE_HELLO_1">
+			<Text>Hurricane: Ah Princess Platinum, I have you exactly where I want you. Oh no keep away from me you flithy brute, oh but yet I'm drawn to you. Yes, unicorn princesses are often drawn to stallions with bits and power, and I have both and you know it! Now kiss me, no, yes, no, yes, ah, ah, oh, ooh, your wings are so big.[NEWLINE]Pansy: Commander, sir?[NEWLINE]Hurricane: What?[NEWLINE]Pansy: We have guests.[NEWLINE]Hurricane: Knock, knock next time! Did you see anything?[NEWLINE]Pansy: No, sir, I didn't see you playing with your dolls again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Hurricane: Private, inform this land trotter of where we live.[NEWLINE]Pansy: In the clouds, sir.[NEWLINE]Hurricane: We can see what you're doing, now if you don't want us to rain on your little parade I'd advise you to withdraw you troops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Pansy: The commander would like to discuss opening our boarders, as to survey our new...Er...To allow open trade between our nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_RESPONSE_REQUEST_1">
+			<Text>Pansy: The commander requests your aid. You didn't hear it from me, but he broke his Princess Platinum doll.[NEWLINE]Hurricane: PRIVATE![NEWLINE]Pansy: Eep! Sorry, sir.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRICANE_LUXURY_TRADE_1">
+			<Text>Hurricane: It has come to my attention that we have surplus supplies. Would you be willing to trade?[NEWLINE]: He wants new dolls.[NEWLINE]Hurricane: THEY'RE NOT DOLLS! They're action figures.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_LIVED">
+			<Text>Past</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_NAME">
+			<Text>Hurricane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_SUBTITLE">
+			<Text>Commander of the Pegasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_TEXT_1">
+			<Text>Commander Hurricane is the legendery leader of Pegasi lore. Many monuments and structures are named after him. Information before his rise to commander seems to be lost or a closely guarded pegasi secret.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HURRICANE_TITLES_1">
+			<Text>Commander</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

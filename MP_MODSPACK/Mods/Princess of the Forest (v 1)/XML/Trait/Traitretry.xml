@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 12:34:04 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_PRINCESS_OF_THE_FOREST</Type>
+			<Description>TXT_KEY_TRAIT_PRINCESS_OF_THE_FOREST</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PRINCESS_OF_THE_FOREST_SHORT</ShortDescription>
+			<FreeBuilding>BUILDING_FOREST_TRAIT</FreeBuilding>
+		</Row>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<UnitCombatInfos>
+		<Row>
+			<Type>UNITCOMBAT_CIVILIAN</Type>
+			<Description>TXT_KEY_UNITCOMBAT_CIVILIAN</Description>
+		</Row>
+	</UnitCombatInfos>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_PRINCESS_OF_THE_FOREST</TraitType>
+			<UnitCombatType>UNITCOMBAT_CIVILIAN</UnitCombatType>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Units>
+		<Update>
+			<Set CombatClass="UNITCOMBAT_CIVILIAN"/>
+			<Where Type="UNIT_SETTLER"/>
+		</Update>
+		<Update>
+			<Set CombatClass="UNITCOMBAT_CIVILIAN"/>
+			<Where Type="UNIT_WORKER"/>
+		</Update>
+	</Units>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_WOODLANDMOVEMENT</Type>
+			<Description>TXT_KEY_PROMOTION_WOODLANDMOVEMENT</Description>
+			<Help>TXT_KEY_PROMOTION_WOODLANDMOVEMENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_WOODLANDMOVEMENT</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_WOODLANDMOVEMENT</PromotionType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+	</UnitPromotions_Features>
+	<Language_en_US>
+		<Row tag="TXT_KEY_TRAIT_PRINCESS_OF_THE_FOREST">
+			<text>All units have improved movement in forests. Also, forest tiles provide +1 [ICON_FOOD] food more than usual.</text>
+		</Row>
+		<Row tag="TXT_KEY_TRAIT_PRINCESS_OF_THE_FOREST_SHORT">
+			<text>Princess of the Forest</text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_WOODLANDMOVEMENT">
+			<text>Woodland Movement</text>
+		</Row>
+		<Row tag="TXT_KEY_PROMOTION_WOODLANDMOVEMENT_HELP">
+			<text>Improved movement in forests</text>
+		</Row>			
+	</Language_en_US>
+</GameData>

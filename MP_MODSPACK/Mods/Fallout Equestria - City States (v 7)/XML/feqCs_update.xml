@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2013 9:22:05 PM -->
+<GameData>
+	<AIMilitaryStrategies>
+		<Update>
+			<Where Type="MILITARYAISTRATEGY_NEED_NUKE" />
+			<Set>
+				<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
+				<MinimumNumTurnsExecuted>2</MinimumNumTurnsExecuted>
+				<NoMinorCivs>false</NoMinorCivs>
+				<FirstTurnExecuted>25</FirstTurnExecuted>
+				<TechPrereq>TECH_ATOMIC_THEORY</TechPrereq>
+			</Set>
+		</Update>
+	</AIMilitaryStrategies>
+</GameData>

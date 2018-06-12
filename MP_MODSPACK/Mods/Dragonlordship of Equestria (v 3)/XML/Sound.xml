@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2013 2:16:31 PM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_DragonlordEmber_PEACE</SoundID>
+			<Filename>DragonlordEmber_Peace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_DragonlordEmber_WAR</SoundID>
+			<Filename>DragonlordEmber_War</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_DragonlordEmber_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_DragonlordEmber_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>75</MinVolume>
+			<MaxVolume>75</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_DragonlordEmber_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_DragonlordEmber_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>75</MinVolume>
+			<MaxVolume>75</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_AMBIENCE_LEADER_DragonlordEmber_AMBIENCE</ScriptID>
+			<SoundID>SND_LEADER_SPEECH_WASHINGTON_BIRD_AMBIENCE</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<Looping>true</Looping>
+			<MinVolume>60</MinVolume>
+			<MaxVolume>60</MaxVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

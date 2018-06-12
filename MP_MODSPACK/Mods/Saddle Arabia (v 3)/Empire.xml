@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:35:59 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set AIPlayable="false" Playable="false"/>
+			<Where Type="CIVILIZATION_GREECE"/>
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SADDLE_ARABIA</Type>
+			<Description>TXT_KEY_CIV_ARABIANS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_ARABIANS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_ARABIANS_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_ARABIANS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_SAUDIAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GREECE</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_SADDLEARABIANS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_SADDLEARABIANS</AlphaIconAtlas>
+			<MapImage>MapSADDLEARABIANS512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_ARABIANS_DAWN</DawnOfManQuote>
+			<DawnOfManImage>DOM_SAUDIAN.dds</DawnOfManImage>
+			<SoundtrackTag>Greece</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<LeaderheadType>LEADER_ALEXANDER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SAUDIAN</Type>
+			<PrimaryColor>COLOR_SAUDIAN_POWER</PrimaryColor>
+			<SecondaryColor>COLOR_SAUDIAN_MANE</SecondaryColor>
+			<TextColor>COLOR_SAUDIAN_POWER</TextColor>
+		</Row>
+	</PlayerColors>
+	
+	<Colors>
+		<Row>
+			<Type>COLOR_SAUDIAN_POWER</Type>
+			<Red>0.196</Red>
+			<Green>0.79</Green>
+			<Blue>0.86</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_SAUDIAN_MANE</Type>
+			<Red>0.75</Red>
+			<Green>0.50</Green>
+			<Blue>0.17</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	
+	
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_ARABIANS_ADJECTIVE">
+			<Text>Saddle Arabian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ARABIANS_DESC">
+			<Text>Saddle Arabian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ARABIANS_SHORT_DESC">
+			<Text>The Saddle Arabs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ARABIANS_DAWN">
+			<Text>Great King Saudian, your subjects await your return[NEWLINE][NEWLINE]Your Wealth great and your people greater Saddle Arabia has been stiffied by a recent civil war where you triumphed over your brother. Now you and your wife rule the once again over the wealthy and powerful united Saddle Arabia, your people yearn to be protected againist more conflicts and to live freely and peacefully. The choice is yours now as to how you do this whether through the pen or through the sword. [NEWLINE][NEWLINE]Oh, King SAUDIAN, will you bring everlasting peace to your nation with your vast wealth or will you fund and army and bring your people ever greater glory?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARABIANS_TITLE">
+			<Text>Saddle Arabian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARABIANS_HEADING_1">
+			<Text>Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARABIANS_TEXT_1">
+			<Text>The Saddle Arabs are a proud race of horses who inhabit lands far from equestria's borders. They often have dealt through trade and diplomacy than war and thus have created strong ties to many great nations. Despite their peace-loving ways their lands were ravaged by a bloody civil war started by Saudian's own brother. As a people they are proud and strong and excel at any buissness venture, which has allowed them to become one of the richest peoples in all the world.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

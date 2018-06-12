@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_EXPLORERS</Type>
+			<Description>TXT_KEY_CIV_EXPLORERS_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_EXPLORERS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_EXPLORERS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EXPLORERS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_EXPLORERS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_EXPLORERS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_EXPLORERS</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_EXPLORERS</AlphaIconAtlas>
+			<MapImage>MapExplorers512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_EXPLORERS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_DaringDo.dds</DawnOfManImage>
+			<SoundtrackTag>Brazil</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_UNIVERSITYMUSEUM</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHAEOLOGIST</UnitClassType>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EXPLORERS_11</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<LeaderheadType>LEADER_DARINGDO</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EXPLORERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EXPLORERS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<!-- Civilization_Start_Along_Ocean -->
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_EXPLORERS</Type>
+			<PrimaryColor>COLOR_PLAYER_EXPLORERS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_EXPLORERS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_EXPLORERS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_EXPLORERS_ICON</Type>
+			<Red>0.149</Red>
+			<Green>0.149</Green>
+			<Blue>0.149</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_EXPLORERS_BACKGROUND</Type>
+			<Red>0.847</Red>
+			<Green>0.745</Green>
+			<Blue>0.318</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_EXPLORERS_TEXT</Type>
+			<Red>0.286</Red>
+			<Green>0.306</Green>
+			<Blue>0.165</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_EXPLORERS_DESC">
+			<Text>Explorers' League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORERS_TITLE">
+			<Text>Explorers' League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EXPLORERS_SHORT_DESC">
+			<Text>Explorers' League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EXPLORERS_ADJECTIVE">
+			<Text>Explorers' League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORERS_HEADING_1">
+			<Text>Description</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORERS_TEXT_1">
+			<Text>The Explorers' League is a group dedicated to uncovering the lost secrets of ancient civilizations, as well as protecting the lost artifacts and treasures from those who would seek to exploit it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_EXPLORERS_TEXT">
+			<Text>A new adventure awaits, Daring Do! The ancient secrets of Equestria's past need to be safeguarded against those who would use them for evil, and there is only one pony capable enough to stand up to those who would, from those greedy enough to sell their very souls, to ancient evils that lurk around every turn! Your inspirational courage and honor are needed in the times ahead.[NEWLINE][NEWLINE]But what of the finer reasons to seek out the unknown elements of the world? Wonder, beauty, fame, fortune? What good does protecting the splendor and majesty of times long past do if you do not stop to appreciate it? There are many wonders in this world, and at your core, you are an archaeologist, an explorer, a connoisseur of ancient mysteries! When everything is said and done, what will you make of what you find?[NEWLINE][NEWLINE]The answer is something only you can decide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_0">
+			<Text>Canterlot University</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_1">
+			<Text>The Granny Smithsonian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_2">
+			<Text>Sorponne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_3">
+			<Text>Buckago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_4">
+			<Text>Mareshall College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_5">
+			<Text>Tenochtitlan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_6">
+			<Text>Talicon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_7">
+			<Text>Mayapoll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_8">
+			<Text>Marekesh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_9">
+			<Text>Flankator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_10">
+			<Text>Temple of Celestia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_11">
+			<Text>Fetlock Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EXPLORERS_12">
+			<Text>Tailis</Text>
+		</Row>
+		
+		<!--Thanks to the Daring Do TVTropes pages for these names-->
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_0">
+			<Text>Darrin Do</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_1">
+			<Text>Herpy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_2">
+			<Text>Bravado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_3">
+			<Text>Coco</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_4">
+			<Text>Outback Jack</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_5">
+			<Text>Desert Rose</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_6">
+			<Text>Tabula Rasa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_7">
+			<Text>Short Stuff</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_8">
+			<Text>Miss Starlight</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EXPLORERS_9">
+			<Text>Lightning Kicker</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

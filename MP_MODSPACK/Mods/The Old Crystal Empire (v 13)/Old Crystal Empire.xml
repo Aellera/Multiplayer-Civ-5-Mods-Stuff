@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2012 1:43:08 AM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_SONGHAI" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_OLDCRYSTAL</Type>
+			<Description>TXT_KEY_CIV_OLDCRYSTAL_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_OLDCRYSTAL_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_OLDCRYSTAL_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_OLDCRYSTAL_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_OLDCRYSTAL</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_SOMBRA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SONGHAI</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_SOMBRA</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_SOMBRA</AlphaIconAtlas>
+			<MapImage>MapSombra512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_OLDCRYSTAL_DOM</DawnOfManQuote>
+			<DawnOfManImage>SombraDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Songhai</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SOMBRA</Type>
+			<PrimaryColor>COLOR_PLAYER_DARK_GRAY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_RED</SecondaryColor>
+			<TextColor>COLOR_PLAYER_BLACK</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<LeaderheadType>LEADER_ASKIA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_OLDCRYSTAL_ADJECTIVE">
+			<Text>Crystal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OLDCRYSTAL_DESC">
+			<Text>Crystal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OLDCRYSTAL_SHORT_DESC">
+			<Text>The Crystal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OLDCRYSTAL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OLDCRYSTAL_TEXT_1">
+			<Text>Long ago King Somber ruled the Crystal Empire with an iron hoof. His reign was terrible and wrought with fear. Only with the combine power of Celestia and Luna was he banished but not before cursing all of the empire causing it to vanish.[NEWLINE] The Crystal Empire has returned and King Sombra's power slowly awakens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_OLDCRYSTAL_DOM">
+			<Text>Hail, King Sombra, ruler of the Crystal Empire. You ruled a thousand years before Nightmare Moon's return. Your reign was brutal, fear and terror kept your subjects in line under your iron hoof. Your crystal magic made you unstoppable.[NEWLINE] Only with the combined might of Celestia and Luna were you overthrown, banished to the north. Before they could exile you you cursed your empire, causing it to vanish into thin air.[NEWLINE] A thousand years later the Crystal Empire has return. The sisters that defeated you have grown weaker. Will you return to your dark reign or has a thousand years of exile giving you a chance to change? Can you rebuild the Crystal Empire that can withstand the test of time?[NEWLINE] King Sombra, your empire and its people await.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

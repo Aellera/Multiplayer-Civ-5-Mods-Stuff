@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/18/2016 4:36:26 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>Spiritism_atlas_16.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>Spiritism_atlas_24.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Spiritism_atlas_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>Spiritism_atlas_48.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Spiritism_atlas_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Spiritism_atlas_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPIRITISM_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Spiritism_atlas_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_SPIRITISM</IconFontTexture>
+			<IconFontTextureFile>Spiritism_fonticon</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RELIGION_SPIRITISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_SPIRITISM</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+	</IconFontMapping>
+  
+</GameData>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_ADVENTURER</Type>
+			<Description>TXT_KEY_UNIT_ADVENTURER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ADVENTURER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ADVENTURER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ADVENTURER</Help>
+			<Combat>24</Combat>
+			<Cost>200</Cost>
+			<Moves>4</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_ARCHAEOLOGIST</Class>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_ARCHAEOLOGIST</DefaultUnitAI>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<WorkRate>100</WorkRate>
+			<CombatLimit>100</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ARCHAEOLOGIST</UnitArtInfo>
+			<UnitArtInfoEraVariation>1</UnitArtInfoEraVariation>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>BIPED</MoveRate>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_EXPLORERS</IconAtlas>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_EXPLORERS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<UnitAIType>UNITAI_ARCHAEOLOGIST</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<BuildType>BUILD_LANDMARK</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_2</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_ADVENTURER</UnitType>
+			<SelectionSound>AS2D_SELECT_ARCHAEOLOGIST</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARCHAEOLOGIST</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ADVENTURER">
+			<Text>Adventurer</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ADVENTURER_TEXT">
+			<Text>Adventurers are rugged ponies, used to the hardships that only the most elite of explorers can handle. Whether found in the deepest of ancient and cursed tombs or atop the highest of snow-capped peaks, Adventurers will give their all to find the lost treasures they seek.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ADVENTURER_STRATEGY">
+			<Text>The Adventurer is the Explorers' League unique unit, replacing the Archaeologist. The Adventurer can participate in combat, and gains both the Survivalism and Survivalism 2 promotions for free. Send an Adventurer to examine each Antiquity Site near your civilization and decide whether or not you want to return an Artifact to one of your cities or create a Landmark on that tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ADVENTURER">
+			<Text>Highly skilled and motivated archaeologists who will recover artifacts, no matter what the hardships! Only the Explorers' League may build it. This Unit can participate in combat, unlike the Archaeologist, which it replaces. Adventurers are used to excavate Antiquity Sites to either create Landmark improvements or to extract Artifacts to fill in Great Work of Art slots in Museums, Palaces, Hermitages, and selected Wonders. They are consumed once they complete an Archaeological Dig at an Antiquity Site. Adventurers may not be purchased with [ICON_GOLD] Gold and may only be built in a city with a University.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

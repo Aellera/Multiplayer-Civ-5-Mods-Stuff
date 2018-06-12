@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_EQUAL_UTOPIA</Type>
+			<Description>TXT_KEY_CIV_EQUAL_UTOPIA_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_EQUAL_UTOPIA</CivilopediaTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_EQUAL_UTOPIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_EQUAL_UTOPIA_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_STARLIGHT_GLIMMER</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>STARLIGHT_GLIMMER_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>STARLIGHT_GLIMMER_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>StarlightG_Map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_STARLIGHT_GLIMMER_TEXT</DawnOfManQuote>
+			<DawnOfManImage>StarlightG_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>America</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_STARLIGHT_GLIMMER</Type>
+			<PrimaryColor>COLOR_PLAYER_STARLIGHT_GLIMMER_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_STARLIGHT_GLIMMER_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_STARLIGHT_GLIMMER_ICON</Type>
+			<Red>0.352</Red>
+			<Green>0.352</Green>
+			<Blue>0.352</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_STARLIGHT_GLIMMER_BACKGROUND</Type>
+			<Red>0.698</Red>
+			<Green>0.780</Green>
+			<Blue>0.818</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<!-- Civilization_BuildingClassOverrides -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_EQUAL_UTOPIA_15</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<LeaderheadType>LEADER_STARLIGHT_GLIMMER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<ReligionType>RELIGION_EQUALISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_9</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EQUAL_UTOPIA_10</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BOMB_SHELTER</BuildingClassType>
+			<BuildingType>BUILDING_CUTIE_MARK_VAULT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<BuildingType>BUILDING_INDOCTRINATION_ROOM</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_EQUAL_UTOPIA</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_ADJECTIVE">
+			<Text>Equal Utopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_DESC">
+			<Text>Equal Utopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_EQUAL_UTOPIA_SHORT_DESC">
+			<Text>Equal Utopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUAL_UTOPIA_HEADING_1">
+			<Text>Speech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EQUAL_UTOPIA_TEXT_1">
+			<Text>"In sameness, there is peace. Exceptionalism is a lie. Free yourself from your cutie mark. Choose equality as your special talent. Difference is frustration. To excel is to fail. Be your best by never being your best. Conformity will set you free. Accept your limitations, and happiness will follow. You're no better than your friend."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_STARLIGHT_GLIMMER_TEXT">
+			<Text>"Oh, isn't it a shame we don't live in a world where everypony is equal? No one would ever tease anyone there! Wouldn't that be nice?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_0">
+			<Text>Equal Utopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_1">
+			<Text>Rainbow Dash's Thundercloud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_2">
+			<Text>Pinkie Pie's Balloons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_3">
+			<Text>Rarity's Gems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_4">
+			<Text>Fluttershy's Butterflies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_5">
+			<Text>Applejack's Apples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_6">
+			<Text>Twilight's Magic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_7">
+			<Text>Equalism One</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_8">
+			<Text>Equalism Two</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_9">
+			<Text>Equalism Three</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_10">
+			<Text>Equalism Four</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_11">
+			<Text>Equalism Five</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_12">
+			<Text>Equalism Six</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_13">
+			<Text>Equalism Seven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_14">
+			<Text>Equalism Eight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EQUAL_UTOPIA_15">
+			<Text>Equalism Nine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_0">
+			<Text>Double Diamond</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_1">
+			<Text>Sugar Belle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_2">
+			<Text>Party Favor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_3">
+			<Text>Night Glider</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_4">
+			<Text>Brainwashed Twilight</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_5">
+			<Text>Brainwashed Applejack</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_6">
+			<Text>Brainwashed Dashie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_7">
+			<Text>Brainwashed Fluttershy</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_8">
+			<Text>Brainwashed Pinkie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_9">
+			<Text>Brainwashed Rarity</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EQUAL_UTOPIA_10">
+			<Text>Starlight Glimmer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

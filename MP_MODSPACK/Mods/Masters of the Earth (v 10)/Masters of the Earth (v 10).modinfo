@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e644ed06-0fc4-4fb9-8131-1c9eb50a7310" version="10">
+  <Properties>
+    <Name>Masters of the Earth</Name>
+    <Teaser>Adds the Earth Ponies, led by Chancellor Puddinghead and also Smart Cookie.</Teaser>
+    <Description>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. The Unicorns were masters of the Sun and Moon, using their magic to bring night and day. The Earth Ponies were master of the dirt, responseable for growing food for all ponies. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Chancellor Puddinghead, leader of the Earth Ponies led them to what would become Equestria, naming their new land, Earth. The Earth Ponies were not alone as the other tribes had laid claim to the very same land. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding.
+
+The first of the Hearth's Eve factions is finally done!
+
+Adds the Earth Ponies, led by Chancellor Puddinghead and also Smart Cookie. Replaces the Aztecs.
+
+New Trait, Masters of the Land. The Earth Ponies are masters of the land. Hill improvements have no upkeep, all other improvements half. All Farms, Fishing Boats, Pastures, and Plantations provide +1 food. Due to the blizzard, food is still scarce and the Earth Ponies suffer 10% more unhappiness from Pop.
+
+New Unit, Smart Cookie Farmer, replaces the normal Worker. Smart Cookie motivates the earth pony farmers to perform better, making them work 10% better and giving them +1 movement.
+
+New Building, Stackable Farm, replaces the Granary. The Stackable farm gives +1 food, and +1 food for each cow, citrus, truffles, banana, deer, and wheat worked.
+
+My LIttle Pony: Friendship is Magic and all likeness are owned by Hasbro Inc.
+
+Won't be doing custom models, blah blah blah, same thing I say for my other mods.
+
+Vanllia versionis up.</Description>
+    <Authors>SilentModder</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3BE54E366E91ED189E8FC2C4F8966CFB" import="1">Art/Puddinghead_Scene.xml</File>
+    <File md5="951DD1AE1F048528D902B5EA8130AE6F" import="1">Art/PuddingheadAlphaAtlas32.dds</File>
+    <File md5="0B172F5B1A68BC140C33F2DCCA5804DA" import="1">Art/PuddingheadAtlas128.dds</File>
+    <File md5="F54D39B00DCDCA5A6CCD4F481DE39B00" import="1">Art/PuddingheadAtlas214.dds</File>
+    <File md5="2A32611C5A450401E2F29ADC7A17C45A" import="1">Art/PuddingheadAtlas256.dds</File>
+    <File md5="A0C4FDAC6E98C6BA99A04257DB0D2407" import="1">Art/PuddingheadAtlas32.dds</File>
+    <File md5="3CA112008F56DDBA5D9A3BCCA5FEAADE" import="1">Art/PuddingheadAtlas45.dds</File>
+    <File md5="20C3957B0CE7B9E838A1C4CC5E155575" import="1">Art/PuddingheadAtlas64.dds</File>
+    <File md5="FFF956FC56F993A56334A6479A8B23B3" import="1">Art/PuddingheadAtlas80.dds</File>
+    <File md5="48593F4CF6F9CA464DF7336D40606E37" import="1">Art/Puddingheaddiplo.dds</File>
+    <File md5="962CA2E313369FA50D5A2C9BAB2D4C30" import="1">Art/PuddingheadDOM.dds</File>
+    <File md5="9650388D41417C7B61FF1F80B3DD9F13" import="1">Art/PuddingheadMap.dds</File>
+    <File md5="59F173567CAE8823AD98034D9B49882A" import="1">Atlas.xml</File>
+    <File md5="57EE8F0749351B93319FBF3683773C28" import="1">City Names.xml</File>
+    <File md5="F46C40E7E3A710329DD6522C2E504DD6" import="1">Earthpony.xml</File>
+    <File md5="573D3D63C7B4A3DBC9D84406C8CE1A9A" import="1">Music/MontezumaPeace.mp3</File>
+    <File md5="CFB23B48FAD44300DF009F9EA86F186B" import="1">Music/MontezumaWar.mp3</File>
+    <File md5="27A833CEEB31845BFC40715B6687CE1F" import="1">Puddinghead.xml</File>
+    <File md5="5B488D6F75896BC3AB77D3CA0F39C483" import="1">SmartCookie.xml</File>
+    <File md5="F047A10CA933F00BAFF16CEB279AB04C" import="1">Spy Table.xml</File>
+    <File md5="E90F2E47DA9E02413DD20735F1AC3E63" import="1">Stackable Farm.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Earthpony.xml</UpdateDatabase>
+      <UpdateDatabase>Puddinghead.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>SmartCookie.xml</UpdateDatabase>
+      <UpdateDatabase>Spy Table.xml</UpdateDatabase>
+      <UpdateDatabase>Stackable Farm.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Puddinghead_Scene.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

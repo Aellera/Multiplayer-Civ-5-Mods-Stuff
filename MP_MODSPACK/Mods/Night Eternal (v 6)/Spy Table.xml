@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:30 PM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NME_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_0">
+			<Text>Graphite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_1">
+			<Text>Poppycock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_2">
+			<Text>Holly Dash</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_3">
+			<Text>Lemon Hearts</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_4">
+			<Text>May Ball</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_5">
+			<Text>Jazz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_6">
+			<Text>Jet Set</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_7">
+			<Text>Mochaccino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_8">
+			<Text>Neon Lights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NME_9">
+			<Text>Ponet</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

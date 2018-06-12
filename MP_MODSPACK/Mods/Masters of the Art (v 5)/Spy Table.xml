@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/26/2012 9:21:30 AM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNICORN_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_0">
+			<Text>Golden Fleece</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_1">
+			<Text>Silver Lance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_2">
+			<Text>Copper Top</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_3">
+			<Text>Sparkling Tiara</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_4">
+			<Text>Fancy Prance</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_5">
+			<Text>Bronze Ring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_6">
+			<Text>Maximus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_7">
+			<Text>Iron Hoof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_8">
+			<Text>Steel Horn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UNICORN_9">
+			<Text>Nero</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

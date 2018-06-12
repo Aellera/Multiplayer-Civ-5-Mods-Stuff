@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/16/2016 4:54:46 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_KNIGHT</Class>
+			<Type>UNIT_BLUE_KNIGHT</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<RangedCombat>18</RangedCombat>
+			<Cost>150</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>3</Range>
+			<ObsoleteTech>TECH_FLIGHT</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_FIGHTER</GoodyHutUpgradeUnitClass>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BLUE_KNIGHT</Description>
+			<Civilopedia>TXT_KEY_CIV5_CLASICAL_BLUE_KNIGHT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BLUE_KNIGHT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_BLUE_KNIGHT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_SPANISH_CONQUISTADOR</UnitArtInfo>
+			<UnitFlagAtlas>CIV_ALPHA_ATLAS_SENTIUM</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_SENTIUM</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_GAELIC_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+			<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+			<SelectionSound>AS2D_SELECT_BLUE_KNIGHT</SelectionSound>
+			<FirstSelectionSound>AS2D_SELECT_BLUE_KNIGHT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+			<UnitType>UNIT_BLUE_KNIGHT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_BLUE_KNIGHT">
+			<Text>Blue Knight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BLUE_KNIGHT">
+			<Text>The Blue Knight is one of the The Frozen Kingdom's unique units. They are programmed as aerial units, but fight as land unit in a city. Blue Knight requires 2 [ICON_RES_HORSE] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BLUE_KNIGHT_STRATEGY">
+			<Text>These are the strongest and bravest warriors of The Frozen Kingdom. Blue Knights are not only a one of the unique units of The Frozen Kingdom, they are also a one of a kind unit in the hole game. unlike other land units, the Blue Knights are programmed to be aerial fighters, while they still stand in a city with 3 range. This makes them perfect in defanding the city and the surrounding area. They are not allowed to leave a city but can be moved to an other city if needed. Moving the unit does take a turn, so use it wisly. All this together makes the Blue Knight one of the most effective defence units in the game, unseless when placed poorly. Blue Knight requires 2 [ICON_RES_HORSE] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CLASICAL_BLUE_KNIGHT_TEXT">
+			<Text>These are the strongest and bravest warriors of The Frozen Kingdom and are known for there loyalty to their king, queen, prince or princess. There used in wars, but also for problems in the kingdom it self that is to big for normal knights or guards to handle. Not just anypony can become a Blue Knight, you have to proof yourself to be a strong, honorable, loyal and brave warrior.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

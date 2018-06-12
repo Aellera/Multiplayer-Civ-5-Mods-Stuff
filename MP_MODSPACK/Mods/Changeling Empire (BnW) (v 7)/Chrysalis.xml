@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:12 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+					<Type>LEADER_CHRYSALIS</Type>
+					<Description>TXT_KEY_LEADER_CHRYSALIS</Description>
+					<Civilopedia>TXT_KEY_LEADER_CHRYSALIS_PEDIA</Civilopedia>
+					<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS</CivilopediaTag>
+					<ArtDefineTag>Chrysalis_Scene.xml</ArtDefineTag>
+					<VictoryCompetitiveness>7</VictoryCompetitiveness>
+					<WonderCompetitiveness>5</WonderCompetitiveness>
+					<MinorCivCompetitiveness>9</MinorCivCompetitiveness>
+					<Boldness>8</Boldness>
+					<DiploBalance>7</DiploBalance>
+					<WarmongerHate>3</WarmongerHate>
+					<WorkAgainstWillingness>8</WorkAgainstWillingness>
+					<WorkWithWillingness>4</WorkWithWillingness>
+					<DenounceWillingness>7</DenounceWillingness>
+					<DoFWillingness>6</DoFWillingness>
+					<Loyalty>3</Loyalty>
+					<Neediness>6</Neediness>
+					<Forgiveness>3</Forgiveness>
+					<Chattiness>4</Chattiness>
+					<Meanness>9</Meanness>
+					<PortraitIndex>1</PortraitIndex>
+					<IconAtlas>CIV_COLOR_ATLAS_CHANGELINGS</IconAtlas>
+		</Row>
+	</Leaders>
+	
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>9</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>9</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	
+	
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_CHRYSALIS</LeaderType>
+			<TraitType>TRAIT_LOVE_EATER</TraitType>
+		</Row>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_LOVE_EATER</Type>
+			<ShortDescription>Diplomatic Substitution</ShortDescription>
+			<Description>When the Changelings control the original capital of a dead civilization, they gain their World Congress delegates. (Includes City-States.) Two extra spies.</Description>
+			<ExtraSpies>2</ExtraSpies>
+		</Row>
+	</Traits>
+
+	<!-- PEDIA ENTRY -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_HEADING_1">
+			<Text>Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_TEXT_1">
+			<Text>Queen Chrysalis towers above other changelings. Aided by mind control powers as well as the changeling's natural shapeshifting ability, she is dangerously adept at intrigue. Ever since she was small, Chrysalis has dreamed of leading her people into grand military conquest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_LIVED">
+			<Text>? - Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_NAME">
+			<Text>Chrysalis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_SUBTITLE">
+			<Text>Leader of the Changelings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHRYSALIS_TITLES_1">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS">
+			<Text>Chrysalis</Text>
+		<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+	
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_GENERIC_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_GENERIC_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_CHRYSALIS_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_CHRYSALIS_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_CHRYSALIS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_CHRYSALIS">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_CHRYSALIS_ATTACKED_HOSTILE</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_FIRSTGREETING_1">
+			<Text>Oh hey there, handsome. Never mind those other girls, I can be whoever you want. Why don't you make yourself comfortable over there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_FIRSTGREETING_2">
+			<Text>Welcome to the Changeling Empire. People call us militaristic, but we just love being loved. Could you love loving us too? I could make it... worth your while...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_FIRSTGREETING_3">
+			<Text>Oh hi there. I always like getting new food. I mean meeting new people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_WARBLUFF_1">
+			<Text>Mm, I love it when people play hard to get. I'll see you again soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_WARBLUFF_2">
+			<Text>Grr, fine. I'll let you get away this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_WARBLUFF_3">
+			<Text>Hmph, so you saw through me this time. It doesn't matter. You'll still lose in the end.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_WINWAR_1">
+			<Text>Don't worry about your citizens, I hear they're really enjoying themselves. And you could always drop by yourself, you know.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_LOSEWAR_1">
+			<Text>Aw. This way going to be my perfect day and now you've ruined it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DEFEATED_1">
+			<Text>Not again! Well at least it was an actual military victory this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DEFEATED_2">
+			<Text>Foal! You think you have defeated me, but now the second stage of my plan begins! Now my changelings will among your people and multiply until they can rise up and eat your empire from the inside out!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DEFEATED_3">
+			<Text>Not again! Well at least it was an actual military victory this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_TRIBUTE_YES_NEUTRAL">
+			<Text>... Fine, take it! But I won't forget about this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_TRIBUTE_NO_NEUTRAL">
+			<Text>What do you take me for, a foal?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRYSALIS_RESPONSE_REQUEST_1">
+			<Text>This is embarassing, but my changelings are starving and the war isn't going well. Could I borrow this for a while?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DEMANDTRIBUTE_HAPPY">
+			<Text>This is embarassing, but my changelings are starving and the war isn't going well. Could I borrow this for a while?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DEMANDTRIBUTE_ANGRY">
+			<Text>Mmm, that looks delicious. Maybe we won't have to take one of your cities after all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_TRADEREQUEST_ANGRY">
+			<Text>You might as well sell that for now. We'll take it by force soon enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DECLAREWAR_1">
+			<Text>This day is going to be perfect. The kind of day of which I've dreamed since I was small. Everypony I'll soon control; every stallion, mare and foal. Who says a girl can't really have it all?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DECLAREWAR_2">
+			<Text>This day is going to be perfect. The kind of day of which I've dreamed since I was small. Everypony I'll soon control; every stallion, mare and foal. Who says a girl can't really have it all?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_DECLAREWAR_3">
+			<Text>This day is going to be perfect. The kind of day of which I've dreamed since I was small. Everypony I'll soon control; every stallion, mare and foal. Who says a girl can't really have it all?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_ATTACKED_BETRAYED">
+			<Text>What, YOU are backstabbing ME? That's funny.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_ATTACKED_EXCITED">
+			<Text>Oh thank you, we were starting to get hungry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_ATTACKED_HOSTILE">
+			<Text>I was going to wait a bit longer before getting to you, but this works too.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHRYSALIS_TRADE_NEEDMORE_ANGRY_1">
+			<Text>Don't be silly now. What do you think we are, friends?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRYSALIS_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Both our borders are standing in the way of our ambitions. Maybe we should let each other through willingly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRYSALIS_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Mm, I just love it when my food walks right up to me where I can get it. Just.. a bit.. closer...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRYSALIS_LUXURY_TRADE_1">
+			<Text>My pets just love new stuff. How about yours?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRYSALIS_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I can see those armies, you know. Maybe you should just get on with it before I get annoyed.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

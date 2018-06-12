@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6331bc96-7a53-4219-b271-40a36eacc67d" version="1">
+  <Properties>
+    <Name>Ponified Advisors</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Replaces advisor images by vaguely appropriate ponies from My Little Pony: Friendship is Magic ((c) Hasbro). A limited version</Teaser>
+    <Description>Replaces advisor images by vaguely appropriate ponies from My Little Pony: Friendship is Magic ((c) Hasbro). A limited version of the Ponification mod, made by request.</Description>
+    <Authors>Harald B</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks>
+    <Mod id="" minversion="0" maxversion="999" title="3379d36f-25bd-4bc2-b82b-a9301836ad13" />
+  </Blocks>
+  <Files>
+    <File md5="7A2AAC7E4B3856CD4803ECFCC9B93173" import="1">advisorEconomic001.dds</File>
+    <File md5="90157DD53F16CCF16CB61C189D24803B" import="1">advisorEconomic002.dds</File>
+    <File md5="8512B1D05B2E5BC35549C984EFA9EC21" import="1">advisorEconomic003.dds</File>
+    <File md5="C5919FE5A678CAB574B34300F1F3616D" import="1">advisorForeign001.dds</File>
+    <File md5="AB9927BE2C8F351DE40325D89A483839" import="1">advisorForeign002.dds</File>
+    <File md5="037EEDB5B8BBA04551E74D550FE58358" import="1">advisorForeign003.dds</File>
+    <File md5="C4F225BFB6611CC1CE7F45B2C59D2B68" import="1">advisorMilitary001.dds</File>
+    <File md5="2F7F8AE2B270ECEED30234901D172CC9" import="1">advisorMilitary002.dds</File>
+    <File md5="470A3252985B0509B17427413631B93E" import="1">advisorMilitary003.dds</File>
+    <File md5="D0BCDDB9B20263705733D6FD894E81F7" import="1">advisorScience001.dds</File>
+    <File md5="3B18FA8F92DB8D8FF2EA0EB43AF0AFCA" import="1">advisorScience002.dds</File>
+    <File md5="B646A234B2C464774775B39C6ED8A502" import="1">advisorScience003.dds</File>
+  </Files>
+</Mod>

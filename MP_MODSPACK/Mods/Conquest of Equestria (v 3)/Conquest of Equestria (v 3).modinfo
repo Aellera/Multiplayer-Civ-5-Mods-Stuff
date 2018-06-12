@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="61d5dacf-6935-43d8-b0d9-b020e64c63b0" version="3">
+  <Properties>
+    <Name>Conquest of Equestria</Name>
+    <Teaser>Maps of the world of Equestria from My Little Pony; Friendship is Magic, based on maps by nsko/hlissner (http://wtwe.wikia.com/</Teaser>
+    <Description>Maps of the world of Equestria from My Little Pony; Friendship is Magic, based on maps by nsko/hlissner (http://wtwe.wikia.com/wiki/File:Equestria_and_beyond_rev_8.jpg). This map pack includes both a huge map of the extended world (with some improvisation by myself, where information was not available) and a standard size map of just the continent containing Equestria and the surrounding region.</Description>
+    <Authors>Circuit/NTGuardian</Authors>
+    <SpecialThanks>nsko, hlissner</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7475C80F843F7A4DF1779A01AF4EEFEF" import="0">EaB_Standard.Civ5Map</File>
+    <File md5="E8F47E47417B0EA47F88B05C74E1650B" import="0">Equestria.Civ5Map</File>
+    <File md5="BFCE1029579A418CD6EC5BEED28B4CD2" import="0">Equestria_and_Beyond.Civ5Map</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="Map" file="Equestria.Civ5Map">
+      <Name>Equestria</Name>
+      <Description>Equestria and its neighbors (standard)</Description>
+    </EntryPoint>
+    <EntryPoint type="Map" file="Equestria_and_Beyond.Civ5Map">
+      <Name>Equestria and Beyond (huge)</Name>
+      <Description>The world of Equestria</Description>
+    </EntryPoint>
+    <EntryPoint type="Map" file="EaB_Standard.Civ5Map">
+      <Name>Equestria and Beyond (standard)</Name>
+      <Description>The world of Equestria (standard)</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

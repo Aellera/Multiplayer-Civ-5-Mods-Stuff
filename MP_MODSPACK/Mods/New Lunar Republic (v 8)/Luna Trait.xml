@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2012 10:16:23 AM -->
+<GameData>
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_LUNA</LeaderType>
+			<TraitType>TRAIT_TIDES</TraitType>
+		</Row>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_TIDES</Type>
+			<Description>TXT_KEY_TRAIT_TIDES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_TIDES_SHORT</ShortDescription>
+			<ExtraEmbarkMoves>2</ExtraEmbarkMoves>
+		</Row>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_TIDES</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_TIDES</Type>
+			<Description>TXT_KEY_PROMOTION_TIDES</Description>
+			<Help>TXT_KEY_PROMOTION_TIDES_HELP</Help>
+			<ExtraNavalMovement>2</ExtraNavalMovement>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_TIDES">
+			<Text>Naval units get +2 [ICON_MOVES] Movement. Fishing Boats produce +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TIDES_SHORT">
+			<Text>Tides Ever Favorable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TIDES">
+			<Text>Tides Ever Favorable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TIDES_HELP">
+			<Text>+2 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

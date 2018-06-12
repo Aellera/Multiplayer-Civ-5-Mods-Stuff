@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/6/2012 11:31:50 AM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_BISMARCK"/>
+			<Set>
+				<Description>TXT_KEY_LEADER_SENTIUM</Description>
+				<Civilopedia>TXT_KEY_LEADER_SENTIUM_PEDIA</Civilopedia>
+				<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM</CivilopediaTag>
+				<ArtDefineTag>Sentium_Scene.xml</ArtDefineTag>
+				<VictoryCompetitiveness>1</VictoryCompetitiveness>
+				<WonderCompetitiveness>8</WonderCompetitiveness>
+				<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+				<Boldness>3</Boldness>
+				<DiploBalance>7</DiploBalance>
+				<WarmongerHate>9</WarmongerHate>
+				<DenounceWillingness>6</DenounceWillingness>
+				<DoFWillingness>7</DoFWillingness>
+				<Loyalty>5</Loyalty>
+				<Neediness>3</Neediness>
+				<Forgiveness>5</Forgiveness>
+				<Chattiness>9</Chattiness>
+				<Meanness>3</Meanness>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>CIV_COLOR_ATLAS_SENTIUM</IconAtlas>
+			</Set>
+		</Update>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set>
+				<Bias>2</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"/>
+			<Set>
+				<Bias>3</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>9</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+			<Set>
+				<Bias>8</Bias>
+			</Set>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set>
+				<Bias>7</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set>
+				<Bias>5</Bias>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set>
+				<Bias>6</Bias>
+			</Set>
+		</Update>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>2</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_RECON"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_RANGED"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_MOBILE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>4</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_NAVAL_GROWTH"/>
+			<Set>
+				<Flavor>1</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>6</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_EXPANSION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_GROWTH"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_GOLD"/>
+			<Set>
+				<Flavor>7</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_HAPPINESS"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_RELIGION"/>
+			<Set>
+				<Flavor>9</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>2</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_WATER_CONNECTION"/>
+			<Set>
+				<Flavor>5</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_ESPIONAGE"/>
+			<Set>
+				<Flavor>1</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_USE_NUKE"/>
+			<Set>
+				<Flavor>3</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK"/>
+			<Set TraitType="TRAIT_SCEPTER_OF_THE_NORTH"/>
+		</Update>
+	</Leader_Traits>
+	
+	<Traits>
+		<Row>
+			<Type>TRAIT_SCEPTER_OF_THE_NORTH</Type>
+			<Description>TXT_KEY_TRAIT_SCEPTER_OF_THE_NORTH</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SCEPTER_OF_THE_NORTH_SHORT</ShortDescription>
+			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
+		</Row>
+	</Traits>
+
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCEPTER_OF_THE_NORTH</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_SCEPTER_OF_THE_NORTH">
+			<Text>The Scepter of the North is used by Prince Sentium to protect his subjects. 25% more [ICON_HAPPINESS_1] Happiness for the total population. All military units receive a bombat bonus when fighting on own territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SCEPTER_OF_THE_NORTH_SHORT">
+			<Text>Scepter of the North</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENTIUM">
+			<Text>Sentium</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+
+	<Diplomacy_Responses>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_DECLAREWAR"/>
+			<Set Response="TXT_KEY_SENTIUM_DECLAREWAR%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_ATTACKED_BETRAYEDR"/>
+			<Set Response="TXT_KEY_SENTIUM_ATTACKED_BETRAYED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_ATTACKED_EXCITED"/>
+			<Set Response="TXT_KEY_SENTIUM_ATTACKED_EXCITED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_ATTACKED_HOSTILE"/>
+			<Set Response="TXT_KEY_SENTIUM_ATTACKED_HOSTILE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_DEFEATED"/>
+			<Set Response="TXT_KEY_SENTIUM_DEFEATED%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_EXPANSION_SERIOUS_WARNING"/>
+			<Set Response="TXT_KEY_SENTIUM_EXPANSION_SERIOUS_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_FIRST_GREETING"/>
+			<Set Response="TXT_KEY_SENTIUM_FIRSTGREETING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_GREETING_HOSTILE_HELLO"/>
+			<Set Response="TXT_KEY_SENTIUM_GREETING_HOSTILE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_GREETING_NEUTRAL_HELLO"/>
+			<Set Response="TXT_KEY_SENTIUM_GREETING_NEUTRAL_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_GREETING_POLITE_HELLO"/>
+			<Set Response="TXT_KEY_SENTIUM_GREETING_POLITE_HELLO%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING"/>
+			<Set Response="TXT_KEY_SENTIUM_HOSTILE_AGGRESSIVE_MILITARY_WARNING%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_LUXURY_TRADE"/>
+			<Set Response="TXT_KEY_SENTIUM_LUXURY_TRADE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_OPEN_BORDERS_EXCHANGE"/>
+			<Set Response="TXT_KEY_SENTIUM_OPEN_BORDERS_EXCHANGE%"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_BISMARCK" ResponseType="RESPONSE_REQUEST"/>
+			<Set Response="TXT_KEY_SENTIUM_RESPONSE_REQUEST%"/>
+		</Update>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SENTIUM_DECLAREWAR_1">
+			<Text>Trust me, I hate to do this. For long I stood by and watched you terrorize our world, but now its time to act. Your empire will soon be mine and peace will return to my kingdom. May the Spirit have mercy on you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_DECLAREWAR_2">
+			<Text>This seems barbaric, I know, but I see no other way... Here by declare I, Prince Sentium, war on your empire. My troops will advance into your territory and claim your grounds. May peace return soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_DECLAREWAR_3">
+			<Text>Enough is enough, no more games! Its time to settle this on the battle field like true kings. No worries, I'll make sure your troops will stay COOL.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_ATTACKED_BETRAYED_1">
+			<Text>How dare you?! Fine, it comes to this them. But know that your betrail will get noticed by my allies!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_ATTACKED_EXCITED_1">
+			<Text>Really? How amusing. I knew you would try to do this. The Blue Army is ready for your barbarian troops. Do not disapont me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_ATTACKED_HOSTILE_1">
+			<Text>So you wish to fight?. Bring it on you barbaric monster! I hope that the Spirit freezes you to death!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_DEFEATED_1">
+			<Text>I lost... May you have mursy on my pepole... They are innocent...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_DEFEATED_2">
+			<Text>By the Spirit, my kingdom has fallen... Forgive me Aurora, I'm so sorry my sister...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_EXPANSION_SERIOUS_WARNING_1">
+			<Text>My scouts noticed that you have been settling new lands near mine. Not to be rude, but can you pleace find new grounds in the future?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_FIRSTGREETING_1">
+			<Text>Hello and welcome! I am Prince Semtium, proud leader of The Frozen Kingdom. Our civilization is know for our rich history and culture. We are very peacefull and we always seek new allies. But do not mistake. Our cities are well protected. We will not tolorate barbaric behavior. Now, let us get to business. What can I do for you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_HOSTILE_HELLO_1">
+			<Text>I Hope your not here to make prouble... What do you want?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_HOSTILE_HELLO_2">
+			<Text>And here I was thinking I was going to have a nice day. What a shame.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_NEUTRAL_HELLO_1">
+			<Text>Greetings! Are you here to sign an alliance?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_NEUTRAL_HELLO_2">
+			<Text>Welcome back. I hope the guards didn't make trouble letting you in.  How may I help you today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_POLITE_HELLO_1">
+			<Text>Always good to see you my friend! Any news from your empire?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_GREETING_POLITE_HELLO_2">
+			<Text>The Spirit watches you my friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>My scouts brought me some worrisome information. Why are your troops standing near my borders? If your planning to attack us, be honnest, and tell us right away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Leds open our borders so my pepole can share the Spirit with your lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_RESPONSE_REQUEST_1">
+			<Text>Hello again my old friend. Things arent going to well here and we could use some help. Could you lent us an helping hoof?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SENTIUM_LUXURY_TRADE_1">
+			<Text>It came to my ears that you have something my people desire. Lets trade shall we? I promise you, it will help the both of us.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_1">
+			<Text>Rise of A Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_2">
+			<Text>Prince of Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_3">
+			<Text>The griffon War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_4">
+			<Text>The Dark War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_5">
+			<Text>Return of the Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_HEADING_6">
+			<Text>Invation of the Night Ponies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_1">
+			<Text>The Frozen Kingdom was founded in 1366 BNM by King Blizzard. Blizzard was a Equestrian Unicorn that on a day earned his wings. 22 years after that event he, his lovely wife, and followers went up to the Frozen North to found the new kingdom. Higher up north then anypony ever did before.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_2">
+			<Text>Sentium was born in 1145 BNM and became prince at 1163 BNM at a age of 18 after both his perents died a natural death. It was up to Sentium and his younger sister Aurora to maintain and protect the kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_3">
+			<Text>In 1170 BNM the Griffon Kingdoms declared war on Sentium. They killed his little sister Auroa at an age of 16 in an crual attack in forest territory. Sentium was furious and he responded, and clearly. He odered all his troops to attack and within 2 weeks the griffons retreated. As was trophy Sentium got a new city to his kingdom cappruted from the griffons. A city called Griffania.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_4">
+			<Text>In 1175 BNM an evil Alicorn named Lord Deathray attacked The Frozen Kingdom for steal the Scepter of the North. Deathray broke through both the city and palace walls with his evil Shadow Minions and finaly entered the Blue Palace. An epic battle begon but Deathray was stronger. Right before Deathray could get an hold of the Scepter of the North Sentium did a spell that hides the scepter at a total random place in the world. Sentium was turned to stone together with all his subjects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_5">
+			<Text>In 6 ANM a young Alicorn named Twilight Sparkle together with her friends brough back the scepter and undid the curse. Deathray also returned and tried to steal the scepter once more but this time Sentium had back up from Equestria and The Crystal Empire. It was more then Deathray could take and he got defeated. The kingdom was free once more after 1181 years and Sentium was ready to rule once again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TEXT_6">
+			<Text>In 7 ANM (After Nightmare Moon) the Night Pony Folk declared war on The Frozen Kingdom, Equestria and The Crystal Empire. After a battle of 6 months the war was finally over and the kingbom was back to peace and the world a safer place.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_LIVED">
+			<Text>1145 BNM - Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_NAME">
+			<Text>Sentium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_SUBTITLE">
+			<Text>Prince of Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TITLES_1">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TITLES_2">
+			<Text>The Beloved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENTIUM_TITLES_3">
+			<Text>Father Winter</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/2015 11:29:01 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_UNITY_FOR_ALL</Type>
+			<Description>TXT_KEY_TRAIT_UNITY_FOR_ALL</Description>
+			<ShortDescription>TXT_KEY_TRAIT_UNITY_FOR_ALL_SHORT</ShortDescription>
+			<LevelExperienceModifier>-34</LevelExperienceModifier>
+			<NoAnnexing>true</NoAnnexing>
+			<CultureFromKills>40</CultureFromKills>
+			<LandUnitMaintenanceModifier>-15</LandUnitMaintenanceModifier>
+		</Row>
+	</Traits>
+	<Trait_NoTrain>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+		</Row>
+	</Trait_NoTrain>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_ALICORN_TELEPATHY</Type>
+			<Description>TXT_KEY_PROMOTION_ALICORN_TELEPATHY</Description>
+			<Help>TXT_KEY_PROMOTION_ALICORN_TELEPATHY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PediaEntry>TXT_KEY_PROMOTION_ALICORN_TELEPATHY</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_UNITY_FOR_ALL</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_ALICORN_TELEPATHY</PromotionType>
+			<FeatureType>FEATURE_FALLOUT</FeatureType>
+			<Defense>30</Defense>
+			<Attack>30</Attack>
+		</Row>
+	</UnitPromotions_Features>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_UNITY_FOR_ALL">
+			<Text>Only one city can be built, and cities cannot be annexed. Kills gain some culture. Units require 34% less experience for promotions, are less expensive to maintain, and recieve a large bonus when in fallout.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UNITY_FOR_ALL_SHORT">
+			<Text>Unity for All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALICORN_TELEPATHY">
+			<Text>Synthetic Alicornism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALICORN_TELEPATHY_HELP">
+			<Text>Alicorns are well adapted to life in the wasteland, and recieve a large bonus when fighting in fallout.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

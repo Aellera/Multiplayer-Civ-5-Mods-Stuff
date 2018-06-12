@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/2015 11:29:01 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_LEGACY_OF_THE_STABLEDWELLER</Type>
+			<Description>TXT_KEY_TRAIT_LEGACY_OF_THE_STABLEDWELLER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LEGACY_OF_THE_STABLEDWELLER_SHORT</ShortDescription>
+			<AbleToAnnexCityStates>true</AbleToAnnexCityStates>
+		</Row>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_LEGACY_OF_THE_STABLEDWELLER</TraitType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CONVERT</Type>
+			<Description>TXT_KEY_PROMOTION_CONVERT</Description>
+			<Help>TXT_KEY_PROMOTION_CONVERT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PediaEntry>TXT_KEY_PROMOTION_CONVERT</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Defines>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="MINOR_CIV_BUYOUT_TURNS"/>
+		</Update>
+		<Update>
+			<Set Value="1750"/>
+			<Where Name="MINOR_CIV_BUYOUT_COST"/>
+		</Update>
+	</Defines>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CONVERT">
+			<Text>Inspirational</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONVERT_HELP">
+			<Text>Defeated enemy unit defects to the NCR.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LEGACY_OF_THE_STABLEDWELLER">
+			<Text>City States that have been allied with the NCR for 15 turns can be peacefully annexed for a large sum of gold [ICON_GOLD]. Farms produce +1 [ICON_FOOD] food thanks to the Single Pony Project Towers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LEGACY_OF_THE_STABLEDWELLER_SHORT">
+			<Text>Legacy of the Stabledweller</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

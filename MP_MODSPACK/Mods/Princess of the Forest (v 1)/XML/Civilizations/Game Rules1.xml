@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 9:47:19 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SINTERFELL">
+			<Text>Everfree Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SEARISLAND">
+			<Text>Whitetail Woods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SERWYN">
+			<Text>Macintosh Hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SEEPWOOD">
+			<Text>Hayseed Swamps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SREADFORT">
+			<Text>Applewood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SREYWATER">
+			<Text>Trottawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SORNWOOD">
+			<Text>Trotonto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SARHOLD">
+			<Text>New Ponyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SASTHEARTH">
+			<Text>Flutter City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SORRHEN">
+			<Text>Salt Lick City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SHITEHARBOR">
+			<Text>Vanhoover</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

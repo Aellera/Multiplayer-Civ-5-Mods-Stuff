@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2012 6:39:15 PM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EARTHPONY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_EARTHPONY_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_0">
+			<Text>Puffyshirt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_1">
+			<Text>Cake Pan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_2">
+			<Text>Cup Cake</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_3">
+			<Text>Flan</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_4">
+			<Text>Cherrychanga</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_5">
+			<Text>Mannie Cottie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_6">
+			<Text>Bar Stool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_7">
+			<Text>Witty Wafer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_8">
+			<Text>Chimicherry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_EARTHPONY_9">
+			<Text>Augustus</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

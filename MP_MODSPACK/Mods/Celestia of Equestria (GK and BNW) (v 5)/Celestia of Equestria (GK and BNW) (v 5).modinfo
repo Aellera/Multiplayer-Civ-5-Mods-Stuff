@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="abbff440-62ac-4f85-8fdc-72638b93a46c" version="5">
+  <Properties>
+    <Name>Celestia of Equestria (GK and BNW)</Name>
+    <Description>This is modificated version of Silver Boulder's Equestria mod, Any credit should redirect to him.
+
+It may constantly updated to balance it.
+
+If you're wondering who wrote that god awful Dawn of Man text (Or any text in matter). I am sorry. I welcome any suggestion on change.
+
+For terrible English writing, I am truly sorry. I am not good with English.
+
+Trait - Pursuit of Harmony : Maintenance cost of any unit (Including worker and settler) is increased by 45%. Any normal building that provides happiness will provide two additional happiness and give +3% on global culture output. (This ability does not effect the happiness given by wonder or religious building.)
+
+UB1 - Equestria Ville : Replaces Stable. No requirement, doesn't give advantage for having horses. 10% increase on production and science with +1 default happiness.
+
+UB2 - Sweet Shop : Replaces Circus, No requirement. +2 default happiness, +1 Food and tech is moved to Pottery - And it is slightly in higher cost.
+
+Any feedbacks are welcomed.
+
+Celestia Scene artwork is done by Huussii on deviantart, and Celestia Icon is work of MetalPandora, also on deviantart. Thousand thanks for artwork.
+
+My Little Pony : Frienship is Magic and Celestia is belong to Hasbro and Lauren Faust. With those combination, I technically doesn't own anything about this mod.
+
+There will be an overhaul of older code to fit this mod into BNW while keeping G&amp;K.
+
+Alternative Victory Condition is removed due to never, ever, working.</Description>
+    <Authors>Ascale</Authors>
+    <SpecialThanks>Harald B for Original Post, Silver Boulder for actual credit of Source Code, Game-N for testing.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="870b4c87-3a61-4010-ad20-d1f58525a272" minversion="0" maxversion="999" title="Equestria (Gods and Kings Plus version)" />
+    <Mod id="537a8e40-c2c3-4c3b-8391-9173eacb30eb" minversion="0" maxversion="999" title="Equestria" />
+  </Blocks>
+  <Files>
+    <File md5="89208AF8507C10557F8A06721575D258" import="1">ART/EquestriaAtlas128.dds</File>
+    <File md5="9AA2A8595FDBA238840C38E610749164" import="1">ART/EquestriaAtlas256.dds</File>
+    <File md5="228106EEA33BD43D127398242382456C" import="1">ART/EquestriaAtlas32.dds</File>
+    <File md5="4FC72A6320207498484EA04514D07DC2" import="1">ART/EquestriaAtlas45.dds</File>
+    <File md5="2E31EF5FB17DF07702CE4679B88ABC8E" import="1">ART/EquestriaAtlas64.dds</File>
+    <File md5="78FA6226B0CC29160867AE71A597EC9B" import="1">ART/EquestriaAtlas80.dds</File>
+    <File md5="1147335AAA7FCFA9E00538C1481C9620" import="1">ART/EquestriaDOM.dds</File>
+    <File md5="208AB659B1D8189EA972CF7EE1FC91D2" import="1">ART/MapEquestria512.dds</File>
+    <File md5="4BB23675491FE2816EC46CA915B9A930" import="1">ART/NewCelestiaDiploMod.dds</File>
+    <File md5="F6E862F670592001304E5E69FF22A12C" import="1">Atlas.xml</File>
+    <File md5="7B5B6498FF22D5DC3A2EB08590C0A41B" import="0">City Names.xml</File>
+    <File md5="1B5DE14AA95A744C149A888300725D28" import="0">Equestria.xml</File>
+    <File md5="5FA34D4A68F40B1F3F22BE547DA9D413" import="1">Celestiascene.xml</File>
+    <File md5="406A995BB5E598FBA349FFEA4C583831" import="0">Great People Modify.xml</File>
+    <File md5="BFC2D0CA4749940D988E232527E527CC" import="0">Princess Celestia.xml</File>
+    <File md5="33782E9E3A37EE6E3E364C50DD1B5426" import="0">Building Info.xml</File>
+    <File md5="94FA37948B9D7BC54917D11C22A85F0A" import="0">Text Library.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Building Info.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Equestria.xml</UpdateDatabase>
+      <UpdateDatabase>Celestiascene.xml</UpdateDatabase>
+      <UpdateDatabase>Princess Celestia.xml</UpdateDatabase>
+      <UpdateDatabase>Text Library.xml</UpdateDatabase>
+      <UpdateDatabase>Great People Modify.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

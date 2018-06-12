@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="986c8469-89e5-4985-a975-982ba7299d1c" version="1">
+  <Properties>
+    <Name>Princess of the Forest</Name>
+    <Teaser>Adds a new civilization "The Woodlands" led by Fluttershy</Teaser>
+    <Description>Adds a new civilization "The Woodlands" led by Fluttershy
+
+~~~Trait
+
+Princess of the Forest: Improved movement in forests. Forests also yield +1 more food than usual. 
+
+~~~Unique Unit
+
+Pegasi  Archer: Replaces crossbowman. Has three range and ignores terrain costs. 
+
+~~~Unique Building
+
+Animal Cottage: Replaces stable. Provides an extra food and production for each cow, horse or sheep being worked. 15% Percent mounted unit production increase. Must have a pasture improvement in the city.
+
+~~~  Art Credits 
+Vector in diplomacy image by Fluttershy265 on deviant art.
+
+Map image by Dfer32 on deviant art.
+
+Dawn of man image by Metalpandora on deviant art
+
+Leader Icon by infinitoa on deviant art 
+
+UU Icon by emberfiremane
+
+
+I do not own my little pony, all my little pony characters belong to hasbro.</Description>
+    <Authors>Airheart</Authors>
+    <SpecialThanks>Pluvia, I used his mod files as templates. And Butterscotch, for offering his help and I also used his mods as templates for some files.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9657C7BFD73230A26E16DA11722B89C9" import="1">Art/CivSymbolsColorFlutter128.dds</File>
+    <File md5="DD60BC8CA060DF7196AF3D2BDB6F4C63" import="1">Art/CivSymbolsColorFlutter214.dds</File>
+    <File md5="D272342A49810E82D184207BBC848F4D" import="1">Art/CivSymbolsColorFlutter256.dds</File>
+    <File md5="0B44E8D44A0E5B1C57DD65BD61587BD7" import="1">Art/CivSymbolsColorFlutter32.dds</File>
+    <File md5="89BCA7D221827C7263B5286BB0923D78" import="1">Art/CivSymbolsColorFlutter45.dds</File>
+    <File md5="817911220E2228C3AE69D0D0778DBD63" import="1">Art/CivSymbolsColorFlutter64.dds</File>
+    <File md5="FFE8CACE19867791C302D13D62548F9E" import="1">Art/CivSymbolsColorFlutter80.dds</File>
+    <File md5="6C22F7867DAC95BD9290DBF73960092D" import="1">Art/DiploFlutter.dds</File>
+    <File md5="A3356C66020B6480FD4C0E77F27EA90B" import="1">Art/FlutterDiplo.dds</File>
+    <File md5="3DF6997E48D0EC77664D4444A7440E09" import="1">Art/FlutterDOM.dds</File>
+    <File md5="E2661A6F2EBD814F74B66C004D436861" import="1">Art/FlutterMap.dds</File>
+    <File md5="8C4017FBE4F96BCEC6026D64DFFA0AE4" import="0">lua/CityView.lua</File>
+    <File md5="546F348734349068E1ED8A274F9676AB" import="0">lua/CivilopediaScreen.lua</File>
+    <File md5="D54D9BF2A599D6DE1F94916B8B5038BE" import="0">lua/DrellDummyBuildingIsVisibleSet.sql</File>
+    <File md5="8C0973DA4B4C98E2B48E7D8DDF318ABB" import="0">lua/DrellDummyBuildingTables.sql</File>
+    <File md5="ACD361DE550F9CEC08C29A295C9731BA" import="0">README.TXT</File>
+    <File md5="92E567855D66F7529CD1EFC0D7DABD2B" import="0">XML/Building/FlutterBuilding.xml</File>
+    <File md5="C440BF17E5D26294236BA526CC307419" import="0">XML/Civilizations/Civ_Woodland.xml</File>
+    <File md5="BB92699824F58CD5D0B8E91C1FF87C08" import="0">XML/Civilizations/Game Rules1.xml</File>
+    <File md5="5B8C728B5D0C8765B080D20292B9BDDB" import="0">XML/Civilizations/Spynames.xml</File>
+    <File md5="CAE9F76E358A45C2935B4A63D7FFD9F3" import="1">XML/Civilizations/Names.xml</File>
+    <File md5="1CF8C116119FE1F97F7C948CB8B209FD" import="0">XML/Gameinfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="92BE895662A977969CD9FC3B3CB7A64D" import="0">XML/Leaders/Flutter_Diplomacy.xml</File>
+    <File md5="22196D4A7D31B445D4413F09B3E8621E" import="0">XML/Leaders/Fluttershy.xml</File>
+    <File md5="6FEDD2A353DE94811A1DA6116CB75088" import="0">XML/Leaders/Diploresponses.xml</File>
+    <File md5="5BF5F1604AE5417BEA0AFA5FD08F7914" import="1">XML/Leaders/Flutter_Scene.xml</File>
+    <File md5="595268516B3E946D84DB6A57856BD6E1" import="0">XML/Leaders/Leadertext.xml</File>
+    <File md5="738929261D8462D09DEA2788959F434C" import="0">XML/Trait/Drell_BuildingClassMod.xml</File>
+    <File md5="A04032922C07DA15D150D790D97F7754" import="0">XML/Trait/Drell_Buildings.xml</File>
+    <File md5="602291B391223B7880EF7C99F1279156" import="0">XML/Trait/Traitretry.xml</File>
+    <File md5="7F2DB166173B6425A0A4D318FD834296" import="0">XML/Units/PegasiArcher.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>lua/DrellDummyBuildingIsVisibleSet.sql</UpdateDatabase>
+      <UpdateDatabase>lua/DrellDummyBuildingTables.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Building/FlutterBuilding.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Woodland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Game Rules1.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameinfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Diploresponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Flutter_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Flutter_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Fluttershy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leadertext.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Drell_BuildingClassMod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Drell_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Traitretry.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/PegasiArcher.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Spynames.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="lua/CityView.lua">
+      <Name>City</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="MapScript" file="lua/CivilopediaScreen.lua">
+      <Name>Screen</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

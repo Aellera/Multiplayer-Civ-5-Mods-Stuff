@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2012 2:01:49 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_CRYSTAL_PALACE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HOOF_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TROTSDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GALLOPOLIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CLOPDON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CELESTIA_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEWCRYSTAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GALLOPFREY</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_CRYSTAL_PALACE">
+			<Text>The Crystal Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HOOF_CITY">
+			<Text>New Hoof City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROTSDALE">
+			<Text>Trotsdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GALLOPOLIS">
+			<Text>Gallopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CLOPDON">
+			<Text>Clopdon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CELESTIA_CITY">
+			<Text>Celestia City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GALLOPFREY">
+			<Text>Gallopfrey</Text>
+		</Row>
+	</Language_en_US>
+	</GameData>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/15/2012 9:04:02 AM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NLR</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NLR_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_0">
+			<Text>Trixie</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_1">
+			<Text>Diamond Tiara</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_2">
+			<Text>Silver Spoon</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_3">
+			<Text>Scootaloo</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_4">
+			<Text>Snips</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_5">
+			<Text>Octavia</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_6">
+			<Text>Snails</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_7">
+			<Text>Colgate</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_8">
+			<Text>Lotus</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NLR_9">
+			<Text>Aloe</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

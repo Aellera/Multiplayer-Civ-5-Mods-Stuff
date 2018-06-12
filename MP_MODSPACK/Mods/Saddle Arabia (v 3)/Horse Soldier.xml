@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2012 8:36:50 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_HORSE_SOLDIER</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>85</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HORSE_SOLDIER</Description>
+			<Civilopedia>TXT_KEY_CIV5_CLASICAL_HORSE_SOLDIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HORSE_SOLDIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HORSE_SOLDIER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CAMEL_ARCHER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>6</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_HORSEMAN</UnitArtInfo>
+			<UnitFlagAtlas>CIV_ALPHA_ATLAS_SADDLEARABIANS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_SADDLEARABIANS</IconAtlas>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SADDLE_ARABIA</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_HORSE_SOLDIER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_HORSE_SOLDIER">
+			<Text>Horse Soldier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HORSE_SOLDIER">
+			<Text>Saddle Arabia's unique unit, replacing the Horseman. It suffers no terrain penalties nor defense penalty, in fact it gains double XP from defence. Also uses no horse resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_SOLDIER_STRATEGY">
+			<Text>As Saddle Arabia is a nation of horses they are used to already going over difficult terrain so they lose no movement. Additionally their ferverish defence of their homeland allows them to defend better than other mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CLASICAL_HORSE_SOLDIER_TEXT">
+			<Text>Horse Soldiers have been brought up from the lower classes of Saddle Arabian society and allowed to fight in the army, with the chance to move themselves up the social caste. With promise of land and gold after years of service and a fierce love of their homelands these soldiers fight hard to defend their lands and peoples.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

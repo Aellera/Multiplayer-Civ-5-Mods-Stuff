@@ -1,0 +1,45 @@
+<Asset>
+	<Mesh file="PonyWorker.gr2"/>
+	<Animation file="PonyWorker_idle_anim.gr2" ec="1000, 1020, 1195, 2000, 2020"/>
+	<Animation file="PonyWorker_fidget_anim.gr2" ec="1040, 2040"/>
+	<Animation file="PonyWorker_roadrest_anim.gr2" ec="1500, 1520, 1580"/>
+	<Animation file="PonyWorker_run_anim.gr2" ec="1400, 1440"/>
+	<Animation file="PonyWorker_road_anim.gr2" ec="1910, 1960"/>
+	<Animation file="PonyWorker_farm_anim.gr2" ec="1920"/>
+	<Animation file="PonyWorker_chop_anim.gr2" ec="1930"/>
+	<Animation file="PonyWorker_mine_anim.gr2" ec="1940"/>
+	<Animation file="PonyWorker_build_anim.gr2" ec="1950"/>
+	<Animation file="PonyWorker_idledie_anim.gr2" ec="1200"/>
+	<Animation file="PonyWorker_idledie_fade_anim.gr2" ec="1220"/>
+	<Animation file="PonyWorker_surrender_anim.gr2" ec="1190"/>
+	<Animation file="PonyWorker_buildbegin_anim.gr2" ec="1995"/>
+	<Animation file="PonyWorker_fortify_anim.gr2" ec="1280"/>
+	<Animation file="PonyWorker_fortify_idle_anim.gr2" ec="1285, 1290"/>
+	<AnimGraph file="CIVILIAN_DEATH_FINAL.dge"/>
+	<AnimGraph file="CIVILIAN_ENTER_BOMBARD_DEFEND.dge"/>
+	<AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="BOMBARD_DEFEND_LOOP_GRAPH.dge"/>
+	<TimedTrigger file="FX_Triggers_Worker_EURO.ftsxml"/>
+	<StateMachine file="WORKER_STATE.fsmxml"/>
+	<AnimGraph file="CAPTURED.dge"/>
+	<AnimGraph file="RUN_START_CIVILIAN.dge"/>
+	<AnimGraph file="STOP_RUNNING_CIVILIAN.dge"/>
+	<AnimGraph file="FIDGETS_GRAPH.dge"/>
+	<AnimGraph file="IDLE_GRAPH.dge"/>
+	<AnimGraph file="RUNNING_LOOP_GRAPH.dge"/>
+	<AnimGraph file="TRANSITIONS_FOR_IDLES.dge"/>
+	<AnimGraph file="WORKER_WORK.dge"/>
+	<AnimGraph file="WORKER_EXIT_WORK.dge"/>
+	<AnimGraph file="WORKER_ENTER_WORK.dge"/>
+	<AnimGraph file="FORTIFY_GRAPH.dge"/>
+	<AnimGraph file="WORKER_ENTER_SLEEP.dge"/>
+	<AnimGraph file="WORKER_EXIT_SLEEP.dge"/>
+	<BoneUsage>
+		<Bone name="Worker_Axe"/>
+		<Bone name="Worker_Hammer"/>
+		<Bone name="Worker_Shovel"/>
+		<Bone name="Worker_Rake"/>
+		<Bone name="Worker_Pick"/>
+	</BoneUsage>
+</Asset>
+

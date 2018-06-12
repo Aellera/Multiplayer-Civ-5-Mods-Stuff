@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/18/2016 1:58:20 PM -->
+<GameData>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_TFK_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_0">
+			<Text>Sparky Stardust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_1">
+			<Text>Cold Snap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_2">
+			<Text>Moon Light</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_3">
+			<Text>Silver Oak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_4">
+			<Text>Frost Bite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_5">
+			<Text>Icy</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_6">
+			<Text>Spike Shield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_7">
+			<Text>Twinkle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_8">
+			<Text>Stealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TFK_9">
+			<Text>Swift</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

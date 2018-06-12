@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/26/2013 6:19:41 PM -->
+<GameData>
+	
+<!-- TIDES EVER FAVORABLE - MOVEMENT -->
+	<!--<UnitPromotions>
+		<Update>
+			<Where Type="PROMOTION_TIDES"/>
+			<Set ExtraNavalMovement="2"/>
+		</Update>
+	</UnitPromotions>-->
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TIDES</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<PromotionType>PROMOTION_TIDES</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+</GameData>

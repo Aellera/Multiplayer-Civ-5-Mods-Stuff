@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 1:20:29 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_FLUTTERSHY">
+			<text>Fluttershy</text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_LIVED">
+			<Text>2010-Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_NAME">
+			<Text>Fluttershy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_SUBTITLE">
+			<Text>Princess of the Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_TEXT_1">
+			<Text>Fluttershy is a timid pegasus mare from ponyville. Thanks to the help of her five best friends she has started to come out of her shell and become much less of a doormat, and more assertive. [NEWLINE] Fluttershy loves to spend time alone with her animals, but also enjoys time with her friends, whom she is very protective of. Her cutie mark is three pink butterflys, signifying that her special talent is working with animals. [NEWLINE] During the return of nightmare moon, Fluttershy discovered that she was the very embodyment of the element of kindness, a title she tries her very best to live up to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_FLUTTERSHY_TITLES_1">
+			<Text>Princess</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

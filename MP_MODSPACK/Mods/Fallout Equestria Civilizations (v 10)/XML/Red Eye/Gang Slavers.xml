@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/14/2015 9:23:32 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_INFANTRY</Class>
+			<Type>UNIT_SLAVER_GANG</Type>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
+			<Combat>70</Combat>
+			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<WorkRate>100</WorkRate>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SLAVER_GANG</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SLAVER_GANG_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SLAVER_GANG_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SLAVER_GANG</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<NumExoticGoods>1</NumExoticGoods>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>6</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SLAVERGANG</UnitArtInfo>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_FOE</UnitFlagAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+	</Units>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FORCED_RECRUITMENT</Type>
+			<Description>TXT_KEY_PROMOTION_FORCED_RECRUITMENT</Description>
+			<Help>TXT_KEY_PROMOTION_FORCED_RECRUITMENTL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<OrderPriority>7</OrderPriority>
+			<FreePillageMoves>true</FreePillageMoves>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>EXPANSION_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FORCED_RECRUITMENT</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVERS</CivilizationType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SLAVER_GANG</UnitType>
+			<PromotionType>PROMOTION_FORCED_RECRUITMENT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SLAVER_GANG">
+			<Text>Slaver Gang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SLAVER_GANG">
+			<Text>Slaver Gangs recieve a bonus outside friendly lands and can sell/capture slaves (exotic goods) once adjacent to or inside foreign territory for gold. They can also establish Slave Factories and forts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_SLAVER_GANG_TEXT">
+			<Text>Slaver Gangs are groups of ponies and griffins who scour the wasteland looking for ponies to enslave in the name of Red Eye. These slavers have a reputation for their semi-sadistic nature, second only to raiders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SLAVER_GANG_STRATEGY">
+			<Text>Slaver Gangs are gold ranglers that are well rounded for both peace and war. Deploying Slaver gangs during wartime allow them to quickly pillage enemy improvements without expending movement points. During peacetime, they can be sent to the borders of other civilizations to sell/capture slaves (gain gold via exotic goods) once. After expending this ability, they can still be used militarily or can be sold for more gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_RECRUITMENT">
+			<Text>Forced Recruitment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORCED_RECRUITMENTL_HELP">
+			<Text>Slavers driven by Red Eye's cause pillage without moving, and can sell/capture slaves at the borders of other civilizations once. They can also create Refurbished Factories and forts.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

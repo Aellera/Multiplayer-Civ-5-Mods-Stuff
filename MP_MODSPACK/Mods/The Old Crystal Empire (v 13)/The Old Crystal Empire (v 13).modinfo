@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="81aa1eb6-83dc-456b-94d2-15abc1bd9a8c" version="13">
+  <Properties>
+    <Name>The Old Crystal Empire</Name>
+    <Teaser>Adds the Crystal Empire, led by King Sombra.</Teaser>
+    <Description>A thousand years ago, a unicorn king ruled over a vast crystal empire. King Sombra's reign was terrible and cruel. He ruled his crystal empire with an iron hoof, enslaving all under his mighty gaze. He was defeated by two sisters, banished to the arctic cold of the north. Before his exile, he cursed his empire causing it to vanish into thin air. And thus was the legend of the Crystal Empire and its dark king.
+
+Now the Crystal Empire has returned. A dark shadow decends upon the fable kingdom. Take on the role as King Sombra! Will you lead your people to a better tomorrow or spread your darkness across all of time!
+
+|Important changes to Sombra's unique building. please read the description!|
+
+Adds King Sombra to your civilizations, replacing Songhai.
+
+New Trait, CRYSTAAAAALS! Double bonus to gems and iron, +2 production for mines.
+
+New Unit, Flugel Trumpeter, replaces the Knight. Both stronger and increase movement.
+
+New Building, the Crystal Spire, replaces the Stone Works, It provides 2 culture, 1 production, and +1 production for each gem and stone worked.
+
+Special Thanks to KingSpartaX37 and CarbonMaestro for letting me use their music, and also Harald B for his pony mods. Without them I'd never had learn a working schema for modding civ's.
+
+I won't be doing special models for the Trumpeters, but feel free to do so if you want.
+
+I appreciate feedback as I'm still playtesting the various changes for all my mods, plus bug hunting for a random crash.</Description>
+    <Authors>Silent Modder</Authors>
+    <SpecialThanks>To KingSpartaX37, CarbonMaestro for their music</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5E0E4C1B392853ECAF9CD389FCFAF9C5" import="1">Art/Sombra128.dds</File>
+    <File md5="2A91AA677E19B0E002BD796985D8CBEA" import="1">Art/Sombra214.dds</File>
+    <File md5="53EDCD419DA548F9909A8809E65F3BA9" import="1">Art/Sombra256.dds</File>
+    <File md5="908475FCFFF70096C0689E4B8520231A" import="1">Art/Sombra32.dds</File>
+    <File md5="350BEF206CDA2B09923BAB10A44AE2E0" import="1">Art/Sombra32alpha.dds</File>
+    <File md5="88C6712D340FEC5F69C227E41612C3B1" import="1">Art/Sombra45.dds</File>
+    <File md5="ECC62D28607985762CE44AC0B40A431C" import="1">Art/Sombra64.dds</File>
+    <File md5="9ADBB6D787646FA7E157529FDF8D4A96" import="1">Art/Sombra80.dds</File>
+    <File md5="7CC4DFE1FC13611C3610A7109CDE6B39" import="1">Art/MapSombra512.dds</File>
+    <File md5="D1E95ACBB0859E0008E54AFF99D0CFDA" import="1">Art/SombraDOM.dds</File>
+    <File md5="B0C0418D4DB9B9252A0BEED580DC563F" import="1">Art/Sombra_dipo.dds</File>
+    <File md5="C10302B74F4E292FD9069DF64A5C5C9C" import="1">Art/Sombra_scene.xml</File>
+    <File md5="494398E269C82559C2462F136FA9F3E8" import="1">Atlas.xml</File>
+    <File md5="B908A7F46708C42A16EED693B02F3300" import="1">City Names.xml</File>
+    <File md5="38ADE634456E2E5B678A38E81BD84025" import="1">Old Crystal Empire.xml</File>
+    <File md5="263C5850845151B878F1CB0EBFDCE7AD" import="1">Crystal Spire.xml</File>
+    <File md5="F1BFE6A39460B3911FC3174969610E92" import="1">King Sombra.xml</File>
+    <File md5="CFF6E174F5C40E3FD79B0E7D6C321092" import="1">Music/Askia_Peace.mp3</File>
+    <File md5="15BD3A688510EE541429F7DD24F8E5A1" import="1">Music/Askia_War.mp3</File>
+    <File md5="9298568AADAE685C4EDAECB3CC2F1EB3" import="1">Spy_Table.xml</File>
+    <File md5="806F1F7FE7BBE98C7B691BE58B082DA6" import="1">Trumpeter.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Old Crystal Empire.xml</UpdateDatabase>
+      <UpdateDatabase>Crystal Spire.xml</UpdateDatabase>
+      <UpdateDatabase>King Sombra.xml</UpdateDatabase>
+      <UpdateDatabase>Trumpeter.xml</UpdateDatabase>
+      <UpdateDatabase>Spy_Table.xml</UpdateDatabase>
+      <UpdateDatabase>City Names.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Sombra_scene.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

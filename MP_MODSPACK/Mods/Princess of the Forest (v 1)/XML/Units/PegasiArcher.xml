@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 1:40:41 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_CROSSBOWMAN</Class>
+			<Type>UNIT_PEGASI_ARCHER</Type>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<Combat>13</Combat>
+			<RangedCombat>15</RangedCombat>
+			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PEGASI_ARCHER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_PEGASI_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PEGASI_ARCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PEGASI</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_ENGLISH_LONGBOWMAN</UnitArtInfo>
+			<UnitFlagIconOffset>30</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FLUTTER</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PEGASI_ARCHER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_PEGASI_ARCHER">
+			<text>Pegasi Archer</text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_PEGASI_ARCHER_MEDIVAL_PEGASI_TEXT">
+			<text>Ranged units that replace crossbowmen.They outclass them in range.</text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PEGASI">
+			<text>Ranged units that replace crossbowmen.They outclass them in range.</text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_PEGASI_TEXT">
+			<text>These Pegasi can fly up high which allows them to fire their bows further then other archers</text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PEGASI_ARCHER_STRATEGY">
+			<text>These Pegasi are great for attacking other ranged units. The Pegasi can attack them while they're out of the enemies range. </text>
+		</Row>
+	</Language_en_US>
+</GameData>

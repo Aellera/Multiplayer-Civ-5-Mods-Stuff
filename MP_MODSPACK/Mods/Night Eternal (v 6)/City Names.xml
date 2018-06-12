@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2012 4:10:27 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTLE_RUINS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MARELIN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HUFGRUND</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINDSOAR</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ESCARGOAT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_FORBIDDEN_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NME</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OTTAPAW</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_CASTLE_RUINS">
+			<Text>Castle Ruins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MARELIN">
+			<Text>Marelin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HUFGRUND">
+			<Text>Hufgrund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WINDSOAR">
+			<Text>Windsoar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ESCARGOAT">
+			<Text>Escargoat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_FORBIDDEN_CITY">
+			<Text>The Forbidden City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OTTAPAW">
+			<Text>Ottapaw</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

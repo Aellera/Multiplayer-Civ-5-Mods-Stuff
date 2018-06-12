@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/25/2016 6:50:59 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_HERALDS</Type>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_HERALDS</DawnOfManAudio>
+			<Description>TXT_KEY_CIV_HERALDS_DESC</Description>
+			<CivilopediaTag>TXT_KEY_CIV5_HERALDS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_HERALDS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_HERALDS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_HERALDS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_HERALDS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_HERALDS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_HERALDS</AlphaIconAtlas>
+			<MapImage>MapHeralds512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_HERALDS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Sunset.dds</DawnOfManImage>
+			<SoundtrackTag>ZULU</SoundtrackTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<DerivativeCiv></DerivativeCiv>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HERALDS_10</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<LeaderheadType>LEADER_SUNSET</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<ReligionType>RELIGION_TENGRIISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HERALDS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+			<StartAlongOcean>1</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	<!-- Civilization_Start_Along_River -->
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_HERALDS</Type>
+			<PrimaryColor>COLOR_PLAYER_HERALDS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HERALDS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_HERALDS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HERALDS_ICON</Type>
+			<Red>0.925</Red>
+			<Green>0.859</Green>
+			<Blue>0.114</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HERALDS_BACKGROUND</Type>
+			<Red>0.929</Red>
+			<Green>0.086</Green>
+			<Blue>0.259</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HERALDS_TEXT</Type>
+			<Red>0.596</Red>
+			<Green>0.953</Green>
+			<Blue>0.761</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_HERALDS_DESC">
+			<Text>Herald</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HERALDS_TITLE">
+			<Text>Heralds of Sunset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HERALDS_SHORT_DESC">
+			<Text>The Heralds of Sunset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HERALDS_ADJECTIVE">
+			<Text>Heralds of Sunset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HERALDS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HERALDS_TEXT_1">
+			<Text>These Ponies claim their ancestors to originally be from Equestria. Legends say that a majority of Equestria’s trade fleet was lost and never returned after Discord first reigned over the land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_HERALDS_TEXT">
+			<Text>Letter found in Princess Celestia's Bedchamber.[NEWLINE][NEWLINE]To be filed under Student #216 in the Canterlot Archives for her Majesty's convenience.[NEWLINE][NEWLINE]~Steward Golden Wish~</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_0">
+			<Text>Eastbourne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_1">
+			<Text>Gallop City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_2">
+			<Text>Sootbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_3">
+			<Text>Cattlemark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_4">
+			<Text>Lancer Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_5">
+			<Text>Weltkirk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_6">
+			<Text>Far Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_7">
+			<Text>Sunside</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_8">
+			<Text>Lunaris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_9">
+			<Text>Little Ivywood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HERALDS_10">
+			<Text>Marestead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_0">
+			<Text>Golden Wish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_1">
+			<Text>Storm Holder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_2">
+			<Text>Comet Showers</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_3">
+			<Text>Sunbeam</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_4">
+			<Text>Aurora Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_5">
+			<Text>Berry Dancer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_6">
+			<Text>Peppermint Spark</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_7">
+			<Text>Sapphire Velvet</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_8">
+			<Text>Cheery Burst</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HERALDS_9">
+			<Text>Emerald Skies</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:25:33 PM -->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_LITTLEPIP</Type>
+			<Description>TXT_KEY_LEADER_LITTLEPIP</Description>
+			<Civilopedia>TXT_KEY_LEADER_LITTLEPIP_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP</CivilopediaTag>
+			<ArtDefineTag>LittlePip_Leader_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>5</VictoryCompetitiveness>
+			<WonderCompetitiveness>4</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>5</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>7</WarmongerHate>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>6</DoFWillingness>
+			<Loyalty>7</Loyalty>
+			<Neediness>5</Neediness>
+			<Forgiveness>6</Forgiveness>
+			<Chattiness>6</Chattiness>
+			<Meanness>3</Meanness>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+		</Row>
+	</Leaders>
+
+
+	<!-- AI BEHAVIOUR -->
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+	<!-- SPECIAL TRAIT -->
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_LITTLEPIP</LeaderType>
+			<TraitType>TRAIT_LEGACY_OF_THE_STABLEDWELLER</TraitType>
+		</Row>
+	</Leader_Traits>
+
+
+
+	<!-- DIPLOMACY RESPONSES -->
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_LITTLEPIP_ATTACKED_HOSTILE</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LITTLEPIP">
+			<ResponseType>RESPONSE_</ResponseType>
+			<Response>TXT_KEY_LITTLEPIP_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP">
+			<Text>LittlePip</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_FIRSTGREETING_1">
+			<Text>Celestia's flaming forehooves! Its about damn time I see somepony new! Welcome to the New Canterlot Republic!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_FIRSTGREETING_2">
+			<Text>Welcome stranger! I can see you admiring our land from waayyy up here!...no over here, that big tower...Luna dammit, the SPP tower!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_FIRSTGREETING_3">
+			<Text>Welcome to the New Canterlot Republic. I'd come shake your hoof, but I'm kinda stuck in this pod thing that controls the weather.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_WARBLUFF_1">
+			<Text>Ugh, fine. The nerve of some ponies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_WARBLUFF_2">
+			<Text>Good Goddess Celestia, you're annoying! Don't expect me to let you off so easy next time!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_WARBLUFF_3">
+			<Text>Don't mock me buddy, I may be small, but you'd be surprised how strong my grip is!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_WINWAR_1">
+			<Text>I warned you not to test me. Now don't even think of coming at us again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_LOSEWAR_1">
+			<Text>I'm glad to see the return of peace...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DEFEATED_1">
+			<Text>Congrats wasteland...you win...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DEFEATED_2">
+			<Text>I'll go along willingly if you let Homage, Velvet, Xenith, and Calamity walk away. Deal?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DEFEATED_3">
+			<Text>One shattered Equestria just wasn't enough for you! You had to destroy it twice! Well I won't go willingly! I'll never let the Wasteland win!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_YES_NEUTRAL">
+			<Text>Fine...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_NO_NEUTRAL">
+			<Text>I may be small, but I'm not helpless, and neither is the Republic. The answer is no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_YES_ANGRY">
+			<Text>...Celestia dammit, fine, but don't expect me to forget about this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_NO_ANGRY">
+			<Text>Hah, why don't you stick a horn where Celestia don't shine! No way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_YES_HAPPY">
+			<Text>Of course! I'll always help a friend in need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRIBUTE_NO_HAPPY">
+			<Text>I'm all for helping fellow ponies out, but I also know when I'm being taken advantage of. Please don't make a habit of this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTLEPIP_RESPONSE_REQUEST_1">
+			<Text>Rarity used to embody the spirit of Generousity. Its a spirit the wasteland could use more of. I promise to return the favor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DEMANDTRIBUTE_HAPPY">
+			<Text>Rarity used to embody the spirit of Generousity. It is a spirit the wasteland could use more of. I promise to return the favor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DEMANDTRIBUTE_ANGRY">
+			<Text>I've been watching your actions lately. You'd better pay for your crimes before I put you in you place!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRADEREQUEST_ANGRY">
+			<Text>You're lucky that I'd even do business with a pony like you, but I will.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DECLAREWAR_1">
+			<Text>I’ve done my best to clean up Equestria and save as many ponies as possible. I can’t allow you to plunge us back into the Wasteland!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DECLAREWAR_2">
+			<Text>I can no longer bare to watch those suffering under your rule! Its time for you to be brought down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_DECLAREWAR_3">
+			<Text>I can't just sit here and watch you anymore. Your "civilization" is no better than a gang of raiders!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_ATTACKED_BETRAYED">
+			<Text>Rainbow Dash used to value Loyalty. Looks like you could use some work on that one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_ATTACKED_EXCITED">
+			<Text>I knew this day would come. I have a reputation of putting the bad guys back in their place. Your people will know freedom soon enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_ATTACKED_HOSTILE">
+			<Text>You’d better hope Luna and Celestia will have mercy on you, because I won’t!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_TRADE_NEEDMORE_ANGRY_1">
+			<Text>I was raised as a Stable Pony, not as a beggar. You're gonna have to do better than that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTLEPIP_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I'll show you mine if you show me yours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTLEPIP_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Don't think that just because I'm stuck in a pod that I can't see what you're doing. I can clearly see your little minions planting their flags along our borders. If this expansions threatens the NCR, don't expect to see the sky anytime soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTLEPIP_LUXURY_TRADE_1">
+			<Text>A wise pony once said, "Trade will save the wasteland"...Actually, I have no idea who said that...huh... but anyways, want to trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTLEPIP_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Just cause I’m stuck at Neighvarro most of the time doesn’t mean I can’t see what your doing. Keep your thugs away from our cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Hey there, what brings you here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Welcome friend. What kind of weather do your people like? It wouldn’t be too much trouble to send them the gift of clear skies. Anyways, it’s great to hear your voice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LITTLEPIP_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>You know, I'm trapped in a pod most of the time, and I don't get to see other ponies too often, but that doesn't mean I'm desprate enough to want to see you. Just get on with it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- CIVILOPEDIA DESCRIPTION -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_FACT_1">
+			<Text>LittlePip is also famous for her array of colorful vulgarities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_FACT_2">
+			<Text>Littlepip’s very special somepony is Homage, otherwise known as DJ Pon3.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_HEADING_1">
+			<Text>I should probably start by explaining PipBucks...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_HEADING_2">
+			<Text>The Stabledweller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_HEADING_3">
+			<Text>The Spark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_HEADING_4">
+			<Text>LittlePip's Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_LIVED">
+			<Text>200 years after [NEWLINE] the Last Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_NAME">
+			<Text>LittlePip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_SUBTITLE">
+			<Text>The Stabledweller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_TEXT_1">
+			<Text>Littlepip was born in Stable 2, approximately 200 years after the Great War. In Stable 2, Littlepip worked as an apprentice PipBuck technician before entering the outside world with the intention of finding her Stable’s star singer, Velvet Remedy. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_TEXT_2">
+			<Text>Littlepip is driven by a desire to help other ponies and to make the wastelands a better place. Thanks to DJ Pon3’s telling of her stories, she is considered by many others as a heroine and role-model. Even though she considers herself to be ordinary and untalented, her selfless actions and moral standing have earned her many valuable allies and even the respect of her enemies. (Text from Fo:E Wiki)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_TEXT_3">
+			<Text>During the Battle of Fillydephia, LittlePip, with the help of Spike, Velvet Remedy, Calamity, and Barking Saw, inflitrated the Enclave-fortified Single Pony Project Hub at Neighvarro. There, she connected herself to the Single Pony Project terminal and gained control of the weather and bringing about the Day of Sunshine and Rainbows. This led to the clearing of the skies above Equestria, the dissolusion of most of the Enclave, and the founding of the New Canterlot Republic by Gawdyna Grimfeathers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_TEXT_4">
+			<Text>Littlepip now resides within a pod inside the Single Pegasus Project Hub at Neighvarro, controlling the weather, and watching over the New Canterlot Republic. Although confined to her pod, Littlepip can still talk externally to her pony friends in the outside world. She is also in contact with a copy of Princess Celestia residing within the computers of Neighvarro. It can only be assumed that she still plays a role in Gawd’s New Canterlot Republic, as she and her friends are almost single-hoofedly responsible for its creation. Throughout the Equestria, she is known as the The Spark, the Stabledweller, the mare-of-many-obscenities; but mostly as a good friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LITTLEPIP_TITLES_1">
+			<Text>The Stabledweller</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

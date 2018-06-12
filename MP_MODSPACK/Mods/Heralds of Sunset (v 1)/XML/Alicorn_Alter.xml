@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ALICORN_ALTER</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ALICORN_ALTER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ALICORN_ALTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ALICORN_ALTER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_HERALDS</IconAtlas>
+		</Row>
+	</Buildings>
+  <Civilization_BuildingClassOverrides>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_HERALDS</CivilizationType>
+		  <BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		  <BuildingType>BUILDING_ALICORN_ALTER</BuildingType>
+	  </Row>
+  </Civilization_BuildingClassOverrides>
+  <Building_Flavors>
+	  <Row>
+		  <BuildingType>BUILDING_ALICORN_ALTER</BuildingType>
+		  <FlavorType>FLAVOR_FAITH</FlavorType>
+		  <Flavor>25</Flavor>
+	  </Row>
+   </Building_Flavors>
+	<Building_YieldChanges>
+	<Row>
+		<BuildingType>BUILDING_ALICORN_ALTER</BuildingType>
+		<YieldType>YIELD_FAITH</YieldType>
+		<Yield>4</Yield>
+	</Row>
+		</Building_YieldChanges>
+  <Language_en_US>
+	  <Row Tag="TXT_KEY_BUILDING_ALICORN_ALTER">
+		  <Text>Alicorn Alter</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_CIV5_BUILDINGS_ALICORN_ALTER_TEXT">
+		  <Text>A Thousand years ago the Heralds’ ancestors were seperated from not only their homes and families, but the Alicorn Goddesses as well.  These Places of worship serve to remind them of the guidance they lost and are seeking to find.</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_BUILDING_ALICORN_ALTER_STRATEGY">
+		  <Text>The Alicorn Alter is a unique Temple for the Heralds of Sunset. It provides +4 [ICON_FAITH] +1 [ICON_HAPPINESS] and is also free from building maintenance.</Text>
+	  </Row>
+  </Language_en_US>
+</GameData>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GRAND_BANK</Type>
+			<Description>TXT_KEY_BUILDING_GRAND_BANK</Description>
+			<Help>TXT_KEY_BUILDING_GRAND_BANK_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRAND_BANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GRAND_BANK_STRATEGY</Strategy>
+			<NeverCapture>1</NeverCapture>
+			<GoldMaintenance>0</GoldMaintenance>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Cost>200</Cost>
+			<HurryCostModifier>15</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>50</ConquestProb>			
+			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<FreeStartEra>ERA_MODERN</FreeStartEra>			
+			<PrereqTech>TECH_BANKING</PrereqTech>			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_GROVER</IconAtlas>
+		</Row>
+	</Buildings>
+  <Civilization_BuildingClassOverrides>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_OGK</CivilizationType>
+		  <BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+		  <BuildingType>BUILDING_GRAND_BANK</BuildingType>
+	  </Row>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_NGK</CivilizationType>
+		  <BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+		  <BuildingType>BUILDING_GRAND_BANK</BuildingType>
+	  </Row>
+  </Civilization_BuildingClassOverrides>
+  <Building_Flavors>
+	  <Row>
+		  <BuildingType>BUILDING_GRAND_BANK</BuildingType>
+		  <FlavorType>FLAVOR_GOLD</FlavorType>
+		  <Flavor>25</Flavor>
+	  </Row>
+  </Building_Flavors>
+	<Building_YieldChanges>
+	<Row>
+		<BuildingType>BUILDING_GRAND_BANK</BuildingType>
+		<YieldType>YIELD_GOLD</YieldType>
+		<Yield>4</Yield>
+	</Row>
+		</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_GRAND_BANK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>30</Yield>
+		</Row>
+	</Building_YieldModifiers>
+  <Language_en_US>
+	  <Row Tag="TXT_KEY_BUILDING_GRAND_BANK">
+		  <Text>Grand Bank</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_BANK_TEXT">
+		  <Text>The Grand Bank is used by the griffons to keep their gold hoard safe. Beyond those massive gates you'll find piles of gold.</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_BUILDING_GRAND_BANK_STRATEGY">
+		  <Text>Adds +4 [ICON_GOLD] Gold per turn and +30% [ICON_GOLD] Gold.</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_BUILDING_GRAND_BANK_HELP">
+		  <Text>Adds +4 [ICON_GOLD] Gold per turn and +30% [ICON_GOLD] Gold.</Text>
+	  </Row>
+  </Language_en_US>
+</GameData>
+

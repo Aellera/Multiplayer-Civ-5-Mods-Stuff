@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Religions>
+		<Row>
+			<Type>RELIGION_EQUALISM</Type>
+			<Description>TXT_KEY_RELIGION_EQUALISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_EQUALISM_PEDIA</Civilopedia>
+			<IconAtlas>STARLIGHT_GLIMMER_ALPHA_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconString>[ICON_RELIGION_EQUALISM]</IconString>
+		</Row>
+	</Religions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RELIGION_EQUALISM">
+			<Text>Equalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_EQUALISM_PEDIA">
+			<Text>"In sameness, there is peace. Exceptionalism is a lie. Free yourself from your cutie mark. Choose equality as your special talent. Difference is frustration. To excel is to fail. Be your best by never being your best. Conformity will set you free. Accept your limitations, and happiness will follow. You're no better than your friend."</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

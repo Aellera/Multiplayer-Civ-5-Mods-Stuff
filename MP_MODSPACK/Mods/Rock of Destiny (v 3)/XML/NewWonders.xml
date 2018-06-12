@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2013 2:27:06 PM -->
+<GameData>
+	<Features>
+		<Update>
+			<Set Description="TXT_KEY_FEATURE_ROCK_DESTINY" Civilopedia="TXT_KEY_CIV5_FEATURES_ROCK_DESTINY_TEXT" InBorderHappiness="2"  IconAtlas="NEW_WONDER_ATLAS" PortraitIndex="2" ArtDefineTag="ART_DEF_IMPROVEMENT_ROCKDESTINY" />
+			<Where TYPE="FEATURE_POTOSI"/>
+		</Update>
+	</Features>
+	<Natural_Wonder_Placement>
+		<Update>
+			<Set OccurrenceFrequency="10"/>
+			<Where NaturalWonderType="FEATURE_POTOSI"/>
+		</Update>
+	</Natural_Wonder_Placement>
+	<Feature_YieldChanges>
+		<Delete>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+		</Delete>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+</GameData>

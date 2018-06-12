@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:10:11 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_HARBINGERS</Type>
+			<Description>TXT_KEY_CIV_HARBINGERS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_HARBINGERS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_HARBINGERS_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_HARBINGERS_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_HARBINGERS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_HARBINGERS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOEPH</AlphaIconAtlas>
+			<MapImage>harbingersmap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_HARBINGERS_DOM</DawnOfManQuote>
+			<DawnOfManImage>harbingersDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Brazil</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<ReligionType>RELIGION_TAOISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HARBINGERS_ICON</Type>
+			<Red>0.222</Red>
+			<Green>0.222</Green>
+			<Blue>0.222</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HARBINGERS_BACKGROUND</Type>
+			<Red>0.270</Red>
+			<Green>0.588</Green>
+			<Blue>0.286</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HARBINGERS_TEXT</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_HARBINGERS</Type>
+			<PrimaryColor>COLOR_PLAYER_HARBINGERS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HARBINGERS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_HARBINGERS_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<LeaderheadType>LEADER_DAWN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Along_River>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<StartAlongRiver>true</StartAlongRiver>
+		</Row>
+	</Civilization_Start_Along_River>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<RegionType>REGION_MARSH</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_HARBINGERS_ADJECTIVE">
+			<Text>Harbingers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HARBINGERS_DESC">
+			<Text>The Harbingers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HARBINGERS_SHORT_DESC">
+			<Text>The Harbingers</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HARBINGERS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HARBINGERS_TEXT_1">
+			<Text>The Harbingers are a powerful factions led by Dawn. [NEWLINE][NEWLINE]In her youth Dawn founded and a led a small group of ponies determined to help the Wasteland and its people. That group has broken long time age, however, Dawn has not abandoned her mission. She discovered a great industrial and tecnological potential of The Core and found a way to use it. She started to recruit supporters and soon established The Harbingers. The group offer free food, weapons and technology to anyone that assists them and have access to production facilities that allow them to produce high quality, factory new products. The Harbingers promise a better life for all who wish to be included and have rapidly been able to recruit many of the under-privileged of Hoofington to their cause. They set up a massive number of camps around Hoofington, with more arriving each day. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HARBINGERS_DOM">
+				<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient taint that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables.  But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE]Despite all that, in the deadliest area of Equestrian Wasteland, amidst the ruins of the great city of Hoofington, a new nation rises. The Harbingers, led by Dawn, are determined to build a new Equestria using cybernetic technology and limitless industrial power of The Core. Dawn, ponies are looking for your guidance. Will you become their Prophet, bringing a dawn of a new era? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_HARBINGERS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_CORE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CELESTIA_DAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LUNA_DAM</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HARBINGERS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROBRONCO_HQ</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_CORE">
+			<Text>The Core</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CELESTIA_DAM">
+			<Text>Celestia Dam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUNA_DAM">
+			<Text>Luna Dam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ROBRONCO_HQ">
+			<Text>Robronco HQ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_0">
+			<Text>Echo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_1">
+			<Text>Steel Rain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_2">
+			<Text>Nails</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_3">
+			<Text>Applebot</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_4">
+			<Text>Sweetie Bot</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_5">
+			<Text>Seeker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_6">
+			<Text>Bastard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_7">
+			<Text>Neighpony</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_8">
+			<Text>Mechasprite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_HARBINGERS_9">
+			<Text>Miss Rockets</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
+

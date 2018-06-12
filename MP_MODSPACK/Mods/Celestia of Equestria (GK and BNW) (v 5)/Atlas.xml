@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/11/2012 1:07:05 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>256</Iconsize>
+			<Filename>EquestriaAtlas256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>128</Iconsize>
+			<Filename>EquestriaAtlas128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>80</Iconsize>
+			<Filename>EquestriaAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>64</Iconsize>
+			<Filename>EquestriaAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>45</Iconsize>
+			<Filename>EquestriaAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_EQUESTRIA</Atlas>
+			<Iconsize>32</Iconsize>
+			<Filename>EquestriaAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

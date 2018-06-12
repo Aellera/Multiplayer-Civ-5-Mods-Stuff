@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2012 8:56:50 PM -->
+<GameData>
+	<Unit_UniqueNames>
+	<!--	<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PHOTO_FINISH</UniqueName>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_COMMANDER_HURRICANE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FILTHY_RICH</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_STAR_SWIRL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TWILIGHT_SPARKLE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGINEER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FLIMFLAM_BROTHERS</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PHOTO_FINISH">
+			<Text>Photo Finish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_COMMANDER_HURRICANE">
+			<Text>Commander Hurricane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FILTHY_RICH">
+			<Text>Filthy Rich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STAR_SWIRL">
+			<Text>Star Swirl the Bearded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TWILIGHT_SPARKLE">
+			<Text>Twilight Sparkle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FLIMFLAM_BROTHERS">
+			<Text>Flim-Flam Brothers</Text>
+		</Row>
+	</Language_en_US>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+  
+</GameData>

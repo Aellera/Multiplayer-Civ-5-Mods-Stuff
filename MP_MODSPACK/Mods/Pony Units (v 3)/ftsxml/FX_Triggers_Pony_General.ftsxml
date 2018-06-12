@@ -1,0 +1,201 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1990">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1001">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1002">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1003">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1004">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1005">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1006">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1995">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerEffect" id="1" time="0" duration="0.533333" repeat="0" ec="1400" track="2" tier="0" event="ART_DEF_VEFFECT_DUST_TRAIL_SM" bone="HorseBip Footsteps"/>
+    <trigger type="FTimedTriggerEffect" id="2" time="1.77963078" duration="0" repeat="0" ec="1990" track="2" tier="0" event="ART_DEF_VEFFECT_GREAT_PERSON_MILITARY_GLOW" bone="MD"/>
+    <trigger type="FTimedTriggerSound" id="3" time="0.348148137" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="4" time="0.8666666" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="5" time="0.609259248" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_GENERAL_SAIL_WIND" bone=""/>
+    <trigger type="FTimedTriggerSound" id="6" time="1.60000038" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_GENERAL_SAIL_WIND" bone=""/>
+    <trigger type="FTimedTriggerSound" id="7" time="0.4685185" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="8" time="0.766666651" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="9" time="0.009259259" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_GENERAL_SCIENTIST_LATE_SURRENDER" bone=""/>
+    <trigger type="FTimedTriggerSound" id="10" time="0.09074075" duration="0" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="11" time="0.161111057" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_RUN_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="12" time="0.6722222" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="13" time="0.7722222" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="14" time="0.9111111" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="15" time="1.15555584" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="16" time="1.42064548" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="17" time="0" duration="0" repeat="0" ec="1990" track="1" tier="-1" event="AS3D_UNIT_GENERAL_GREAT_PERSON_ACTIVATED" bone=""/>
+    <trigger type="FTimedTriggerSound" id="18" time="1.28333545" duration="0" repeat="0" ec="1990" track="1" tier="-1" event="AS3D_UNIT_GENERAL_GENERAL_EARLY_ACTIVATE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="19" time="0.231481478" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_GENERAL_ARMOUR_MOVE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="20" time="0.237037018" duration="0" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_GENERAL_ARMOUR_MOVE" bone=""/>
+    <trigger type="FTimedTriggerSound" id="21" time="1.15172172" duration="0" repeat="0" ec="1990" track="1" tier="-1" event="AS3D_UNIT_GENERAL_SAIL_WIND" bone=""/>
+    <trigger type="FTimedTriggerSound" id="22" time="0.144444421" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_SNORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="23" time="0.009259259" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_GENERAL_SCIENTIST_LATE_SURRENDER" bone=""/>
+    <trigger type="FTimedTriggerSound" id="24" time="0.06851854" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_SNORT" bone=""/>
+    <trigger type="FTimedTriggerSound" id="26" time="0.3444441" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_GENERAL_HORSE_FOOT_$(TERRAIN)" bone=""/>
+    <trigger type="FTimedTriggerSound" id="27" time="0" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_GENERAL_FORTIFY" bone=""/>
+    <trigger type="FTimedTriggerSound" id="28" time="0.5722221" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_GENERAL_FORTIFY_VOX" bone=""/>
+  </triggers>
+</trigger_system>

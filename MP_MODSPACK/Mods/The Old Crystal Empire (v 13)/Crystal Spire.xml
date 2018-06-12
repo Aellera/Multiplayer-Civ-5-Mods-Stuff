@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2012 1:43:08 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CRYSTAL_SPIRE</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
+			<Cost>85</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CRYSTAL_SPIRE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CRYSTAL_SPIRE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CRYSTAL_SPIRE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CRYSTAL_SPIRE_STRATEGY</Help>
+			<Quote>TXT_KEY_CRYSTAL_SPIRE_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_SOMBRA</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLDCRYSTAL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+
+	
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CRYSTAL_SPIRE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_SPIRE">
+			<Text>Crystal Spire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_SPIRE_STRATEGY">
+			<Text>Crystal Spires spread Sombra's influnce across his empire. It acts like a stone works but is more expensive, produce 2 [ICON_CULTURE], 1 [ICON_PRODUCTION], and +1 [ICON_PRODUCTION] for each [ICON_RES_GEMS] and [ICON_RES_STONE] worked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_SPIRE_TEXT">
+			<Text>The Crystal Spires stand as a testament of King Sombra's power and magic. His presence can be projected through them, allowing him to supervise and control his beloved crystal mines remotely.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRYSTAL_SPIRE_QUOTE">
+			<Text>"Heh heh heh, crystaaaaaaalssss..."</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

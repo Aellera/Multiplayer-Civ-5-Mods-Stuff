@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2012 11:51:55 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRADITION_TITLE"/>
+			<Set>
+				<Text>{@1: gender feminine?Princess; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY"/>
+			<Set Text="Laughter"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP"/>
+			<Set Text="LAUGHTER"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PIETY_TITLE"/>
+			<Set Text="{1_PlayerName:textkey} the Silly of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_CULTURE] Culture of empires.[NEWLINE][NEWLINE]Adopting Piety reduces the time to build [ICON_CULTURE] Culture buildings by 15%.[NEWLINE][NEWLINE]Adopting all policies in the Piety tree will reduce the [ICON_CULTURE] Culture cost of future Policies by 10%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Rationalism.[ENDCOLOR]"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Laughter[ENDCOLOR] and the embrace of lightheartedness over dogma help to better advance the [ICON_CULTURE] Culture of empires.[NEWLINE][NEWLINE]Adopting Laughter reduces the time to build [ICON_CULTURE] Culture buildings by 15%.[NEWLINE][NEWLINE]Completing this Element will reduce the [ICON_CULTURE] Culture cost of future Policies by 10%."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith and [ICON_CULTURE] Culture of empires.[NEWLINE][NEWLINE]Adopting Piety allows you to build Shrines and Temples in half the usual time.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree will provide a 20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith and Holy Sites provide +3 [ICON_GOLD] Gold and +3 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Rationalism."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Laughter[ENDCOLOR] and the embrace of lightheartedness over dogma help to better advance your [ICON_PEACE] Religious and [ICON_CULTURE] Cultural ideas.[NEWLINE][NEWLINE]Adopting Laughter allows you to build Shrines and Temples in half the usual time.[NEWLINE][NEWLINE]Completing this Element will provide a 20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith and Holy Sites provide +3 [ICON_GOLD] Gold and +3 [ICON_CULTURE] Culture."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 [ICON_CULTURE] Culture."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Laughter[ENDCOLOR] and the embrace of lightheartedness over dogma help to better advance your [ICON_PEACE] Religion.[NEWLINE][NEWLINE]Adopting Laughter allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.[NEWLINE][NEWLINE]Completing this Element causes a Great Prophet to appear and Holy Sites provide +3 [ICON_CULTURE] Culture."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE"/>
+			<Set Text="Kindness"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP"/>
+			<Set Text="KINDNESS"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PATRONAGE_TITLE"/>
+			<Set Text="{1_PlayerName:textkey} the Merciful of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE][ICON_INFLUENCE] Influence with City-States degrades 25% slower than normal.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will make other players' [ICON_INFLUENCE] Influence with City-States decrease 33% more per turn than usual."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Kindness[ENDCOLOR] to your less powerful neighbors makes them more friendly and helpful to you.[NEWLINE][NEWLINE][ICON_INFLUENCE] Influence with City-States degrades 25% slower than normal.[NEWLINE][NEWLINE]Completing this Element will make other players' [ICON_INFLUENCE] Influence with City-States decrease 33% more per turn than usual."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE]Adopting Patronage will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Kindness[ENDCOLOR] to your less powerful neighbors makes them more friendly and helpful to you.[NEWLINE][NEWLINE]Adopting Kindness will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.[NEWLINE][NEWLINE]Completing this Element will cause allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER"/>
+			<Set Text="Love"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP"/>
+			<Set Text="LOVE"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ORDER_TITLE"/>
+			<Set Text="Beloved {@1: gender feminine?Mother; other?Father;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Order tree will grant +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Autocracy.[ENDCOLOR]"/>
+			<Set Text="Inclusive [COLOR_POSITIVE_TEXT]Love[ENDCOLOR] allows intense cooperation to the benefit of all, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Love will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Completing this Element will grant +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Order tree will grant +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]May purchase Great Engineers with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Autocracy.[ENDCOLOR]"/>
+			<Set Text="Inclusive [COLOR_POSITIVE_TEXT]Love[ENDCOLOR] allows intense cooperation to the benefit of all, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Love will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Completing this Element will grant +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]May purchase Great Engineers with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY"/>
+			<Set Text="Loyalty"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP"/>
+			<Set Text="LOYALTY"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AUTOCRACY_TITLE"/>
+			<Set Text="Commander {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military.[NEWLINE][NEWLINE]Adopting all Policies in the Autocracy tree will grant a 20% attack bonus to all Military Units for 30 turns.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Order.[ENDCOLOR]"/>
+			<Set Text="Cultivating strong and unconditional [COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR] greatly benefits those who would crush the world beneath their hoof.[NEWLINE][NEWLINE]Adopting Loyalty reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military.[NEWLINE][NEWLINE]Completing this Element will grant a 20% attack bonus to all Military Units for 30 turns."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE]Adopting all Policies in the Autocracy tree will grant a 25% attack bonus to all Military Units for 50 turns.[NEWLINE][NEWLINE]May purchase Great Generals and Great Admirals with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Order.[ENDCOLOR]"/>
+			<Set Text="Cultivating strong and unconditional [COLOR_POSITIVE_TEXT]Loyalty[ENDCOLOR] greatly benefits those who would crush the world beneath their hoof.[NEWLINE][NEWLINE]Adopting Loyalty reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE]Completing this Element will grant a 25% attack bonus to all Military Units for 50 turns.[NEWLINE][NEWLINE]May purchase Great Generals and Great Admirals with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM"/>
+			<Set Text="Tolerance"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP"/>
+			<Set Text="TOLERANCE"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_FREEDOM_TITLE"/>
+			<Set Text="Chairpony {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Freedom tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy or Order.[ENDCOLOR]"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Tolerance[ENDCOLOR] towards abnormal people and ideas greatly enriches your society. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Tolerance, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Completing this Element will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages by 50%."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Freedom tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE]May purchase Great Artists with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy or Order.[ENDCOLOR]"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Tolerance[ENDCOLOR] towards abnormal people and ideas greatly enriches your society. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Tolerance, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Completing this Element will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages by 50%.[NEWLINE][NEWLINE]May purchase Great Artists with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM"/>
+			<Set Text="Magic"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP"/>
+			<Set Text="MAGIC"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_RATIONALISM_TITLE"/>
+			<Set Text="The Great and Powerful {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant +1 [ICON_GOLD] Gold from [ICON_RESEARCH] Science buildings.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Piety.[ENDCOLOR]"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Magic[ENDCOLOR] helps your society boost its Science output and discover many wondrous things.[NEWLINE][NEWLINE]Adopting Magic boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][NEWLINE]Completing this Element will grant +1 [ICON_GOLD] Gold from [ICON_RESEARCH] Science buildings."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant 2 free Technologies.[NEWLINE][NEWLINE]May purchase Great Scientists with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Piety.[ENDCOLOR]"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Magic[ENDCOLOR] helps your society boost its Science output and discover many wondrous things.[NEWLINE][NEWLINE]Adopting Magic will grant +15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.[NEWLINE][NEWLINE]Completing this Element will grant 2 free Technologies.[NEWLINE][NEWLINE]May purchase Great Scientists with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +10% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy. Unlocks building the Porcelain Tower.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Magic[ENDCOLOR] helps your society boost its Science output and discover many wondrous things.[NEWLINE][NEWLINE]Adopting Magic will grant +10% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy. Unlocks building the Porcelain Tower.[NEWLINE][NEWLINE]Completing this Element will grant a free Technology. It also allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_COMMERCE"/>
+			<Set Text="Generosity"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP"/>
+			<Set Text="GENEROSITY"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_COMMERCE_TITLE"/>
+			<Set Text="{1_PlayerName:textkey} the Benevolent of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to naval empires, and those focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Specialist."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Generosity[ENDCOLOR] and fair trade lead to useful business opportunities down the line.[NEWLINE][NEWLINE]Adopting Generosity will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%.[NEWLINE][NEWLINE]Completing this Element will grant +1 [ICON_GOLD] Gold from every Specialist."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to naval empires, and those focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post and double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][NEWLINE]May purchase Great Merchants with [ICON_PEACE] Faith."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Generosity[ENDCOLOR] and fair trade lead to useful business opportunities down the line.[NEWLINE][NEWLINE]Adopting Generosity will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%.[NEWLINE][NEWLINE]Completing this Element will grant +1 [ICON_GOLD] Gold from every Trading Post and double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][NEWLINE]May purchase Great Merchants with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Text="[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post and double [ICON_GOLD] Gold from Great Merchant trade missions. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Generosity[ENDCOLOR] and fair trade lead to useful business opportunities down the line.[NEWLINE][NEWLINE]Adopting Generosity will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Completing this Element will grant +1 [ICON_GOLD] Gold from every Trading Post and double [ICON_GOLD] Gold from Great Merchant trade missions. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIAL_POLICIES_SCREEN_TITLE"/>
+			<Set Text="Elements of Harmony"/>
+		</Update>
+	</Language_en_US>
+	<PolicyBranch_Disables>
+		<Delete PolicyBranchType="POLICY_BRANCH_RATIONALISM"/>
+		<Delete PolicyBranchType="POLICY_BRANCH_PIETY"/>
+		<Delete PolicyBranchType="POLICY_BRANCH_FREEDOM"/>
+		<Delete PolicyBranchType="POLICY_BRANCH_AUTOCRACY"/>
+		<Delete PolicyBranchType="POLICY_BRANCH_ORDER"/>
+	</PolicyBranch_Disables>
+</GameData>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/26/2013 10:34:17 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_SIAM" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_TRX</Type>
+			<Description>TXT_KEY_CIV_TRX_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TRX_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TRX_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_TRX_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_TRX</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_TRIXIE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SIAM</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_TRIXIE</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_TRIXIE</AlphaIconAtlas>
+			<MapImage>TrixieMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_TRX_DOM</DawnOfManQuote>
+			<DawnOfManImage>TrixieDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Siam</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_TRIXIE</Type>
+			<PrimaryColor>COLOR_PLAYER_DARK_RED</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DARK_BLUE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_DARK_RED_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<LeaderheadType>LEADER_RAMKHAMHAENG</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_TRX</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_TRX_ADJECTIVE">
+			<Text>Great and Powerful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TRX_DESC">
+			<Text>The Great and Powerful Trixie Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TRX_SHORT_DESC">
+			<Text>Trixie Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TRX_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TRX_TEXT_1">
+			<Text>The Great and Powerful Trixie empire is comprised of all the worlds that have fallen to The Great and Powerful Trixie. Trixie rules them with an iron hoof, always conquering new worlds, enslaving new people, and continuing the process. She is not well loved, a fact she knows all too well, but no rebellion has ever been able to overthrow her. With each new world she conquers, her power grows, and diminishes any chance to stop her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TRX_DOM">
+			<Text>Are you not impressed?[NEWLINE] Are you not spellbound by Trixie's power? Are you not enthralled by Trixie's strength? Are you not enchanted by Trixe's grace? I have conquered all before me, nopony has ever had the power to oppose me. Simply look upon these three foals, obedient subjects to the Great and Powerful Trixie! Oh, I am well aware of you, do you think The Great and Powerful Trixie does not know? I know of your '4th wall'. Trixie long ago mastered such power. How do you think Trixie conquered other worlds? I can come and go as I please to anywhere I want. I am no slave to reality, I am its master! You are now my envoy to this world slave, do not disappoint me. You do not want to know what failure means to me. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>>

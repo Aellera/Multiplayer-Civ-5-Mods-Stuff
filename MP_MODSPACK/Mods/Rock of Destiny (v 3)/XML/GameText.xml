@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2013 2:25:56 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_FEATURE_ROCK_DESTINY">
+			<Text>Rock of Destiny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FEATURES_ROCK_DESTINY_TEXT">
+			<Text>
+				Its origins are a mystery, but many have used it as a dead drop or stash during their dashing escapes from oppressives civilizations.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

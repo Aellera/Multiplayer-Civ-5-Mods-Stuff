@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/15/2015 8:10:11 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_GPENCLAVE</Type>
+			<Description>TXT_KEY_CIV_GPENCLAVE_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_GPENCLAVE_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_GPENCLAVE_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_GPENCLAVE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_GPENCLAVE</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_GPENCLAVE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FOE</IconAtlas>
+			<AlphaIconAtlas>CIV_COLOR_ATLAS_FOE</AlphaIconAtlas>
+			<MapImage>GPEnclavemap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_GPENCLAVE_DOM</DawnOfManQuote>
+			<DawnOfManImage>GPEnclave_DOM.dds</DawnOfManImage>
+			<SoundtrackTag>Germany</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_GPENCLAVE_ICON</Type>
+			<Red>0.565</Red>
+			<Green>0.565</Green>
+			<Blue>0.565</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_GPENCLAVE_BACKGROUND</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_GPENCLAVE</Type>
+			<PrimaryColor>COLOR_PLAYER_GPENCLAVE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_GPENCLAVE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_BLACK</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<LeaderheadType>LEADER_AUTUMN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_GPENCLAVE_ADJECTIVE">
+			<Text>Enclave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_GPENCLAVE_DESC">
+			<Text>The Grand Pegasus Enclave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_GPENCLAVE_SHORT_DESC">
+			<Text>The Enclave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GPENCLAVE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GPENCLAVE_TEXT_1">
+			<Text>The Grand Pegasus Enclave, or simply Enclave for short, is a militant faction of Pegasi that serves as the governing body above the clouds. They are arguably the most technologically advanced faction in the Equestrian Wasteland and take pride in being the only "pure" race of ponies left after the war. Their civilization above the clouds, maintained by the S.P.P. towers, is strictly regulated, allowing families to have a limited number of foals at any given time to ensure that they do not overpopulate. (Text taken from Fo:E wiki) [NEWLINE][NEWLINE] The Enclave government is run democratically through a Pegasi Council, although the Enclave seems to have strong militaristic influence as well. The general population is not allowed to traverse beneath the clouds, and ground dwellers are prevented from coming above them by the military. [NEWLINE][NEWLINE] (Note: this civ is really meant to represent the Enclave's military presence on the ground under Operation: Cauterize. Enclave settlements were spread wide across the cloudcover above the wasteland and probably overlapped with territory claimed by other factions below. These pegasi cities didn't even have contact with the surface, so it seemed to make more sense to make the Enclave civ representative of only the military forces on the ground.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_GPENCLAVE_DOM">
+			<Text>Once upon a time, in the magical land of Equestria, there came an era when the ideals of friendship gave way to greed, selfishness, paranoia and a jealous reaping of dwindling space and natural resources. Lands took up arms against their neighbors. The end of the world occurred much as we had predicted -- the world was plunged into an abyss of balefire and dark magic. The details are trivial and pointless. The reasons, as always, purely our own. The world was nearly wiped clean of life. A great cleansing; a magical spark struck by pony hooves quickly raged out of control. Megaspells rained from the skies.  Entire lands were swallowed in flames and fell beneath the boiling oceans. Ponykind was almost extinguished, their spirits becoming part of the ambient radiation that blanketed the lands. A quiet darkness fell across the world… But it was not, as some had predicted, the end of the world. In the early days, thousands were spared the horrors of the holocaust by taking refuge in enormous underground shelters known as Stables. But when they emerged, they had only the hell of the wastes to greet them...  [NEWLINE][NEWLINE] However, not all ponies were bound by fate to dwell on the tainted surface. Sealed off behind a curtain of grey, a civilization, The Grand Pegasus Enclave, thrives upon the clouds. For 200 years, the Enclave has survived apart from the horrors of the wasteland below. However, as new factions grow and fester on the surface, the Pegasi have reason to believe that they are no longer safe behind the clouds. Colonel Autumn Leaf can you secure the future of the last pure race of ponies in Equestria? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_GPENCLAVE_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEIGHVARRO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_ECLOUDSDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ETHUNDERHEAD</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_RAINBOW_DASH_SKYPORT</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINDIGO_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SOLSTICE_CITY</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NIMBUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STRATUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CIRRUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BOREAS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_IRIDESCENCE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_I</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_II</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_III</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GPENCLAVE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_IV</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_NEIGHVARRO">
+			<Text>Neighvarro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_ECLOUDSDALE">
+			<Text>New Cloudsdale Rec Area</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WINDIGO_CITY">
+			<Text>Windigo Refueling Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IRIDESCENCE">
+			<Text>Iridescence Airfield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ETHUNDERHEAD">
+			<Text>Thunderhead Command Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SOLSTICE_CITY">
+			<Text>Solstice Rally Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NIMBUS">
+			<Text>Nimbus Shipyard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STRATUS">
+			<Text>Stratus Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIRRUS">
+			<Text>Cirrus Combat Outpost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BOREAS">
+			<Text>Borealis Training Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RAINBOW_DASH_SKYPORT">
+			<Text>Rainbow Dash Skyport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_I">
+			<Text>Enclave FOB I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_II">
+			<Text>Enclave FOB II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_III">
+			<Text>Enclave FOB III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ENCLAVE_TOWNSHIP_IV">
+			<Text>Enclave FOB IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_0">
+			<Text>Windsheer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_1">
+			<Text>Pride</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_2">
+			<Text>Controlled Hellhound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_3">
+			<Text>Red Glare</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_4">
+			<Text>Lighthooves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_5">
+			<Text>Lightning Dancer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_6">
+			<Text>Winter Sky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_7">
+			<Text>North Star</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_8">
+			<Text>Professor Morningstar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_GPENCLAVE_9">
+			<Text>Chicanery</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
+

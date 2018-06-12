@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Diplomacy_Responses>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_FIRSTGREETING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_DECLAREWAR%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_GREETING_POLITE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_GREETING_NEUTRAL_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_GREETING_HOSTILE_HELLO%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_EXPANSION_SERIOUS_WARNING%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_GROVER_LUXURY_TRADE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_GROVER_RESPONSE_REQUEST%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_GROVER_OPEN_BORDERS_EXCHANGE%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_DEFEATED%</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_ATTACKED_BETRAYED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_ATTACKED_EXCITED</Response>
+			<Bias>1</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_GROVER</LeaderType>
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_GROVER_ATTACKED_HOSTILE</Response>
+			<Bias>1</Bias>
+		</Row>
+	</Diplomacy_Responses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_GROVER_FIRSTGREETING_1">
+			<Text>Before you stands King Grover, first king of The Griffon Kingdoms, and discoveror of the Idol of Boreas. What is it you want? I've got duties to attend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DEFEATED_1">
+			<Text>It's all over... I am defeated...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DEFEATED_2">
+			<Text>I submit. I congratulate you on your triumph, great leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DEFEATED_3">
+			<Text>All I wanted was to unity my subjects. Was that too much to ask for?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROVER_RESPONSE_REQUEST_1">
+			<Text>My subjects demand a resource, and I try do deliver it. Could you help me out?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DECLAREWAR_1">
+			<Text>It's time. I will no longer pretend to like you. Prepare for battle, for it will be your last.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DECLAREWAR_2">
+			<Text>I declare war! That's right, you better worry. Soon your empire will be nothing more then a misty memory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DECLAREWAR_3">
+			<Text>I hate you with every bone in my body, so that's why I decided to begin an assult on your pathetic empire. I don't want to look at it any longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_ATTACKED_BETRAYED">
+			<Text>Is that so?... You filthy backstabber. I must admit, you've got courage to talk to me in that manner. Sadly, its also very stupit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_ATTACKED_EXCITED">
+			<Text>About time. I've been withing so long for this day. Do not disapoint me. But no worries, I can assure you. You definitely will be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_ATTACKED_HOSTILE">
+			<Text>Give me all you got, you rotting scumbag! My Talon Warriors will tear you apart!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROVER_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I heard your lands are breathtaking. Allow us to open our borders. You won't regret it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You're settling cities on grounds I see as rightfully mine. Are you provoking me, or are you that ignorant?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROVER_LUXURY_TRADE_1">
+			<Text>You've got something my egle eye likes. Care for a trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Get your troops away from my borders, or things might escalate rapidly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_GREETING_NEUTRAL_HELLO_1">
+			<!-- NEUTRAL -->
+			<Text>Back again I see? Well, proceed. Like I said, I haven't got all day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_GREETING_POLITE_HELLO_1">
+			<!-- HAPPY -->
+			<Text>Ahh, my ally approaches. What news do you have, friend?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_GREETING_HOSTILE_HELLO_1">
+			<!-- ANGRY -->
+			<Text>Oh, great. You again... Please tell me your here to tell me you're dieing?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_WARBLUFF_1">
+			<Text>I will enjoy seeing you rotting away together with your hellish empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_WARBLUFF_2">
+			<Text>My troops are ready to make an end to that mess you call a "empire".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_WARBLUFF_3">
+			<Text>You're so weak, somepony should put you out of your misery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_WINWAR_1">
+			<Text>The outcome was never a mystery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_LOSEWAR_1">
+			<Text>I know when should put down my sword. Well done, you fought well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_YES_NEUTRAL">
+			<Text>Very well then. Because I like you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_NO_NEUTRAL">
+			<Text>HA! My beak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_YES_ANGRY">
+			<Text>Take it and get out of my face!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_NO_ANGRY">
+			<Text>I rather be fried by dragons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_YES_HAPPY">
+			<Text>How could I say no to that?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRIBUTE_NO_HAPPY">
+			<Text>Not this time. Maybe try a more fair offer?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DEMANDTRIBUTE_HAPPY">
+			<Text>I have this following deal. It wont go unnoticed among us Griffons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_DEMANDTRIBUTE_ANGRY">
+			<Text>Pay up, or you'll regret it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRADEREQUEST_ANGRY">
+			<Text>I do this because I must, not because I want to. Don't you forget that...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GROVER_TRADE_NEEDMORE_ANGRY_1">
+			<Text>I woudn't even give you a feather for that. More or get lost.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

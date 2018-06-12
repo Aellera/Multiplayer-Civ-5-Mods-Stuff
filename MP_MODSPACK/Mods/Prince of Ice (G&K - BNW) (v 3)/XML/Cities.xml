@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/18/2016 1:58:01 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SENTIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ANVILLE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_FROZEN_MOUTAIN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_VICTORIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HISTORICOL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SNOWFLAKE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GRIFFANIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HAMMERFORGE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HOOFDALE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_GOLDLAKE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NETHERMARES</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NORTHETEN_WOODS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TFK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_THE_SIREN_TERRITORY</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENTIA">
+			<Text>Sentia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ANVILLE">
+			<Text>Anville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_FROZEN_MOUTAIN">
+			<Text>The Frozen Moutain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VICTORIA">
+			<Text>Victoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HISTORICOL">
+			<Text>Historicol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SNOWFLAKE">
+			<Text>Snowflake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GRIFFANIA">
+			<Text>Griffania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HAMMERFORGE">
+			<Text>Hammerforge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HOOFDALE">
+			<Text>Hoofdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GOLDLAKE">
+			<Text>Goldlake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NETHERMARES">
+			<Text>Nethermares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NORTHETEN_WOODS">
+			<Text>Northeren Woods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_SIREN_TERRITORY">
+			<Text>The Siren Territory</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

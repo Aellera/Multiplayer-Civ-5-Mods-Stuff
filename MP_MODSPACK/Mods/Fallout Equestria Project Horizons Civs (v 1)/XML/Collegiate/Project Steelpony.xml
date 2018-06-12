@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_STEELPONY</Type>
+			<BuildingClass>BUILDINGCLASS_GOLDENBLOOD</BuildingClass>
+			<Cost>500</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<ConquestProb>0</ConquestProb>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_STEELPONY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STEELPONY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STEELPONY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_STEELPONY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_SPACESHIP_FACTORY</ArtDefineTag>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<SpaceProductionModifier>50</SpaceProductionModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>CIV_COLOR_ATLAS_FOEPH</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_STEELPONY">
+			<Text>Project Steelpony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEELPONY_HELP">
+			<Text>I never asked for this...[NEWLINE][NEWLINE]Project Steelpony was a top-secret Office of Interministry Affairs program using resources from the MWT and MOP with the intention of binding a pony directly to a set of power armor. [NEWLINE]The practice began as a relief project intended to replace the lost limbs and essential organs of a wounded soldier that would otherwise have resulted in death. It wasn't long until Steelpony was seen as a viable tactic in enhancing regular soldiers into nigh indestructable walking death machines. As the war grew to a peak, only a few subjects were created that can be labelled a "success". The data behind the Project has proven very useful however, as less invasive augmentations have proven to be less damaging to the subjects psyche. Additionally, the internal healing talismans can be adapted for use by non-cybernetic ponies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEELPONY_STRATEGY">
+			<Text>In the game Project Steelpony acts as a massive science booster, granting The Collegiate a 20 [ICON_RESEARCH] bonus and 2 [ICON_PRODUCTION].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STEELPONY_HEADING">
+			<Text>Project Steelpony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STEELPONY_TEXT">
+			<Text>Project Steelpony is an effective science booster that brings the Civilization closer to the Science Victory.</Text>
+		</Row>
+	</Language_en_US>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_COLLEGIATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDENBLOOD</BuildingClassType>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_STEELPONY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

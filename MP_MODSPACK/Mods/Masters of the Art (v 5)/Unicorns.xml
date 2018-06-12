@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/26/2012 9:21:22 AM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Set Playable="false" AIPlayable="false" />
+			<Where Type="CIVILIZATION_RUSSIA" />
+		</Update>
+	</Civilizations>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_UNICORN</Type>
+			<Description>TXT_KEY_CIV_UNICORN_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_UNICORN_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_UNICORN_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_UNICORN_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_UNICORN</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_PLAT</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_RUSSIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_PONY</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_PLAT</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_PLAT</AlphaIconAtlas>
+			<MapImage>PlatMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV_UNICORN_DOM</DawnOfManQuote>
+			<DawnOfManImage>PlatDOM.dds</DawnOfManImage>
+			<SoundtrackTag>Russia</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_PLAT</Type>
+			<PrimaryColor>COLOR_PLAYER_DARK_CYAN</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_WHITE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_DARK_CYAN</TextColor>
+		</Row>
+	</PlayerColors>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<LeaderheadType>LEADER_CATHERINE</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_UNICORN</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_UNICORN_ADJECTIVE">
+			<Text>Unicorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNICORN_DESC">
+			<Text>Unicornia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNICORN_SHORT_DESC">
+			<Text>The Unicorns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNICORN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNICORN_TEXT_1">
+			<Text>Long long ago, before Equestria and the reign of Celestia existed 3 tribes of ponies. The Pegasi were the masters of the weather, making sure the weather was nice and perfect to grow food. The Earth Ponies were masters of the dirt, responseable for growing food for all ponies. The Unicorns were masters of the Sun and Moon, magically bringing night and day. All 3 tribes lived in peace until a bizzare blizzard came to their lands. Food grew scarce, the 3 tribes fought with each other. It was decided that they would leave their lands and find a new home for themselves. Princess Platinum, leader of the Unicorns, led them to what would become Equestria, naming their new land, Unicornia. The Unicorns were not alone as the other tribes had laid claim to the very same land. It was not until they could put aside their differences that they could stop the blizzard from claiming there new land. Thus is the story of Equestria's founding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNICORN_DOM">
+			<Text>Dear Princess Platinum,[NEWLINE] the uncultured ponies of the other tribes have failed to negotiate a workable deal with us. They have failed to see that we, the highly refined and cultured Unicorns, simply are more important than their petty needs.[NEWLINE] It is decided that we are to fend for ourselves. We will venture forth and claim a new land worthy of our magnificant presance. A land of sparkling gem filled mountains and flowing rivers of gold, and most importantly of all, no other ponies! We, err....You...Will venture forth through the mud and flith, endeavour through difficult trials and hardships to our new destined utopia![NEWLINE][NEWLINE]   Dictated not read.[NEWLINE] Why did you address it to yourself again?...... No, I'm kinda busy, carrying everything..... </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

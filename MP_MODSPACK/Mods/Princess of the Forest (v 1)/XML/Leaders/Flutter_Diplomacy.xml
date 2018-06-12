@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/10/2013 10:27:03 AM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_FLUTTERSHY_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_FLUTTERSHY_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_WARBLUFF</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_WARBLUFF%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_FIRST_WINWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_WINWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_LOSEWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_LOSEWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_YES_NEUTRAL</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_NO_NEUTRAL</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_NEUTRAL%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_YES_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_ANGRY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_NO_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_ANGRY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_YES_HAPPY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_YES_HAPPY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRIBUTE_NO_HAPPY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRIBUTE_NO_HAPPY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DEMANDTRIBUTE_HAPPY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DEMANDTRIBUTE_HAPPY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DEMANDTRIBUTE_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DEMANDTRIBUTE_ANGRY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_TRADEREQUEST_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_TRADEREQUEST_ANGRY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_DECLAREWAR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_ATTACKED</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_ATTACKED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_NEEDMORE_ANGRY</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_NEEDMORE_ANGRY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_FLUTTERSHY">
+			<ResponseType>RESPONSE_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_FLUTTERSHY_GREETING%</Response>
+		</Row>
+	</Diplomacy_Responses>
+</GameData>

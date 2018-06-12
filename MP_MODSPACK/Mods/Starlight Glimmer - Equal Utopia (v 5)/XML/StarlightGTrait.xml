@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_FRIENDSHIP_IS_EQUALITY</Type>
+			<Description>TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY_SHORT</ShortDescription>
+			<NumTradeRoutesModifier>-50</NumTradeRoutesModifier>
+			<LevelExperienceModifier>99900</LevelExperienceModifier>
+			<FreeBuilding>BUILDING_STARLIGHT_GLIMMER_TRAIT</FreeBuilding>
+		</Row>
+	</Traits>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_STARLIGHT_GLIMMER_TRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_STARLIGHT_GLIMMER_TRAIT</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech/>
+			<Description>TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT</Description>
+			<XBuiltTriggersIdeologyChoice>7</XBuiltTriggersIdeologyChoice>
+			<Civilopedia>TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<UnhappinessModifier>5</UnhappinessModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>STARLIGHT_GLIMMER_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STARLIGHT_GLIMMER_TRAIT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_STARLIGHT_GLIMMER_TRAIT</Type>
+			<DefaultBuilding>BUILDING_STARLIGHT_GLIMMER_TRAIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT</Description>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STARLIGHT_GLIMMER_TRAIT</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STARLIGHT_GLIMMER_TRAIT</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY">
+			<Text>If Starlight gets 7 cities in any way, she can choose [ICON_SILVER_FIST] Ideology. Basically every City gain +2 [ICON_PRODUCTION], but the number of Trade routes halved, Units can't reach to level up, and +5% of Citizen [ICON_HAPPINESS_4] Unhappiness per city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FRIENDSHIP_IS_EQUALITY_SHORT">
+			<Text>Friendship is Equal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT">
+			<Text>Mark of Equal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_STRATEGY">
+			<Text>Collect 7 of this!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARLIGHT_GLIMMER_TRAIT_PEDIA">
+			<Text>(Blank-flank)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
