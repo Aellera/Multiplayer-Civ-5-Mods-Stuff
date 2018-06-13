@@ -1,0 +1,12 @@
+Satoru  has Sid Meier's Civilization V 7 Jul, 2013 @ 11:34pm      
+To do the maps isn't all that straight forward and requires ALL players to do the following
+
+Download the map you want
+go to My Documents\My Games\Sid Meier's Civilization 5\MODS
+Find the directory with your map
+Copy the <mapname>.civ5map file
+Go to C:\Program Files\Steam\steamapps\common\sid meier's civilization v\assets\Maps
+Copy the .civ5map file here
+Start CIv5
+Start Multiplayer
+Select your map
